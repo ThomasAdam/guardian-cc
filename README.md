@@ -5,8 +5,8 @@ Guardian Cryptic Crossword Analysis
 crosswords for well over fifty years.  During that time, there have been a
 plethora of different setters, all with their unique style.
 
-Unfortunately, the Guardian only has crosswords going back to the year 200 on
-their website.  So the analysis can only go so far.
+Unfortunately, the Guardian only has crosswords going back to the year 1999 on
+their website.  So the analysis can only go that far back.
 
 This repository contains JSON files for all the crosswords the Guardian has
 hosted.  Because it's scraped from the web, it won't necessarily be as up to
