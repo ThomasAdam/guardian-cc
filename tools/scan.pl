@@ -23,26 +23,6 @@ BEGIN {
 	$setter_cache->{'names'} = \@names_local;
 };
 
-sub move_by_setter
-{
-	foreach my $file (glob(CROSSWORD_PATH . "*.JSON")) {
-		my $content;
-		open($content, "<", $file) or die "Couldn't open $file: $!";
-		my $j_content = do { local $/ = undef; <$content> };
-		my $data = from_json($j_content);
-		my $setter = $data->{'creator'}->{'name'};
-
-		if ($setter eq '' or !defined $setter) {
-			$setter = "unknown";
-		}
-
-		if (! -d CROSSWORD_PATH/"$setter") {
-			make_path(CROSSWORD_PATH . "$setter");
-		}
-		move("./$file", CROSSWORD_PATH . "$file");
-	}
-}
-
 sub by_setter
 {
 	my @names = @{ $setter_cache->{'names'} };
@@ -221,8 +201,6 @@ sub write_html
 		}
 		[scalar keys %words]
 	} @names;
-
-
 
 	my @dps3 = (['Setters', @chart3_data]);
 	my $chart_data3 = {
