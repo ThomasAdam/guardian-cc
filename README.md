@@ -14,6 +14,18 @@ date as it could be -- I'll add this to cronjob on my web server.
 
 You can see [some graphs of this data here](https://www.xteddy.org/gcc-analysis.html)
 
+There is a loose perl API for rendering these charts, under the
+
+```
+Guardian::Cryptic::Crosswords
+```
+
+Namespace.  Look in the `Guardian-Cryptic-Crosswords` directory, as well as
+`tools/cc.pl` for an example.  Essentially, the `tools/cc.pl` drives the
+rendering; via chart plugins under the `Guardian-Cryptic-Crosswords/Plugins`
+namespace.  This needs cleaning up; most notably the use of
+`Template::Toolkit`.
+
 Patches and ideas for graphs welcome!
 
 -- Thomas Adam
