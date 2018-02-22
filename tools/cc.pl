@@ -22,6 +22,7 @@ foreach my $p (@plugins) {
 }
 
 my $json_obj = JSON->new();
+my $now = scalar localtime;
 my $html = <<HTML;
 <html>
 <head>
@@ -36,7 +37,9 @@ my $html = <<HTML;
 cryptic crosswords.  The data shown here was scraped via the web.</p>
 
 <p>The git repository containing this data <a href="https://github.com/ThomasAdam/guardian-cc">is here.</a></p>
+<p><b>Last Updated: </b>$now</p>
 HTML
+
 
 foreach my $d (sort { $a <=> $b } keys %collective_data) {
     my $chart_json = $json_obj->pretty->encode($collective_data{$d}->{'chart'});
