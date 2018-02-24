@@ -5,11 +5,16 @@ use Guardian::Cryptic::Crosswords;
 use POSIX 'strftime';
 use List::Util qw/max/;
 
+use parent 'Guardian::Cryptic::ChartRenderer';
+
+my $tmpl_file = "chart.tmpl";
+
 sub new
 {
 	my ($class) = @_;
 
-	return bless {}, $class;
+	my $self = $class->SUPER::new();
+	bless $self, $class;
 }
 
 sub interpolate
@@ -101,7 +106,9 @@ sub render
 
 	};
 
-	return $data;
+	$self->save(file => $tmpl_file, content => $data); 
+
+	return $data->{'order'};
 }
 
 1;

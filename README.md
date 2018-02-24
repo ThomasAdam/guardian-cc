@@ -23,8 +23,7 @@ Guardian::Cryptic::Crosswords
 Namespace.  Look in the `Guardian-Cryptic-Crosswords` directory, as well as
 `tools/cc.pl` for an example.  Essentially, the `tools/cc.pl` drives the
 rendering; via chart plugins under the `Guardian-Cryptic-Crosswords/Plugins`
-namespace.  This needs cleaning up; most notably the use of
-`Template::Toolkit`.
+namespace.
 
 Patches and ideas for graphs welcome!
 

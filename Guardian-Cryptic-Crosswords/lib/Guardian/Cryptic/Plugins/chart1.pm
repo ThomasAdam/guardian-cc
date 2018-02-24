@@ -2,13 +2,17 @@ package Guardian::Cryptic::Plugins::chart1;
 
 use lib "$ENV{'HOME'}/projects/cc/Guardian-Cryptic-Crosswords/lib";
 use Guardian::Cryptic::Crosswords;
-use Data::Dumper;
+
+use parent 'Guardian::Cryptic::ChartRenderer';
+
+my $tmpl_file = "chart.tmpl";
 
 sub new
 {
 	my ($class) = @_;
-
-	return bless {}, $class;
+	
+	my $self = $class->SUPER::new();
+	bless $self, $class;
 }
 
 sub interpolate
@@ -80,7 +84,9 @@ sub render
 		},
 	};
 
-	return $data;
+	$self->save(file => $tmpl_file, content => $data);
+
+	return $data->{'order'};
 }
 
 1;

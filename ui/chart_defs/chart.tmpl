@@ -1,0 +1,9 @@
+[% USE JSON ( pretty => 1 ) %];
+<h2>[% content.order %].  [% content.title %]</h2>
+<p>[% content.preamble %]</p>
+<div id="[% content.div_id %]"></div>
+<script>
+var chart = c3.generate([% content.chart.json %]);
+</script>
+<br />
+<hr />
