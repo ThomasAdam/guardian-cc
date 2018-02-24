@@ -14,6 +14,8 @@ date as it could be -- I'll add this to cronjob on my web server.
 
 You can see [some graphs of this data here](https://www.xteddy.org/gcc-analysis.html)
 
+These charts are updated daily.
+
 There is a loose perl API for rendering these charts, under the
 
 ```
