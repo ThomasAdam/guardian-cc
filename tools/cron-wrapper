@@ -1,0 +1,24 @@
+#!/bin/sh
+# Cron wrapper for updating the Guardian CC data.
+
+set -e
+
+GUARDIAN_REPO="$HOME/guardian-cc"
+XTEDDY_REPO="$HOME/website.deploy"
+
+(
+	cd "$GUARDIAN_REPO" && {
+		git pull --quiet && \
+		./tools/web-scraper.py && \
+		./tools/render-charts.pl
+	}
+)
+(
+	cd "$XTEDDY_REPO" && {
+		git pull --quiet && \
+		mv "$GUARDIAN_REPO/gcc-analysis.html" . && \
+		git add gcc-analysis.html && \
+		git commit -m "Guardian CC update" && \
+		git push
+	}
+)
