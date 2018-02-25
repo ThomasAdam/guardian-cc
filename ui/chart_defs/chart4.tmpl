@@ -1,5 +1,20 @@
 <h2>[% content.order %].  [% content.title %]</h2>
 <p>[% content.preamble %]</p>
+<div id="pager" class="pager">
+  <form>
+    <input type="button" value="&lt;&lt;" class="first" />
+    <input type="button" value="&lt;" class="prev" />
+    <input type="text" class="pagedisplay"/>
+    <input type="button" value="&gt;" class="next" />
+    <input type="button" value="&gt;&gt;" class="last" />
+    <select class="pagesize">
+      <option selected="selected"  value="10">10</option>
+      <option value="20">20</option>
+      <option value="30">30</option>
+      <option value="40">40</option>
+    </select>
+  </form>
+</div>
 <table id="tablesetter" class="tablesorter-default">
 <thead>
 <tr>
@@ -10,7 +25,13 @@
 </thead>
 <tbody>
 [% FOREACH setter IN content.table.keys.sort %]
+	<tr >
+	<td class="toggle"><a href="#">[% setter %]</a></td>
+	<td></td>
+	<td></td>
+	</tr>
   [% FOREACH answer IN content.table.${setter}.sort %]
+	<tr class="tablesorter-childRow">
 	<td rowpan="3">[% setter %]</td>
 	<td>[% answer %]</td>
 	<td>[% content.table.${setter}.${answer}.question.join("<br />\n") %]</td>

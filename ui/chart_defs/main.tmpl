@@ -1,26 +1,62 @@
 <html>
 <head>
-<link href="./cc/chart_files/c3-0.4.18/c3.css" rel="stylesheet">
-<link href="./cc/chart_files/tablesorter-master/css/theme.default.css" rel="stylesheet">
+<link href="./cc/ui/chart_files/c3-0.4.18/c3.css" rel="stylesheet">
+<link href="./cc/ui/chart_files/tablesorter-master/css/theme.default.css" rel="stylesheet">
 <link href="./cc/ui/gcc.css" rel="stylesheet">
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="./cc/chart_files/tablesorter-master/js/jquery.tablesorter.js"></script>
-<script src="./cc/chart_files/tablesorter-master/js/jquery.tablesorter.widgets.js"></script>
-<script src="./cc/chart_files/c3-0.4.18/c3.min.js"></script>
+<script src="./cc/ui/chart_files/tablesorter-master/js/jquery.tablesorter.js"></script>
+<script src="./cc/ui/chart_files/tablesorter-master/js/jquery.tablesorter.widgets.js"></script>
+<script src="./cc/ui/chart_files/c3-0.4.18/c3.min.js"></script>
 <script>
 $( function() {
-  $( '#tablesetter' ).tablesorter({
+
+   var $table1 = $( '#tablesetter' )
+    .tablesorter({
       theme : 'blue',
       // this is the default setting
-      widgets : [ "zebra", "filter" ],
+      cssChildRow : "tablesorter-childRow",
+
+      // initialize zebra and filter widgets
+      widgets : [ "zebra", "filter", "pager" ],
+
       widgetOptions: {
-	      filter_reset         : '.reset',
-	      filter_childRows     : true,
-	      filter_childByColumn : true,
-	      filter_childWithSibs : false
+        // output default: '{page}/{totalPages}'
+        // possible variables: {page}, {totalPages}, {filteredPages}, {startRow}, {endRow}, {filteredRows} and {totalRows}
+        pager_output: '{startRow} - {endRow} / {filteredRows} ({totalRows})',
+
+        pager_removeRows: false,
+
+        // include child row content while filtering, if true
+        filter_childRows  : false,
+        // class name applied to filter row and each input
+        filter_cssFilter  : 'tablesorter-filter',
+        // search from beginning
+        filter_startsWith : false,
+        // Set this option to false to make the searches case sensitive
+        filter_ignoreCase : true
       }
+
     });
+
+  // hide child rows - get in the habit of not using .hide()
+  $table1.find( '.tablesorter-childRow td' ).addClass( 'hidden' );
+
+  // Toggle child row content (td), not hiding the row since we are using rowspan
+  // Using delegate because the pager plugin rebuilds the table after each page change
+  $table1.delegate( '.toggle', 'click' ,function() {
+    // use "nextUntil" to toggle multiple child rows
+    // toggle table cells instead of the row
+    $( this )
+      .closest( 'tr' )
+      .nextUntil( 'tr.tablesorter-hasChildRow' )
+      .find( 'td' )
+      .toggleClass( 'hidden' );
+    return false;
+  });
+	
+  $table1.trigger( 'search', false );
+  $('table').trigger('update');
 });
 </script>
 </head

@@ -22,5 +22,6 @@ $cr->save(file => "main.tmpl", content => \%collective_data);
 
 my $html = $cr->tmpl_data;
 open my $out, ">", "./gcc-analysis.html" or die;
+binmode($out, ':utf8');
 print $out $$html;
 close $out;
