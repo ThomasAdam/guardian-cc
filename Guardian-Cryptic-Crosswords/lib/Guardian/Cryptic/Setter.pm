@@ -190,6 +190,7 @@ sub answers
 		$_->{'id'} => {
 			'solution' => $_->{'solution'},
 			'group' => $group,
+			'clue'  => $_->{'clue'},
 		};
 	} @$entry;
 

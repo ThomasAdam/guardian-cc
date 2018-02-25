@@ -1,9 +1,13 @@
-[% USE JSON ( pretty => 1 ) %]
 <h2>[% content.order %].  [% content.title %]</h2>
 <p>[% content.preamble %]</p>
+[% IF content.chart %]
+[% USE JSON ( pretty => 1 ) %]
 <div id="[% content.div_id %]"></div>
 <script>
 var chart = c3.generate([% content.chart.json %]);
 </script>
+[% END %]
+[% IF content.table %]
+[% END %]
 <br />
 <hr />
