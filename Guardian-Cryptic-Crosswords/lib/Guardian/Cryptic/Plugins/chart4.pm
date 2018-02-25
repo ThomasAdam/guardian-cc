@@ -66,7 +66,8 @@ sub render
 	my $data = {
 		'title' => "Number of duplicate answers and their questions",
 		'preamble' => "This table shows the number of times a given " .
-		              "clue has been used and the different questions",
+		              "clue has been used and the different questions " .
+			      "which have been used to make up that clue.",
 		'order' => 4,
 		'table' => $interdata,
 	};
