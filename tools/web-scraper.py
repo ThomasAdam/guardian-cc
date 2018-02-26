@@ -75,6 +75,13 @@ for num in xrange(*CRYPTIC[:2]):
 
         # Serialise the JSON
         clues_json = json.loads(clues)
+
+        # Create the directory if necessary!
+        if not os.path.exists(cwd + "/crosswords/cryptic/setter/" + \
+                clues_json["creator"]["name"]):
+            os.makedirs(cwd + "/crosswords/cryptic/setter/" + \
+                    clues_json["creator"]["name"]);
+
         save_name = cwd + "/crosswords/cryptic/setter/" + \
             clues_json["creator"]["name"] + "/" + str(num) + ".JSON"
 
