@@ -23,6 +23,7 @@ XTEDDY_REPO="$HOME/website.deploy"
 	}
 
 	cd "$GUARDIAN_REPO" && {
+		git add .
 		git commit -am "Sync" && git push
 	}
 )
