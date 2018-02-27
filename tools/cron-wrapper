@@ -21,4 +21,8 @@ XTEDDY_REPO="$HOME/website.deploy"
 		git commit -m "Guardian CC update" && \
 		git push
 	}
+
+	cd "$GUARDIAN_REPO" && {
+		git commit -am "Sync" && git push
+	}
 )
