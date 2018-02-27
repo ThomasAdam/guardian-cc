@@ -49,7 +49,7 @@ sub interpolate
 	# twice.  There's too much data to display.
 	foreach my $k (keys %data) {
 		foreach my $w (keys %{ $data{$k} }) {
-			if ($data{$k}->{$w}->{'seen'} <= 2) {
+			if ($data{$k}->{$w}->{'seen'} == 1) {
 				delete $data{$k}->{$w};
 			}
 		}

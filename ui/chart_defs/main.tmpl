@@ -1,27 +1,16 @@
 <html>
 <head>
-<link href="./cc/chart_files/c3-0.4.18/c3.css" rel="stylesheet">
-<link href="./cc/chart_files/tablesorter-master/css/theme.default.css" rel="stylesheet">
+<link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="./cc/ui/chart_files/c3-0.4.18/c3.css" rel="stylesheet">
 <link href="./cc/ui/gcc.css" rel="stylesheet">
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="./cc/chart_files/tablesorter-master/js/jquery.tablesorter.js"></script>
-<script src="./cc/chart_files/tablesorter-master/js/jquery.tablesorter.widgets.js"></script>
-<script src="./cc/chart_files/c3-0.4.18/c3.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script src="./cc/ui/chart_files/c3-0.4.18/c3.min.js"></script>
 <script>
-$( function() {
-  $( '#tablesetter' ).tablesorter({
-      theme : 'blue',
-      // this is the default setting
-      widgets : [ "zebra", "filter" ],
-      widgetOptions: {
-	      filter_reset         : '.reset',
-	      filter_childRows     : true,
-	      filter_childByColumn : true,
-	      filter_childWithSibs : false
-      }
-    });
-});
+$(document).ready(function() {
+    $('#tablesetter').DataTable();
+} );
 </script>
 </head
 <body>
