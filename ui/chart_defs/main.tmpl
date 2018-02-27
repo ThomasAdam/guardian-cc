@@ -1,15 +1,36 @@
 <html>
 <head>
 <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
-<link href="./cc/ui/chart_files/c3-0.4.18/c3.css" rel="stylesheet">
-<link href="./cc/ui/gcc.css" rel="stylesheet">
+<link href="./cc/chart_files/c3-0.4.18/c3.css" rel="stylesheet">
+<link href="./cc/gcc.css" rel="stylesheet">
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-<script src="./cc/ui/chart_files/c3-0.4.18/c3.min.js"></script>
+<script src="./cc/chart_files/c3-0.4.18/c3.min.js"></script>
 <script>
 $(document).ready(function() {
-    $('#tablesetter').DataTable();
+    // Setup - add a text input to each footer cell
+    $('#tablesetter thead th').each( function () {
+        var title = $(this).text();
+        $(this).html( '<input type="text" placeholder="'+title+'" />' );
+    } );
+ 
+    var table = $('#tablesetter').DataTable({
+	ordering: false
+    });
+
+    // Apply the search
+    table.columns().every( function () {
+        var that = this;
+ 
+        $( 'input', this.header() ).on( 'keyup change', function () {
+            if ( that.search() !== this.value ) {
+                that
+                    .search( this.value )
+                    .draw();
+            }
+        } );
+    } );
 } );
 </script>
 </head
