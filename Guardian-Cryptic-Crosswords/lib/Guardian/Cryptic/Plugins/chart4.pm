@@ -37,6 +37,8 @@ sub interpolate
 				    $answerset->{$clue}->{'joined_solution'} //
 			            $answerset->{$clue}->{'solution'};
 				$seen{$name}->{$answer}++;
+				push @{$data{$name}->{$answer}->{'number'}},
+					$answerset->{$clue}->{'number'};
 				$data{$name}->{$answer}->{'seen'} = 
 					$seen{$name}->{$answer};
 				push @{$data{$name}->{$answer}->{'question'}},

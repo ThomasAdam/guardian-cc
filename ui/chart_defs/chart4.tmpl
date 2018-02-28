@@ -6,15 +6,21 @@
 <th>Setter</th>
 <th>Answer</th>
 <th>Clues</th>
+<th>Crossword number</th>
 </tr>
 </thead>
 <tbody>
 [% FOREACH setter IN content.table.keys.sort %]
   [% FOREACH answer IN content.table.${setter}.sort %]
   	<tr>
-	<td rowpan="3">[% setter %]</td>
+	<td>[% setter %]</td>
 	<td>[% answer %]</td>
 	<td>[% content.table.${setter}.${answer}.question.join("<br />\n") %]</td>
+	<td>
+	[% FOREACH num IN content.table.${setter}.${answer}.number %]
+	<a href="https://www.theguardian.com/crosswords/cryptic/[% num %]">[% num %]</a><br />
+	[% END %]
+	</td>
 	</tr>
   [% END %]
 [% END %]

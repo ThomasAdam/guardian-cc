@@ -191,6 +191,8 @@ sub answers
 			'solution' => $_->{'solution'},
 			'group' => $group,
 			'clue'  => $_->{'clue'},
+			'number' =>
+			   $self->{'_data'}->{$name}->{$args{'id'}}->{'number'},
 		};
 	} @$entry;
 
