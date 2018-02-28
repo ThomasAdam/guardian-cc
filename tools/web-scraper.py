@@ -47,7 +47,7 @@ if os.path.isfile(lrid_file):
 
 # Set the last_id_fetched to the lowest -- as we iterate over the range of
 # IDs, this will get overwritten appropriately.
-last_id_fetched = lower_id
+last_id_fetched = lower_id - 1
 
 # If at first you don't succeed...
 tries = 3
