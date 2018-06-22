@@ -22,7 +22,7 @@ This uses a crude sequence of numbers to derive the URL for the cryptic.
 # Guardian website only has data from 1999.  "30000" is very optimistic and
 # should be future proof.
 lower_id = 21620
-upper_id = 27480
+upper_id = 39480
 
 # CWD for where to place downloaded files, relative to here.
 cwd = os.getcwd()
