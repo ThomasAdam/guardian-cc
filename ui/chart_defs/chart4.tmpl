@@ -1,30 +1,26 @@
+[% USE JSON ( pretty => 1 ) %]
 <h2>[% content.order %].  [% content.title %]</h2>
 <p>[% content.preamble %]</p>
-<table id="tablesetter" class="display">
-<thead>
-<tr>
-<th>Setter</th>
-<th>Answer</th>
-<th>Clues</th>
-<th>Crossword number</th>
-</tr>
-</thead>
-<tbody>
-[% FOREACH setter IN content.table.keys.sort %]
-  [% FOREACH answer IN content.table.${setter}.sort %]
-  	<tr>
-	<td>[% setter %]</td>
-	<td>[% answer %]</td>
-	<td>[% content.table.${setter}.${answer}.question.join("<br />\n") %]</td>
-	<td>
-	[% FOREACH num IN content.table.${setter}.${answer}.number %]
-	<a href="https://www.theguardian.com/crosswords/cryptic/[% num %]">[% num %]</a><br />
+<div class="container">
+	[% FOREACH c IN content.charts %] 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">[% c.info.person %]</span>
+	</div>
+	<div id="[% c.info.div_id %]"></div>
+	<script>
+		$(document).ready(function() {
+			var [% c.info.js_var %] = c3.generate([% c.chart.json %]);
+		});
+	</script>
+	<ul>
+		<li>First crossword: [% c.info.range.first %]</li>
+		<li>Last  crossword: [% c.info.range.last %]</li>
+		<li>Active for:      [% c.info.range.duration %]</li>
+		<li>Number of clues self-referenced (with [% c.info.person %] in the clue): [% c.info.self_ref %]</li>
+	</ul> 
+	</div>
 	[% END %]
-	</td>
-	</tr>
-  [% END %]
-[% END %]
-</tbody>
-</table>
+</div>
 <br />
 <hr />

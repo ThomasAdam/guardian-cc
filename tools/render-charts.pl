@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 
-use lib "$ENV{'HOME'}/projects/cc/Guardian-Cryptic-Crosswords/lib";
-use Guardian::Cryptic::Crosswords;
+use lib "$ENV{'HOME'}/guardian-cc-import/Guardian-Cryptic-Crosswords/lib";
 use Guardian::Cryptic::ChartRenderer;
 
 use strict;
@@ -13,6 +12,7 @@ my @plugins = $cr->plugins();
 my %collective_data;
 
 foreach my $p (@plugins) {
+	warn "Looking at: " . $p . "...\n";
 	my $order = $p->render() if $p->can("render");
 	$collective_data{$order} = ${ $p->tmpl_data() },
 }

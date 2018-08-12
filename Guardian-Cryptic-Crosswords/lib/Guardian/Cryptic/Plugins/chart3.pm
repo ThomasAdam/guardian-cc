@@ -1,8 +1,6 @@
 package Guardian::Cryptic::Plugins::chart3;
 
-use lib "$ENV{'HOME'}/projects/cc/Guardian-Cryptic-Crosswords/lib";
-use Guardian::Cryptic::Crosswords;
-use POSIX 'strftime';
+use lib "$ENV{'HOME'}/projects/guardian-cc-import/Guardian-Cryptic-Crosswords/lib";
 use List::Util qw/max/;
 
 use parent 'Guardian::Cryptic::ChartRenderer';
@@ -21,31 +19,46 @@ sub interpolate
 {
 	my ($self) = @_;
 
-	my $setters = Guardian::Cryptic::Crosswords::setters();
-	my %data;
-
-	foreach (@$setters) {
-		my $name = $_->name();
-		my $ids = $_->ids();
-
-		foreach my $id (@$ids) {
-			my $answerset = $_->answers(id => $id, join => 1);
-			foreach my $clue (keys %$answerset) {
-				my $answer = 
-				    $answerset->{$clue}->{'joined_solution'} //
-			            $answerset->{$clue}->{'solution'};
-				$data{$name}->{$answer}++;
+	my $res = $self->{'mongo'}->{'col'}->aggregate([
+			{
+				'$unwind' => '$entries'
+			},
+			{
+				'$group' => {
+					'_id' => {
+						'name' => '$creator.name',
+						'solution' => '$entries.solution'
+					},
+					'count' => {
+						'$sum' => 1
+					}
+				}
+			},
+			{
+				'$match' => {
+					'count' => {
+						'$gt' => 1
+					}
+				}
+			},
+			{
+				'$group' => {
+					'_id' => '$_id.name',
+					'max' => {
+						'$max' => '$count'
+					}
+				}
+			},
+			{
+				'$sort' => {
+					'max' => -1
+				}
 			}
-		}
-	}
+	]);
 
-	foreach my $k (keys %data) {
-		foreach my $w (keys %{ $data{$k} }) {
-			if ($data{$k}->{$w} == 1) {
-				delete $data{$k}->{$w};
-			}
-		}
-	}
+	my %data = map {
+		$_->{'_id'} => $_->{'max'}
+	} $res->all;
 
 	return \%data;
 }
@@ -56,14 +69,7 @@ sub render
 
 	my $interdata = $self->interpolate();
 	my @labels = sort keys %$interdata;
-	my %value_map = map {
-		$_ => {
-			words => $interdata->{$_},
-			highest => max values %{ $interdata->{$_} },
-		}
-	} @labels;
-
-	my @values = map { $value_map{$_}->{'highest'} } @labels;
+	my @values = map { $interdata->{$_} } @labels;
 
 	my @clabels = (['Setters', @values]);
 
@@ -75,6 +81,8 @@ sub render
 			      "crosswords for that setter.",
 		'order' => 3,
 		'div_id' => 'mychart3',
+		'js_var' => 'chart3',
+		'default_chart' => 'bar',
 		'chart' => {
 			'bindto' => '#myChart3',
 			'size' => {
@@ -106,7 +114,7 @@ sub render
 
 	};
 
-	$self->save(file => $tmpl_file, content => $data); 
+	$self->save(file => $tmpl_file, content => $data);
 
 	return $data->{'order'};
 }

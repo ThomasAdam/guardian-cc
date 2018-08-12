@@ -1,11 +1,13 @@
 package Guardian::Cryptic::ChartRenderer;
 
-use Module::Pluggable 
-    search_path => ["Guardian::Cryptic::Plugins"],
+use lib "$ENV{'HOME'}/guardian-cc-import/Guardian-Cryptic-Crosswords/lib";
+use Module::Pluggable
+	search_path => ["Guardian::Cryptic::Plugins"],
     instantiate => 'new';
 
 use Template;
 use Carp qw/confess/;
+use MongoDB;
 
 use strict;
 use warnings;
@@ -20,9 +22,18 @@ sub new
 		INTERPOLATE => 0,
 	);
 
+	my $mc = MongoDB->connect();
+	my $db = $mc->get_database('guardian');
+	my $col = $db->get_collection('cryptic');
+
 	my $out_fh;
 
 	return bless {
+		'mongo' => {
+			'client' => $mc,
+			'db' => $db,
+			'col' => $col,
+		},
 		'_tt' => $tmpl,
 		'_output' => \$out_fh,
 	}, $class;

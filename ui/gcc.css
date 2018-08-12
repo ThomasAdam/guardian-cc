@@ -1,1 +1,25 @@
 .hidden { display: none; }
+
+.container {
+	display: grid;
+	grid-template-columns: auto auto;
+
+	grid-column-gap: 10px;
+	grid-row-gap: 13px;
+
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.item {
+	border: 2px solid;
+	padding: 10px;
+}
+
+.span-title {
+	text-align: center;
+}
+
+table {
+	border: 1px solid black;
+}

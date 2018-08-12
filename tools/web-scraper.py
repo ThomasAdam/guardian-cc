@@ -95,6 +95,7 @@ for num in xrange(*CRYPTIC[:2]):
 
         print("Written {}/{} to disk...".format(clues_json["creator"]["name"], num))
         last_id_fetched = num
+        os.system("./tools/import.pl {}".format(save_name));
     except:
         goes += 1
         print("Couldn't find crossword: {}".format(num))

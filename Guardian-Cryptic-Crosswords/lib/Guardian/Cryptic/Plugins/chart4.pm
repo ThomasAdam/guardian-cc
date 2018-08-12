@@ -2,8 +2,10 @@ package Guardian::Cryptic::Plugins::chart4;
 
 use lib "$ENV{'HOME'}/projects/cc/Guardian-Cryptic-Crosswords/lib";
 use Guardian::Cryptic::Crosswords;
-use POSIX 'strftime';
 use List::Util qw/max/;
+use DateTime;
+use DateTime::Format::Duration;
+use Sort::Key::DateTime qw/ dtkeysort dtsort /;
 
 use parent 'Guardian::Cryptic::ChartRenderer';
 
@@ -20,43 +22,162 @@ sub new
 sub interpolate
 {
 	my ($self) = @_;
-	my $setters = Guardian::Cryptic::Crosswords::setters();
-	my %data;
-	my %seen;
+	my %res;
 
-	foreach (@$setters) {
-		my $name = $_->name();
-		my $ids = $_->ids();
-
-		foreach my $id (@$ids) {
-			my $answerset = $_->answers(id => $id, join => 1);
-			foreach my $clue (keys %$answerset) {
-				my $q = $answerset->{$clue}->{'clue'};
-				my $answer = 
-				    $answerset->{$clue}->{'joined_solution'} //
-			            $answerset->{$clue}->{'solution'};
-				$seen{$name}->{$answer}++;
-				push @{$data{$name}->{$answer}->{'number'}},
-					$answerset->{$clue}->{'number'};
-				$data{$name}->{$answer}->{'seen'} = 
-					$seen{$name}->{$answer};
-				push @{$data{$name}->{$answer}->{'question'}},
-					$q;
+	my $names_agg = $self->{'mongo'}->{'col'}->aggregate([
+			{
+				'$group' => {
+					'_id' => '$creator.name'
+				}
+			},
+			{
+				'$sort' => {
+					'_id' => 1
+				}
 			}
+	]);
+
+	my @names = map { $_->{'_id'} } $names_agg->all;
+
+	foreach my $name (@names) {
+		my $res = $self->{'mongo'}->{'col'}->aggregate([
+				{
+					'$match' => {
+						'creator.name' => "$name"
+					}
+				},
+				{
+					'$project' => {
+						'creator.name' => '$creator.name',
+						'date' => {
+							'$dateFromString' => {
+								'dateString' => '$date'
+							}
+						}
+					}
+				},
+				{
+					'$sort' => {
+						"date" => 1,
+					}
+				},
+				{
+					'$group' => {
+						"_id" => {
+							'name' => '$creator.name',
+							'date' => '$date',
+						},
+					}
+				}
+
+		]);
+
+		my @dt_objs = map {
+			$_->{'_id'}->{'date'}
+		} $res->all;
+
+		my @dt_sorted = dtkeysort { $_ } @dt_objs;
+
+		$res{$name}->{'range'} = {
+			'first' => $dt_sorted[0]->strftime("%Y-%m-%d"),
+			'last'  => $dt_sorted[-1]->strftime("%Y-%m-%d"),
+		};
+
+		my $duration = $dt_sorted[-1] - $dt_sorted[0];
+		my $fmt_duration = DateTime::Format::Duration->new(
+			pattern => '%Y years, %m months, %e days',
+			normalize => 1,
+		);
+
+		$res{$name}->{'range'}->{'duration'} =
+			$fmt_duration->format_duration($duration);
+	}
+
+	my $self_agg = $self->{'mongo'}->{'col'}->aggregate([
+			{
+				'$unwind' => '$entries'
+			},
+			{
+				'$project' => {
+					'name' => '$creator.name',
+					'clues' => '$entries.clue'
+				}
+			},
+			{
+				'$match' => {
+					'$expr' => {
+						'$ne' => [
+							{
+								'$indexOfCP' => ['$clues', '$name']
+							},
+							-1
+						]
+					}
+				}
+			},
+			{
+				'$group' => {
+					'_id' => '$name',
+					'count' => {
+						'$sum' => 1
+					}
+				}
+			},
+			{
+				'$sort' => {
+					'_id' => 1
+				}
+			}
+	]);
+
+	my @sagg = $self_agg->all;
+
+	foreach (@sagg) {
+		$res{$_->{'_id'}}->{'self_word_count'} = $_->{'count'};
+	}
+
+	my $self_agg_graph = $self->{'mongo'}->{'col'}->aggregate([
+			{
+				'$project' => {
+					'_id' => '$creator.name',
+					'ndate' => {
+						'$year' => {
+							'$dateFromString' => {
+								'dateString' => '$date'
+							}
+						}
+					}
+				}
+			},
+			{
+				'$group' => {
+					'_id' => {
+						'name' => '$_id',
+						'year' => '$ndate'
+					},
+					'count' => {
+						'$sum' => 1
+					}
+				}
+			},
+			{
+				'$sort' => {
+					'_id' => 1
+				}
+			}
+	]);
+
+	my @date_range = $self_agg_graph->all;
+
+	foreach (@date_range) {
+		push @{ $res{$_->{'_id'}->{'name'}}->{'graph'} },
+		{
+			$_->{'_id'}->{'year'},
+			$_->{'count'}
 		}
 	}
 
-	# Go back through the dataset and eliminate those entries less than
-	# twice.  There's too much data to display.
-	foreach my $k (keys %data) {
-		foreach my $w (keys %{ $data{$k} }) {
-			if ($data{$k}->{$w}->{'seen'} == 1) {
-				delete $data{$k}->{$w};
-			}
-		}
-	}
-
-	return \%data;
+	return \%res;
 }
 
 sub render
@@ -64,16 +185,70 @@ sub render
 	my ($self) = @_;
 
 	my $interdata = $self->interpolate();
+
 	my $data = {
-		'title' => "Number of duplicate answers and their questions",
-		'preamble' => "This table shows the number of times a given " .
-		              "clue has been used and the different questions " .
-			      "which have been used to make up that clue.",
+		'title' => "Setter Biographies",
+		'preamble' => "This shows information about each setter",
 		'order' => 4,
-		'table' => $interdata,
+		'default_chart' => 'area',
 	};
 
-	$self->save(file => $tmpl_file, content => $data); 
+	my $chart_count = -1;
+	foreach my $k (sort keys %{$interdata}) {
+		my (@labels, @values);
+		$chart_count++;
+		foreach my $h (@{ $interdata->{$k}->{'graph'} }) {
+			push @labels, keys %{$h};
+			push @values, values %{$h};
+		}
+		$interdata->{$k}->{'chart'}->{'clabels'} = [[$k, @values]];
+		$interdata->{$k}->{'chart'}->{'labels' } = \@labels;
+		delete $interdata->{$k}->{'graph'};
+		push @{ $data->{'charts'} },
+			{
+				info => {
+					'div_id' => "mychart4$chart_count",
+					'js_var' => "chart4$chart_count",
+					'person' => $k,
+					'range' => $interdata->{$k}->{'range'},
+					'self_ref' => $interdata->{$k}->{'self_word_count'} // 0,
+				},
+				'chart' => {
+					'bindto' => "#myChart4$chart_count",
+					'size' => {
+						'height' => 200,
+						'width' => 500
+					},
+					'data' => {
+						'columns' => $interdata->{$k}->{'chart'}->{'clabels'},
+						'type' => 'area',
+					},
+					'axis' => {
+						'x' => {
+						'type' => 'category',
+							'tick' => {
+								'rotate' => '75',
+								'multiline' => 0
+							},
+							'height' => 0,
+							'categories' => $interdata->{$k}->{'chart'}->{'labels'},
+						},
+						'y' => {
+							'label' => 'Number of crosswords',
+							'tick' => {
+								'steps' => 1,
+							},
+							'min' => 1
+						}
+					},
+					'legend' => {
+						'show' => 0,
+					}
+				},
+		};
+	}
+
+	$self->save(file => $tmpl_file, content => $data);
 
 	return $data->{'order'};
 }

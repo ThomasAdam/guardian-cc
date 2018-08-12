@@ -1,10 +1,9 @@
 package Guardian::Cryptic::Plugins::chart2;
 
-use lib "$ENV{'HOME'}/projects/cc/Guardian-Cryptic-Crosswords/lib";
-use Guardian::Cryptic::Crosswords;
-use POSIX 'strftime';
-
+use lib "$ENV{'HOME'}/guardian-cc-import/Guardian-Cryptic-Crosswords/lib";
 use parent 'Guardian::Cryptic::ChartRenderer';
+
+use POSIX qw/strftime/;
 
 my $tmpl_file = "chart.tmpl";
 
@@ -20,17 +19,41 @@ sub interpolate
 {
 	my ($self) = @_;
 
-	my $setters = Guardian::Cryptic::Crosswords::setters();
-	my %data;
-
-	foreach (@$setters) {
-		my $name = $_->name();
-		my $dates = $_->date();
-
-		foreach my $d (@$dates) {
-			$data{$name}->{$d}++;
+	my $res = $self->{'mongo'}->{'col'}->aggregate([
+		{
+			'$project' => {
+				'_id' => '$creator.name',
+				'ndate' => {
+					'$year' => {
+						'$dateFromString' => {
+							'dateString' => '$date'
+						}
+					}
+				}
+			}
+		},
+		{
+			'$group' => {
+				'_id' => {
+					'name' => '$_id',
+					'year' =>  '$ndate'
+				},
+				'count' => {
+					'$sum' => 1
+				}
+			}
+		},
+		{
+			'$sort' => {'_id' => 1}
 		}
-	}
+	]);
+
+	my @all = $res->all();
+	my %data = ();
+
+	foreach my $r (@all) {
+		$data{$r->{'_id'}->{'name'}}->{ $r->{'_id'}->{'year'} } = $r->{'count'};
+	} @all;
 
 	return \%data;
 }
@@ -63,6 +86,8 @@ sub render
 		'preamble' => "This chart shows an area span for the number of crosswords set per setter, per year.  Interesting to see when a setter started and stopped.",
 		'order' => 2,
 		'div_id' => 'mychart2',
+		'js_var' => 'chart2',
+		'default_chart' => 'area',
 		'chart' => {
 			'bindto' => '#myChart2',
 			'size' => {
@@ -71,6 +96,9 @@ sub render
 			'data' => {
 				'columns' => \@chart2_data,
 				'type' => 'area',
+			},
+			'tooltip' => {
+				'show' => 0,
 			},
 			'axis' => {
 				'x' => {
@@ -89,7 +117,7 @@ sub render
 		},
 	};
 
-	$self->save(file => $tmpl_file, content => $data); 
+	$self->save(file => $tmpl_file, content => $data);
 
 	return $data->{'order'};
 }

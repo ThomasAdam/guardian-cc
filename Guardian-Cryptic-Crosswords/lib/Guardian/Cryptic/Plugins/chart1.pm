@@ -1,8 +1,6 @@
 package Guardian::Cryptic::Plugins::chart1;
 
-use lib "$ENV{'HOME'}/projects/cc/Guardian-Cryptic-Crosswords/lib";
-use Guardian::Cryptic::Crosswords;
-
+use lib "$ENV{'HOME'}/guardian-cc-import/Guardian-Cryptic-Crosswords/lib";
 use parent 'Guardian::Cryptic::ChartRenderer';
 
 my $tmpl_file = "chart.tmpl";
@@ -10,7 +8,7 @@ my $tmpl_file = "chart.tmpl";
 sub new
 {
 	my ($class) = @_;
-	
+
 	my $self = $class->SUPER::new();
 	bless $self, $class;
 }
@@ -19,12 +17,21 @@ sub interpolate
 {
 	my ($self) = @_;
 
-	my $setters = Guardian::Cryptic::Crosswords::setters();
+	my $res = $self->{'mongo'}->{'col'}->aggregate([
+			{
+				'$group' => {
+					'_id'   => '$creator.name',
+					'count' => {'$sum' => 1},
+				}
+			},
+			{
+				'$sort' => {'count' => -1}
+			}
+	]);
 
 	my %data = map {
-		my ($name, $total) = ($_->name(), $_->total());
-		$name => $total
-	} @$setters;
+		$_->{'_id'} => $_->{'count'}
+	} $res->all;
 
 	return \%data;
 }
@@ -54,6 +61,8 @@ sub render
 			      "most prolific setters.",
 		'order' => 1,
 		'div_id' => 'mychart1',
+		'js_var' => 'chart1',
+		'default_chart' => "bar",
 		'chart' => {
 			'bindto' => '#myChart1',
 			'size' => {
@@ -62,6 +71,11 @@ sub render
 			'data' => {
 				'columns' => \@ordered_axis,
 				'type' => 'bar',
+				'empty' => {
+					'label' => {
+						'text' => 'Unknown'
+					}
+				},
 			},
 			'axis' => {
 				'x' => {

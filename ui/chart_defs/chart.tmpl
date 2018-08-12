@@ -3,11 +3,38 @@
 [% IF content.chart %]
 [% USE JSON ( pretty => 1 ) %]
 <div id="[% content.div_id %]"></div>
-<script>
-var chart = c3.generate([% content.chart.json %]);
+<br />
+<div style="text-align: center; border:1px dashed black;">
+<span>Change chart type: </span>
+<select id="charttype_[% content.js_var %]">
+	<option value="area">Area</option>
+	<option value="bar">Bar</option>
+	<option value="line">Line</option>
+	<option value="pie">Pie</option>
+	<option value="scatter">Scatter</option>
+	<option value="spline">Spline</option>
+	<option value="area-step">Step</option>
+</select>
+<button id="btn_charttype_[% content.js_var %]" value="[% content.default_chart %]">Reset</button>
+</div>
+<script async>
+	$(document).ready(function() {
+		var [% content.js_var %] = c3.generate([% content.chart.json %]);
+		$("#charttype_[% content.js_var %]").val("[% content.default_chart %]");
+
+		$("#btn_charttype_[% content.js_var %]").click(function() {
+			$("#charttype_[% content.js_var %]").val("[% content.default_chart %]");
+			[% content.js_var %].transform($("#charttype_[% content.js_var %] option:selected").val());
+		});
+
+		$("#charttype_[% content.js_var %]").change(function() {
+			[% content.js_var %].transform($("#charttype_[% content.js_var %] option:selected").val());
+		});
+	});
 </script>
 [% END %]
 [% IF content.table %]
 [% END %]
 <br />
 <hr />
+</div>
