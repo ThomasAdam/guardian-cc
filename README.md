@@ -12,7 +12,7 @@ This repository contains JSON files for all the crosswords the Guardian has
 hosted.  Because it's scraped from the web, it won't necessarily be as up to
 date as it could be -- I'll add this to cronjob on my web server.
 
-You can see [some graphs of this data here](https://www.xteddy.org/gcc-analysis.html)
+You can see [some graphs of this data here](https://xteddy.org/gcc-analysis.html)
 
 These charts are updated daily.
 
