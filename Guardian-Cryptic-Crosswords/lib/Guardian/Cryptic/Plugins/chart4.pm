@@ -20,7 +20,6 @@ sub new
 sub interpolate
 {
 	my ($self) = @_;
-
 	my $setters = Guardian::Cryptic::Crosswords::setters();
 	my %data;
 	my %seen;
