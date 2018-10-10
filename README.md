@@ -29,6 +29,7 @@ List::Util
 Module::Pluggable
 MongoDB
 Sort::Key::DateTime
+```
 
 The chart-rendering namespace is:
 
