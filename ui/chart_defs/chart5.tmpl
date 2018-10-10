@@ -1,0 +1,22 @@
+<h2>[% content.order %].  [% content.title %]</h2>
+<p>[% content.preamble %]</p>
+<table id="tablesetter" class="display">
+<thead>
+<tr>
+<th>Setter</th>
+<th>Answer</th>
+<th>Clues</th>
+</tr>
+</thead>
+<tbody>
+[% FOREACH s IN content.table %]
+  	<tr>
+	<td rowpan="3">[% s.id.name %]</td>
+	<td>[% s.id.solution %]</td>
+	<td>foo</td>
+	</tr>
+[% END %]
+</tbody>
+</table>
+<br />
+<hr />
