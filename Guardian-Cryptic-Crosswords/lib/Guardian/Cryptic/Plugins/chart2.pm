@@ -1,6 +1,6 @@
 package Guardian::Cryptic::Plugins::chart2;
 
-use lib "$ENV{'HOME'}/guardian-cc-import/Guardian-Cryptic-Crosswords/lib";
+use lib "$ENV{'HOME'}/guardian-cc/Guardian-Cryptic-Crosswords/lib";
 use parent 'Guardian::Cryptic::ChartRenderer';
 
 use POSIX qw/strftime/;

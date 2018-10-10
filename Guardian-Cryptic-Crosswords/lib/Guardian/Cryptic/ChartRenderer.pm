@@ -1,6 +1,6 @@
 package Guardian::Cryptic::ChartRenderer;
 
-use lib "$ENV{'HOME'}/guardian-cc-import/Guardian-Cryptic-Crosswords/lib";
+use lib "$ENV{'HOME'}/guardian-cc/Guardian-Cryptic-Crosswords/lib";
 use Module::Pluggable
 	search_path => ["Guardian::Cryptic::Plugins"],
     instantiate => 'new';

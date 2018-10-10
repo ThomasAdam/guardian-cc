@@ -1,6 +1,6 @@
 package Guardian::Cryptic::Plugins::chart4;
 
-use lib "$ENV{'HOME'}/projects/cc/Guardian-Cryptic-Crosswords/lib";
+use lib "$ENV{'HOME'}/projects/guardian-cc/Guardian-Cryptic-Crosswords/lib";
 use List::Util qw/max/;
 use DateTime;
 use DateTime::Format::Duration;
@@ -160,6 +160,17 @@ sub interpolate
 				}
 			},
 			{
+				'$project' => {
+					'_id' => '$_id',
+					'count' => '$count',
+					'pmonth' => {
+						'$ceil' =>{
+							'$divide' => ['$count', 12]
+						}
+					}
+				}
+			},
+			{
 				'$sort' => {
 					'_id' => 1
 				}
@@ -171,8 +182,11 @@ sub interpolate
 	foreach (@date_range) {
 		push @{ $res{$_->{'_id'}->{'name'}}->{'graph'} },
 		{
-			$_->{'_id'}->{'year'},
-			$_->{'count'}
+			'gdata' => {
+				$_->{'_id'}->{'year'},
+				$_->{'count'},
+			},
+			'avg' => $_->{'pmonth'},
 		}
 	}
 
@@ -194,13 +208,14 @@ sub render
 
 	my $chart_count = -1;
 	foreach my $k (sort keys %{$interdata}) {
-		my (@labels, @values);
+		my (@labels, @values, @avg);
 		$chart_count++;
 		foreach my $h (@{ $interdata->{$k}->{'graph'} }) {
-			push @labels, keys %{$h};
-			push @values, values %{$h};
+			push @labels, keys %{$h->{'gdata'}};
+			push @values, values %{$h->{'gdata'}};
+			push @avg, $h->{'avg'};
 		}
-		$interdata->{$k}->{'chart'}->{'clabels'} = [[$k, @values]];
+		$interdata->{$k}->{'chart'}->{'clabels'} = [[$k, @values], ["Average per month", @avg]];
 		$interdata->{$k}->{'chart'}->{'labels' } = \@labels;
 		delete $interdata->{$k}->{'graph'};
 		push @{ $data->{'charts'} },

@@ -1,6 +1,6 @@
 package Guardian::Cryptic::Plugins::chart3;
 
-use lib "$ENV{'HOME'}/projects/guardian-cc-import/Guardian-Cryptic-Crosswords/lib";
+use lib "$ENV{'HOME'}/projects/guardian-cc/Guardian-Cryptic-Crosswords/lib";
 use List::Util qw/max/;
 
 use parent 'Guardian::Cryptic::ChartRenderer';

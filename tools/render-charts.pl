@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use lib "$ENV{'HOME'}/guardian-cc-import/Guardian-Cryptic-Crosswords/lib";
+use lib "$ENV{'HOME'}/guardian-cc/Guardian-Cryptic-Crosswords/lib";
 use Guardian::Cryptic::ChartRenderer;
 
 use strict;
