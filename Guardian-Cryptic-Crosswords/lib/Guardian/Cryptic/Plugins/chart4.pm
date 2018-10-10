@@ -1,7 +1,6 @@
 package Guardian::Cryptic::Plugins::chart4;
 
 use lib "$ENV{'HOME'}/projects/cc/Guardian-Cryptic-Crosswords/lib";
-use Guardian::Cryptic::Crosswords;
 use List::Util qw/max/;
 use DateTime;
 use DateTime::Format::Duration;
