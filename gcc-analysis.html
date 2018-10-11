@@ -1,0 +1,6332 @@
+<html>
+<head>
+<link href="https://xteddy.org/gcc.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.21/c3.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.21/c3.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/clusterize.js/0.18.0/clusterize.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.21/c3.js"></script>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.21/c3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<h1>Guardian Cryptic Crossword Analysis</h2>
+<p>This page renders some charts from data gathered via the Guardian newspaper's
+cryptic crosswords.  The data shown here was scraped via the web.</p>
+
+<p>The git repository containing this data <a href="https://github.com/ThomasAdam/guardian-cc">is here.</a></p>
+<p><b>Last Updated: </b>
+Thu Oct 11 10:15:43 2018
+</p>
+
+<h2>1.  Total number of crosswords, set by author</h2>
+<p>This chart shows the number of crosswords set per setter.  No real surprises here as to the most prolific setters.</p>
+
+
+<div id="mychart1"></div>
+<br />
+<div style="text-align: center; border:1px dashed black;">
+<span>Change chart type: </span>
+<select id="charttype_chart1">
+	<option value="area">Area</option>
+	<option value="bar">Bar</option>
+	<option value="line">Line</option>
+	<option value="pie">Pie</option>
+	<option value="scatter">Scatter</option>
+	<option value="spline">Spline</option>
+	<option value="area-step">Step</option>
+</select>
+<button id="btn_charttype_chart1" value="bar">Reset</button>
+</div>
+<script async>
+	$(document).ready(function() {
+		var chart1 = c3.generate({
+   "axis" : {
+      "x" : {
+         "categories" : [
+            "Rufus",
+            "Paul",
+            "Araucaria",
+            "Gordius",
+            "Chifonie",
+            "Pasquale",
+            "Orlando",
+            "Shed",
+            "Brummie",
+            "Brendan",
+            "Arachne",
+            "Rover",
+            "Quantum",
+            "Logodaedalus",
+            "Picaroon",
+            "Puck",
+            "Taupi",
+            "Bunthorne",
+            "Janus",
+            "Nutmeg",
+            "Tramp",
+            "Crucible",
+            "Qaos",
+            "Boatman",
+            "Philistine",
+            "Audreus",
+            "Enigmatist",
+            "Imogen",
+            "Bonxie",
+            "Crispa",
+            "Mercury",
+            "Auster",
+            "Vlad",
+            "Gemini",
+            "Screw",
+            "Plodge",
+            "Pan",
+            "Fawley",
+            "Otterden",
+            "Vulcan",
+            "Unknown",
+            "Fidelio",
+            "Hendra",
+            "Egoist",
+            "Maskarade",
+            "Enigmatist, Paul and Shed",
+            "Sphinx",
+            "Biggles",
+            "Bogus",
+            "Atë",
+            "Fiore",
+            "Chaucer",
+            "Omnibus",
+            "Nutmeh",
+            "Enigmatist and Paul"
+         ],
+         "type" : "category",
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 20
+         },
+         "max" : 800,
+         "label" : "No. of crosswords set"
+      }
+   },
+   "size" : {
+      "height" : 800
+   },
+   "bindto" : "#myChart1",
+   "data" : {
+      "empty" : {
+         "label" : {
+            "text" : "Unknown"
+         }
+      },
+      "type" : "bar",
+      "columns" : [
+         [
+            "Setters",
+            765,
+            534,
+            447,
+            305,
+            241,
+            191,
+            181,
+            166,
+            160,
+            153,
+            113,
+            112,
+            111,
+            101,
+            100,
+            99,
+            93,
+            91,
+            89,
+            83,
+            79,
+            72,
+            64,
+            64,
+            63,
+            58,
+            52,
+            48,
+            45,
+            39,
+            36,
+            35,
+            32,
+            31,
+            22,
+            21,
+            19,
+            18,
+            18,
+            11,
+            7,
+            6,
+            5,
+            4,
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ]
+   }
+}
+);
+		$("#charttype_chart1").val("bar");
+
+		$("#btn_charttype_chart1").click(function() {
+			$("#charttype_chart1").val("bar");
+			chart1.transform($("#charttype_chart1 option:selected").val());
+		});
+
+		$("#charttype_chart1").change(function() {
+			chart1.transform($("#charttype_chart1 option:selected").val());
+		});
+	});
+</script>
+
+
+<br />
+<hr />
+</div>
+
+
+<h2>2.  Crosswords per year, per setter</h2>
+<p>This chart shows an area span for the number of crosswords set per setter, per year.  Interesting to see when a setter started and stopped.</p>
+
+
+<div id="mychart2"></div>
+<br />
+<div style="text-align: center; border:1px dashed black;">
+<span>Change chart type: </span>
+<select id="charttype_chart2">
+	<option value="area">Area</option>
+	<option value="bar">Bar</option>
+	<option value="line">Line</option>
+	<option value="pie">Pie</option>
+	<option value="scatter">Scatter</option>
+	<option value="spline">Spline</option>
+	<option value="area-step">Step</option>
+</select>
+<button id="btn_charttype_chart2" value="area">Reset</button>
+</div>
+<script async>
+	$(document).ready(function() {
+		var chart2 = c3.generate({
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Arachne",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            7,
+            9,
+            7,
+            10,
+            11,
+            11,
+            13,
+            6,
+            7,
+            9,
+            11,
+            8
+         ],
+         [
+            "Araucaria",
+            0,
+            16,
+            35,
+            39,
+            32,
+            23,
+            34,
+            35,
+            26,
+            36,
+            33,
+            35,
+            34,
+            29,
+            26,
+            13,
+            1,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Atë",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+         ],
+         [
+            "Audreus",
+            0,
+            3,
+            1,
+            6,
+            3,
+            5,
+            8,
+            8,
+            7,
+            7,
+            3,
+            0,
+            3,
+            0,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Auster",
+            0,
+            0,
+            2,
+            2,
+            2,
+            2,
+            3,
+            2,
+            4,
+            5,
+            4,
+            6,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Biggles",
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Boatman",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            4,
+            6,
+            7,
+            7,
+            5,
+            6,
+            7,
+            6,
+            7,
+            7
+         ],
+         [
+            "Bogus",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+         ],
+         [
+            "Bonxie",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            7,
+            9,
+            8,
+            5,
+            0,
+            4,
+            5,
+            3,
+            0
+         ],
+         [
+            "Brendan",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8,
+            19,
+            17,
+            17,
+            17,
+            17,
+            15,
+            16,
+            7,
+            2,
+            10,
+            7,
+            1
+         ],
+         [
+            "Brummie",
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            6,
+            9,
+            9,
+            10,
+            9,
+            10,
+            9,
+            10,
+            10,
+            10,
+            12,
+            13,
+            12,
+            12,
+            16
+         ],
+         [
+            "Bunthorne",
+            0,
+            8,
+            12,
+            10,
+            13,
+            13,
+            11,
+            14,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Chaucer",
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Chifonie",
+            0,
+            4,
+            10,
+            11,
+            11,
+            9,
+            10,
+            10,
+            12,
+            13,
+            12,
+            11,
+            11,
+            15,
+            12,
+            13,
+            19,
+            16,
+            13,
+            16,
+            13
+         ],
+         [
+            "Crispa",
+            0,
+            4,
+            10,
+            1,
+            2,
+            11,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Crucible",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            6,
+            7,
+            6,
+            5,
+            8,
+            8,
+            11,
+            8,
+            10
+         ],
+         [
+            "Egoist",
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Enigmatist",
+            0,
+            3,
+            1,
+            2,
+            1,
+            5,
+            0,
+            1,
+            0,
+            2,
+            3,
+            7,
+            7,
+            3,
+            3,
+            1,
+            5,
+            2,
+            2,
+            4,
+            0
+         ],
+         [
+            "Enigmatist and Paul",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Enigmatist, Paul and Shed",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Fawley",
+            0,
+            5,
+            13,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Fidelio",
+            0,
+            0,
+            0,
+            2,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Fiore",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Gemini",
+            0,
+            5,
+            9,
+            10,
+            4,
+            2,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Gordius",
+            0,
+            4,
+            12,
+            15,
+            22,
+            24,
+            23,
+            22,
+            21,
+            24,
+            24,
+            23,
+            23,
+            22,
+            23,
+            20,
+            3,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Hendra",
+            0,
+            1,
+            1,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Imogen",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8,
+            9,
+            13,
+            9,
+            9
+         ],
+         [
+            "Janus",
+            0,
+            9,
+            12,
+            12,
+            11,
+            12,
+            12,
+            12,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Logodaedalus",
+            0,
+            5,
+            11,
+            8,
+            9,
+            8,
+            11,
+            10,
+            10,
+            6,
+            7,
+            5,
+            4,
+            2,
+            0,
+            1,
+            4,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Maskarade",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+         ],
+         [
+            "Mercury",
+            0,
+            6,
+            12,
+            12,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Nutmeg",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            16,
+            16,
+            15,
+            17,
+            16
+         ],
+         [
+            "Nutmeh",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+         ],
+         [
+            "Omnibus",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Orlando",
+            0,
+            3,
+            8,
+            12,
+            12,
+            10,
+            5,
+            8,
+            10,
+            12,
+            14,
+            13,
+            16,
+            18,
+            16,
+            8,
+            6,
+            5,
+            2,
+            1,
+            2
+         ],
+         [
+            "Otterden",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            8,
+            6,
+            3,
+            0,
+            0
+         ],
+         [
+            "Pan",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            5,
+            10
+         ],
+         [
+            "Pasquale",
+            0,
+            4,
+            11,
+            10,
+            10,
+            9,
+            9,
+            9,
+            9,
+            7,
+            10,
+            9,
+            8,
+            10,
+            10,
+            12,
+            12,
+            11,
+            10,
+            11,
+            10
+         ],
+         [
+            "Paul",
+            0,
+            9,
+            8,
+            4,
+            13,
+            32,
+            33,
+            34,
+            32,
+            33,
+            31,
+            31,
+            31,
+            29,
+            29,
+            37,
+            32,
+            35,
+            31,
+            27,
+            23
+         ],
+         [
+            "Philistine",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            7,
+            11,
+            10,
+            7,
+            9,
+            9,
+            6
+         ],
+         [
+            "Picaroon",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            10,
+            12,
+            19,
+            19,
+            18,
+            16
+         ],
+         [
+            "Plodge",
+            0,
+            4,
+            7,
+            6,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Puck",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            8,
+            8,
+            7,
+            9,
+            10,
+            7,
+            10,
+            10,
+            8,
+            5,
+            7,
+            9
+         ],
+         [
+            "Qaos",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            6,
+            10,
+            9,
+            10,
+            10,
+            14
+         ],
+         [
+            "Quantum",
+            0,
+            5,
+            10,
+            12,
+            12,
+            9,
+            11,
+            11,
+            12,
+            9,
+            8,
+            6,
+            4,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Rover",
+            0,
+            3,
+            9,
+            12,
+            11,
+            10,
+            11,
+            11,
+            11,
+            6,
+            10,
+            9,
+            8,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Rufus",
+            0,
+            21,
+            41,
+            41,
+            41,
+            38,
+            37,
+            41,
+            42,
+            42,
+            42,
+            42,
+            42,
+            43,
+            42,
+            42,
+            42,
+            43,
+            41,
+            42,
+            0
+         ],
+         [
+            "Screw",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8,
+            8,
+            4,
+            2
+         ],
+         [
+            "Shed",
+            0,
+            6,
+            11,
+            15,
+            19,
+            21,
+            17,
+            9,
+            10,
+            6,
+            6,
+            6,
+            3,
+            4,
+            6,
+            6,
+            6,
+            6,
+            3,
+            5,
+            1
+         ],
+         [
+            "Sphinx",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+         ],
+         [
+            "Taupi",
+            0,
+            4,
+            10,
+            11,
+            12,
+            8,
+            9,
+            11,
+            10,
+            7,
+            7,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Tramp",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            8,
+            9,
+            12,
+            12,
+            10,
+            13,
+            10
+         ],
+         [
+            "Unknown",
+            0,
+            2,
+            1,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+         ],
+         [
+            "Vlad",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            8,
+            10,
+            8
+         ],
+         [
+            "Vulcan",
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            11
+         ]
+      ]
+   },
+   "tooltip" : {
+      "show" : 0
+   },
+   "bindto" : "#myChart2",
+   "size" : {
+      "height" : 800
+   },
+   "axis" : {
+      "x" : {
+         "categories" : [
+            "1998",
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "type" : "category"
+      },
+      "y" : {
+         "label" : "Crosswords per year"
+      }
+   }
+}
+);
+		$("#charttype_chart2").val("area");
+
+		$("#btn_charttype_chart2").click(function() {
+			$("#charttype_chart2").val("area");
+			chart2.transform($("#charttype_chart2 option:selected").val());
+		});
+
+		$("#charttype_chart2").change(function() {
+			chart2.transform($("#charttype_chart2 option:selected").val());
+		});
+	});
+</script>
+
+
+<br />
+<hr />
+</div>
+
+
+<h2>3.  Frequency of word duplications across all crosswords, per setter</h2>
+<p>This chart shows the number of words a given setter has used more than once, across all crosswords for that setter.</p>
+
+
+<div id="mychart3"></div>
+<br />
+<div style="text-align: center; border:1px dashed black;">
+<span>Change chart type: </span>
+<select id="charttype_chart3">
+	<option value="area">Area</option>
+	<option value="bar">Bar</option>
+	<option value="line">Line</option>
+	<option value="pie">Pie</option>
+	<option value="scatter">Scatter</option>
+	<option value="spline">Spline</option>
+	<option value="area-step">Step</option>
+</select>
+<button id="btn_charttype_chart3" value="bar">Reset</button>
+</div>
+<script async>
+	$(document).ready(function() {
+		var chart3 = c3.generate({
+   "size" : {
+      "height" : 800
+   },
+   "axis" : {
+      "x" : {
+         "type" : "category",
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "categories" : [
+            "Arachne",
+            "Araucaria",
+            "Audreus",
+            "Auster",
+            "Boatman",
+            "Bonxie",
+            "Brendan",
+            "Brummie",
+            "Bunthorne",
+            "Chifonie",
+            "Crispa",
+            "Crucible",
+            "Enigmatist",
+            "Fawley",
+            "Fidelio",
+            "Gemini",
+            "Gordius",
+            "Imogen",
+            "Janus",
+            "Logodaedalus",
+            "Mercury",
+            "Nutmeg",
+            "Orlando",
+            "Otterden",
+            "Pan",
+            "Pasquale",
+            "Paul",
+            "Philistine",
+            "Picaroon",
+            "Plodge",
+            "Puck",
+            "Qaos",
+            "Quantum",
+            "Rover",
+            "Rufus",
+            "Screw",
+            "Shed",
+            "Taupi",
+            "Tramp",
+            "Vlad"
+         ]
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 20
+         },
+         "label" : "Frequency of duplicated answers"
+      }
+   },
+   "bindto" : "#myChart3",
+   "data" : {
+      "type" : "bar",
+      "columns" : [
+         [
+            "Setters",
+            4,
+            8,
+            3,
+            3,
+            3,
+            2,
+            4,
+            7,
+            3,
+            5,
+            2,
+            4,
+            3,
+            2,
+            2,
+            3,
+            5,
+            2,
+            6,
+            4,
+            3,
+            3,
+            4,
+            2,
+            2,
+            4,
+            12,
+            3,
+            3,
+            2,
+            4,
+            3,
+            3,
+            4,
+            13,
+            2,
+            4,
+            3,
+            3,
+            2
+         ]
+      ]
+   }
+}
+);
+		$("#charttype_chart3").val("bar");
+
+		$("#btn_charttype_chart3").click(function() {
+			$("#charttype_chart3").val("bar");
+			chart3.transform($("#charttype_chart3 option:selected").val());
+		});
+
+		$("#charttype_chart3").change(function() {
+			chart3.transform($("#charttype_chart3 option:selected").val());
+		});
+	});
+</script>
+
+
+<br />
+<hr />
+</div>
+
+
+
+<h2>4.  Setter Biographies</h2>
+<p>This shows information about each setter</p>
+<div class="container">
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Arachne</span>
+	</div>
+	<div id="mychart40"></div>
+	<script>
+		$(document).ready(function() {
+			var chart40 = c3.generate({
+   "bindto" : "#myChart40",
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "axis" : {
+      "x" : {
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "type" : "category",
+         "categories" : [
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ]
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      }
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Arachne",
+            4,
+            7,
+            9,
+            7,
+            10,
+            11,
+            11,
+            13,
+            6,
+            7,
+            9,
+            11,
+            8
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ]
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2006-06-28</li>
+		<li>Last  crossword: 2018-09-26</li>
+		<li>Active for:      12 years, 02 months, 28 days</li>
+		<li>Number of clues self-referenced (with Arachne in the clue): 21</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Araucaria</span>
+	</div>
+	<div id="mychart41"></div>
+	<script>
+		$(document).ready(function() {
+			var chart41 = c3.generate({
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      },
+      "x" : {
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "type" : "category",
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014"
+         ]
+      }
+   },
+   "bindto" : "#myChart41",
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "columns" : [
+         [
+            "Araucaria",
+            16,
+            35,
+            39,
+            32,
+            23,
+            34,
+            35,
+            26,
+            36,
+            33,
+            35,
+            34,
+            29,
+            26,
+            13,
+            1
+         ],
+         [
+            "Average per month",
+            2,
+            3,
+            4,
+            3,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            2,
+            1
+         ]
+      ],
+      "type" : "area"
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-06-30</li>
+		<li>Last  crossword: 2014-11-26</li>
+		<li>Active for:      15 years, 04 months, 26 days</li>
+		<li>Number of clues self-referenced (with Araucaria in the clue): 17</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Atë</span>
+	</div>
+	<div id="mychart42"></div>
+	<script>
+		$(document).ready(function() {
+			var chart42 = c3.generate({
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      },
+      "x" : {
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "categories" : [
+            "2015"
+         ]
+      }
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "bindto" : "#myChart42",
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Atë",
+            1
+         ],
+         [
+            "Average per month",
+            1
+         ]
+      ]
+   },
+   "legend" : {
+      "show" : 0
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2015-04-01</li>
+		<li>Last  crossword: 2015-04-01</li>
+		<li>Active for:      0 years, 00 months, 0 days</li>
+		<li>Number of clues self-referenced (with Atë in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Audreus</span>
+	</div>
+	<div id="mychart43"></div>
+	<script>
+		$(document).ready(function() {
+			var chart43 = c3.generate({
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Audreus",
+            3,
+            1,
+            6,
+            3,
+            5,
+            8,
+            8,
+            7,
+            7,
+            3,
+            3,
+            3,
+            1
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "bindto" : "#myChart43",
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      },
+      "x" : {
+         "type" : "category",
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2010",
+            "2012",
+            "2013"
+         ]
+      }
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-10-01</li>
+		<li>Last  crossword: 2013-01-09</li>
+		<li>Active for:      13 years, 03 months, 8 days</li>
+		<li>Number of clues self-referenced (with Audreus in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Auster</span>
+	</div>
+	<div id="mychart44"></div>
+	<script>
+		$(document).ready(function() {
+			var chart44 = c3.generate({
+   "data" : {
+      "columns" : [
+         [
+            "Auster",
+            2,
+            2,
+            2,
+            2,
+            3,
+            2,
+            4,
+            5,
+            4,
+            6,
+            3
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ],
+      "type" : "area"
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "bindto" : "#myChart44",
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "axis" : {
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "categories" : [
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010"
+         ],
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         }
+      }
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2000-05-30</li>
+		<li>Last  crossword: 2010-12-22</li>
+		<li>Active for:      10 years, 06 months, 23 days</li>
+		<li>Number of clues self-referenced (with Auster in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Biggles</span>
+	</div>
+	<div id="mychart45"></div>
+	<script>
+		$(document).ready(function() {
+			var chart45 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "columns" : [
+         [
+            "Biggles",
+            1
+         ],
+         [
+            "Average per month",
+            1
+         ]
+      ],
+      "type" : "area"
+   },
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      },
+      "x" : {
+         "categories" : [
+            "2001"
+         ],
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "type" : "category"
+      }
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "bindto" : "#myChart45"
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2001-01-01</li>
+		<li>Last  crossword: 2001-01-01</li>
+		<li>Active for:      0 years, 00 months, 0 days</li>
+		<li>Number of clues self-referenced (with Biggles in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Boatman</span>
+	</div>
+	<div id="mychart46"></div>
+	<script>
+		$(document).ready(function() {
+			var chart46 = c3.generate({
+   "bindto" : "#myChart46",
+   "axis" : {
+      "x" : {
+         "categories" : [
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         }
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      }
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Boatman",
+            2,
+            4,
+            6,
+            7,
+            7,
+            5,
+            6,
+            7,
+            6,
+            7,
+            7
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   "legend" : {
+      "show" : 0
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2008-10-01</li>
+		<li>Last  crossword: 2018-09-06</li>
+		<li>Active for:      9 years, 11 months, 5 days</li>
+		<li>Number of clues self-referenced (with Boatman in the clue): 102</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Bogus</span>
+	</div>
+	<div id="mychart47"></div>
+	<script>
+		$(document).ready(function() {
+			var chart47 = c3.generate({
+   "bindto" : "#myChart47",
+   "axis" : {
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "categories" : [
+            "2017"
+         ],
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         }
+      }
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Bogus",
+            1
+         ],
+         [
+            "Average per month",
+            1
+         ]
+      ]
+   },
+   "legend" : {
+      "show" : 0
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2017-10-06</li>
+		<li>Last  crossword: 2017-10-06</li>
+		<li>Active for:      0 years, 00 months, 0 days</li>
+		<li>Number of clues self-referenced (with Bogus in the clue): 1</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Bonxie</span>
+	</div>
+	<div id="mychart48"></div>
+	<script>
+		$(document).ready(function() {
+			var chart48 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Bonxie",
+            4,
+            7,
+            9,
+            8,
+            5,
+            4,
+            5,
+            3
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   "bindto" : "#myChart48",
+   "axis" : {
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "categories" : [
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2015",
+            "2016",
+            "2017"
+         ],
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "type" : "category"
+      }
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2009-05-01</li>
+		<li>Last  crossword: 2017-06-23</li>
+		<li>Active for:      8 years, 01 months, 22 days</li>
+		<li>Number of clues self-referenced (with Bonxie in the clue): 1</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Brendan</span>
+	</div>
+	<div id="mychart49"></div>
+	<script>
+		$(document).ready(function() {
+			var chart49 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Brendan",
+            8,
+            19,
+            17,
+            17,
+            17,
+            17,
+            15,
+            16,
+            7,
+            2,
+            10,
+            7,
+            1
+         ],
+         [
+            "Average per month",
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   "bindto" : "#myChart49",
+   "axis" : {
+      "x" : {
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "type" : "category",
+         "categories" : [
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ]
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      }
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2006-05-11</li>
+		<li>Last  crossword: 2018-03-26</li>
+		<li>Active for:      11 years, 10 months, 15 days</li>
+		<li>Number of clues self-referenced (with Brendan in the clue): 3</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Brummie</span>
+	</div>
+	<div id="mychart410"></div>
+	<script>
+		$(document).ready(function() {
+			var chart410 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Brummie",
+            3,
+            6,
+            9,
+            9,
+            10,
+            9,
+            10,
+            9,
+            10,
+            10,
+            10,
+            12,
+            13,
+            12,
+            12,
+            16
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            2
+         ]
+      ]
+   },
+   "bindto" : "#myChart410",
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "axis" : {
+      "x" : {
+         "categories" : [
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "type" : "category",
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      }
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2003-07-04</li>
+		<li>Last  crossword: 2018-10-02</li>
+		<li>Active for:      15 years, 02 months, 29 days</li>
+		<li>Number of clues self-referenced (with Brummie in the clue): 18</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Bunthorne</span>
+	</div>
+	<div id="mychart411"></div>
+	<script>
+		$(document).ready(function() {
+			var chart411 = c3.generate({
+   "bindto" : "#myChart411",
+   "axis" : {
+      "x" : {
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "type" : "category",
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006"
+         ]
+      },
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Bunthorne",
+            8,
+            12,
+            10,
+            13,
+            13,
+            11,
+            14,
+            10
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            2,
+            2,
+            1,
+            2,
+            1
+         ]
+      ]
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-08-10</li>
+		<li>Last  crossword: 2006-10-27</li>
+		<li>Active for:      7 years, 02 months, 17 days</li>
+		<li>Number of clues self-referenced (with Bunthorne in the clue): 6</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Chaucer</span>
+	</div>
+	<div id="mychart412"></div>
+	<script>
+		$(document).ready(function() {
+			var chart412 = c3.generate({
+   "data" : {
+      "columns" : [
+         [
+            "Chaucer",
+            1
+         ],
+         [
+            "Average per month",
+            1
+         ]
+      ],
+      "type" : "area"
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "axis" : {
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "categories" : [
+            "2003"
+         ],
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         }
+      }
+   },
+   "bindto" : "#myChart412"
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2003-02-27</li>
+		<li>Last  crossword: 2003-02-27</li>
+		<li>Active for:      0 years, 00 months, 0 days</li>
+		<li>Number of clues self-referenced (with Chaucer in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Chifonie</span>
+	</div>
+	<div id="mychart413"></div>
+	<script>
+		$(document).ready(function() {
+			var chart413 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Chifonie",
+            4,
+            10,
+            11,
+            11,
+            9,
+            10,
+            10,
+            12,
+            13,
+            12,
+            11,
+            11,
+            15,
+            12,
+            13,
+            19,
+            16,
+            13,
+            16,
+            13
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+         ]
+      ]
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "axis" : {
+      "x" : {
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "type" : "category"
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      }
+   },
+   "bindto" : "#myChart413"
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-07-22</li>
+		<li>Last  crossword: 2018-10-03</li>
+		<li>Active for:      19 years, 02 months, 12 days</li>
+		<li>Number of clues self-referenced (with Chifonie in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Crispa</span>
+	</div>
+	<div id="mychart414"></div>
+	<script>
+		$(document).ready(function() {
+			var chart414 = c3.generate({
+   "axis" : {
+      "x" : {
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004"
+         ],
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "type" : "category"
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      }
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "bindto" : "#myChart414",
+   "data" : {
+      "columns" : [
+         [
+            "Crispa",
+            4,
+            10,
+            1,
+            2,
+            11,
+            11
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ],
+      "type" : "area"
+   },
+   "legend" : {
+      "show" : 0
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-07-05</li>
+		<li>Last  crossword: 2004-12-06</li>
+		<li>Active for:      5 years, 05 months, 1 days</li>
+		<li>Number of clues self-referenced (with Crispa in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Crucible</span>
+	</div>
+	<div id="mychart415"></div>
+	<script>
+		$(document).ready(function() {
+			var chart415 = c3.generate({
+   "bindto" : "#myChart415",
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "axis" : {
+      "x" : {
+         "categories" : [
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         }
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      }
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Crucible",
+            3,
+            6,
+            7,
+            6,
+            5,
+            8,
+            8,
+            11,
+            8,
+            10
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ]
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2009-09-09</li>
+		<li>Last  crossword: 2018-10-10</li>
+		<li>Active for:      9 years, 01 months, 1 days</li>
+		<li>Number of clues self-referenced (with Crucible in the clue): 1</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Egoist</span>
+	</div>
+	<div id="mychart416"></div>
+	<script>
+		$(document).ready(function() {
+			var chart416 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Egoist",
+            1,
+            1,
+            1,
+            1
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   "bindto" : "#myChart416",
+   "axis" : {
+      "x" : {
+         "categories" : [
+            "2000",
+            "2001",
+            "2002",
+            "2003"
+         ],
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "type" : "category"
+      },
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2000-07-18</li>
+		<li>Last  crossword: 2003-07-18</li>
+		<li>Active for:      3 years, 00 months, 0 days</li>
+		<li>Number of clues self-referenced (with Egoist in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Enigmatist</span>
+	</div>
+	<div id="mychart417"></div>
+	<script>
+		$(document).ready(function() {
+			var chart417 = c3.generate({
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Enigmatist",
+            3,
+            1,
+            2,
+            1,
+            5,
+            1,
+            2,
+            3,
+            7,
+            7,
+            3,
+            3,
+            1,
+            5,
+            2,
+            2,
+            4
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "axis" : {
+      "x" : {
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2005",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017"
+         ]
+      },
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "bindto" : "#myChart417"
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-08-26</li>
+		<li>Last  crossword: 2017-10-13</li>
+		<li>Active for:      18 years, 01 months, 18 days</li>
+		<li>Number of clues self-referenced (with Enigmatist in the clue): 7</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Enigmatist and Paul</span>
+	</div>
+	<div id="mychart418"></div>
+	<script>
+		$(document).ready(function() {
+			var chart418 = c3.generate({
+   "bindto" : "#myChart418",
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "axis" : {
+      "x" : {
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "categories" : [
+            "2009"
+         ]
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      }
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "columns" : [
+         [
+            "Enigmatist and Paul",
+            1
+         ],
+         [
+            "Average per month",
+            1
+         ]
+      ],
+      "type" : "area"
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2009-08-19</li>
+		<li>Last  crossword: 2009-08-19</li>
+		<li>Active for:      0 years, 00 months, 0 days</li>
+		<li>Number of clues self-referenced (with Enigmatist and Paul in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Enigmatist, Paul and Shed</span>
+	</div>
+	<div id="mychart419"></div>
+	<script>
+		$(document).ready(function() {
+			var chart419 = c3.generate({
+   "data" : {
+      "columns" : [
+         [
+            "Enigmatist, Paul and Shed",
+            1
+         ],
+         [
+            "Average per month",
+            1
+         ]
+      ],
+      "type" : "area"
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "axis" : {
+      "x" : {
+         "categories" : [
+            "2011"
+         ],
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         }
+      },
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
+   "bindto" : "#myChart419"
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2011-02-16</li>
+		<li>Last  crossword: 2011-02-16</li>
+		<li>Active for:      0 years, 00 months, 0 days</li>
+		<li>Number of clues self-referenced (with Enigmatist, Paul and Shed in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Fawley</span>
+	</div>
+	<div id="mychart420"></div>
+	<script>
+		$(document).ready(function() {
+			var chart420 = c3.generate({
+   "axis" : {
+      "x" : {
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "type" : "category",
+         "categories" : [
+            "1999",
+            "2000"
+         ]
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      }
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "bindto" : "#myChart420",
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "columns" : [
+         [
+            "Fawley",
+            5,
+            13
+         ],
+         [
+            "Average per month",
+            1,
+            2
+         ]
+      ],
+      "type" : "area"
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-06-25</li>
+		<li>Last  crossword: 2000-09-11</li>
+		<li>Active for:      1 years, 02 months, 16 days</li>
+		<li>Number of clues self-referenced (with Fawley in the clue): 1</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Fidelio</span>
+	</div>
+	<div id="mychart421"></div>
+	<script>
+		$(document).ready(function() {
+			var chart421 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "columns" : [
+         [
+            "Fidelio",
+            2,
+            3,
+            1
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1
+         ]
+      ],
+      "type" : "area"
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "axis" : {
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "type" : "category",
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "categories" : [
+            "2001",
+            "2002",
+            "2003"
+         ]
+      }
+   },
+   "bindto" : "#myChart421"
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2001-02-06</li>
+		<li>Last  crossword: 2003-04-23</li>
+		<li>Active for:      2 years, 02 months, 17 days</li>
+		<li>Number of clues self-referenced (with Fidelio in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Fiore</span>
+	</div>
+	<div id="mychart422"></div>
+	<script>
+		$(document).ready(function() {
+			var chart422 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Fiore",
+            1
+         ],
+         [
+            "Average per month",
+            1
+         ]
+      ]
+   },
+   "bindto" : "#myChart422",
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      },
+      "x" : {
+         "type" : "category",
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "categories" : [
+            "2009"
+         ]
+      }
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2009-10-13</li>
+		<li>Last  crossword: 2009-10-13</li>
+		<li>Active for:      0 years, 00 months, 0 days</li>
+		<li>Number of clues self-referenced (with Fiore in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Gemini</span>
+	</div>
+	<div id="mychart423"></div>
+	<script>
+		$(document).ready(function() {
+			var chart423 = c3.generate({
+   "bindto" : "#myChart423",
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "axis" : {
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "type" : "category",
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2005"
+         ]
+      }
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Gemini",
+            5,
+            9,
+            10,
+            4,
+            2,
+            1
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   "legend" : {
+      "show" : 0
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-08-04</li>
+		<li>Last  crossword: 2005-01-19</li>
+		<li>Active for:      5 years, 05 months, 15 days</li>
+		<li>Number of clues self-referenced (with Gemini in the clue): 1</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Gordius</span>
+	</div>
+	<div id="mychart424"></div>
+	<script>
+		$(document).ready(function() {
+			var chart424 = c3.generate({
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Gordius",
+            4,
+            12,
+            15,
+            22,
+            24,
+            23,
+            22,
+            21,
+            24,
+            24,
+            23,
+            23,
+            22,
+            23,
+            20,
+            3
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1
+         ]
+      ]
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "axis" : {
+      "x" : {
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014"
+         ]
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      }
+   },
+   "bindto" : "#myChart424"
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-07-15</li>
+		<li>Last  crossword: 2014-04-17</li>
+		<li>Active for:      14 years, 09 months, 2 days</li>
+		<li>Number of clues self-referenced (with Gordius in the clue): 15</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Hendra</span>
+	</div>
+	<div id="mychart425"></div>
+	<script>
+		$(document).ready(function() {
+			var chart425 = c3.generate({
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "axis" : {
+      "x" : {
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002"
+         ]
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      }
+   },
+   "bindto" : "#myChart425",
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "columns" : [
+         [
+            "Hendra",
+            1,
+            1,
+            2,
+            1
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1
+         ]
+      ],
+      "type" : "area"
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-10-29</li>
+		<li>Last  crossword: 2002-01-18</li>
+		<li>Active for:      2 years, 02 months, 20 days</li>
+		<li>Number of clues self-referenced (with Hendra in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Imogen</span>
+	</div>
+	<div id="mychart426"></div>
+	<script>
+		$(document).ready(function() {
+			var chart426 = c3.generate({
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      },
+      "x" : {
+         "categories" : [
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "type" : "category",
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0
+      }
+   },
+   "bindto" : "#myChart426",
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Imogen",
+            8,
+            9,
+            13,
+            9,
+            9
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            2,
+            1,
+            1
+         ]
+      ]
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2014-03-06</li>
+		<li>Last  crossword: 2018-09-19</li>
+		<li>Active for:      4 years, 06 months, 13 days</li>
+		<li>Number of clues self-referenced (with Imogen in the clue): 4</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Janus</span>
+	</div>
+	<div id="mychart427"></div>
+	<script>
+		$(document).ready(function() {
+			var chart427 = c3.generate({
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "axis" : {
+      "x" : {
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006"
+         ],
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "type" : "category"
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      }
+   },
+   "bindto" : "#myChart427",
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "columns" : [
+         [
+            "Janus",
+            9,
+            12,
+            12,
+            11,
+            12,
+            12,
+            12,
+            9
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ],
+      "type" : "area"
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-06-29</li>
+		<li>Last  crossword: 2006-10-30</li>
+		<li>Active for:      7 years, 04 months, 1 days</li>
+		<li>Number of clues self-referenced (with Janus in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Logodaedalus</span>
+	</div>
+	<div id="mychart428"></div>
+	<script>
+		$(document).ready(function() {
+			var chart428 = c3.generate({
+   "bindto" : "#myChart428",
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      },
+      "x" : {
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2013",
+            "2014"
+         ]
+      }
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "columns" : [
+         [
+            "Logodaedalus",
+            5,
+            11,
+            8,
+            9,
+            8,
+            11,
+            10,
+            10,
+            6,
+            7,
+            5,
+            4,
+            2,
+            1,
+            4
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ],
+      "type" : "area"
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-07-06</li>
+		<li>Last  crossword: 2014-09-17</li>
+		<li>Active for:      15 years, 02 months, 11 days</li>
+		<li>Number of clues self-referenced (with Logodaedalus in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Maskarade</span>
+	</div>
+	<div id="mychart429"></div>
+	<script>
+		$(document).ready(function() {
+			var chart429 = c3.generate({
+   "bindto" : "#myChart429",
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "axis" : {
+      "x" : {
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "type" : "category",
+         "categories" : [
+            "2016",
+            "2017",
+            "2018"
+         ]
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      }
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "columns" : [
+         [
+            "Maskarade",
+            1,
+            1,
+            1
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1
+         ]
+      ],
+      "type" : "area"
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2016-03-09</li>
+		<li>Last  crossword: 2018-02-23</li>
+		<li>Active for:      1 years, 11 months, 14 days</li>
+		<li>Number of clues self-referenced (with Maskarade in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Mercury</span>
+	</div>
+	<div id="mychart430"></div>
+	<script>
+		$(document).ready(function() {
+			var chart430 = c3.generate({
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "axis" : {
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002"
+         ],
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "type" : "category"
+      }
+   },
+   "bindto" : "#myChart430",
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Mercury",
+            6,
+            12,
+            12,
+            6
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   "legend" : {
+      "show" : 0
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-07-28</li>
+		<li>Last  crossword: 2002-07-26</li>
+		<li>Active for:      2 years, 11 months, 29 days</li>
+		<li>Number of clues self-referenced (with Mercury in the clue): 1</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Nutmeg</span>
+	</div>
+	<div id="mychart431"></div>
+	<script>
+		$(document).ready(function() {
+			var chart431 = c3.generate({
+   "bindto" : "#myChart431",
+   "axis" : {
+      "x" : {
+         "categories" : [
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "type" : "category"
+      },
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "columns" : [
+         [
+            "Nutmeg",
+            3,
+            16,
+            16,
+            15,
+            17,
+            16
+         ],
+         [
+            "Average per month",
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+         ]
+      ],
+      "type" : "area"
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2013-09-20</li>
+		<li>Last  crossword: 2018-10-11</li>
+		<li>Active for:      5 years, 00 months, 21 days</li>
+		<li>Number of clues self-referenced (with Nutmeg in the clue): 12</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Nutmeh</span>
+	</div>
+	<div id="mychart432"></div>
+	<script>
+		$(document).ready(function() {
+			var chart432 = c3.generate({
+   "bindto" : "#myChart432",
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "axis" : {
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "type" : "category",
+         "categories" : [
+            "2016"
+         ]
+      }
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Nutmeh",
+            1
+         ],
+         [
+            "Average per month",
+            1
+         ]
+      ]
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2016-06-13</li>
+		<li>Last  crossword: 2016-06-13</li>
+		<li>Active for:      0 years, 00 months, 0 days</li>
+		<li>Number of clues self-referenced (with Nutmeh in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Omnibus</span>
+	</div>
+	<div id="mychart433"></div>
+	<script>
+		$(document).ready(function() {
+			var chart433 = c3.generate({
+   "data" : {
+      "columns" : [
+         [
+            "Omnibus",
+            1
+         ],
+         [
+            "Average per month",
+            1
+         ]
+      ],
+      "type" : "area"
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "axis" : {
+      "x" : {
+         "categories" : [
+            "2005"
+         ],
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "type" : "category"
+      },
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
+   "bindto" : "#myChart433"
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2005-08-29</li>
+		<li>Last  crossword: 2005-08-29</li>
+		<li>Active for:      0 years, 00 months, 0 days</li>
+		<li>Number of clues self-referenced (with Omnibus in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Orlando</span>
+	</div>
+	<div id="mychart434"></div>
+	<script>
+		$(document).ready(function() {
+			var chart434 = c3.generate({
+   "data" : {
+      "columns" : [
+         [
+            "Orlando",
+            3,
+            8,
+            12,
+            12,
+            10,
+            5,
+            8,
+            10,
+            12,
+            14,
+            13,
+            16,
+            18,
+            16,
+            8,
+            6,
+            5,
+            2,
+            1,
+            2
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ],
+      "type" : "area"
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      },
+      "x" : {
+         "type" : "category",
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ]
+      }
+   },
+   "bindto" : "#myChart434"
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-09-14</li>
+		<li>Last  crossword: 2018-04-23</li>
+		<li>Active for:      18 years, 07 months, 9 days</li>
+		<li>Number of clues self-referenced (with Orlando in the clue): 21</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Otterden</span>
+	</div>
+	<div id="mychart435"></div>
+	<script>
+		$(document).ready(function() {
+			var chart435 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "columns" : [
+         [
+            "Otterden",
+            1,
+            8,
+            6,
+            3
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1
+         ]
+      ],
+      "type" : "area"
+   },
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      },
+      "x" : {
+         "type" : "category",
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "categories" : [
+            "2013",
+            "2014",
+            "2015",
+            "2016"
+         ]
+      }
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "bindto" : "#myChart435"
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2013-10-25</li>
+		<li>Last  crossword: 2016-04-07</li>
+		<li>Active for:      2 years, 05 months, 13 days</li>
+		<li>Number of clues self-referenced (with Otterden in the clue): 1</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Pan</span>
+	</div>
+	<div id="mychart436"></div>
+	<script>
+		$(document).ready(function() {
+			var chart436 = c3.generate({
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Pan",
+            4,
+            5,
+            10
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "axis" : {
+      "x" : {
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "type" : "category",
+         "categories" : [
+            "2016",
+            "2017",
+            "2018"
+         ]
+      },
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "bindto" : "#myChart436"
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2016-07-27</li>
+		<li>Last  crossword: 2018-10-01</li>
+		<li>Active for:      2 years, 02 months, 5 days</li>
+		<li>Number of clues self-referenced (with Pan in the clue): 1</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Pasquale</span>
+	</div>
+	<div id="mychart437"></div>
+	<script>
+		$(document).ready(function() {
+			var chart437 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "columns" : [
+         [
+            "Pasquale",
+            4,
+            11,
+            10,
+            10,
+            9,
+            9,
+            9,
+            9,
+            7,
+            10,
+            9,
+            8,
+            10,
+            10,
+            12,
+            12,
+            11,
+            10,
+            11,
+            10
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ],
+      "type" : "area"
+   },
+   "bindto" : "#myChart437",
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "axis" : {
+      "x" : {
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "type" : "category",
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      }
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-07-02</li>
+		<li>Last  crossword: 2018-09-13</li>
+		<li>Active for:      19 years, 02 months, 11 days</li>
+		<li>Number of clues self-referenced (with Pasquale in the clue): 16</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Paul</span>
+	</div>
+	<div id="mychart438"></div>
+	<script>
+		$(document).ready(function() {
+			var chart438 = c3.generate({
+   "bindto" : "#myChart438",
+   "axis" : {
+      "x" : {
+         "type" : "category",
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ]
+      },
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Paul",
+            9,
+            8,
+            4,
+            13,
+            32,
+            33,
+            34,
+            32,
+            33,
+            31,
+            31,
+            31,
+            29,
+            29,
+            37,
+            32,
+            35,
+            31,
+            27,
+            23
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            4,
+            3,
+            3,
+            3,
+            3,
+            2
+         ]
+      ]
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-07-16</li>
+		<li>Last  crossword: 2018-10-05</li>
+		<li>Active for:      19 years, 02 months, 20 days</li>
+		<li>Number of clues self-referenced (with Paul in the clue): 57</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Philistine</span>
+	</div>
+	<div id="mychart439"></div>
+	<script>
+		$(document).ready(function() {
+			var chart439 = c3.generate({
+   "data" : {
+      "columns" : [
+         [
+            "Philistine",
+            4,
+            7,
+            11,
+            10,
+            7,
+            9,
+            9,
+            6
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ],
+      "type" : "area"
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "bindto" : "#myChart439",
+   "axis" : {
+      "x" : {
+         "type" : "category",
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "categories" : [
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ]
+      },
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2011-05-26</li>
+		<li>Last  crossword: 2018-09-27</li>
+		<li>Active for:      7 years, 04 months, 1 days</li>
+		<li>Number of clues self-referenced (with Philistine in the clue): 5</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Picaroon</span>
+	</div>
+	<div id="mychart440"></div>
+	<script>
+		$(document).ready(function() {
+			var chart440 = c3.generate({
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Picaroon",
+            6,
+            10,
+            12,
+            19,
+            19,
+            18,
+            16
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2
+         ]
+      ]
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "bindto" : "#myChart440",
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "axis" : {
+      "x" : {
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "categories" : [
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ]
+      },
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2012-03-16</li>
+		<li>Last  crossword: 2018-10-09</li>
+		<li>Active for:      6 years, 06 months, 24 days</li>
+		<li>Number of clues self-referenced (with Picaroon in the clue): 5</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Plodge</span>
+	</div>
+	<div id="mychart441"></div>
+	<script>
+		$(document).ready(function() {
+			var chart441 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Plodge",
+            4,
+            7,
+            6,
+            4
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   "bindto" : "#myChart441",
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "axis" : {
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002"
+         ],
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "type" : "category"
+      }
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-07-09</li>
+		<li>Last  crossword: 2002-10-01</li>
+		<li>Active for:      3 years, 02 months, 23 days</li>
+		<li>Number of clues self-referenced (with Plodge in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Puck</span>
+	</div>
+	<div id="mychart442"></div>
+	<script>
+		$(document).ready(function() {
+			var chart442 = c3.generate({
+   "bindto" : "#myChart442",
+   "axis" : {
+      "x" : {
+         "categories" : [
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "type" : "category",
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0
+      },
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Puck",
+            1,
+            8,
+            8,
+            7,
+            9,
+            10,
+            7,
+            10,
+            10,
+            8,
+            5,
+            7,
+            9
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ]
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2006-12-08</li>
+		<li>Last  crossword: 2018-09-21</li>
+		<li>Active for:      11 years, 09 months, 13 days</li>
+		<li>Number of clues self-referenced (with Puck in the clue): 13</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Qaos</span>
+	</div>
+	<div id="mychart443"></div>
+	<script>
+		$(document).ready(function() {
+			var chart443 = c3.generate({
+   "bindto" : "#myChart443",
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      },
+      "x" : {
+         "categories" : [
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "type" : "category"
+      }
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Qaos",
+            5,
+            6,
+            10,
+            9,
+            10,
+            10,
+            14
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+         ]
+      ]
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2012-01-12</li>
+		<li>Last  crossword: 2018-10-04</li>
+		<li>Active for:      6 years, 08 months, 23 days</li>
+		<li>Number of clues self-referenced (with Qaos in the clue): 3</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Quantum</span>
+	</div>
+	<div id="mychart444"></div>
+	<script>
+		$(document).ready(function() {
+			var chart444 = c3.generate({
+   "data" : {
+      "columns" : [
+         [
+            "Quantum",
+            5,
+            10,
+            12,
+            12,
+            9,
+            11,
+            11,
+            12,
+            9,
+            8,
+            6,
+            4,
+            2
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ],
+      "type" : "area"
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "axis" : {
+      "x" : {
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "type" : "category",
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011"
+         ]
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      }
+   },
+   "bindto" : "#myChart444"
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-07-21</li>
+		<li>Last  crossword: 2011-02-15</li>
+		<li>Active for:      11 years, 06 months, 25 days</li>
+		<li>Number of clues self-referenced (with Quantum in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Rover</span>
+	</div>
+	<div id="mychart445"></div>
+	<script>
+		$(document).ready(function() {
+			var chart445 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Rover",
+            3,
+            9,
+            12,
+            11,
+            10,
+            11,
+            11,
+            11,
+            6,
+            10,
+            9,
+            8,
+            1
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   "axis" : {
+      "x" : {
+         "type" : "category",
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011"
+         ]
+      },
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "bindto" : "#myChart445"
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-06-24</li>
+		<li>Last  crossword: 2011-01-20</li>
+		<li>Active for:      11 years, 06 months, 26 days</li>
+		<li>Number of clues self-referenced (with Rover in the clue): 4</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Rufus</span>
+	</div>
+	<div id="mychart446"></div>
+	<script>
+		$(document).ready(function() {
+			var chart446 = c3.generate({
+   "bindto" : "#myChart446",
+   "axis" : {
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017"
+         ],
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "type" : "category"
+      }
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "data" : {
+      "columns" : [
+         [
+            "Rufus",
+            21,
+            41,
+            41,
+            41,
+            38,
+            37,
+            41,
+            42,
+            42,
+            42,
+            42,
+            42,
+            43,
+            42,
+            42,
+            42,
+            43,
+            41,
+            42
+         ],
+         [
+            "Average per month",
+            2,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+         ]
+      ],
+      "type" : "area"
+   },
+   "legend" : {
+      "show" : 0
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-06-28</li>
+		<li>Last  crossword: 2017-12-18</li>
+		<li>Active for:      18 years, 05 months, 20 days</li>
+		<li>Number of clues self-referenced (with Rufus in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Screw</span>
+	</div>
+	<div id="mychart447"></div>
+	<script>
+		$(document).ready(function() {
+			var chart447 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Screw",
+            8,
+            8,
+            4,
+            2
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "axis" : {
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "categories" : [
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         }
+      }
+   },
+   "bindto" : "#myChart447"
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2015-03-03</li>
+		<li>Last  crossword: 2018-04-10</li>
+		<li>Active for:      3 years, 01 months, 7 days</li>
+		<li>Number of clues self-referenced (with Screw in the clue): 4</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Shed</span>
+	</div>
+	<div id="mychart448"></div>
+	<script>
+		$(document).ready(function() {
+			var chart448 = c3.generate({
+   "axis" : {
+      "x" : {
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ]
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      }
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "bindto" : "#myChart448",
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "columns" : [
+         [
+            "Shed",
+            6,
+            11,
+            15,
+            19,
+            21,
+            17,
+            9,
+            10,
+            6,
+            6,
+            6,
+            3,
+            4,
+            6,
+            6,
+            6,
+            6,
+            3,
+            5,
+            1
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ],
+      "type" : "area"
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-07-13</li>
+		<li>Last  crossword: 2018-03-08</li>
+		<li>Active for:      18 years, 07 months, 26 days</li>
+		<li>Number of clues self-referenced (with Shed in the clue): 16</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Sphinx</span>
+	</div>
+	<div id="mychart449"></div>
+	<script>
+		$(document).ready(function() {
+			var chart449 = c3.generate({
+   "axis" : {
+      "x" : {
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "type" : "category",
+         "categories" : [
+            "2017"
+         ]
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      }
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "bindto" : "#myChart449",
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Sphinx",
+            1
+         ],
+         [
+            "Average per month",
+            1
+         ]
+      ]
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2017-02-28</li>
+		<li>Last  crossword: 2017-02-28</li>
+		<li>Active for:      0 years, 00 months, 0 days</li>
+		<li>Number of clues self-referenced (with Sphinx in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Taupi</span>
+	</div>
+	<div id="mychart450"></div>
+	<script>
+		$(document).ready(function() {
+			var chart450 = c3.generate({
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Taupi",
+            4,
+            10,
+            11,
+            12,
+            8,
+            9,
+            11,
+            10,
+            7,
+            7,
+            4
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "axis" : {
+      "x" : {
+         "type" : "category",
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009"
+         ]
+      },
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
+   "bindto" : "#myChart450"
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-07-07</li>
+		<li>Last  crossword: 2009-07-14</li>
+		<li>Active for:      10 years, 00 months, 7 days</li>
+		<li>Number of clues self-referenced (with Taupi in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Tramp</span>
+	</div>
+	<div id="mychart451"></div>
+	<script>
+		$(document).ready(function() {
+			var chart451 = c3.generate({
+   "bindto" : "#myChart451",
+   "axis" : {
+      "x" : {
+         "type" : "category",
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "categories" : [
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ]
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      }
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Tramp",
+            5,
+            8,
+            9,
+            12,
+            12,
+            10,
+            13,
+            10
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1
+         ]
+      ]
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2011-04-28</li>
+		<li>Last  crossword: 2018-09-28</li>
+		<li>Active for:      7 years, 05 months, 0 days</li>
+		<li>Number of clues self-referenced (with Tramp in the clue): 10</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Unknown</span>
+	</div>
+	<div id="mychart452"></div>
+	<script>
+		$(document).ready(function() {
+			var chart452 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "columns" : [
+         [
+            "Unknown",
+            2,
+            1,
+            2,
+            1,
+            1
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1,
+            1
+         ]
+      ],
+      "type" : "area"
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      },
+      "x" : {
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2013"
+         ],
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         }
+      }
+   },
+   "bindto" : "#myChart452"
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-07-12</li>
+		<li>Last  crossword: 2013-11-29</li>
+		<li>Active for:      14 years, 04 months, 17 days</li>
+		<li>Number of clues self-referenced (with Unknown in the clue): 0</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Vlad</span>
+	</div>
+	<div id="mychart453"></div>
+	<script>
+		$(document).ready(function() {
+			var chart453 = c3.generate({
+   "bindto" : "#myChart453",
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "axis" : {
+      "x" : {
+         "categories" : [
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "type" : "category"
+      },
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
+   "data" : {
+      "columns" : [
+         [
+            "Vlad",
+            6,
+            8,
+            10,
+            8
+         ],
+         [
+            "Average per month",
+            1,
+            1,
+            1,
+            1
+         ]
+      ],
+      "type" : "area"
+   },
+   "legend" : {
+      "show" : 0
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2015-03-11</li>
+		<li>Last  crossword: 2018-09-12</li>
+		<li>Active for:      3 years, 06 months, 1 days</li>
+		<li>Number of clues self-referenced (with Vlad in the clue): 3</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Vulcan</span>
+	</div>
+	<div id="mychart454"></div>
+	<script>
+		$(document).ready(function() {
+			var chart454 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "data" : {
+      "type" : "area",
+      "columns" : [
+         [
+            "Vulcan",
+            11
+         ],
+         [
+            "Average per month",
+            1
+         ]
+      ]
+   },
+   "bindto" : "#myChart454",
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "axis" : {
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "type" : "category",
+         "categories" : [
+            "2018"
+         ]
+      }
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 2018-02-26</li>
+		<li>Last  crossword: 2018-10-08</li>
+		<li>Active for:      0 years, 07 months, 10 days</li>
+		<li>Number of clues self-referenced (with Vulcan in the clue): 0</li>
+	</ul> 
+	</div>
+	
+</div>
+<br />
+<hr />
+
+
+</body>
+</html>

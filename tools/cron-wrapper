@@ -16,8 +16,8 @@ XTEDDY_REPO="$HOME/website.deploy"
 (
 	cd "$XTEDDY_REPO" && {
 		git pull --quiet && \
-		mv "$GUARDIAN_REPO/gcc-analysis.html" . && \
-		mv "$GUARDIAN_REPO/ui/gcc.css" . && \
+		cp "$GUARDIAN_REPO/gcc-analysis.html" . && \
+		cp "$GUARDIAN_REPO/ui/gcc.css" . && \
 		git add gcc-analysis.html gcc.css && \
 		git commit -m "Guardian CC update" && \
 		git push
