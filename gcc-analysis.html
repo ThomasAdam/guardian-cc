@@ -16,7 +16,7 @@ cryptic crosswords.  The data shown here was scraped via the web.</p>
 
 <p>The git repository containing this data <a href="https://github.com/ThomasAdam/guardian-cc">is here.</a></p>
 <p><b>Last Updated: </b>
-Thu Oct 11 10:15:43 2018
+Fri Oct 12 02:01:08 2018
 </p>
 
 <h2>1.  Total number of crosswords, set by author</h2>
@@ -41,7 +41,17 @@ Thu Oct 11 10:15:43 2018
 <script async>
 	$(document).ready(function() {
 		var chart1 = c3.generate({
+   "size" : {
+      "height" : 800
+   },
    "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 20
+         },
+         "label" : "No. of crosswords set",
+         "max" : 800
+      },
       "x" : {
          "categories" : [
             "Rufus",
@@ -58,8 +68,8 @@ Thu Oct 11 10:15:43 2018
             "Rover",
             "Quantum",
             "Logodaedalus",
-            "Picaroon",
             "Puck",
+            "Picaroon",
             "Taupi",
             "Bunthorne",
             "Janus",
@@ -89,43 +99,33 @@ Thu Oct 11 10:15:43 2018
             "Hendra",
             "Egoist",
             "Maskarade",
-            "Enigmatist, Paul and Shed",
-            "Sphinx",
-            "Biggles",
-            "Bogus",
-            "Atë",
-            "Fiore",
             "Chaucer",
-            "Omnibus",
+            "Sphinx",
+            "Enigmatist, Paul and Shed",
+            "Enigmatist and Paul",
+            "Atë",
+            "Bogus",
+            "Fiore",
             "Nutmeh",
-            "Enigmatist and Paul"
+            "Biggles",
+            "Omnibus"
          ],
          "type" : "category",
+         "height" : 0,
          "tick" : {
             "rotate" : "75",
             "multiline" : 0
-         },
-         "height" : 0
-      },
-      "y" : {
-         "tick" : {
-            "steps" : 20
-         },
-         "max" : 800,
-         "label" : "No. of crosswords set"
+         }
       }
-   },
-   "size" : {
-      "height" : 800
    },
    "bindto" : "#myChart1",
    "data" : {
+      "type" : "bar",
       "empty" : {
          "label" : {
             "text" : "Unknown"
          }
       },
-      "type" : "bar",
       "columns" : [
          [
             "Setters",
@@ -144,7 +144,7 @@ Thu Oct 11 10:15:43 2018
             111,
             101,
             100,
-            99,
+            100,
             93,
             91,
             89,
@@ -230,8 +230,50 @@ Thu Oct 11 10:15:43 2018
 <script async>
 	$(document).ready(function() {
 		var chart2 = c3.generate({
+   "tooltip" : {
+      "show" : 0
+   },
+   "size" : {
+      "height" : 800
+   },
+   "axis" : {
+      "x" : {
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "type" : "category",
+         "categories" : [
+            "1998",
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ]
+      },
+      "y" : {
+         "label" : "Crosswords per year"
+      }
+   },
+   "bindto" : "#myChart2",
    "data" : {
-      "type" : "area",
       "columns" : [
          [
             "Arachne",
@@ -1263,7 +1305,7 @@ Thu Oct 11 10:15:43 2018
             8,
             5,
             7,
-            9
+            10
          ],
          [
             "Qaos",
@@ -1553,50 +1595,8 @@ Thu Oct 11 10:15:43 2018
             0,
             11
          ]
-      ]
-   },
-   "tooltip" : {
-      "show" : 0
-   },
-   "bindto" : "#myChart2",
-   "size" : {
-      "height" : 800
-   },
-   "axis" : {
-      "x" : {
-         "categories" : [
-            "1998",
-            "1999",
-            "2000",
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018"
-         ],
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "height" : 0,
-         "type" : "category"
-      },
-      "y" : {
-         "label" : "Crosswords per year"
-      }
+      ],
+      "type" : "area"
    }
 }
 );
@@ -1641,17 +1641,14 @@ Thu Oct 11 10:15:43 2018
 <script async>
 	$(document).ready(function() {
 		var chart3 = c3.generate({
-   "size" : {
-      "height" : 800
-   },
    "axis" : {
       "x" : {
-         "type" : "category",
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
          "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "type" : "category",
          "categories" : [
             "Arachne",
             "Araucaria",
@@ -1702,9 +1699,7 @@ Thu Oct 11 10:15:43 2018
          "label" : "Frequency of duplicated answers"
       }
    },
-   "bindto" : "#myChart3",
    "data" : {
-      "type" : "bar",
       "columns" : [
          [
             "Setters",
@@ -1749,7 +1744,12 @@ Thu Oct 11 10:15:43 2018
             3,
             2
          ]
-      ]
+      ],
+      "type" : "bar"
+   },
+   "bindto" : "#myChart3",
+   "size" : {
+      "height" : 800
    }
 }
 );
@@ -1785,43 +1785,6 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart40 = c3.generate({
-   "bindto" : "#myChart40",
-   "size" : {
-      "height" : 200,
-      "width" : 500
-   },
-   "axis" : {
-      "x" : {
-         "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
-         },
-         "height" : 0,
-         "type" : "category",
-         "categories" : [
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018"
-         ]
-      },
-      "y" : {
-         "tick" : {
-            "steps" : 1
-         },
-         "min" : 1,
-         "label" : "Number of crosswords"
-      }
-   },
    "legend" : {
       "show" : 0
    },
@@ -1861,6 +1824,43 @@ Thu Oct 11 10:15:43 2018
             1
          ]
       ]
+   },
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      },
+      "x" : {
+         "categories" : [
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "type" : "category",
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0
+      }
+   },
+   "bindto" : "#myChart40",
+   "size" : {
+      "height" : 200,
+      "width" : 500
    }
 }
 );
@@ -1882,9 +1882,8 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart41 = c3.generate({
-   "size" : {
-      "width" : 500,
-      "height" : 200
+   "legend" : {
+      "show" : 0
    },
    "axis" : {
       "y" : {
@@ -1896,8 +1895,8 @@ Thu Oct 11 10:15:43 2018
       },
       "x" : {
          "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
+            "rotate" : "75",
+            "multiline" : 0
          },
          "height" : 0,
          "type" : "category",
@@ -1922,10 +1921,8 @@ Thu Oct 11 10:15:43 2018
       }
    },
    "bindto" : "#myChart41",
-   "legend" : {
-      "show" : 0
-   },
    "data" : {
+      "type" : "area",
       "columns" : [
          [
             "Araucaria",
@@ -1965,8 +1962,11 @@ Thu Oct 11 10:15:43 2018
             2,
             1
          ]
-      ],
-      "type" : "area"
+      ]
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
    }
 }
 );
@@ -1988,31 +1988,6 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart42 = c3.generate({
-   "axis" : {
-      "y" : {
-         "tick" : {
-            "steps" : 1
-         },
-         "label" : "Number of crosswords",
-         "min" : 1
-      },
-      "x" : {
-         "type" : "category",
-         "height" : 0,
-         "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
-         },
-         "categories" : [
-            "2015"
-         ]
-      }
-   },
-   "size" : {
-      "width" : 500,
-      "height" : 200
-   },
-   "bindto" : "#myChart42",
    "data" : {
       "type" : "area",
       "columns" : [
@@ -2025,6 +2000,31 @@ Thu Oct 11 10:15:43 2018
             1
          ]
       ]
+   },
+   "axis" : {
+      "x" : {
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "type" : "category",
+         "categories" : [
+            "2015"
+         ]
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      }
+   },
+   "bindto" : "#myChart42",
+   "size" : {
+      "width" : 500,
+      "height" : 200
    },
    "legend" : {
       "show" : 0
@@ -2049,6 +2049,43 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart43 = c3.generate({
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "bindto" : "#myChart43",
+   "axis" : {
+      "x" : {
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "type" : "category",
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2010",
+            "2012",
+            "2013"
+         ]
+      },
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
    "data" : {
       "type" : "area",
       "columns" : [
@@ -2088,43 +2125,6 @@ Thu Oct 11 10:15:43 2018
    },
    "legend" : {
       "show" : 0
-   },
-   "bindto" : "#myChart43",
-   "axis" : {
-      "y" : {
-         "tick" : {
-            "steps" : 1
-         },
-         "min" : 1,
-         "label" : "Number of crosswords"
-      },
-      "x" : {
-         "type" : "category",
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "height" : 0,
-         "categories" : [
-            "1999",
-            "2000",
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2010",
-            "2012",
-            "2013"
-         ]
-      }
-   },
-   "size" : {
-      "height" : 200,
-      "width" : 500
    }
 }
 );
@@ -2146,6 +2146,41 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart44 = c3.generate({
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "bindto" : "#myChart44",
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      },
+      "x" : {
+         "categories" : [
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010"
+         ],
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "type" : "category"
+      }
+   },
    "data" : {
       "columns" : [
          [
@@ -2181,41 +2216,6 @@ Thu Oct 11 10:15:43 2018
    },
    "legend" : {
       "show" : 0
-   },
-   "bindto" : "#myChart44",
-   "size" : {
-      "width" : 500,
-      "height" : 200
-   },
-   "axis" : {
-      "y" : {
-         "label" : "Number of crosswords",
-         "min" : 1,
-         "tick" : {
-            "steps" : 1
-         }
-      },
-      "x" : {
-         "categories" : [
-            "2000",
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010"
-         ],
-         "type" : "category",
-         "height" : 0,
-         "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
-         }
-      }
    }
 }
 );
@@ -2237,10 +2237,28 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart45 = c3.generate({
-   "legend" : {
-      "show" : 0
+   "axis" : {
+      "x" : {
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "type" : "category",
+         "categories" : [
+            "2001"
+         ]
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      }
    },
    "data" : {
+      "type" : "area",
       "columns" : [
          [
             "Biggles",
@@ -2250,34 +2268,16 @@ Thu Oct 11 10:15:43 2018
             "Average per month",
             1
          ]
-      ],
-      "type" : "area"
+      ]
    },
-   "axis" : {
-      "y" : {
-         "tick" : {
-            "steps" : 1
-         },
-         "label" : "Number of crosswords",
-         "min" : 1
-      },
-      "x" : {
-         "categories" : [
-            "2001"
-         ],
-         "height" : 0,
-         "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
-         },
-         "type" : "category"
-      }
-   },
+   "bindto" : "#myChart45",
    "size" : {
-      "width" : 500,
-      "height" : 200
+      "height" : 200,
+      "width" : 500
    },
-   "bindto" : "#myChart45"
+   "legend" : {
+      "show" : 0
+   }
 }
 );
 		});
@@ -2298,7 +2298,13 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart46 = c3.generate({
-   "bindto" : "#myChart46",
+   "legend" : {
+      "show" : 0
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
    "axis" : {
       "x" : {
          "categories" : [
@@ -2317,8 +2323,8 @@ Thu Oct 11 10:15:43 2018
          "type" : "category",
          "height" : 0,
          "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
+            "rotate" : "75",
+            "multiline" : 0
          }
       },
       "y" : {
@@ -2329,12 +2335,8 @@ Thu Oct 11 10:15:43 2018
          "label" : "Number of crosswords"
       }
    },
-   "size" : {
-      "width" : 500,
-      "height" : 200
-   },
+   "bindto" : "#myChart46",
    "data" : {
-      "type" : "area",
       "columns" : [
          [
             "Boatman",
@@ -2364,10 +2366,8 @@ Thu Oct 11 10:15:43 2018
             1,
             1
          ]
-      ]
-   },
-   "legend" : {
-      "show" : 0
+      ],
+      "type" : "area"
    }
 }
 );
@@ -2389,33 +2389,27 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart47 = c3.generate({
-   "bindto" : "#myChart47",
    "axis" : {
-      "y" : {
-         "label" : "Number of crosswords",
-         "min" : 1,
-         "tick" : {
-            "steps" : 1
-         }
-      },
       "x" : {
-         "categories" : [
-            "2017"
-         ],
          "type" : "category",
-         "height" : 0,
          "tick" : {
             "multiline" : 0,
             "rotate" : "75"
+         },
+         "height" : 0,
+         "categories" : [
+            "2017"
+         ]
+      },
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
          }
       }
    },
-   "size" : {
-      "height" : 200,
-      "width" : 500
-   },
    "data" : {
-      "type" : "area",
       "columns" : [
          [
             "Bogus",
@@ -2425,7 +2419,13 @@ Thu Oct 11 10:15:43 2018
             "Average per month",
             1
          ]
-      ]
+      ],
+      "type" : "area"
+   },
+   "bindto" : "#myChart47",
+   "size" : {
+      "height" : 200,
+      "width" : 500
    },
    "legend" : {
       "show" : 0
@@ -2450,8 +2450,33 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart48 = c3.generate({
-   "legend" : {
-      "show" : 0
+   "bindto" : "#myChart48",
+   "axis" : {
+      "x" : {
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "type" : "category",
+         "categories" : [
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2015",
+            "2016",
+            "2017"
+         ]
+      },
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      }
    },
    "data" : {
       "type" : "area",
@@ -2480,37 +2505,12 @@ Thu Oct 11 10:15:43 2018
          ]
       ]
    },
-   "bindto" : "#myChart48",
-   "axis" : {
-      "y" : {
-         "min" : 1,
-         "label" : "Number of crosswords",
-         "tick" : {
-            "steps" : 1
-         }
-      },
-      "x" : {
-         "categories" : [
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2015",
-            "2016",
-            "2017"
-         ],
-         "height" : 0,
-         "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
-         },
-         "type" : "category"
-      }
-   },
    "size" : {
       "width" : 500,
       "height" : 200
+   },
+   "legend" : {
+      "show" : 0
    }
 }
 );
@@ -2535,8 +2535,44 @@ Thu Oct 11 10:15:43 2018
    "legend" : {
       "show" : 0
    },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "bindto" : "#myChart49",
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      },
+      "x" : {
+         "categories" : [
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "type" : "category"
+      }
+   },
    "data" : {
-      "type" : "area",
       "columns" : [
          [
             "Brendan",
@@ -2570,44 +2606,8 @@ Thu Oct 11 10:15:43 2018
             1,
             1
          ]
-      ]
-   },
-   "bindto" : "#myChart49",
-   "axis" : {
-      "x" : {
-         "height" : 0,
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "type" : "category",
-         "categories" : [
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018"
-         ]
-      },
-      "y" : {
-         "tick" : {
-            "steps" : 1
-         },
-         "min" : 1,
-         "label" : "Number of crosswords"
-      }
-   },
-   "size" : {
-      "height" : 200,
-      "width" : 500
+      ],
+      "type" : "area"
    }
 }
 );
@@ -2629,11 +2629,43 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart410 = c3.generate({
-   "legend" : {
-      "show" : 0
+   "axis" : {
+      "x" : {
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "categories" : [
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ]
+      },
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      }
    },
+   "bindto" : "#myChart410",
    "data" : {
-      "type" : "area",
       "columns" : [
          [
             "Brummie",
@@ -2673,47 +2705,15 @@ Thu Oct 11 10:15:43 2018
             1,
             2
          ]
-      ]
+      ],
+      "type" : "area"
    },
-   "bindto" : "#myChart410",
    "size" : {
-      "height" : 200,
-      "width" : 500
+      "width" : 500,
+      "height" : 200
    },
-   "axis" : {
-      "x" : {
-         "categories" : [
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018"
-         ],
-         "type" : "category",
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "height" : 0
-      },
-      "y" : {
-         "tick" : {
-            "steps" : 1
-         },
-         "min" : 1,
-         "label" : "Number of crosswords"
-      }
+   "legend" : {
+      "show" : 0
    }
 }
 );
@@ -2735,41 +2735,6 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart411 = c3.generate({
-   "bindto" : "#myChart411",
-   "axis" : {
-      "x" : {
-         "height" : 0,
-         "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
-         },
-         "type" : "category",
-         "categories" : [
-            "1999",
-            "2000",
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006"
-         ]
-      },
-      "y" : {
-         "min" : 1,
-         "label" : "Number of crosswords",
-         "tick" : {
-            "steps" : 1
-         }
-      }
-   },
-   "size" : {
-      "height" : 200,
-      "width" : 500
-   },
-   "legend" : {
-      "show" : 0
-   },
    "data" : {
       "type" : "area",
       "columns" : [
@@ -2796,6 +2761,41 @@ Thu Oct 11 10:15:43 2018
             1
          ]
       ]
+   },
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      },
+      "x" : {
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006"
+         ],
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         }
+      }
+   },
+   "bindto" : "#myChart411",
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "legend" : {
+      "show" : 0
    }
 }
 );
@@ -2817,7 +2817,29 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart412 = c3.generate({
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      },
+      "x" : {
+         "categories" : [
+            "2003"
+         ],
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "type" : "category"
+      }
+   },
+   "bindto" : "#myChart412",
    "data" : {
+      "type" : "area",
       "columns" : [
          [
             "Chaucer",
@@ -2827,37 +2849,15 @@ Thu Oct 11 10:15:43 2018
             "Average per month",
             1
          ]
-      ],
-      "type" : "area"
-   },
-   "legend" : {
-      "show" : 0
+      ]
    },
    "size" : {
       "width" : 500,
       "height" : 200
    },
-   "axis" : {
-      "y" : {
-         "min" : 1,
-         "label" : "Number of crosswords",
-         "tick" : {
-            "steps" : 1
-         }
-      },
-      "x" : {
-         "categories" : [
-            "2003"
-         ],
-         "type" : "category",
-         "height" : 0,
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         }
-      }
-   },
-   "bindto" : "#myChart412"
+   "legend" : {
+      "show" : 0
+   }
 }
 );
 		});
@@ -2881,8 +2881,50 @@ Thu Oct 11 10:15:43 2018
    "legend" : {
       "show" : 0
    },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "axis" : {
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "type" : "category",
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ]
+      }
+   },
    "data" : {
-      "type" : "area",
       "columns" : [
          [
             "Chifonie",
@@ -2930,50 +2972,8 @@ Thu Oct 11 10:15:43 2018
             2,
             2
          ]
-      ]
-   },
-   "size" : {
-      "width" : 500,
-      "height" : 200
-   },
-   "axis" : {
-      "x" : {
-         "categories" : [
-            "1999",
-            "2000",
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018"
-         ],
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "height" : 0,
-         "type" : "category"
-      },
-      "y" : {
-         "tick" : {
-            "steps" : 1
-         },
-         "min" : 1,
-         "label" : "Number of crosswords"
-      }
+      ],
+      "type" : "area"
    },
    "bindto" : "#myChart413"
 }
@@ -2996,37 +2996,11 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart414 = c3.generate({
-   "axis" : {
-      "x" : {
-         "categories" : [
-            "1999",
-            "2000",
-            "2001",
-            "2002",
-            "2003",
-            "2004"
-         ],
-         "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
-         },
-         "height" : 0,
-         "type" : "category"
-      },
-      "y" : {
-         "tick" : {
-            "steps" : 1
-         },
-         "label" : "Number of crosswords",
-         "min" : 1
-      }
+   "legend" : {
+      "show" : 0
    },
-   "size" : {
-      "width" : 500,
-      "height" : 200
-   },
-   "bindto" : "#myChart414",
    "data" : {
+      "type" : "area",
       "columns" : [
          [
             "Crispa",
@@ -3046,11 +3020,37 @@ Thu Oct 11 10:15:43 2018
             1,
             1
          ]
-      ],
-      "type" : "area"
+      ]
    },
-   "legend" : {
-      "show" : 0
+   "axis" : {
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004"
+         ],
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "type" : "category"
+      }
+   },
+   "bindto" : "#myChart414",
+   "size" : {
+      "width" : 500,
+      "height" : 200
    }
 }
 );
@@ -3072,10 +3072,8 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart415 = c3.generate({
-   "bindto" : "#myChart415",
-   "size" : {
-      "height" : 200,
-      "width" : 500
+   "legend" : {
+      "show" : 0
    },
    "axis" : {
       "x" : {
@@ -3092,11 +3090,11 @@ Thu Oct 11 10:15:43 2018
             "2018"
          ],
          "type" : "category",
-         "height" : 0,
          "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         }
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0
       },
       "y" : {
          "tick" : {
@@ -3106,9 +3104,7 @@ Thu Oct 11 10:15:43 2018
          "label" : "Number of crosswords"
       }
    },
-   "legend" : {
-      "show" : 0
-   },
+   "bindto" : "#myChart415",
    "data" : {
       "type" : "area",
       "columns" : [
@@ -3139,6 +3135,10 @@ Thu Oct 11 10:15:43 2018
             1
          ]
       ]
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
    }
 }
 );
@@ -3160,8 +3160,9 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart416 = c3.generate({
-   "legend" : {
-      "show" : 0
+   "size" : {
+      "height" : 200,
+      "width" : 500
    },
    "data" : {
       "type" : "area",
@@ -3182,7 +3183,6 @@ Thu Oct 11 10:15:43 2018
          ]
       ]
    },
-   "bindto" : "#myChart416",
    "axis" : {
       "x" : {
          "categories" : [
@@ -3199,16 +3199,16 @@ Thu Oct 11 10:15:43 2018
          "type" : "category"
       },
       "y" : {
-         "min" : 1,
          "label" : "Number of crosswords",
+         "min" : 1,
          "tick" : {
             "steps" : 1
          }
       }
    },
-   "size" : {
-      "width" : 500,
-      "height" : 200
+   "bindto" : "#myChart416",
+   "legend" : {
+      "show" : 0
    }
 }
 );
@@ -3230,8 +3230,47 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart417 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      },
+      "x" : {
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2005",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017"
+         ],
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "type" : "category"
+      }
+   },
+   "bindto" : "#myChart417",
    "data" : {
-      "type" : "area",
       "columns" : [
          [
             "Enigmatist",
@@ -3273,52 +3312,13 @@ Thu Oct 11 10:15:43 2018
             1,
             1
          ]
-      ]
-   },
-   "legend" : {
-      "show" : 0
-   },
-   "axis" : {
-      "x" : {
-         "type" : "category",
-         "height" : 0,
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "categories" : [
-            "1999",
-            "2000",
-            "2001",
-            "2002",
-            "2003",
-            "2005",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017"
-         ]
-      },
-      "y" : {
-         "label" : "Number of crosswords",
-         "min" : 1,
-         "tick" : {
-            "steps" : 1
-         }
-      }
+      ],
+      "type" : "area"
    },
    "size" : {
       "width" : 500,
       "height" : 200
-   },
-   "bindto" : "#myChart417"
+   }
 }
 );
 		});
@@ -3339,35 +3339,15 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart418 = c3.generate({
-   "bindto" : "#myChart418",
-   "size" : {
-      "width" : 500,
-      "height" : 200
-   },
-   "axis" : {
-      "x" : {
-         "type" : "category",
-         "height" : 0,
-         "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
-         },
-         "categories" : [
-            "2009"
-         ]
-      },
-      "y" : {
-         "tick" : {
-            "steps" : 1
-         },
-         "label" : "Number of crosswords",
-         "min" : 1
-      }
-   },
    "legend" : {
       "show" : 0
    },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
    "data" : {
+      "type" : "area",
       "columns" : [
          [
             "Enigmatist and Paul",
@@ -3377,9 +3357,29 @@ Thu Oct 11 10:15:43 2018
             "Average per month",
             1
          ]
-      ],
-      "type" : "area"
-   }
+      ]
+   },
+   "axis" : {
+      "x" : {
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "categories" : [
+            "2009"
+         ]
+      },
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
+   "bindto" : "#myChart418"
 }
 );
 		});
@@ -3400,7 +3400,11 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart419 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
    "data" : {
+      "type" : "area",
       "columns" : [
          [
             "Enigmatist, Paul and Shed",
@@ -3410,37 +3414,33 @@ Thu Oct 11 10:15:43 2018
             "Average per month",
             1
          ]
-      ],
-      "type" : "area"
-   },
-   "legend" : {
-      "show" : 0
-   },
-   "size" : {
-      "width" : 500,
-      "height" : 200
+      ]
    },
    "axis" : {
-      "x" : {
-         "categories" : [
-            "2011"
-         ],
-         "type" : "category",
-         "height" : 0,
-         "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
-         }
-      },
       "y" : {
          "min" : 1,
          "label" : "Number of crosswords",
          "tick" : {
             "steps" : 1
          }
+      },
+      "x" : {
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "categories" : [
+            "2011"
+         ]
       }
    },
-   "bindto" : "#myChart419"
+   "bindto" : "#myChart419",
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   }
 }
 );
 		});
@@ -3463,34 +3463,28 @@ Thu Oct 11 10:15:43 2018
 			var chart420 = c3.generate({
    "axis" : {
       "x" : {
+         "type" : "category",
          "height" : 0,
          "tick" : {
             "multiline" : 0,
             "rotate" : "75"
          },
-         "type" : "category",
          "categories" : [
             "1999",
             "2000"
          ]
       },
       "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
          "tick" : {
             "steps" : 1
-         },
-         "label" : "Number of crosswords",
-         "min" : 1
+         }
       }
    },
-   "size" : {
-      "width" : 500,
-      "height" : 200
-   },
    "bindto" : "#myChart420",
-   "legend" : {
-      "show" : 0
-   },
    "data" : {
+      "type" : "area",
       "columns" : [
          [
             "Fawley",
@@ -3502,8 +3496,14 @@ Thu Oct 11 10:15:43 2018
             1,
             2
          ]
-      ],
-      "type" : "area"
+      ]
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "legend" : {
+      "show" : 0
    }
 }
 );
@@ -3528,7 +3528,35 @@ Thu Oct 11 10:15:43 2018
    "legend" : {
       "show" : 0
    },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "bindto" : "#myChart421",
+   "axis" : {
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "type" : "category",
+         "categories" : [
+            "2001",
+            "2002",
+            "2003"
+         ]
+      }
+   },
    "data" : {
+      "type" : "area",
       "columns" : [
          [
             "Fidelio",
@@ -3542,36 +3570,8 @@ Thu Oct 11 10:15:43 2018
             1,
             1
          ]
-      ],
-      "type" : "area"
-   },
-   "size" : {
-      "height" : 200,
-      "width" : 500
-   },
-   "axis" : {
-      "y" : {
-         "label" : "Number of crosswords",
-         "min" : 1,
-         "tick" : {
-            "steps" : 1
-         }
-      },
-      "x" : {
-         "type" : "category",
-         "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
-         },
-         "height" : 0,
-         "categories" : [
-            "2001",
-            "2002",
-            "2003"
-         ]
-      }
-   },
-   "bindto" : "#myChart421"
+      ]
+   }
 }
 );
 		});
@@ -3595,31 +3595,13 @@ Thu Oct 11 10:15:43 2018
    "legend" : {
       "show" : 0
    },
-   "data" : {
-      "type" : "area",
-      "columns" : [
-         [
-            "Fiore",
-            1
-         ],
-         [
-            "Average per month",
-            1
-         ]
-      ]
-   },
-   "bindto" : "#myChart422",
-   "size" : {
-      "width" : 500,
-      "height" : 200
-   },
    "axis" : {
       "y" : {
          "tick" : {
             "steps" : 1
          },
-         "label" : "Number of crosswords",
-         "min" : 1
+         "min" : 1,
+         "label" : "Number of crosswords"
       },
       "x" : {
          "type" : "category",
@@ -3632,6 +3614,24 @@ Thu Oct 11 10:15:43 2018
             "2009"
          ]
       }
+   },
+   "data" : {
+      "columns" : [
+         [
+            "Fiore",
+            1
+         ],
+         [
+            "Average per month",
+            1
+         ]
+      ],
+      "type" : "area"
+   },
+   "bindto" : "#myChart422",
+   "size" : {
+      "width" : 500,
+      "height" : 200
    }
 }
 );
@@ -3653,26 +3653,18 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart423 = c3.generate({
-   "bindto" : "#myChart423",
-   "size" : {
-      "width" : 500,
-      "height" : 200
+   "legend" : {
+      "show" : 0
    },
    "axis" : {
       "y" : {
-         "label" : "Number of crosswords",
          "min" : 1,
+         "label" : "Number of crosswords",
          "tick" : {
             "steps" : 1
          }
       },
       "x" : {
-         "type" : "category",
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "height" : 0,
          "categories" : [
             "1999",
             "2000",
@@ -3680,9 +3672,16 @@ Thu Oct 11 10:15:43 2018
             "2002",
             "2003",
             "2005"
-         ]
+         ],
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         }
       }
    },
+   "bindto" : "#myChart423",
    "data" : {
       "type" : "area",
       "columns" : [
@@ -3706,8 +3705,9 @@ Thu Oct 11 10:15:43 2018
          ]
       ]
    },
-   "legend" : {
-      "show" : 0
+   "size" : {
+      "width" : 500,
+      "height" : 200
    }
 }
 );
@@ -3729,6 +3729,13 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart424 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
    "data" : {
       "type" : "area",
       "columns" : [
@@ -3772,21 +3779,8 @@ Thu Oct 11 10:15:43 2018
          ]
       ]
    },
-   "legend" : {
-      "show" : 0
-   },
-   "size" : {
-      "height" : 200,
-      "width" : 500
-   },
    "axis" : {
       "x" : {
-         "type" : "category",
-         "height" : 0,
-         "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
-         },
          "categories" : [
             "1999",
             "2000",
@@ -3804,14 +3798,20 @@ Thu Oct 11 10:15:43 2018
             "2012",
             "2013",
             "2014"
-         ]
+         ],
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "type" : "category"
       },
       "y" : {
          "tick" : {
             "steps" : 1
          },
-         "label" : "Number of crosswords",
-         "min" : 1
+         "min" : 1,
+         "label" : "Number of crosswords"
       }
    },
    "bindto" : "#myChart424"
@@ -3835,18 +3835,22 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart425 = c3.generate({
-   "size" : {
-      "height" : 200,
-      "width" : 500
+   "legend" : {
+      "show" : 0
    },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "bindto" : "#myChart425",
    "axis" : {
       "x" : {
          "type" : "category",
-         "height" : 0,
          "tick" : {
             "multiline" : 0,
             "rotate" : "75"
          },
+         "height" : 0,
          "categories" : [
             "1999",
             "2000",
@@ -3855,18 +3859,15 @@ Thu Oct 11 10:15:43 2018
          ]
       },
       "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
          "tick" : {
             "steps" : 1
-         },
-         "min" : 1,
-         "label" : "Number of crosswords"
+         }
       }
    },
-   "bindto" : "#myChart425",
-   "legend" : {
-      "show" : 0
-   },
    "data" : {
+      "type" : "area",
       "columns" : [
          [
             "Hendra",
@@ -3882,8 +3883,7 @@ Thu Oct 11 10:15:43 2018
             1,
             1
          ]
-      ],
-      "type" : "area"
+      ]
    }
 }
 );
@@ -3905,6 +3905,9 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart426 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
    "size" : {
       "height" : 200,
       "width" : 500
@@ -3918,27 +3921,22 @@ Thu Oct 11 10:15:43 2018
          "min" : 1
       },
       "x" : {
+         "type" : "category",
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
          "categories" : [
             "2014",
             "2015",
             "2016",
             "2017",
             "2018"
-         ],
-         "type" : "category",
-         "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
-         },
-         "height" : 0
+         ]
       }
    },
-   "bindto" : "#myChart426",
-   "legend" : {
-      "show" : 0
-   },
    "data" : {
-      "type" : "area",
       "columns" : [
          [
             "Imogen",
@@ -3956,8 +3954,10 @@ Thu Oct 11 10:15:43 2018
             1,
             1
          ]
-      ]
-   }
+      ],
+      "type" : "area"
+   },
+   "bindto" : "#myChart426"
 }
 );
 		});
@@ -3978,12 +3978,21 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart427 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
    "size" : {
-      "width" : 500,
-      "height" : 200
+      "height" : 200,
+      "width" : 500
    },
    "axis" : {
       "x" : {
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "type" : "category",
          "categories" : [
             "1999",
             "2000",
@@ -3993,13 +4002,7 @@ Thu Oct 11 10:15:43 2018
             "2004",
             "2005",
             "2006"
-         ],
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "height" : 0,
-         "type" : "category"
+         ]
       },
       "y" : {
          "tick" : {
@@ -4010,9 +4013,6 @@ Thu Oct 11 10:15:43 2018
       }
    },
    "bindto" : "#myChart427",
-   "legend" : {
-      "show" : 0
-   },
    "data" : {
       "columns" : [
          [
@@ -4062,20 +4062,7 @@ Thu Oct 11 10:15:43 2018
 			var chart428 = c3.generate({
    "bindto" : "#myChart428",
    "axis" : {
-      "y" : {
-         "tick" : {
-            "steps" : 1
-         },
-         "min" : 1,
-         "label" : "Number of crosswords"
-      },
       "x" : {
-         "type" : "category",
-         "height" : 0,
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
          "categories" : [
             "1999",
             "2000",
@@ -4092,17 +4079,24 @@ Thu Oct 11 10:15:43 2018
             "2011",
             "2013",
             "2014"
-         ]
+         ],
+         "type" : "category",
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0
+      },
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
       }
    },
-   "size" : {
-      "width" : 500,
-      "height" : 200
-   },
-   "legend" : {
-      "show" : 0
-   },
    "data" : {
+      "type" : "area",
       "columns" : [
          [
             "Logodaedalus",
@@ -4140,8 +4134,14 @@ Thu Oct 11 10:15:43 2018
             1,
             1
          ]
-      ],
-      "type" : "area"
+      ]
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "legend" : {
+      "show" : 0
    }
 }
 );
@@ -4163,37 +4163,35 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart429 = c3.generate({
-   "bindto" : "#myChart429",
    "size" : {
-      "height" : 200,
-      "width" : 500
+      "width" : 500,
+      "height" : 200
    },
    "axis" : {
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      },
       "x" : {
-         "height" : 0,
          "tick" : {
             "rotate" : "75",
             "multiline" : 0
          },
+         "height" : 0,
          "type" : "category",
          "categories" : [
             "2016",
             "2017",
             "2018"
          ]
-      },
-      "y" : {
-         "tick" : {
-            "steps" : 1
-         },
-         "min" : 1,
-         "label" : "Number of crosswords"
       }
    },
-   "legend" : {
-      "show" : 0
-   },
+   "bindto" : "#myChart429",
    "data" : {
+      "type" : "area",
       "columns" : [
          [
             "Maskarade",
@@ -4207,8 +4205,10 @@ Thu Oct 11 10:15:43 2018
             1,
             1
          ]
-      ],
-      "type" : "area"
+      ]
+   },
+   "legend" : {
+      "show" : 0
    }
 }
 );
@@ -4230,6 +4230,9 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart430 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
    "size" : {
       "height" : 200,
       "width" : 500
@@ -4243,23 +4246,21 @@ Thu Oct 11 10:15:43 2018
          }
       },
       "x" : {
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "type" : "category",
          "categories" : [
             "1999",
             "2000",
             "2001",
             "2002"
-         ],
-         "height" : 0,
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "type" : "category"
+         ]
       }
    },
-   "bindto" : "#myChart430",
    "data" : {
-      "type" : "area",
       "columns" : [
          [
             "Mercury",
@@ -4275,11 +4276,10 @@ Thu Oct 11 10:15:43 2018
             1,
             1
          ]
-      ]
+      ],
+      "type" : "area"
    },
-   "legend" : {
-      "show" : 0
-   }
+   "bindto" : "#myChart430"
 }
 );
 		});
@@ -4300,36 +4300,6 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart431 = c3.generate({
-   "bindto" : "#myChart431",
-   "axis" : {
-      "x" : {
-         "categories" : [
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018"
-         ],
-         "height" : 0,
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "type" : "category"
-      },
-      "y" : {
-         "label" : "Number of crosswords",
-         "min" : 1,
-         "tick" : {
-            "steps" : 1
-         }
-      }
-   },
-   "size" : {
-      "height" : 200,
-      "width" : 500
-   },
    "legend" : {
       "show" : 0
    },
@@ -4355,6 +4325,36 @@ Thu Oct 11 10:15:43 2018
          ]
       ],
       "type" : "area"
+   },
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      },
+      "x" : {
+         "categories" : [
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "type" : "category"
+      }
+   },
+   "bindto" : "#myChart431",
+   "size" : {
+      "height" : 200,
+      "width" : 500
    }
 }
 );
@@ -4376,31 +4376,6 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart432 = c3.generate({
-   "bindto" : "#myChart432",
-   "size" : {
-      "height" : 200,
-      "width" : 500
-   },
-   "axis" : {
-      "y" : {
-         "min" : 1,
-         "label" : "Number of crosswords",
-         "tick" : {
-            "steps" : 1
-         }
-      },
-      "x" : {
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "height" : 0,
-         "type" : "category",
-         "categories" : [
-            "2016"
-         ]
-      }
-   },
    "legend" : {
       "show" : 0
    },
@@ -4416,6 +4391,31 @@ Thu Oct 11 10:15:43 2018
             1
          ]
       ]
+   },
+   "axis" : {
+      "x" : {
+         "categories" : [
+            "2016"
+         ],
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "type" : "category"
+      },
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
+   "bindto" : "#myChart432",
+   "size" : {
+      "height" : 200,
+      "width" : 500
    }
 }
 );
@@ -4437,7 +4437,36 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart433 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "bindto" : "#myChart433",
+   "axis" : {
+      "x" : {
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "type" : "category",
+         "categories" : [
+            "2005"
+         ]
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      }
+   },
    "data" : {
+      "type" : "area",
       "columns" : [
          [
             "Omnibus",
@@ -4447,37 +4476,8 @@ Thu Oct 11 10:15:43 2018
             "Average per month",
             1
          ]
-      ],
-      "type" : "area"
-   },
-   "legend" : {
-      "show" : 0
-   },
-   "size" : {
-      "width" : 500,
-      "height" : 200
-   },
-   "axis" : {
-      "x" : {
-         "categories" : [
-            "2005"
-         ],
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "height" : 0,
-         "type" : "category"
-      },
-      "y" : {
-         "min" : 1,
-         "label" : "Number of crosswords",
-         "tick" : {
-            "steps" : 1
-         }
-      }
-   },
-   "bindto" : "#myChart433"
+      ]
+   }
 }
 );
 		});
@@ -4498,7 +4498,55 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart434 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "axis" : {
+      "x" : {
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ]
+      },
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
+   "bindto" : "#myChart434",
    "data" : {
+      "type" : "area",
       "columns" : [
          [
             "Orlando",
@@ -4546,56 +4594,8 @@ Thu Oct 11 10:15:43 2018
             1,
             1
          ]
-      ],
-      "type" : "area"
-   },
-   "legend" : {
-      "show" : 0
-   },
-   "size" : {
-      "width" : 500,
-      "height" : 200
-   },
-   "axis" : {
-      "y" : {
-         "tick" : {
-            "steps" : 1
-         },
-         "min" : 1,
-         "label" : "Number of crosswords"
-      },
-      "x" : {
-         "type" : "category",
-         "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
-         },
-         "height" : 0,
-         "categories" : [
-            "1999",
-            "2000",
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018"
-         ]
-      }
-   },
-   "bindto" : "#myChart434"
+      ]
+   }
 }
 );
 		});
@@ -4616,10 +4616,36 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart435 = c3.generate({
-   "legend" : {
-      "show" : 0
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "bindto" : "#myChart435",
+   "axis" : {
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "categories" : [
+            "2013",
+            "2014",
+            "2015",
+            "2016"
+         ],
+         "type" : "category",
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0
+      }
    },
    "data" : {
+      "type" : "area",
       "columns" : [
          [
             "Otterden",
@@ -4635,37 +4661,11 @@ Thu Oct 11 10:15:43 2018
             1,
             1
          ]
-      ],
-      "type" : "area"
+      ]
    },
-   "axis" : {
-      "y" : {
-         "tick" : {
-            "steps" : 1
-         },
-         "label" : "Number of crosswords",
-         "min" : 1
-      },
-      "x" : {
-         "type" : "category",
-         "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
-         },
-         "height" : 0,
-         "categories" : [
-            "2013",
-            "2014",
-            "2015",
-            "2016"
-         ]
-      }
-   },
-   "size" : {
-      "width" : 500,
-      "height" : 200
-   },
-   "bindto" : "#myChart435"
+   "legend" : {
+      "show" : 0
+   }
 }
 );
 		});
@@ -4686,6 +4686,29 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart436 = c3.generate({
+   "bindto" : "#myChart436",
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      },
+      "x" : {
+         "categories" : [
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "type" : "category"
+      }
+   },
    "data" : {
       "type" : "area",
       "columns" : [
@@ -4703,36 +4726,13 @@ Thu Oct 11 10:15:43 2018
          ]
       ]
    },
-   "legend" : {
-      "show" : 0
-   },
-   "axis" : {
-      "x" : {
-         "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
-         },
-         "height" : 0,
-         "type" : "category",
-         "categories" : [
-            "2016",
-            "2017",
-            "2018"
-         ]
-      },
-      "y" : {
-         "label" : "Number of crosswords",
-         "min" : 1,
-         "tick" : {
-            "steps" : 1
-         }
-      }
-   },
    "size" : {
       "height" : 200,
       "width" : 500
    },
-   "bindto" : "#myChart436"
+   "legend" : {
+      "show" : 0
+   }
 }
 );
 		});
@@ -4755,6 +4755,46 @@ Thu Oct 11 10:15:43 2018
 			var chart437 = c3.generate({
    "legend" : {
       "show" : 0
+   },
+   "bindto" : "#myChart437",
+   "axis" : {
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "height" : 0,
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "type" : "category"
+      }
    },
    "data" : {
       "columns" : [
@@ -4807,12 +4847,42 @@ Thu Oct 11 10:15:43 2018
       ],
       "type" : "area"
    },
-   "bindto" : "#myChart437",
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   }
+}
+);
+		});
+	</script>
+	<ul>
+		<li>First crossword: 1999-07-02</li>
+		<li>Last  crossword: 2018-09-13</li>
+		<li>Active for:      19 years, 02 months, 11 days</li>
+		<li>Number of clues self-referenced (with Pasquale in the clue): 16</li>
+	</ul> 
+	</div>
+	 
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">Paul</span>
+	</div>
+	<div id="mychart438"></div>
+	<script>
+		$(document).ready(function() {
+			var chart438 = c3.generate({
    "size" : {
       "width" : 500,
       "height" : 200
    },
    "axis" : {
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      },
       "x" : {
          "categories" : [
             "1999",
@@ -4836,90 +4906,15 @@ Thu Oct 11 10:15:43 2018
             "2017",
             "2018"
          ],
-         "type" : "category",
+         "height" : 0,
          "tick" : {
             "multiline" : 0,
             "rotate" : "75"
          },
-         "height" : 0
-      },
-      "y" : {
-         "tick" : {
-            "steps" : 1
-         },
-         "label" : "Number of crosswords",
-         "min" : 1
+         "type" : "category"
       }
-   }
-}
-);
-		});
-	</script>
-	<ul>
-		<li>First crossword: 1999-07-02</li>
-		<li>Last  crossword: 2018-09-13</li>
-		<li>Active for:      19 years, 02 months, 11 days</li>
-		<li>Number of clues self-referenced (with Pasquale in the clue): 16</li>
-	</ul> 
-	</div>
-	 
-	<div class="item">
-	<div class="span-title">
-	<span class="span-title">Paul</span>
-	</div>
-	<div id="mychart438"></div>
-	<script>
-		$(document).ready(function() {
-			var chart438 = c3.generate({
-   "bindto" : "#myChart438",
-   "axis" : {
-      "x" : {
-         "type" : "category",
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "height" : 0,
-         "categories" : [
-            "1999",
-            "2000",
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018"
-         ]
-      },
-      "y" : {
-         "min" : 1,
-         "label" : "Number of crosswords",
-         "tick" : {
-            "steps" : 1
-         }
-      }
-   },
-   "size" : {
-      "width" : 500,
-      "height" : 200
-   },
-   "legend" : {
-      "show" : 0
    },
    "data" : {
-      "type" : "area",
       "columns" : [
          [
             "Paul",
@@ -4967,7 +4962,12 @@ Thu Oct 11 10:15:43 2018
             3,
             2
          ]
-      ]
+      ],
+      "type" : "area"
+   },
+   "bindto" : "#myChart438",
+   "legend" : {
+      "show" : 0
    }
 }
 );
@@ -4989,6 +4989,37 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart439 = c3.generate({
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "axis" : {
+      "x" : {
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "type" : "category",
+         "categories" : [
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ]
+      },
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
    "data" : {
       "columns" : [
          [
@@ -5016,40 +5047,9 @@ Thu Oct 11 10:15:43 2018
       ],
       "type" : "area"
    },
+   "bindto" : "#myChart439",
    "legend" : {
       "show" : 0
-   },
-   "bindto" : "#myChart439",
-   "axis" : {
-      "x" : {
-         "type" : "category",
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "height" : 0,
-         "categories" : [
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018"
-         ]
-      },
-      "y" : {
-         "label" : "Number of crosswords",
-         "min" : 1,
-         "tick" : {
-            "steps" : 1
-         }
-      }
-   },
-   "size" : {
-      "height" : 200,
-      "width" : 500
    }
 }
 );
@@ -5071,8 +5071,14 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart440 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
    "data" : {
-      "type" : "area",
       "columns" : [
          [
             "Picaroon",
@@ -5094,24 +5100,24 @@ Thu Oct 11 10:15:43 2018
             2,
             2
          ]
-      ]
-   },
-   "legend" : {
-      "show" : 0
-   },
-   "bindto" : "#myChart440",
-   "size" : {
-      "height" : 200,
-      "width" : 500
+      ],
+      "type" : "area"
    },
    "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      },
       "x" : {
          "type" : "category",
-         "height" : 0,
          "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
+            "rotate" : "75",
+            "multiline" : 0
          },
+         "height" : 0,
          "categories" : [
             "2012",
             "2013",
@@ -5121,15 +5127,9 @@ Thu Oct 11 10:15:43 2018
             "2017",
             "2018"
          ]
-      },
-      "y" : {
-         "min" : 1,
-         "label" : "Number of crosswords",
-         "tick" : {
-            "steps" : 1
-         }
       }
-   }
+   },
+   "bindto" : "#myChart440"
 }
 );
 		});
@@ -5153,6 +5153,30 @@ Thu Oct 11 10:15:43 2018
    "legend" : {
       "show" : 0
    },
+   "bindto" : "#myChart441",
+   "axis" : {
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "type" : "category",
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002"
+         ]
+      }
+   },
    "data" : {
       "type" : "area",
       "columns" : [
@@ -5172,33 +5196,9 @@ Thu Oct 11 10:15:43 2018
          ]
       ]
    },
-   "bindto" : "#myChart441",
    "size" : {
-      "width" : 500,
-      "height" : 200
-   },
-   "axis" : {
-      "y" : {
-         "min" : 1,
-         "label" : "Number of crosswords",
-         "tick" : {
-            "steps" : 1
-         }
-      },
-      "x" : {
-         "categories" : [
-            "1999",
-            "2000",
-            "2001",
-            "2002"
-         ],
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "height" : 0,
-         "type" : "category"
-      }
+      "height" : 200,
+      "width" : 500
    }
 }
 );
@@ -5220,45 +5220,12 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart442 = c3.generate({
-   "bindto" : "#myChart442",
-   "axis" : {
-      "x" : {
-         "categories" : [
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018"
-         ],
-         "type" : "category",
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "height" : 0
-      },
-      "y" : {
-         "min" : 1,
-         "label" : "Number of crosswords",
-         "tick" : {
-            "steps" : 1
-         }
-      }
-   },
-   "size" : {
-      "height" : 200,
-      "width" : 500
-   },
    "legend" : {
       "show" : 0
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
    },
    "data" : {
       "type" : "area",
@@ -5277,7 +5244,7 @@ Thu Oct 11 10:15:43 2018
             8,
             5,
             7,
-            9
+            10
          ],
          [
             "Average per month",
@@ -5296,15 +5263,48 @@ Thu Oct 11 10:15:43 2018
             1
          ]
       ]
-   }
+   },
+   "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      },
+      "x" : {
+         "categories" : [
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         }
+      }
+   },
+   "bindto" : "#myChart442"
 }
 );
 		});
 	</script>
 	<ul>
 		<li>First crossword: 2006-12-08</li>
-		<li>Last  crossword: 2018-09-21</li>
-		<li>Active for:      11 years, 09 months, 13 days</li>
+		<li>Last  crossword: 2018-10-12</li>
+		<li>Active for:      11 years, 10 months, 4 days</li>
 		<li>Number of clues self-referenced (with Puck in the clue): 13</li>
 	</ul> 
 	</div>
@@ -5318,17 +5318,13 @@ Thu Oct 11 10:15:43 2018
 		$(document).ready(function() {
 			var chart443 = c3.generate({
    "bindto" : "#myChart443",
-   "size" : {
-      "width" : 500,
-      "height" : 200
-   },
    "axis" : {
       "y" : {
          "tick" : {
             "steps" : 1
          },
-         "label" : "Number of crosswords",
-         "min" : 1
+         "min" : 1,
+         "label" : "Number of crosswords"
       },
       "x" : {
          "categories" : [
@@ -5348,11 +5344,7 @@ Thu Oct 11 10:15:43 2018
          "type" : "category"
       }
    },
-   "legend" : {
-      "show" : 0
-   },
    "data" : {
-      "type" : "area",
       "columns" : [
          [
             "Qaos",
@@ -5374,7 +5366,15 @@ Thu Oct 11 10:15:43 2018
             1,
             2
          ]
-      ]
+      ],
+      "type" : "area"
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "legend" : {
+      "show" : 0
    }
 }
 );
@@ -5396,7 +5396,44 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart444 = c3.generate({
+   "legend" : {
+      "show" : 0
+   },
+   "bindto" : "#myChart444",
+   "axis" : {
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011"
+         ],
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         }
+      }
+   },
    "data" : {
+      "type" : "area",
       "columns" : [
          [
             "Quantum",
@@ -5430,49 +5467,12 @@ Thu Oct 11 10:15:43 2018
             1,
             1
          ]
-      ],
-      "type" : "area"
-   },
-   "legend" : {
-      "show" : 0
+      ]
    },
    "size" : {
-      "width" : 500,
-      "height" : 200
-   },
-   "axis" : {
-      "x" : {
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "height" : 0,
-         "type" : "category",
-         "categories" : [
-            "1999",
-            "2000",
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011"
-         ]
-      },
-      "y" : {
-         "tick" : {
-            "steps" : 1
-         },
-         "min" : 1,
-         "label" : "Number of crosswords"
-      }
-   },
-   "bindto" : "#myChart444"
+      "height" : 200,
+      "width" : 500
+   }
 }
 );
 		});
@@ -5495,6 +5495,43 @@ Thu Oct 11 10:15:43 2018
 			var chart445 = c3.generate({
    "legend" : {
       "show" : 0
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
+   "bindto" : "#myChart445",
+   "axis" : {
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "type" : "category",
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011"
+         ]
+      }
    },
    "data" : {
       "type" : "area",
@@ -5532,44 +5569,7 @@ Thu Oct 11 10:15:43 2018
             1
          ]
       ]
-   },
-   "axis" : {
-      "x" : {
-         "type" : "category",
-         "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
-         },
-         "height" : 0,
-         "categories" : [
-            "1999",
-            "2000",
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011"
-         ]
-      },
-      "y" : {
-         "label" : "Number of crosswords",
-         "min" : 1,
-         "tick" : {
-            "steps" : 1
-         }
-      }
-   },
-   "size" : {
-      "width" : 500,
-      "height" : 200
-   },
-   "bindto" : "#myChart445"
+   }
 }
 );
 		});
@@ -5590,50 +5590,8 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart446 = c3.generate({
-   "bindto" : "#myChart446",
-   "axis" : {
-      "y" : {
-         "label" : "Number of crosswords",
-         "min" : 1,
-         "tick" : {
-            "steps" : 1
-         }
-      },
-      "x" : {
-         "categories" : [
-            "1999",
-            "2000",
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017"
-         ],
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "height" : 0,
-         "type" : "category"
-      }
-   },
-   "size" : {
-      "width" : 500,
-      "height" : 200
-   },
    "data" : {
+      "type" : "area",
       "columns" : [
          [
             "Rufus",
@@ -5679,8 +5637,50 @@ Thu Oct 11 10:15:43 2018
             4,
             4
          ]
-      ],
-      "type" : "area"
+      ]
+   },
+   "axis" : {
+      "x" : {
+         "type" : "category",
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "categories" : [
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017"
+         ]
+      },
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      }
+   },
+   "bindto" : "#myChart446",
+   "size" : {
+      "height" : 200,
+      "width" : 500
    },
    "legend" : {
       "show" : 0
@@ -5705,9 +5705,34 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart447 = c3.generate({
-   "legend" : {
-      "show" : 0
+   "size" : {
+      "height" : 200,
+      "width" : 500
    },
+   "axis" : {
+      "x" : {
+         "categories" : [
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+         ],
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "height" : 0,
+         "type" : "category"
+      },
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      }
+   },
+   "bindto" : "#myChart447",
    "data" : {
       "type" : "area",
       "columns" : [
@@ -5727,34 +5752,9 @@ Thu Oct 11 10:15:43 2018
          ]
       ]
    },
-   "size" : {
-      "height" : 200,
-      "width" : 500
-   },
-   "axis" : {
-      "y" : {
-         "label" : "Number of crosswords",
-         "min" : 1,
-         "tick" : {
-            "steps" : 1
-         }
-      },
-      "x" : {
-         "categories" : [
-            "2015",
-            "2016",
-            "2017",
-            "2018"
-         ],
-         "type" : "category",
-         "height" : 0,
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         }
-      }
-   },
-   "bindto" : "#myChart447"
+   "legend" : {
+      "show" : 0
+   }
 }
 );
 		});
@@ -5775,14 +5775,19 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart448 = c3.generate({
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
    "axis" : {
-      "x" : {
-         "type" : "category",
-         "height" : 0,
+      "y" : {
          "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
+            "steps" : 1
          },
+         "min" : 1,
+         "label" : "Number of crosswords"
+      },
+      "x" : {
          "categories" : [
             "1999",
             "2000",
@@ -5804,23 +5809,14 @@ Thu Oct 11 10:15:43 2018
             "2016",
             "2017",
             "2018"
-         ]
-      },
-      "y" : {
+         ],
+         "type" : "category",
          "tick" : {
-            "steps" : 1
+            "multiline" : 0,
+            "rotate" : "75"
          },
-         "label" : "Number of crosswords",
-         "min" : 1
+         "height" : 0
       }
-   },
-   "size" : {
-      "height" : 200,
-      "width" : 500
-   },
-   "bindto" : "#myChart448",
-   "legend" : {
-      "show" : 0
    },
    "data" : {
       "columns" : [
@@ -5872,6 +5868,10 @@ Thu Oct 11 10:15:43 2018
          ]
       ],
       "type" : "area"
+   },
+   "bindto" : "#myChart448",
+   "legend" : {
+      "show" : 0
    }
 }
 );
@@ -5893,33 +5893,12 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart449 = c3.generate({
-   "axis" : {
-      "x" : {
-         "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
-         },
-         "height" : 0,
-         "type" : "category",
-         "categories" : [
-            "2017"
-         ]
-      },
-      "y" : {
-         "tick" : {
-            "steps" : 1
-         },
-         "label" : "Number of crosswords",
-         "min" : 1
-      }
-   },
-   "size" : {
-      "height" : 200,
-      "width" : 500
-   },
-   "bindto" : "#myChart449",
    "legend" : {
       "show" : 0
+   },
+   "size" : {
+      "width" : 500,
+      "height" : 200
    },
    "data" : {
       "type" : "area",
@@ -5933,7 +5912,28 @@ Thu Oct 11 10:15:43 2018
             1
          ]
       ]
-   }
+   },
+   "axis" : {
+      "y" : {
+         "min" : 1,
+         "label" : "Number of crosswords",
+         "tick" : {
+            "steps" : 1
+         }
+      },
+      "x" : {
+         "type" : "category",
+         "height" : 0,
+         "tick" : {
+            "rotate" : "75",
+            "multiline" : 0
+         },
+         "categories" : [
+            "2017"
+         ]
+      }
+   },
+   "bindto" : "#myChart449"
 }
 );
 		});
@@ -5954,6 +5954,10 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart450 = c3.generate({
+   "size" : {
+      "width" : 500,
+      "height" : 200
+   },
    "data" : {
       "type" : "area",
       "columns" : [
@@ -5987,21 +5991,14 @@ Thu Oct 11 10:15:43 2018
          ]
       ]
    },
-   "legend" : {
-      "show" : 0
-   },
-   "size" : {
-      "height" : 200,
-      "width" : 500
-   },
    "axis" : {
       "x" : {
-         "type" : "category",
+         "height" : 0,
          "tick" : {
             "multiline" : 0,
             "rotate" : "75"
          },
-         "height" : 0,
+         "type" : "category",
          "categories" : [
             "1999",
             "2000",
@@ -6017,14 +6014,17 @@ Thu Oct 11 10:15:43 2018
          ]
       },
       "y" : {
-         "label" : "Number of crosswords",
          "min" : 1,
+         "label" : "Number of crosswords",
          "tick" : {
             "steps" : 1
          }
       }
    },
-   "bindto" : "#myChart450"
+   "bindto" : "#myChart450",
+   "legend" : {
+      "show" : 0
+   }
 }
 );
 		});
@@ -6045,15 +6045,15 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart451 = c3.generate({
-   "bindto" : "#myChart451",
    "axis" : {
-      "x" : {
-         "type" : "category",
+      "y" : {
          "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
+            "steps" : 1
          },
-         "height" : 0,
+         "label" : "Number of crosswords",
+         "min" : 1
+      },
+      "x" : {
          "categories" : [
             "2011",
             "2012",
@@ -6063,23 +6063,16 @@ Thu Oct 11 10:15:43 2018
             "2016",
             "2017",
             "2018"
-         ]
-      },
-      "y" : {
+         ],
+         "type" : "category",
+         "height" : 0,
          "tick" : {
-            "steps" : 1
-         },
-         "min" : 1,
-         "label" : "Number of crosswords"
+            "multiline" : 0,
+            "rotate" : "75"
+         }
       }
    },
-   "size" : {
-      "height" : 200,
-      "width" : 500
-   },
-   "legend" : {
-      "show" : 0
-   },
+   "bindto" : "#myChart451",
    "data" : {
       "type" : "area",
       "columns" : [
@@ -6106,6 +6099,13 @@ Thu Oct 11 10:15:43 2018
             1
          ]
       ]
+   },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "legend" : {
+      "show" : 0
    }
 }
 );
@@ -6130,7 +6130,12 @@ Thu Oct 11 10:15:43 2018
    "legend" : {
       "show" : 0
    },
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
    "data" : {
+      "type" : "area",
       "columns" : [
          [
             "Unknown",
@@ -6148,12 +6153,7 @@ Thu Oct 11 10:15:43 2018
             1,
             1
          ]
-      ],
-      "type" : "area"
-   },
-   "size" : {
-      "height" : 200,
-      "width" : 500
+      ]
    },
    "axis" : {
       "y" : {
@@ -6171,12 +6171,12 @@ Thu Oct 11 10:15:43 2018
             "2002",
             "2013"
          ],
-         "type" : "category",
-         "height" : 0,
          "tick" : {
             "rotate" : "75",
             "multiline" : 0
-         }
+         },
+         "height" : 0,
+         "type" : "category"
       }
    },
    "bindto" : "#myChart452"
@@ -6200,12 +6200,19 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart453 = c3.generate({
-   "bindto" : "#myChart453",
    "size" : {
-      "width" : 500,
-      "height" : 200
+      "height" : 200,
+      "width" : 500
    },
+   "bindto" : "#myChart453",
    "axis" : {
+      "y" : {
+         "tick" : {
+            "steps" : 1
+         },
+         "label" : "Number of crosswords",
+         "min" : 1
+      },
       "x" : {
          "categories" : [
             "2015",
@@ -6215,17 +6222,10 @@ Thu Oct 11 10:15:43 2018
          ],
          "height" : 0,
          "tick" : {
-            "multiline" : 0,
-            "rotate" : "75"
+            "rotate" : "75",
+            "multiline" : 0
          },
          "type" : "category"
-      },
-      "y" : {
-         "label" : "Number of crosswords",
-         "min" : 1,
-         "tick" : {
-            "steps" : 1
-         }
       }
    },
    "data" : {
@@ -6270,8 +6270,30 @@ Thu Oct 11 10:15:43 2018
 	<script>
 		$(document).ready(function() {
 			var chart454 = c3.generate({
-   "legend" : {
-      "show" : 0
+   "size" : {
+      "height" : 200,
+      "width" : 500
+   },
+   "bindto" : "#myChart454",
+   "axis" : {
+      "x" : {
+         "categories" : [
+            "2018"
+         ],
+         "tick" : {
+            "multiline" : 0,
+            "rotate" : "75"
+         },
+         "height" : 0,
+         "type" : "category"
+      },
+      "y" : {
+         "label" : "Number of crosswords",
+         "min" : 1,
+         "tick" : {
+            "steps" : 1
+         }
+      }
    },
    "data" : {
       "type" : "area",
@@ -6286,30 +6308,8 @@ Thu Oct 11 10:15:43 2018
          ]
       ]
    },
-   "bindto" : "#myChart454",
-   "size" : {
-      "width" : 500,
-      "height" : 200
-   },
-   "axis" : {
-      "y" : {
-         "label" : "Number of crosswords",
-         "min" : 1,
-         "tick" : {
-            "steps" : 1
-         }
-      },
-      "x" : {
-         "height" : 0,
-         "tick" : {
-            "rotate" : "75",
-            "multiline" : 0
-         },
-         "type" : "category",
-         "categories" : [
-            "2018"
-         ]
-      }
+   "legend" : {
+      "show" : 0
    }
 }
 );
