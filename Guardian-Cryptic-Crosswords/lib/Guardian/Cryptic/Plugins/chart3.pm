@@ -68,10 +68,17 @@ sub render
 	my ($self) = @_;
 
 	my $interdata = $self->interpolate();
-	my @labels = sort keys %$interdata;
-	my @values = map { $interdata->{$_} } @labels;
+	my @ordered_values;
+	my @ordered_labels;
 
-	my @clabels = (['Setters', @values]);
+	foreach my $k (sort {$interdata->{$b} <=> $interdata->{$a}}
+	    keys %$interdata)
+	{
+		push @ordered_labels, $k;
+		push @ordered_values, $interdata->{$k};
+	}
+
+	my @ordered_axis = (["Setters", @ordered_values]);
 
 	my $data = {
 		'title' => "Frequency of word duplications across all " .
@@ -89,7 +96,7 @@ sub render
 				'height' => 800
 			},
 			'data' => {
-				'columns' => \@clabels,
+				'columns' => \@ordered_axis,
 				'type' => 'bar',
 			},
 			'axis' => {
@@ -100,7 +107,7 @@ sub render
 						'multiline' => 0
 					},
 					'height' => 0,
-					'categories' => \@labels,
+					'categories' => \@ordered_labels,
 				},
 				'y' => {
 					'label' => 'Frequency of duplicated ' .
