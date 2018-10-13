@@ -35,9 +35,7 @@ sub interpolate
 						'$push' => '$entries.clue'
 					},
 					'cnumbers' => {
-						'$push' => {
-							'$concat' => ["https://www.theguardian.com/", '$id' ]
-						}
+						'$push' => '$number'
 					}
 				}
 			},

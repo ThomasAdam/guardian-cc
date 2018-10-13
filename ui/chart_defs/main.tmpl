@@ -9,7 +9,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.21/c3.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-<script async>
+<script>
 $(document).ready(function() {
     // Setup - add a text input to each footer cell
     $('#tablesetter thead th').each( function () {
@@ -18,7 +18,9 @@ $(document).ready(function() {
     } );
  
     var table = $('#tablesetter').DataTable({
-	ordering: false
+		ordering: false,
+		deferRender: true,
+		paging: true
     });
 
     // Apply the search
@@ -27,9 +29,7 @@ $(document).ready(function() {
  
         $( 'input', this.header() ).on( 'keyup change', function () {
             if ( that.search() !== this.value ) {
-                that
-                    .search( this.value )
-                    .draw();
+                that.search( this.value ).draw();
             }
         } );
     } );

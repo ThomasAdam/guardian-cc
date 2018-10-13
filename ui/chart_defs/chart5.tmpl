@@ -2,21 +2,12 @@
 <p>[% content.preamble %]</p>
 <table id="tablesetter" class="display">
 <thead>
-<tr>
-<th>Setter</th>
-<th>Answer</th>
-<th>Clues</th>
-</tr>
-</thead>
-<tbody>
-[% FOREACH s IN content.table %]
-  	<tr>
-	<td rowpan="3">[% s.id.name %]</td>
-	<td>[% s.id.solution %]</td>
-	<td>foo</td>
-	</tr>
+<tr> <th>Setter</th> <th>Answer</th> <th>Clues</th> <th>Crossword</th> </tr> </thead> <tbody>
+[%- FOREACH s IN content.table -%]
+  	<tr> <td rowpan="3">[% s.id.name %]</td> <td>[% s.id.solution %]</td> <td>[% s.clues.join('<br />') %]</td>
+		<td> [%- FOREACH u IN s.cnumbers -%]
+		<a href="https://www.theguardian.com/crosswords/cryptic/[% u %]">[%- u -%]</a><br />
+		[%- END -%]
+	</td> </tr>
 [% END %]
-</tbody>
-</table>
-<br />
-<hr />
+</tbody> </table> <br /> <hr />
