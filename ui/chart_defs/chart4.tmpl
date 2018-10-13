@@ -8,11 +8,6 @@
 	<span class="span-title">[% c.info.person %]</span>
 	</div>
 	<div id="[% c.info.div_id %]"></div>
-	<script>
-		$(document).ready(function() {
-			var [% c.info.js_var %] = c3.generate([% c.chart.json %]);
-		});
-	</script>
 	<ul>
 		<li>First crossword: [% c.info.range.first %]</li>
 		<li>Last  crossword: [% c.info.range.last %]</li>
@@ -24,3 +19,8 @@
 </div>
 <br />
 <hr />
+<script>
+[% FOREACH c IN content.charts %] 
+		var [% c.info.js_var %] = c3.generate([% c.chart.json %]);
+[% END %]
+</script>

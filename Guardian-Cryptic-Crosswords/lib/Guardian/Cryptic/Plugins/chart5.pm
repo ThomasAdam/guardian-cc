@@ -26,7 +26,7 @@ sub interpolate
 				'$group' => {
 					'_id' => {
 						'name' => '$creator.name',
-						'solution' => '$entries.solution'
+						'solution' => '$entries.solution',
 					},
 					'count' => {
 						'$sum' => 1
@@ -68,7 +68,10 @@ sub render
 
 	foreach my $j (@$interdata) {
 		my $clues = join '<br />', @{$j->{'clues'}};
-		my $nums  = join '<br />', @{$j->{'cnumbers'}};
+		my $nums;
+		foreach my $u (@{$j->{'cnumbers'}}) {
+			$nums .= "<a href='https://theguardian.com/crosswords/cryptic/$u'" . ">$u</a><br />";
+		}
 		push @{$interim_js},
 			[
 				$j->{'id'}->{'name'},
@@ -82,7 +85,7 @@ sub render
 		'title' => "Number of duplicate answers and their questions",
 		'preamble' => "This table shows the number of times a given " .
 		              "clue has been used and the different questions " .
-			      "which have been used to make up that clue.",
+						"which have been used to make up that clue.",
 		'order' => 5,
 		'js' => {
 			data => $interim_js,

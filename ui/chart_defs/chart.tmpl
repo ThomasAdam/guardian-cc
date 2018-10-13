@@ -17,19 +17,17 @@
 </select>
 <button id="btn_charttype_[% content.js_var %]" value="[% content.default_chart %]">Reset</button>
 </div>
-<script async>
-	$(document).ready(function() {
-		var [% content.js_var %] = c3.generate([% content.chart.json %]);
+<script>
+	var [% content.js_var %] = c3.generate([% content.chart.json %]);
+	$("#charttype_[% content.js_var %]").val("[% content.default_chart %]");
+
+	$("#btn_charttype_[% content.js_var %]").click(function() {
 		$("#charttype_[% content.js_var %]").val("[% content.default_chart %]");
+		[% content.js_var %].transform($("#charttype_[% content.js_var %] option:selected").val());
+	});
 
-		$("#btn_charttype_[% content.js_var %]").click(function() {
-			$("#charttype_[% content.js_var %]").val("[% content.default_chart %]");
-			[% content.js_var %].transform($("#charttype_[% content.js_var %] option:selected").val());
-		});
-
-		$("#charttype_[% content.js_var %]").change(function() {
-			[% content.js_var %].transform($("#charttype_[% content.js_var %] option:selected").val());
-		});
+	$("#charttype_[% content.js_var %]").change(function() {
+		[% content.js_var %].transform($("#charttype_[% content.js_var %] option:selected").val());
 	});
 </script>
 [% END %]
@@ -37,4 +35,3 @@
 [% END %]
 <br />
 <hr />
-</div>
