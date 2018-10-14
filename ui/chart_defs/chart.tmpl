@@ -18,6 +18,7 @@
 <button id="btn_charttype_[% content.js_var %]" value="[% content.default_chart %]">Reset</button>
 </div>
 <script>
+$(document).ready(function() {
 	var [% content.js_var %] = c3.generate([% content.chart.json %]);
 	$("#charttype_[% content.js_var %]").val("[% content.default_chart %]");
 
@@ -29,6 +30,7 @@
 	$("#charttype_[% content.js_var %]").change(function() {
 		[% content.js_var %].transform($("#charttype_[% content.js_var %] option:selected").val());
 	});
+});
 </script>
 [% END %]
 [% IF content.table %]

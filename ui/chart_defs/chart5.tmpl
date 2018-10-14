@@ -10,11 +10,15 @@ $(document).ready(function() {
 		columns: [% content.js.columns.json %]
     });
 
-    // Setup - add a text input to each footer cell
-    $('#tablesetter thead th').each( function () {
-        var title = $(this).text();
-        $(this).html( '<input type="text" placeholder="'+title+'" />' );
-    } );
+	// Setup - add a text input to each footer cell
+	var $originalHeader = $('#tablesetter thead tr');
+	var $originalHeaderClone = $originalHeader.clone();
+	$originalHeader.find('th').each( function () {
+			var title = $(this).text();
+			$(this).html( '<input type="text" placeholder="'+title+'"/>' );
+	} );
+
+	$originalHeader.before($originalHeaderClone);
 
     // Apply the search
     table.columns().every( function () {
