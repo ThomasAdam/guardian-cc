@@ -7,6 +7,13 @@ $(document).ready(function() {
 		deferRender: true,
 		paging: true,
 		ajax: 'ds_ajax.txt',
+		fixedColumns: false,
+		columnDefs: [
+			{ targets: [-4], width: "20%" },
+			{ targets: [-3], width: "40%" },
+			{ targets: [-2], width: "30%" },
+			{ targets: [-1], width: "10%" }
+		],
 		columns: [% content.js.columns.json %]
     });
 
