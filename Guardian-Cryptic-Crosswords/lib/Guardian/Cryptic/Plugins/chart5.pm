@@ -3,6 +3,7 @@ package Guardian::Cryptic::Plugins::chart5;
 use lib "$ENV{'HOME'}/guardian-cc/Guardian-Cryptic-Crosswords/lib";
 
 use parent 'Guardian::Cryptic::ChartRenderer';
+use JSON;
 
 my $tmpl_file = "chart5.tmpl";
 
@@ -81,6 +82,14 @@ sub render
 			]
 	};
 
+	my $ajax_data = {
+		data => $interim_js,
+	};
+
+	open (my $fh, ">", "/usr/local/www/xteddy/ds_ajax.txt") or die;
+	print {$fh} to_json($ajax_data, {utf8 => 1, pretty => 1});
+	close ($fh);
+
 	my $data = {
 		'title' => "Number of duplicate answers and their questions",
 		'preamble' => "This table shows the number of times a given " .
@@ -88,7 +97,6 @@ sub render
 						"which have been used to make up that clue.",
 		'order' => 5,
 		'js' => {
-			data => $interim_js,
 			columns => [
 				{ 'title' => 'Setter' },
 				{ 'title' => 'Answer' },

@@ -6,7 +6,7 @@ $(document).ready(function() {
 		ordering: false,
 		deferRender: true,
 		paging: true,
-		data: [% content.js.data.json %],
+		ajax: 'ds_ajax.txt',
 		columns: [% content.js.columns.json %]
     });
 
