@@ -86,7 +86,7 @@ sub render
 		data => $interim_js,
 	};
 
-	open (my $fh, ">", "/usr/local/www/xteddy/ds_ajax.txt") or die;
+	open (my $fh, ">", "./ds_ajax.txt") or die;
 	print {$fh} to_json($ajax_data, {utf8 => 1, pretty => 1});
 	close ($fh);
 

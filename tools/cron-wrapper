@@ -18,7 +18,8 @@ XTEDDY_REPO="$HOME/website.deploy"
 		git pull --quiet && \
 		cp "$GUARDIAN_REPO/gcc-analysis.html" . && \
 		cp "$GUARDIAN_REPO/ui/gcc.css" . && \
-		git add gcc-analysis.html gcc.css && \
+		cp "$GUARDIAN_REPO/ds_ajax.txt" . && \
+		git add gcc-analysis.html gcc.css ds_ajax.txt && \
 		git commit -m "Guardian CC update" && \
 		git push
 	}
