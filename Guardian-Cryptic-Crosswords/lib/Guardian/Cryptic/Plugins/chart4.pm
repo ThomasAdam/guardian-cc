@@ -164,7 +164,7 @@ sub interpolate
 					'_id' => '$_id',
 					'count' => '$count',
 					'pmonth' => {
-						'$ceil' =>{
+						'$ceil' => {
 							'$divide' => ['$count', 12]
 						}
 					}
@@ -188,6 +188,19 @@ sub interpolate
 			},
 			'avg' => $_->{'pmonth'},
 		}
+	}
+
+	foreach my $name (keys %res) {
+		my $total = 0;
+		foreach my $d (@{ $res{$name}->{'graph'} }) {
+			# Keep a running total of crosswords produced by this setter.
+			# Note the list context for the hash values here -- this is in
+			# order to get the actual count for the year.  Each hash entry
+			# only ever has one key, hence why we only extract the first
+			# entry.
+			$total += (values %{ $d->{'gdata'} })[0];
+		}
+		$res{$name}->{'range'}->{'total'} = $total;
 	}
 
 	return \%res;
