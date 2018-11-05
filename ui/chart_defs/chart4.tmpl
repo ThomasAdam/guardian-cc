@@ -3,22 +3,11 @@
 <p>[% content.preamble %]</p>
 <div class="container">
 	[% FOREACH c IN content.charts %] 
-<script>
-$(document).ready(function() {
-	$("#[% c.info.div_id %]").hide();
-	$("#setter-info-[% c.info.person %]").hide();
-	$("#span-title-[% c.info.person %]").click(function() {
-		$("#[% c.info.div_id %]").slideToggle();
-		$("#setter-info-[% c.info.person %]").slideToggle();
-	});
-});
-</script>
-	<div id="item" class="item-[% c.info.person %]">
-	<div class="span-title-[% c.info.person %]" id="sa">
-	<span class="span-author">[% c.info.person %]</span>
+	<div class="item">
+	<div class="span-title">
+	<span class="span-title">[% c.info.person %]</span>
 	</div>
 	<div id="[% c.info.div_id %]"></div>
-	<div class="setter-info-[% c.info.person %]">
 	<ul>
 		<li>Total crosswords: [% c.info.range.total %]</li>
 		<li>First crossword: [% c.info.range.first %]</li>
@@ -26,7 +15,6 @@ $(document).ready(function() {
 		<li>Active for:      [% c.info.range.duration %]</li>
 		<li>Number of clues self-referenced (with [% c.info.person %] in the clue): [% c.info.self_ref %]</li>
 	</ul> 
-	</div>
 	</div>
 	[% END %]
 </div>
