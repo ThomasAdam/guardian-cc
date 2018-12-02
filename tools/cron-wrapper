@@ -19,7 +19,8 @@ XTEDDY_REPO="$HOME/website.deploy"
 		cp "$GUARDIAN_REPO/gcc-analysis.html" . && \
 		cp "$GUARDIAN_REPO/ui/gcc.css" . && \
 		cp "$GUARDIAN_REPO/ds_ajax.txt" . && \
-		git add gcc-analysis.html gcc.css ds_ajax.txt && \
+		cp "$GUARDIAN_REPO/ds_ajax2.txt" . && \
+		git add gcc-analysis.html gcc.css ds_ajax.txt ds_ajax2.txt && \
 		git commit -m "Guardian CC update" && \
 		git push
 	}

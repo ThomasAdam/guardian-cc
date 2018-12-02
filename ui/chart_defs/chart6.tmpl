@@ -1,0 +1,41 @@
+<h2>[% content.order %].  [% content.title %]</h2>
+<p>[% content.preamble %]</p>
+<script>
+$(document).ready(function() {
+    var table = $('#tablesetter2').DataTable({
+		ordering: true,
+		deferRender: true,
+		paging: true,
+		ajax: 'ds_ajax2.txt',
+		fixedColumns: false,
+		columnDefs: [
+			{ targets: [-3], width: "40%" },
+			{ targets: [-2], width: "20%" },
+			{ targets: [-1], width: "20%" },
+		],
+		columns: [% content.js.columns.json %]
+    });
+
+	// Setup - add a text input to each footer cell
+	var $originalHeader = $('#tablesetter2 thead tr');
+	var $originalHeaderClone = $originalHeader.clone();
+	$originalHeader.find('th').each( function () {
+			var title = $(this).text();
+			$(this).html( '<input type="text" placeholder="'+title+'"/>' );
+	} );
+
+	$originalHeader.before($originalHeaderClone);
+
+    // Apply the search
+    table.columns().every( function () {
+        var that = this;
+ 
+        $( 'input', this.header() ).on( 'keyup change', function () {
+            if ( that.search() !== this.value ) {
+                that.search( this.value ).draw();
+            }
+        } );
+    } );
+} );
+</script>
+<table id="tablesetter2" class="display"></table>
