@@ -7,8 +7,9 @@ use MongoDB;
 use JSON;
 use File::Find;
 use Data::Dumper;
+use DateTime;
 
-my $file_path="./crosswords/cryptic/setter";
+my @file_path = ("./crosswords/cryptic/setter", "./crosswords/prize/setter");
 my @files;
 my $client = MongoDB->connect();
 my $db = $client->get_database('guardian');
@@ -20,7 +21,7 @@ sub wanted
 }
 
 if (!defined $ARGV[0] or $ARGV[0] eq "") {
-	find({wanted => \&wanted}, $file_path);
+	find({wanted => \&wanted}, @file_path);
 } else {
 	push @files, $ARGV[0];
 }
