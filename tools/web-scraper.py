@@ -39,10 +39,10 @@ PRIZE = (prize_lower_id, prize_upper_id, "prize")
 # there, to upper_id.
 
 cryptic_lrid_file = cwd + "/tools/cryptic_last_read_id"
-print("looking at {}".format(cryptic_lrid_file))
 if os.path.isfile(cryptic_lrid_file):
     with open(cryptic_lrid_file, "r") as clrfile:
         lower_id = clrfile.read().replace('\n', '')
+        print("Current cryptic id is: {}".format(lower_id))
 
         # The next crossword...
         cryptic_lower_id = int(lower_id) + 1
@@ -50,12 +50,11 @@ if os.path.isfile(cryptic_lrid_file):
         clrfile.close()
 
 prize_lrid_file = cwd + "/tools/prize_last_read_id"
-print("looking at {}".format(prize_lrid_file))
 if os.path.isfile(prize_lrid_file):
     with open(prize_lrid_file, "r") as clrfile:
         lower_id = clrfile.read().replace('\n', '')
+        print("Current prize id is: {}".format(lower_id))
 
-        print("{}: id is: {}".format("prize", lower_id))
         # The next crossword...
         prize_lower_id = int(lower_id) + 1
         PRIZE = (prize_lower_id, prize_upper_id, "prize")
@@ -131,4 +130,4 @@ for crossword in CROSSWORD_TYPE:
                 with open(lrid_file, "wb") as lrfile:
                     lrfile.write(str(last_id_fetched))
                     lrfile.close()
-            break
+                break;

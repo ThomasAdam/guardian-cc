@@ -50,6 +50,12 @@ foreach my $f (@files) {
 	# So that this matches with the other setter, this should be corrected.
 	$j_text->{'creator'}->{'name'} =~ s/\s+$//;
 
+	# The "number" field is in int format, but $concat in MongoDB (as of
+	# 3.6+) doesn't yet have $toString.  So for now, convert the int to a
+	# string.
+	my $num = $j_text->{'number'};
+	$j_text->{'number'} = "$num";
+
 	# For the benefit of mongodb, we can't have nice things...
 	foreach my $h (@{ $j_text->{'entries'} }) {
 		my $sl = $h->{'separatorLocations'};

@@ -145,14 +145,16 @@ sub interpolate
 								'dateString' => '$date'
 							}
 						}
-					}
+					},
+					'type' => '$crosswordType',
 				}
 			},
 			{
 				'$group' => {
 					'_id' => {
 						'name' => '$_id',
-						'year' => '$ndate'
+						'year' => '$ndate',
+						'type' => '$type',
 					},
 					'count' => {
 						'$sum' => 1
@@ -163,6 +165,7 @@ sub interpolate
 				'$project' => {
 					'_id' => '$_id',
 					'count' => '$count',
+					'type'  => '$_id.type',
 					'pmonth' => {
 						'$ceil' => {
 							'$divide' => ['$count', 12]
@@ -187,11 +190,14 @@ sub interpolate
 				$_->{'count'},
 			},
 			'avg' => $_->{'pmonth'},
+			'type' => $_->{'type'},
 		}
 	}
 
 	foreach my $name (keys %res) {
 		my $total = 0;
+		my $ptotal = 0;
+		my $ctotal = 0;
 		foreach my $d (@{ $res{$name}->{'graph'} }) {
 			# Keep a running total of crosswords produced by this setter.
 			# Note the list context for the hash values here -- this is in
@@ -199,8 +205,12 @@ sub interpolate
 			# only ever has one key, hence why we only extract the first
 			# entry.
 			$total += (values %{ $d->{'gdata'} })[0];
+			$ctotal +=(values %{ $d->{'gdata'} })[0] if $d->{'type'} eq 'cryptic';
+			$ptotal +=(values %{ $d->{'gdata'} })[0] if $d->{'type'} eq 'prize';
 		}
-		$res{$name}->{'range'}->{'total'} = $total;
+		$res{$name}->{'range'}->{'total'}->{'all'} = $total;
+		$res{$name}->{'range'}->{'total'}->{'cryptic'} = $ctotal;
+		$res{$name}->{'range'}->{'total'}->{'prize'} = $ptotal;
 	}
 
 	return \%res;
@@ -244,7 +254,7 @@ sub render
 					'bindto' => "#myChart4$chart_count",
 					'size' => {
 						'height' => 200,
-						'width' => 500
+						'width' => 600
 					},
 					'data' => {
 						'columns' => $interdata->{$k}->{'chart'}->{'clabels'},

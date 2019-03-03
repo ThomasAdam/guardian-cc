@@ -20,20 +20,20 @@ sub interpolate
 	my $res = $self->{'mongo'}->{'col'}->aggregate([
 			{
 				'$group' => {
-					'_id'   => '$creator.name',
+					'_id'   => {
+						name => '$creator.name',
+						type => '$crosswordType',
+					},
 					'count' => {'$sum' => 1},
 				}
 			},
 			{
-				'$sort' => {'count' => -1}
+				'$sort' => {'count' => -1, '_id.type' => 1}
 			}
 	]);
 
-	my %data = map {
-		$_->{'_id'} => $_->{'count'}
-	} $res->all;
-
-	return \%data;
+	my @res = $res->all;
+	return \@res;
 }
 
 sub render
@@ -41,18 +41,50 @@ sub render
 	my ($self) = @_;
 
 	my $interdata = $self->interpolate();
+	my (@cryptic, @prize, @labels, @columns);
+	my %name_map = ();
 
-	my @ordered_values;
-	my @ordered_labels;
+	use Data::Dumper;
 
-	foreach my $k (sort {$interdata->{$b} <=> $interdata->{$a}}
-	    keys %$interdata)
-	{
-		push @ordered_labels, $k;
-		push @ordered_values, $interdata->{$k};
+	my $position = 0;
+	foreach my $k (@$interdata) {
+		my $setter = $k->{'_id'}->{'name'};
+		my $type   = $k->{'_id'}->{'type'};
+		my $count  = $k->{'count'};
+
+		$name_map{$setter}->{$type} = {
+			pos => ++$position,
+			count => $count
+		};
+
+		if (!exists $name_map{$setter}->{'prize'}) {
+			$name_map{$setter}->{'prize'} = {
+				'pos' => $name_map{$setter}->{'cryptic'}->{'pos'},
+				'count' => 0,
+			};
+		}
+
+		if (!exists $name_map{$setter}->{'cryptic'}) {
+			$name_map{$setter}->{'cryptic'} = {
+				'pos' => $name_map{$setter}->{'prize'}->{'pos'},
+				'count' => 0,
+			};
+		}
 	}
 
-	my @ordered_axis = (["Setters", @ordered_values]);
+	@labels = ("x");
+
+	foreach my $s (sort {
+		$name_map{$a}->{'cryptic'}->{'pos'} <=>
+		$name_map{$b}->{'cryptic'}->{'pos'} } keys %name_map) {
+
+		push @labels, $s;
+		push @cryptic, $name_map{$s}->{'cryptic'}->{'count'};
+		push @prize,   $name_map{$s}->{'prize'}->{'count'};
+	}
+	unshift @cryptic, "Cryptic";
+	unshift @prize, "Prize";
+	push @columns, \@labels, \@cryptic, \@prize;
 
 	my $data = {
 		'title' => "Total number of crosswords, set by author",
@@ -69,13 +101,15 @@ sub render
 				'height' => 800
 			},
 			'data' => {
-				'columns' => \@ordered_axis,
+				'x' => 'x',
+				'columns' => \@columns,
 				'type' => 'bar',
 				'empty' => {
 					'label' => {
 						'text' => 'Unknown'
 					}
 				},
+				'groups' => [ ["Prize", "Cryptic"] ],
 			},
 			'axis' => {
 				'x' => {
@@ -85,7 +119,6 @@ sub render
 						'multiline' => 0
 					},
 					'height' => 0,
-					'categories' => \@ordered_labels,
 				},
 				'y' => {
 					'label' => 'No. of crosswords set',

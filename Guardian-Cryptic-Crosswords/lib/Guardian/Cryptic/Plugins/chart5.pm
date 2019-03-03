@@ -37,6 +37,20 @@ sub interpolate
 					},
 					'cnumbers' => {
 						'$push' => '$number'
+					},
+					'type' => {
+						'$push' => '$crosswordType'
+					},
+					'urls' => {
+						'$push' => {
+							'$concat' => [
+								'<a href="https://www.theguardian.com/',
+								'$id',
+								'">',
+								'$number',
+								'</a>'
+							],
+						}
 					}
 				}
 			},
@@ -51,8 +65,8 @@ sub interpolate
 				'$sort' => {
 					'_id.name' => 1
 				}
-			}
-	]);
+			},
+	], {'allowDiskUse' => 1});
 
 	my @res = map { $_->{id} = delete $_->{_id}; $_ } $agg->all;
 
@@ -69,15 +83,15 @@ sub render
 
 	foreach my $j (@$interdata) {
 		my $clues = join '<br />', @{$j->{'clues'}};
-		my $nums;
-		foreach my $u (@{$j->{'cnumbers'}}) {
-			$nums .= "<a href='https://theguardian.com/crosswords/cryptic/$u'" . ">$u</a><br />";
-		}
+		my $types = join '<br />', @{$j->{'type'}};
+		my $nums  = join '<br />', @{$j->{'urls'}};
+
 		push @{$interim_js},
 			[
 				$j->{'id'}->{'name'},
 				$j->{'id'}->{'solution'},
 				$clues,
+				$types,
 				$nums,
 			]
 	};
@@ -101,6 +115,7 @@ sub render
 				{ 'title' => 'Setter' },
 				{ 'title' => 'Answer' },
 				{ 'title' => 'Clues'  },
+				{ 'title' => 'Type'   },
 				{ 'title' => 'Crossword' },
 			],
 		}

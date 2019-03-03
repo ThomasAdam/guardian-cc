@@ -35,8 +35,19 @@ sub interpolate
 					'clues' => {
 						'$push' => '$entries.clue'
 					},
-					'cnumbers' => {
-						'$push' => '$number'
+					'type' => {
+						'$push' => '$crosswordType'
+					},
+					'urls' => {
+						'$push' => {
+							'$concat' => [
+								'<a href="https://www.theguardian.com/',
+								'$id',
+								'">',
+								'$number',
+								'</a>'
+							],
+						}
 					}
 				}
 			},
@@ -52,7 +63,7 @@ sub interpolate
 					'_id.name' => 1
 				}
 			}
-	]);
+	], {'allowDiskUse' => 1});
 
 	my @res = map { $_->{id} = delete $_->{_id}; $_ } $agg->all;
 
@@ -67,20 +78,40 @@ sub render
 
 	my $interim_js = [];
 
-	use Data::Dumper;
 	foreach my $j (@$interdata) {
-		my @new_clues = grep { !/^See\s*\d+|^\s*\(\d+\)/i } @{$j->{'clues'}};
+		my @new_clues = grep { !/
+			^\s+\(\d+\)$|
+			^See\s+(?:clues|special)\s+(?:page|instructions)\s+\(\d+\)$|
+			^Follow\s+the\s+link\s+below\s+to\s+see\s+today\'s\s+clues.*$|
+			^See\s+(?:\d+)??\s+\(\d+\)$|
+			^See\s+\(\d+\)\s*$|
+			^See\s+\d+\s*(?:across|down)??$
+			/x } @{$j->{'clues'}};
 		next unless @new_clues;
 		next if $new_clues[0] eq '';
-		my $clues = join '<br />', @new_clues;
-		my $nums;
-		foreach my $u (@{$j->{'cnumbers'}}) {
-			$nums .= "<a href='https://theguardian.com/crosswords/cryptic/$u'" . ">$u</a><br />";
+
+=head
+		my $pos = -1;
+		foreach my $type (@{$j->{'type'}}) {
+			$pos++;
+			my $class = "span-$type";
+			my $c = $new_clues[$pos];
+			my $u = $j->{'urls'}->[$pos];
+
+			$new_clues[$pos] = "<span class='$class'>$c</span>";
+			$j->{'urls'}->[$pos] = "<span class='$class'>$u</span>";
+			$j->{'type'}->[$pos] = "<span class='$class'>$type</span>";
 		}
+=cut
+
+		my $clues = join '<br />', @new_clues;
+		my $types = join '<br />', @{$j->{'type'}};
+		my $nums  = join '<br />', @{$j->{'urls'}};
 		push @{$interim_js},
 			[
 				$j->{'id'}->{'name'},
 				$clues,
+				$types,
 				$nums,
 			]
 	};
@@ -102,6 +133,7 @@ sub render
 			columns => [
 				{ 'title' => 'Setter' },
 				{ 'title' => 'Clues'  },
+				{ 'title' => 'Type'   },
 				{ 'title' => 'Crossword' },
 			],
 		}
