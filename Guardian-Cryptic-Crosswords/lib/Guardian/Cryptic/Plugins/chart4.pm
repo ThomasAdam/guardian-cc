@@ -222,9 +222,6 @@ sub render
 
 	my $interdata = $self->interpolate();
 
-	use Data::Dumper;
-	warn Dumper "id", $interdata;
-
 	my $data = {
 		'title' => "Setter Biographies",
 		'preamble' => "This shows information about each setter",
