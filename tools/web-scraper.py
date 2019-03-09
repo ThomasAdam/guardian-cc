@@ -56,14 +56,14 @@ if os.path.isfile(prize_lrid_file):
         print("Current prize id is: {}".format(lower_id))
 
         # The next crossword...
-        prize_lower_id = cryptic_lower_id
+        prize_lower_id = cryptic_lower_id + 1
         PRIZE = (prize_lower_id, prize_upper_id, "prize")
         clrfile.close()
 
 # Set the last_id_fetched to the lowest -- as we iterate over the range of
 # IDs, this will get overwritten appropriately.
 cryptic_last_id_fetched = cryptic_lower_id - 1
-prize_last_id_fetched = prize_lower_id - 1
+prize_last_id_fetched = prize_lower_id + 1
 
 # Kick off!
 CROSSWORD_TYPE = [CRYPTIC, PRIZE]
