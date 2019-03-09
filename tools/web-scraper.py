@@ -56,7 +56,7 @@ if os.path.isfile(prize_lrid_file):
         print("Current prize id is: {}".format(lower_id))
 
         # The next crossword...
-        prize_lower_id = int(lower_id) + 1
+        prize_lower_id = cryptic_lower_id
         PRIZE = (prize_lower_id, prize_upper_id, "prize")
         clrfile.close()
 
