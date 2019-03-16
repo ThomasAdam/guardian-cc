@@ -76,7 +76,7 @@ for crossword in CROSSWORD_TYPE:
 
     if crossword_type == "prize":
         lrid_file = prize_lrid_file
-        last_id_fetched = prize_last_id_fetched
+        last_id_fetched = prize_last_id_fetched + 2
     else:
         lrid_file = cryptic_lrid_file
         last_id_fetched = cryptic_last_id_fetched
