@@ -25,7 +25,6 @@ cryptic_lower_id = 21620
 cryptic_upper_id = 50000
 
 attempts = 0
-was_written = False
 
 # CWD for where to place downloaded files, relative to here.
 cwd = os.getcwd()
@@ -60,7 +59,6 @@ def url_fetch(cctype, ccid):
     return result
 
 def try_one(crossword_type, num):
-            was_written = False
             print("{}/{}... ".format(crossword_type, num), end='')
             result = url_fetch(crossword_type, num)
             sc = result.status_code
@@ -113,8 +111,7 @@ def try_one(crossword_type, num):
                     json.dump(clues_json, file, indent = 4)
 
                 print("Written [{}]: {}/{} to disk...".format(crossword_type, clues_json["creator"]["name"], num))
-                last_id_fetched = num
-                was_written = True
+                os.system("./tools/import.pl {}".format(save_name));
 
             return num
         
@@ -128,9 +125,7 @@ for num in range(int(last_id_fetched), cryptic_upper_id):
         ret = try_one("cryptic", num)
         ret = try_one("prize", num)
         sys.stdout.flush()
-        if was_written:
-            last_id_fetched = num
-            os.system("./tools/import.pl {}".format(save_name));
+        last_id_fetched = num
         if attempts >= tries:
             with open(lrid_file, "wb") as lrfile:
                 lrfile.write(str(last_id_fetched))
