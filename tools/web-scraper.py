@@ -24,6 +24,7 @@ This uses a crude sequence of numbers to derive the URL for the cryptic.
 cryptic_lower_id = 21620
 cryptic_upper_id = 50000
 
+last_id_fetched = cryptic_lower_id
 attempts = 0
 
 # CWD for where to place downloaded files, relative to here.
@@ -118,15 +119,17 @@ def try_one(crossword_type, num):
 # Kick off!
 lrid_file = cryptic_lrid_file
 # If at first you don't succeed...
-tries = 3
+tries = 10
 
 for num in range(int(last_id_fetched), cryptic_upper_id):
         sys.stdout.flush()
         ret = try_one("cryptic", num)
         ret = try_one("prize", num)
         sys.stdout.flush()
-        last_id_fetched = num
+        last_id_fetched = ret
         if attempts >= tries:
+            if ret == -1:
+                break
             with open(lrid_file, "wb") as lrfile:
                 lrfile.write(str(last_id_fetched))
                 lrfile.close()
