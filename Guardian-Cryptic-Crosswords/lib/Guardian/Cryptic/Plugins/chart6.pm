@@ -4,6 +4,7 @@ use lib "$ENV{'HOME'}/guardian-cc/Guardian-Cryptic-Crosswords/lib";
 
 use parent 'Guardian::Cryptic::ChartRenderer';
 use JSON;
+use BSON::Time;
 
 my $tmpl_file = "chart6.tmpl";
 
@@ -64,7 +65,7 @@ sub render
 	my $interim_js = [];
 
 	foreach my $j (@$interdata) {
-		my $dt = $j->{'id'}->{'date'};
+		my $dt = BSON::Time::as_datetime($j->{'id'}->{'date'});
 		push @{$interim_js},
 			[
 				$j->{'id'}->{'name'},

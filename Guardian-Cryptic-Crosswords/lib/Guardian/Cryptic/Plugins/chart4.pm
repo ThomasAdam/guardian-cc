@@ -2,9 +2,10 @@ package Guardian::Cryptic::Plugins::chart4;
 
 use lib "$ENV{'HOME'}/projects/guardian-cc/Guardian-Cryptic-Crosswords/lib";
 use List::Util qw/max/;
+use BSON::Time;
 use DateTime;
 use DateTime::Format::Duration;
-use Sort::Key::DateTime qw/ dtkeysort dtsort /;
+use Sort::Key::DateTime qw/ dtkeysort /;
 
 use parent 'Guardian::Cryptic::ChartRenderer';
 
@@ -72,7 +73,7 @@ sub interpolate
 		]);
 
 		my @dt_objs = map {
-			$_->{'_id'}->{'date'}
+			BSON::Time::as_datetime($_->{'_id'}->{'date'})
 		} $res->all;
 
 		my @dt_sorted = dtkeysort { $_ } @dt_objs;
