@@ -6,6 +6,8 @@ use BSON::Time;
 use DateTime;
 use DateTime::Format::Duration;
 use Sort::Key::DateTime qw/ dtkeysort /;
+use List::MoreUtils::XS qw/uniq/;
+use POSIX;
 
 use parent 'Guardian::Cryptic::ChartRenderer';
 
@@ -231,17 +233,28 @@ sub render
 	};
 
 	my $chart_count = -1;
+	my %setter;
 	foreach my $k (sort keys %{$interdata}) {
 		my (@labels, @values, @avg);
 		$chart_count++;
+
+		# Create a total of all crossswords by setter, per year.
+		#
+		# This is irrespective of whether it's a prize or cryptic.
 		foreach my $h (@{ $interdata->{$k}->{'graph'} }) {
+			my $year = (keys %{$h->{'gdata'}})[0];
+
+			$setter{$k}->{'year'}->{$year} += $h->{'gdata'}->{$year};
 			push @labels, keys %{$h->{'gdata'}};
-			push @values, values %{$h->{'gdata'}};
-			push @avg, $h->{'avg'};
 		}
+		@labels = sort keys %{ $setter{$k}->{'year'} };
+		@values = sort values %{ $setter{$k}->{'year'} };
+		@avg = map { ceil($_ / 12) } @values;
+
 		$interdata->{$k}->{'chart'}->{'clabels'} = [[$k, @values], ["Average per month", @avg]];
 		$interdata->{$k}->{'chart'}->{'labels' } = \@labels;
 		delete $interdata->{$k}->{'graph'};
+
 		push @{ $data->{'charts'} },
 			{
 				info => {
