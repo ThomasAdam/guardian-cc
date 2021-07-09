@@ -95,14 +95,15 @@ def try_one(crossword_type, num):
                     json.dump(clues_json, file, indent = 4)
                 return -1
 
+            creator = clues_json["creator"]["name"].rstrip()
             # Create the directory if necessary!
             if not os.path.exists(cwd + "/crosswords/" + crossword_type \
-                    + "/setter/" + clues_json["creator"]["name"]):
+                    + "/setter/" + creator):
                         os.makedirs(cwd + "/crosswords/" + crossword_type + \
-                                    "/setter/" + clues_json["creator"]["name"])
+                                    "/setter/" + creator)
 
             save_name = cwd + "/crosswords/" + crossword_type + "/setter/" + \
-                clues_json["creator"]["name"] + "/" + str(num) + ".JSON"
+                creator + "/" + str(num) + ".JSON"
             save_name = save_name.encode('utf-8')
 
             if os.path.exists(save_name):
@@ -111,7 +112,7 @@ def try_one(crossword_type, num):
                 with open(save_name, "wb") as file:
                     json.dump(clues_json, file, indent = 4)
 
-                print("Written [{}]: {}/{} to disk...".format(crossword_type, clues_json["creator"]["name"], num))
+                print("Written [{}]: {}/{} to disk...".format(crossword_type, creator, num))
                 os.system("./tools/import.pl {}".format(save_name));
 
             return num
