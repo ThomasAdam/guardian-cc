@@ -1,521 +1,523 @@
 {
-    "name": "Cryptic crossword No 24,036", 
+    "id": "crosswords/cryptic/24036",
+    "number": 24036,
+    "name": "Cryptic crossword No 24,036",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/gordius", 
-        "name": "Gordius"
-    }, 
-    "dateSolutionAvailable": 1175036400000, 
-    "number": 24036, 
-    "crosswordType": "cryptic", 
+        "name": "Gordius",
+        "webUrl": "https://www.theguardian.com/profile/gordius"
+    },
+    "date": 1175040000000,
+    "webPublicationDate": 1175036400000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Endangered by Russian leader (Joe possibly) and partner in US (unknown) (3,2,8)",
+            "direction": "across",
+            "length": 13,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Endangered by Russian leader (Joe possibly) and partner in US (unknown) (3,2,8)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     5
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "PUTINJEOPARDY", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "PUTINJEOPARDY"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Maybe he encourages expectation of free lunch with rice (4,5)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Maybe he encourages expectation of free lunch with rice (4,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "RICHUNCLE", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "RICHUNCLE"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "House, which with mouse poses a question (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "House, which with mouse poses a question (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 10
-            }, 
-            "solution": "MANOR", 
-            "id": "11-across"
-        }, 
+                "x": 10,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "MANOR"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Place of goddess tailed by English (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Place of goddess tailed by English (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "VENUE", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "VENUE"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Where Thomas stopped to change for Portslade? (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Where Thomas stopped to change for Portslade? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 6
-            }, 
-            "solution": "ADLESTROP", 
-            "id": "13-across"
-        }, 
+                "x": 6,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "ADLESTROP"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Mother's shivering for something to keep warm (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Mother's shivering for something to keep warm (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "THERMOS", 
-            "id": "14-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "THERMOS"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Charges include a number of royalties (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Charges include a number of royalties (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 8
-            }, 
-            "solution": "PRINCES", 
-            "id": "16-across"
-        }, 
+                "x": 8,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "PRINCES"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Where one can get little advice on hired transport? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Where one can get little advice on hired transport? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "MINICAB", 
-            "id": "18-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "MINICAB"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Feature appearing in the Mirror (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Feature appearing in the Mirror (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 8
-            }, 
-            "solution": "ONESELF", 
-            "id": "20-across"
-        }, 
+                "x": 8,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ONESELF"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Three Scotsmen with long lives (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Three Scotsmen with long lives (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "MACROBIAN", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "MACROBIAN"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Recidivism is partly about being a gambler (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Recidivism is partly about being a gambler (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 10
-            }, 
-            "solution": "DICER", 
-            "id": "23-across"
-        }, 
+                "x": 10,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "DICER"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "She finds it hard to get into shape (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "She finds it hard to get into shape (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "EDITH", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "EDITH"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Protection from crash of scam-free web? (6,3)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Protection from crash of scam-free web? (6,3)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 12, 
-                "x": 6
-            }, 
-            "solution": "SAFETYNET", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "SAFETYNET"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "A hand for poor performer is not unusual in London (7,6)",
+            "direction": "across",
+            "length": 13,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "A hand for poor performer is not unusual in London (7,6)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "26", 
-            "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "CLAPHAMCOMMON", 
-            "id": "26-across"
-        }, 
+            },
+            "solution": "CLAPHAMCOMMON"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "New York body's worry is apathy (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "New York body's worry is apathy (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "UNCONCERN", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "UNCONCERN"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Get used to being in flower (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Get used to being in flower (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "INURE", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "INURE"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Initially just a cuckoo kookaburra and so silly if laughing (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Initially just a cuckoo kookaburra and so silly if laughing (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "JACKASS", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "JACKASS"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Rest in part on a friend (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Rest in part on a friend (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "OVERLAP", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OVERLAP"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Smart ones gathered at church for the Peace (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Smart ones gathered at church for the Peace (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "ARMISTICE", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ARMISTICE"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Tear up about one to lunch 12 (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Tear up about one to lunch 12 (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "DINER", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DINER"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Parliamentarian with bill concealed in trousers (7,6)",
+            "direction": "down",
+            "length": 13,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Parliamentarian with bill concealed in trousers (7,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "PRIVATEMEMBER", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "PRIVATEMEMBER"
+        },
         {
-            "direction": "down", 
+            "id": "9-down",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Throw spare fag out for trampling underfoot (6,2,5)",
+            "direction": "down",
+            "length": 13,
             "group": [
                 "9-down"
-            ], 
-            "number": 9, 
-            "clue": "Throw spare fag out for trampling underfoot (6,2,5)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
-                    6, 
+                    6,
                     8
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 1, 
-                "x": 14
-            }, 
-            "solution": "GRAPESOFWRATH", 
-            "id": "9-down"
-        }, 
+            },
+            "solution": "GRAPESOFWRATH"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Extra small fry? (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Extra small fry? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 4
-            }, 
-            "solution": "MICROCHIP", 
-            "id": "15-down"
-        }, 
+                "x": 4,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "MICROCHIP"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Staff request for increased output (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Staff request for increased output (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 12
-            }, 
-            "solution": "CRESCENDO", 
-            "id": "17-down"
-        }, 
+                "x": 12,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "CRESCENDO"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "UK people get Ford to produce a vehicle for one (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "UK people get Ford to produce a vehicle for one (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 6
-            }, 
-            "solution": "BRITSKA", 
-            "id": "19-down"
-        }, 
+                "x": 6,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "BRITSKA"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Making it all go round if income short (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Making it all go round if income short (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 8
-            }, 
-            "solution": "OMNIFIC", 
-            "id": "20-down"
-        }, 
+                "x": 8,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "OMNIFIC"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Companion sick with minor ailment (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Companion sick with minor ailment (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 2
-            }, 
-            "solution": "CHILL", 
-            "id": "22-down"
-        }, 
+                "x": 2,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "CHILL"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Corporation lawyer first to provide information (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Corporation lawyer first to provide information (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 10
-            }, 
-            "solution": "DATUM", 
-            "id": "23-down"
+                "x": 10,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "DATUM"
         }
-    ], 
-    "date": 1175040000000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/24036", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1175036400000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M10"
 }

@@ -1,584 +1,586 @@
 {
-    "name": "Cryptic crossword No 26,487", 
+    "id": "crosswords/cryptic/26487",
+    "number": 26487,
+    "name": "Cryptic crossword No 26,487",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/nutmeg", 
-        "name": "Nutmeg"
-    }, 
-    "dateSolutionAvailable": 1423094400000, 
-    "number": 26487, 
-    "crosswordType": "cryptic", 
+        "name": "Nutmeg",
+        "webUrl": "https://www.theguardian.com/profile/nutmeg"
+    },
+    "date": 1423094400000,
+    "webPublicationDate": 1423094400000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Hit celebrated late in to the night (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Hit celebrated late in to the night (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "CLUBBED", 
-            "id": "1-across"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CLUBBED"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Occupied area in Kent, roughly on the way to London (5,2)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "Occupied area in Kent, roughly on the way to London (5,2)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "TAKENUP", 
-            "id": "5-across"
-        }, 
+            },
+            "solution": "TAKENUP"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Lecturer's got through a course in Rome (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Lecturer's got through a course in Rome (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "PASTA", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "PASTA"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Outgoing administration avoids attending game (4,5)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Outgoing administration avoids attending game (4,5)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 2, 
-                "x": 6
-            }, 
-            "solution": "LAMEDUCKS", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "LAMEDUCKS"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Drunk goes back, clutching large bottlenecks (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Drunk goes back, clutching large bottlenecks (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "BLOCKAGES", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "BLOCKAGES"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "See 3",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "3-down", 
+                "3-down",
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "See 3", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 5, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 4, 
-                "x": 10
-            }, 
-            "solution": "ARROW", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "ARROW"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Suppressing cry of pain, weak-kneed son bawls (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Suppressing cry of pain, weak-kneed son bawls (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "YELLS", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "YELLS"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Instrumentalist, one unable to follow the lead without note? (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Instrumentalist, one unable to follow the lead without note? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 6
-            }, 
-            "solution": "TRUMPETER", 
-            "id": "15-across"
-        }, 
+                "x": 6,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "TRUMPETER"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Notice habit journalist confronted (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Notice habit journalist confronted (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "ADDRESSED", 
-            "id": "18-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ADDRESSED"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "King notably had one about breaching barrier (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "King notably had one about breaching barrier (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 10
-            }, 
-            "solution": "DREAM", 
-            "id": "19-across"
-        }, 
+                "x": 10,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "DREAM"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Relish country's leader moving to the right (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Relish country's leader moving to the right (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "TASTE", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "TASTE"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Caught on the hop, jockeys ride with spurs (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Caught on the hop, jockeys ride with spurs (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 6
-            }, 
-            "solution": "SURPRISED", 
-            "id": "23-across"
-        }, 
+                "x": 6,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "SURPRISED"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Truce reached by warring cities after navy reduced by half (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Truce reached by warring cities after navy reduced by half (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "ARMISTICE", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "ARMISTICE"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Pair breaking verbal agreement here in Belgium (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Pair breaking verbal agreement here in Belgium (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 10
-            }, 
-            "solution": "YPRES", 
-            "id": "26-across"
-        }, 
+                "x": 10,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "YPRES"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Apprentice isn't giving up time in plane, say (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Apprentice isn't giving up time in plane, say (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "TRAINEE", 
-            "id": "27-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "TRAINEE"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "Spray used in northern river for 24 hours (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "28-across"
-            ], 
-            "number": 28, 
-            "clue": "Spray used in northern river for 24 hours (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "28", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "TUESDAY", 
-            "id": "28-across"
-        }, 
+                "x": 8,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "TUESDAY"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Put cover over well, like an old hand (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Put cover over well, like an old hand (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "CAPABLY", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CAPABLY"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Works turning up in college were the first preserved intact (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Works turning up in college were the first preserved intact (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "UNSPOILED", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "UNSPOILED"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3, 12",
+            "clue": " 14 wrote this line, following shortage in pub (5,5)",
+            "direction": "down",
+            "length": 5,
             "group": [
-                "3-down", 
+                "3-down",
                 "12-across"
-            ], 
-            "number": 3, 
-            "clue": " 14 wrote this line, following shortage in pub (5,5)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "3, 12", 
-            "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "BLACK", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "BLACK"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Key European sets limits on chosen representatives (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Key European sets limits on chosen representatives (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "DELEGATES", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DELEGATES"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Some rejected these maths disciplines (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Some rejected these maths disciplines (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "TAMES", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TAMES"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Dropped off bottles and upset 14's work (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Dropped off bottles and upset 14's work (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "KIDNAPPED", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "KIDNAPPED"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "More charming king shunned by cooler queen (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "More charming king shunned by cooler queen (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "NICER", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "NICER"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Bill abandoning Spain for Western Australia after a serious conflict (4-3)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Bill abandoning Spain for Western Australia after a serious conflict (4-3)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "POSTWAR", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "POSTWAR"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Man who wrote religious text finally shortened church service (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Man who wrote religious text finally shortened church service (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 4
-            }, 
-            "solution": "STEVENSON", 
-            "id": "14-down"
-        }, 
+                "x": 4,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "STEVENSON"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Bore in a French river (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Bore in a French river (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 8
-            }, 
-            "solution": "UNDERWENT", 
-            "id": "16-down"
-        }, 
+                "x": 8,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "UNDERWENT"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Beloved characters (cruelly slain) written out of 14's work (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Beloved characters (cruelly slain) written out of 14's work (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 12
-            }, 
-            "solution": "TREASURED", 
-            "id": "17-down"
-        }, 
+                "x": 12,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "TREASURED"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "A leaflet written after Celtic's fourth draw (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "A leaflet written after Celtic's fourth draw (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "ATTRACT", 
-            "id": "18-down"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ATTRACT"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Songs by tenor breaking setter's reserve (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Songs by tenor breaking setter's reserve (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 14
-            }, 
-            "solution": "MODESTY", 
-            "id": "20-down"
-        }, 
+                "x": 14,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "MODESTY"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Primarily South American measure Brazil adopted? (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Primarily South American measure Brazil adopted? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 2
-            }, 
-            "solution": "SAMBA", 
-            "id": "22-down"
-        }, 
+                "x": 2,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "SAMBA"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Drive on the skew could be a bit of a bloomer (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Drive on the skew could be a bit of a bloomer (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 6
-            }, 
-            "solution": "SLICE", 
-            "id": "23-down"
-        }, 
+                "x": 6,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "SLICE"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "In the case of Rice, short song will show it (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "In the case of Rice, short song will show it (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 10
-            }, 
-            "solution": "RHYME", 
-            "id": "24-down"
+                "x": 10,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "RHYME"
         }
-    ], 
-    "date": 1423094400000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20150205.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/26487", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1423094400000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20150205.pdf",
+    "_gridType": "M47"
 }

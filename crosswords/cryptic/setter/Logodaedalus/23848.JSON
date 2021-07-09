@@ -1,455 +1,457 @@
 {
-    "name": "Cryptic crossword No 23,848", 
+    "id": "crosswords/cryptic/23848",
+    "number": 23848,
+    "name": "Cryptic crossword No 23,848",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/logodaedalus", 
-        "name": "Logodaedalus"
-    }, 
-    "dateSolutionAvailable": 1155855600000, 
-    "number": 23848, 
-    "crosswordType": "cryptic", 
+        "name": "Logodaedalus",
+        "webUrl": "https://www.theguardian.com/profile/logodaedalus"
+    },
+    "date": 1155859200000,
+    "webPublicationDate": 1155855600000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Beverage made from a fir cone (4,4)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "Beverage made from a fir cone (4,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "CAFENOIR", 
-            "id": "8-across"
-        }, 
+            },
+            "solution": "CAFENOIR"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Neckwear from Cracow, only half having tax added (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Neckwear from Cracow, only half having tax added (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 9
-            }, 
-            "solution": "CRAVAT", 
-            "id": "9-across"
-        }, 
+                "x": 9,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "CRAVAT"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Having to recline in bed, covered up (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Having to recline in bed, covered up (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "BELIED", 
-            "id": "10-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "BELIED"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Fred's partner approaches heartless lady with caution (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Fred's partner approaches heartless lady with caution (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 7
-            }, 
-            "solution": "GINGERLY", 
-            "id": "11-across"
-        }, 
+                "x": 7,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "GINGERLY"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Italian wine needs a stir (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Italian wine needs a stir (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "ASTI", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "ASTI"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Talk with Ms Stritch, mistress of the large house (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Talk with Ms Stritch, mistress of the large house (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 5
-            }, 
-            "solution": "CHATELAINE", 
-            "id": "13-across"
-        }, 
+                "x": 5,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "CHATELAINE"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Scope to get more fed with redistribution (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Scope to get more fed with redistribution (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "FREEDOM", 
-            "id": "15-across"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "FREEDOM"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Wine flow that makes sea water toxic (3,4)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Wine flow that makes sea water toxic (3,4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "REDTIDE", 
-            "id": "16-across"
-        }, 
+            },
+            "solution": "REDTIDE"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "I'm calling today with oil and vinegar (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "I'm calling today with oil and vinegar (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "ADDRESSING", 
-            "id": "18-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ADDRESSING"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Report: give it to me in turn (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Report: give it to me in turn (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 11
-            }, 
-            "solution": "ITEM", 
-            "id": "19-across"
-        }, 
+                "x": 11,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ITEM"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Richer but more eccentric (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Richer but more eccentric (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "FRUITIER", 
-            "id": "20-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "FRUITIER"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Ridges of gravel need new rakes and spades (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Ridges of gravel need new rakes and spades (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 9
-            }, 
-            "solution": "ESKARS", 
-            "id": "22-across"
-        }, 
+                "x": 9,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "ESKARS"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Diarist recorded first woman with tailless cat (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Diarist recorded first woman with tailless cat (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "EVELYN", 
-            "id": "23-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "EVELYN"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Marriage means someone dying for money (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Marriage means someone dying for money (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 7
-            }, 
-            "solution": "CONTRACT", 
-            "id": "24-across"
-        }, 
+                "x": 7,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "CONTRACT"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Actress has advantage on stormy seas, getting left to die at burial place (7,8)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Actress has advantage on stormy seas, getting left to die at burial place (7,8)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "VANESSAREDGRAVE", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "VANESSAREDGRAVE"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "The precise thingummy (8,7)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "The precise thingummy (8,7)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "DEFINITEARTICLE", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "DEFINITEARTICLE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Beecham and Barbirolli once issued tickets (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Beecham and Barbirolli once issued tickets (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "CONDUCTORS", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CONDUCTORS"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "King George wanted Margo to turn up in coarse fabric (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "King George wanted Margo to turn up in coarse fabric (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "GROGRAM", 
-            "id": "4-down"
-        }, 
+                "x": 7,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "GROGRAM"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Glance at half-removed scanties (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Glance at half-removed scanties (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "SCAN", 
-            "id": "5-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SCAN"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "We have new solutions: then all-risk rate must change (7,8)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "We have new solutions: then all-risk rate must change (7,8)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "LATERALTHINKERS", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "LATERALTHINKERS"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Leonard tucked into horse food with spice seen in \"The Blue Angel\" (7,8)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Leonard tucked into horse food with spice seen in \"The Blue Angel\" (7,8)", 
+            ],
+            "position": {
+                "x": 13,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "MARLENEDIETRICH", 
-            "id": "7-down"
-        }, 
+            },
+            "solution": "MARLENEDIETRICH"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Trees and shrubs that retain their popularity (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Trees and shrubs that retain their popularity (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 9
-            }, 
-            "solution": "EVERGREENS", 
-            "id": "14-down"
-        }, 
+                "x": 9,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "EVERGREENS"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Songwriter says: \"I'm here in a trice\" (3,4)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Songwriter says: \"I'm here in a trice\" (3,4)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "TIMRICE", 
-            "id": "17-down"
-        }, 
+            },
+            "solution": "TIMRICE"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Public houses in North and South (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Public houses in North and South (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 5
-            }, 
-            "solution": "INNS", 
-            "id": "21-down"
+                "x": 5,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "INNS"
         }
-    ], 
-    "date": 1155859200000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/23848", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1155855600000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M03"
 }

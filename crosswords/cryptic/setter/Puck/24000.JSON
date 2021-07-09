@@ -1,473 +1,475 @@
 {
-    "name": "Cryptic crossword No 24,000", 
+    "id": "crosswords/cryptic/24000",
+    "number": 24000,
+    "name": "Cryptic crossword No 24,000",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/puck", 
-        "name": "Puck"
-    }, 
-    "dateSolutionAvailable": 1171411200000, 
-    "number": 24000, 
-    "crosswordType": "cryptic", 
+        "name": "Puck",
+        "webUrl": "https://www.theguardian.com/profile/puck"
+    },
+    "date": 1171411200000,
+    "webPublicationDate": 1171411200000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Facts used in trial, stated at outset (4,4)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "Facts used in trial, stated at outset (4,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "TESTDATA", 
-            "id": "8-across"
-        }, 
+            },
+            "solution": "TESTDATA"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "General attire: tonight's showing (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "General attire: tonight's showing (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 9
-            }, 
-            "solution": "IRETON", 
-            "id": "9-across"
-        }, 
+                "x": 9,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "IRETON"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "One quivered as ex-convict produced spanner (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "One quivered as ex-convict produced spanner (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "ARCHER", 
-            "id": "10-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "ARCHER"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Removed dress - good one, torn (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Removed dress - good one, torn (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 7
-            }, 
-            "solution": "STRIPPED", 
-            "id": "11-across"
-        }, 
+                "x": 7,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "STRIPPED"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "I'm punched out in Africa (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "I'm punched out in Africa (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "CHAD", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "CHAD"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Time spent with child (4,6)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Time spent with child (4,6)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 5
-            }, 
-            "solution": "NINEMONTHS", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "NINEMONTHS"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "When one's innings really gets going? A time to double score (2,5)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "When one's innings really gets going? A time to double score (2,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "ATFORTY", 
-            "id": "15-across"
-        }, 
+            },
+            "solution": "ATFORTY"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Pa's hat's new in town (2,5)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Pa's hat's new in town (2,5)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "STASAPH", 
-            "id": "16-across"
-        }, 
+            },
+            "solution": "STASAPH"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Little number put on by the Queen just after quarter to five, before it's too late? (3,2,5)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Little number put on by the Queen just after quarter to five, before it's too late? (3,2,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "NOWORNEVER", 
-            "id": "18-across"
-        }, 
+            },
+            "solution": "NOWORNEVER"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "You'd get cross from start to finish of this form of yarn (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "You'd get cross from start to finish of this form of yarn (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 11
-            }, 
-            "solution": "HANK", 
-            "id": "19-across"
-        }, 
+                "x": 11,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "HANK"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Jersey occupier is one I sling mud at (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Jersey occupier is one I sling mud at (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "ISLANDER", 
-            "id": "20-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "ISLANDER"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Nobel prizewinner coming from Tyneside to Fleet Street (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Nobel prizewinner coming from Tyneside to Fleet Street (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 9
-            }, 
-            "solution": "NERNST", 
-            "id": "22-across"
-        }, 
+                "x": 9,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "NERNST"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Make a mistake with message (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Make a mistake with message (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "ERRAND", 
-            "id": "23-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "ERRAND"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "These may be given away by accountants to the rich and well-dressed (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "These may be given away by accountants to the rich and well-dressed (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 7
-            }, 
-            "solution": "CASTOFFS", 
-            "id": "24-across"
-        }, 
+                "x": 7,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "CASTOFFS"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Sporting shorter sweater, you say, as the wife may do (4,3,8)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Sporting shorter sweater, you say, as the wife may do (4,3,8)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     7
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "WEARTHETROUSERS", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "WEARTHETROUSERS"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Father had potato cooked immediately (2,3,4,2,1,3)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Father had potato cooked immediately (2,3,4,2,1,3)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
-                    5, 
-                    9, 
-                    11, 
+                    2,
+                    5,
+                    9,
+                    11,
                     12
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "ATTHEDROPOFAHAT", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "ATTHEDROPOFAHAT"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Ex-foreign secretary outside phone box (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Ex-foreign secretary outside phone box (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "CARRINGTON", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CARRINGTON"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Fruit for child-bearing mothers (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Fruit for child-bearing mothers (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "DAMSONS", 
-            "id": "4-down"
-        }, 
+                "x": 7,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DAMSONS"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Item of clothing found at start of Rotten Row (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Item of clothing found at start of Rotten Row (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "TIER", 
-            "id": "5-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TIER"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Injured sister OK? No? Nephews, except Gilbert, remain calm (4,4,5,2)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Injured sister OK? No? Nephews, except Gilbert, remain calm (4,4,5,2)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
-                    8, 
+                    4,
+                    8,
                     13
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "KEEPONESSHIRTON", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "KEEPONESSHIRTON"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Father often bops around - it's become very tedious (4,3,5,3)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Father often bops around - it's become very tedious (4,3,5,3)", 
+            ],
+            "position": {
+                "x": 13,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
-                    7, 
+                    4,
+                    7,
                     12
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "BORETHEPANTSOFF", 
-            "id": "7-down"
-        }, 
+            },
+            "solution": "BORETHEPANTSOFF"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Mother sees runt struggling for full development (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Mother sees runt struggling for full development (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 9
-            }, 
-            "solution": "MATURENESS", 
-            "id": "14-down"
-        }, 
+                "x": 9,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "MATURENESS"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Cavort wildly around East Ham (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Cavort wildly around East Ham (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "OVERACT", 
-            "id": "17-down"
-        }, 
+                "x": 7,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "OVERACT"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Pop round by rail? (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Pop round by rail? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 5
-            }, 
-            "solution": "DADO", 
-            "id": "21-down"
+                "x": 5,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "DADO"
         }
-    ], 
-    "date": 1171411200000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/24000", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1171411200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M03"
 }

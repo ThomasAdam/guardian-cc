@@ -1,525 +1,527 @@
 {
-    "name": "Cryptic crossword No 22,449", 
+    "id": "crosswords/cryptic/22449",
+    "number": 22449,
+    "name": "Cryptic crossword No 22,449",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/logodaedalus", 
-        "name": "Logodaedalus"
-    }, 
-    "dateSolutionAvailable": 1014249600000, 
-    "number": 22449, 
-    "crosswordType": "cryptic", 
+        "name": "Logodaedalus",
+        "webUrl": "https://www.theguardian.com/profile/logodaedalus"
+    },
+    "date": 1014249600000,
+    "webPublicationDate": 1014249600000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Bartender needing a wad chopped up for the plainest food (5,3,5)",
+            "direction": "across",
+            "length": 13,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Bartender needing a wad chopped up for the plainest food (5,3,5)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    5, 
+                    5,
                     8
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "BREADANDWATER", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "BREADANDWATER"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Case of the former Liberal (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Case of the former Liberal (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "EXAMPLE", 
-            "id": "10-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "EXAMPLE"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Cookery writer knocks back gin with jazz singer (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Cookery writer knocks back gin with jazz singer (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 8
-            }, 
-            "solution": "NIGELLA", 
-            "id": "11-across"
-        }, 
+                "x": 8,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "NIGELLA"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "American berry grower's moving along (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "American berry grower's moving along (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "LOGAN", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "LOGAN"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "This female warrior's bust ain't in bra (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "This female warrior's bust ain't in bra (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 6
-            }, 
-            "solution": "BRITANNIA", 
-            "id": "13-across"
-        }, 
+                "x": 6,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "BRITANNIA"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Midshipman called about the crash (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Midshipman called about the crash (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "PRANG", 
-            "id": "14-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "PRANG"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Encouraged to embrace a bishop when heckled (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Encouraged to embrace a bishop when heckled (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 6
-            }, 
-            "solution": "BARRACKED", 
-            "id": "16-across"
-        }, 
+                "x": 6,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "BARRACKED"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Not even a soldier on strike could be called a misfit (3,3,3)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Not even a soldier on strike could be called a misfit (3,3,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     6
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "ODDMANOUT", 
-            "id": "18-across"
-        }, 
+            },
+            "solution": "ODDMANOUT"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "The best of the Carmelites (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "The best of the Carmelites (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 10
-            }, 
-            "solution": "ELITE", 
-            "id": "19-across"
-        }, 
+                "x": 10,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ELITE"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Good-looking lad with scar and sinus damaged (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Good-looking lad with scar and sinus damaged (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "NARCISSUS", 
-            "id": "20-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "NARCISSUS"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Praise for Elizabeth when going round the lake (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Praise for Elizabeth when going round the lake (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 10
-            }, 
-            "solution": "BLESS", 
-            "id": "23-across"
-        }, 
+                "x": 10,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "BLESS"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Final stage when death reaches wild animals for sport (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Final stage when death reaches wild animals for sport (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "ENDGAME", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "ENDGAME"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Nearly suffering as a substitute (5,2)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Nearly suffering as a substitute (5,2)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 12, 
-                "x": 8
-            }, 
-            "solution": "STANDIN", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "STANDIN"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Envious, getting identified as Charlie Dimmock (5-8)",
+            "direction": "across",
+            "length": 13,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Envious, getting identified as Charlie Dimmock (5-8)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 14
+            },
             "separatorLocations": {
                 "-": [
                     5
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "26", 
-            "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "GREENFINGERED", 
-            "id": "26-across"
-        }, 
+            },
+            "solution": "GREENFINGERED"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Protective train buffer? (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Protective train buffer? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "REARGUARD", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "REARGUARD"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Anglo-Saxon writer trembles in the wind (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Anglo-Saxon writer trembles in the wind (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "ASPEN", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ASPEN"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Brother got up after getting best bitter (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Brother got up after getting best bitter (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "ACERB", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ACERB"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Insignificant fellow spattered panda with dirt (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Insignificant fellow spattered panda with dirt (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "DANDIPRAT", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DANDIPRAT"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Incense in silver tomb, about a ton (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Incense in silver tomb, about a ton (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "AGGRAVATE", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "AGGRAVATE"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Actress Terry is well endowed, but not completely (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Actress Terry is well endowed, but not completely (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "ELLEN", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ELLEN"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Source named with all the necessary equipment (4-9)",
+            "direction": "down",
+            "length": 13,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Source named with all the necessary equipment (4-9)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "WELLAPPOINTED", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "WELLAPPOINTED"
+        },
         {
-            "direction": "down", 
+            "id": "9-down",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Sarah concentrating on sauce (5,8)",
+            "direction": "down",
+            "length": 13,
             "group": [
                 "9-down"
-            ], 
-            "number": 9, 
-            "clue": "Sarah concentrating on sauce (5,8)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 1, 
-                "x": 14
-            }, 
-            "solution": "SALADDRESSING", 
-            "id": "9-down"
-        }, 
+            },
+            "solution": "SALADDRESSING"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Life in the fireplace and sink (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Life in the fireplace and sink (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 4
-            }, 
-            "solution": "GRAVITATE", 
-            "id": "15-down"
-        }, 
+                "x": 4,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "GRAVITATE"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Standing place for objects with hard back and strange flesh (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Standing place for objects with hard back and strange flesh (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 6
-            }, 
-            "solution": "BOOKSHELF", 
-            "id": "16-down"
-        }, 
+                "x": 6,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "BOOKSHELF"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "What the chef uses in a tense situation? (5,4)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "What the chef uses in a tense situation? (5,4)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 6, 
-                "x": 12
-            }, 
-            "solution": "KNIFEEDGE", 
-            "id": "17-down"
-        }, 
+            },
+            "solution": "KNIFEEDGE"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Cyclist's qualification (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Cyclist's qualification (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 2
-            }, 
-            "solution": "RIDER", 
-            "id": "21-down"
-        }, 
+                "x": 2,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "RIDER"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "She keeps us in the sanatorium (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "She keeps us in the sanatorium (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 8
-            }, 
-            "solution": "SUSAN", 
-            "id": "22-down"
-        }, 
+                "x": 8,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "SUSAN"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "English poet and artist born over the water (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "English poet and artist born over the water (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 10
-            }, 
-            "solution": "BLAKE", 
-            "id": "23-down"
+                "x": 10,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "BLAKE"
         }
-    ], 
-    "date": 1014249600000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/22449", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1014249600000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M27"
 }

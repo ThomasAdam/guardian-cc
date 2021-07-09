@@ -1,465 +1,467 @@
 {
-    "name": "Cryptic crossword No 23,027", 
+    "id": "crosswords/cryptic/23027",
+    "number": 23027,
+    "name": "Cryptic crossword No 23,027",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/crispa", 
-        "name": "Crispa"
-    }, 
-    "dateSolutionAvailable": 1072915200000, 
-    "number": 23027, 
-    "crosswordType": "cryptic", 
+        "name": "Crispa",
+        "webUrl": "https://www.theguardian.com/profile/crispa"
+    },
+    "date": 1072915200000,
+    "webPublicationDate": 1072915200000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Balance a vessel containing cold drink (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "Balance a vessel containing cold drink (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 1
-            }, 
-            "solution": "SCALES", 
-            "id": "5-across"
-        }, 
+                "x": 1,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "SCALES"
+        },
         {
-            "direction": "across", 
+            "id": "6-across",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Pleased about a note, but certainly didn't look pleased (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "6-across"
-            ], 
-            "number": 6, 
-            "clue": "Pleased about a note, but certainly didn't look pleased (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 8
-            }, 
-            "solution": "GLARED", 
-            "id": "6-across"
-        }, 
+                "x": 8,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "GLARED"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Get wrinkled serving men into condition (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Get wrinkled serving men into condition (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "CREASE", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "CREASE"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Attractive binding (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Attractive binding (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 7
-            }, 
-            "solution": "ENGAGING", 
-            "id": "10-across"
-        }, 
+                "x": 7,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "ENGAGING"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Interior decoration gives many trouble (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Interior decoration gives many trouble (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "DADO", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "DADO"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Schooled in cunning with much effort (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Schooled in cunning with much effort (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 5
-            }, 
-            "solution": "STRAINEDLY", 
-            "id": "12-across"
-        }, 
+                "x": 5,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "STRAINEDLY"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Recent stage production of \"The Spy\" (6,5)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Recent stage production of \"The Spy\" (6,5)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "SECRETAGENT", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "SECRETAGENT"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Advise colleague in casual fashion (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Advise colleague in casual fashion (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "INFORMALLY", 
-            "id": "18-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "INFORMALLY"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Some furniture - a desk etc - for study (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Some furniture - a desk etc - for study (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 11
-            }, 
-            "solution": "READ", 
-            "id": "21-across"
-        }, 
+                "x": 11,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "READ"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "A few words in condemnation (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "A few words in condemnation (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "SENTENCE", 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "SENTENCE"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "He going off, as the French say (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "He going off, as the French say (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 9
-            }, 
-            "solution": "LEAVER", 
-            "id": "23-across"
-        }, 
+                "x": 9,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "LEAVER"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Darted about and arranged some deals (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Darted about and arranged some deals (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 1
-            }, 
-            "solution": "TRADED", 
-            "id": "24-across"
-        }, 
+                "x": 1,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "TRADED"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "An animal's lair amid rubbish (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "An animal's lair amid rubbish (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 8
-            }, 
-            "solution": "RODENT", 
-            "id": "25-across"
-        }, 
+                "x": 8,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "RODENT"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "An American Indian chief could make a long story longer (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "An American Indian chief could make a long story longer (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "SAGAMORE", 
-            "id": "1-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SAGAMORE"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Staggers outside quietly and drives away (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Staggers outside quietly and drives away (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "REPELS", 
-            "id": "2-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "REPELS"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Blocking promotion (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Blocking promotion (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "PLUGGING", 
-            "id": "3-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PLUGGING"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Talk of an Irishman - soft rascal (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Talk of an Irishman - soft rascal (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "BROGUE", 
-            "id": "4-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BROGUE"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Mark, a good man, associated with rake surprisingly (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Mark, a good man, associated with rake surprisingly (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 1
-            }, 
-            "solution": "STREAK", 
-            "id": "5-down"
-        }, 
+                "x": 1,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "STREAK"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Note fish hang about (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Note fish hang about (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 13
-            }, 
-            "solution": "DANGLE", 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "DANGLE"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Hunter might well go ahead (11)",
+            "direction": "down",
+            "length": 11,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Hunter might well go ahead (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 7
-            }, 
-            "solution": "DEERSTALKER", 
-            "id": "8-down"
-        }, 
+                "x": 7,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "DEERSTALKER"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Prompter dealing with the baby-sitter? (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Prompter dealing with the baby-sitter? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "REMINDER", 
-            "id": "14-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "REMINDER"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Tells of an arrest being wrongly ordered (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Tells of an arrest being wrongly ordered (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "solution": "NARRATES", 
-            "id": "15-down"
-        }, 
+                "x": 11,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "NARRATES"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "A little crawler joining the currently popular party (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "A little crawler joining the currently popular party (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "INSECT", 
-            "id": "16-down"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "INSECT"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "When overdue, a lot of books may be hidden (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "When overdue, a lot of books may be hidden (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 13
-            }, 
-            "solution": "LATENT", 
-            "id": "17-down"
-        }, 
+                "x": 13,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "LATENT"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Dreadful lout, a Western desperado (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Dreadful lout, a Western desperado (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 3
-            }, 
-            "solution": "OUTLAW", 
-            "id": "19-down"
-        }, 
+                "x": 3,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "OUTLAW"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Cry out in pain, being chicken-hearted (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Cry out in pain, being chicken-hearted (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "YELLOW", 
-            "id": "20-down"
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "YELLOW"
         }
-    ], 
-    "date": 1072915200000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/23027", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1072915200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M31"
 }

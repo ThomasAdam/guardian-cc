@@ -1,537 +1,539 @@
 {
-    "name": "Cryptic crossword No 24,598", 
+    "id": "crosswords/cryptic/24598",
+    "number": 24598,
+    "name": "Cryptic crossword No 24,598",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/paul", 
-        "name": "Paul"
-    }, 
-    "dateSolutionAvailable": 1232064000000, 
-    "number": 24598, 
-    "crosswordType": "cryptic", 
+        "name": "Paul",
+        "webUrl": "https://www.theguardian.com/profile/paul"
+    },
+    "date": 1232064000000,
+    "webPublicationDate": 1232064000000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Instrument entertaining big time, as half of a double act (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "Instrument entertaining big time, as half of a double act (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "COSTELLO", 
-            "id": "8-across"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "COSTELLO"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Monk's 0/12? (5,8)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "9-across", 
+                "9-across",
                 "14-across"
-            ], 
-            "number": 9, 
-            "clue": "Monk's 0/12? (5,8)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 1, 
-                "x": 9
-            }, 
-            "solution": "ROUND", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "ROUND"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Row in which cat's gutted (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Row in which cat's gutted (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "TIER", 
-            "id": "10-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "TIER"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Place in a mess with habit of every character (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Place in a mess with habit of every character (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 5
-            }, 
-            "solution": "ALPHABETIC", 
-            "id": "11-across"
-        }, 
+                "x": 5,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "ALPHABETIC"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Exposure, as opposed to either 9 14, 17 26, 23, 1, 2 24 or 22 15, we hear? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Exposure, as opposed to either 9 14, 17 26, 23, 1, 2 24 or 22 15, we hear? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "NUDITY", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "NUDITY"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "See 9",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "9-across", 
+                "9-across",
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "See 9", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 8, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 5, 
-                "x": 7
-            }, 
-            "solution": "MIDNIGHT", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "MIDNIGHT"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "See 22 down",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "22-down", 
+                "22-down",
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "See 22 down", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "WEATHER", 
-            "id": "15-across"
-        }, 
+            },
+            "solution": "WEATHER"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Carmichael's upsetting moggy with Iron Maiden (7,2,2,4)",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "17-across", 
+                "17-across",
                 "26-across"
-            ], 
-            "number": 17, 
-            "clue": "Carmichael's upsetting moggy with Iron Maiden (7,2,2,4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "GEORGIA", 
-            "id": "17-across"
-        }, 
+            },
+            "solution": "GEORGIA"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Fighting, setter gets dessert back out of the oven again (6,2)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Fighting, setter gets dessert back out of the oven again (6,2)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "20", 
-            "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "WARMEDUP", 
-            "id": "20-across"
-        }, 
+            },
+            "solution": "WARMEDUP"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Saw always cutting grass (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Saw always cutting grass (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "SAYING", 
-            "id": "22-across"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "SAYING"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Ellington's low dog, biting princess (4,6)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Ellington's low dog, biting princess (4,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "23", 
-            "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "MOODINDIGO", 
-            "id": "23-across"
-        }, 
+            },
+            "solution": "MOODINDIGO"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "See 2",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "2-down", 
+                "2-down",
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "See 2", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 11
-            }, 
-            "solution": "DUST", 
-            "id": "24-across"
-        }, 
+                "x": 11,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "DUST"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Fool about, seeing gunpowder ingredient (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Fool about, seeing gunpowder ingredient (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 1
-            }, 
-            "solution": "NITRE", 
-            "id": "25-across"
-        }, 
+                "x": 1,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "NITRE"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "See 17",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "17-across", 
+                "17-across",
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "See 17", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "26", 
-            "position": {
-                "y": 13, 
-                "x": 7
-            }, 
-            "solution": "ONMYMIND", 
-            "id": "26-across"
-        }, 
+            },
+            "solution": "ONMYMIND"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Ellington's jazzy diet, soul (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Ellington's jazzy diet, soul (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "SOLITUDE", 
-            "id": "1-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SOLITUDE"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Carmichael's beginning to impress Duke and the Guardian (8)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "2-down", 
+                "2-down",
                 "24-across"
-            ], 
-            "number": 2, 
-            "clue": "Carmichael's beginning to impress Duke and the Guardian (8)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "STAR", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "STAR"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Second offensive finally penetrating slack base (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Second offensive finally penetrating slack base (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "SLEAZY", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SLEAZY"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Cannons finding the opposite for Antipodeans, one and all? (3-4)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Cannons finding the opposite for Antipodeans, one and all? (3-4)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "POMPOMS", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "POMPOMS"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Fabric has to fade beneath instrument (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Fabric has to fade beneath instrument (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "ORGANDIE", 
-            "id": "5-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ORGANDIE"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Cross about fairy heading for Oberon in condescending manner (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Cross about fairy heading for Oberon in condescending manner (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "SUPERIORLY", 
-            "id": "6-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SUPERIORLY"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Quite unusual to have half of food before meal (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Quite unusual to have half of food before meal (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "ODDISH", 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ODDISH"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Passport eaten by friendly cow? (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Passport eaten by friendly cow? (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 3
-            }, 
-            "solution": "INTIMIDATE", 
-            "id": "13-down"
-        }, 
+                "x": 3,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "INTIMIDATE"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Threaten to make peace? (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Threaten to make peace? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "ENDANGER", 
-            "id": "16-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ENDANGER"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Division of legion is in goal, charging (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Division of legion is in goal, charging (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 13
-            }, 
-            "solution": "IONISING", 
-            "id": "18-down"
-        }, 
+                "x": 13,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "IONISING"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "A loop securing the last of your fruit (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "A loop securing the last of your fruit (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "APRICOT", 
-            "id": "19-down"
-        }, 
+                "x": 7,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "APRICOT"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "A horse is how much? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "A horse is how much? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 1
-            }, 
-            "solution": "AMOUNT", 
-            "id": "21-down"
-        }, 
+                "x": 1,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "AMOUNT"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Arlen's \"The Tempest\" (6,7)",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "22-down", 
+                "22-down",
                 "15-across"
-            ], 
-            "number": 22, 
-            "clue": "Arlen's \"The Tempest\" (6,7)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "STORMY", 
-            "id": "22-down"
-        }, 
+            },
+            "solution": "STORMY"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Broad barrier beginning to erode (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "Broad barrier beginning to erode (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 11
-            }, 
-            "solution": "DAME", 
-            "id": "24-down"
+                "x": 11,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "DAME"
         }
-    ], 
-    "date": 1232064000000, 
-    "instructions": "Click <a href=\"http://image.guardian.co.uk/sys-files/Guardian/documents/2009/01/13/xwMain1601_24598.pdf\">here</a> for a printable version of this crossword.", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/24598", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1232064000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "instructions": "Click <a href=\"http://image.guardian.co.uk/sys-files/Guardian/documents/2009/01/13/xwMain1601_24598.pdf\">here</a> for a printable version of this crossword.",
+    "_gridType": "M46"
 }

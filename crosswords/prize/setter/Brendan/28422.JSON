@@ -1,468 +1,496 @@
 {
-    "name": "Prize crossword No 28,422", 
+    "id": "crosswords/prize/28422",
+    "number": 28422,
+    "name": "Prize crossword No 28,422",
     "creator": {
-        "webUrl": "https://www.theguardian.com/profile/brendan", 
-        "name": "Brendan"
-    }, 
-    "dateSolutionAvailable": 1619218800000, 
-    "number": 28422, 
-    "crosswordType": "prize", 
+        "name": "Brendan",
+        "webUrl": "https://www.theguardian.com/profile/brendan"
+    },
+    "date": 1618617600000,
+    "webPublicationDate": 1618614017000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Position of bishop and cardinal making one become angry (3,3)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "Position of bishop and cardinal making one become angry (3,3)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 1, 
-                "x": 1
-            }, 
-            "id": "5-across"
-        }, 
+            },
+            "solution": "SEERED"
+        },
         {
-            "direction": "across", 
+            "id": "6-across",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Act the wrong way, cutting precious tree (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "6-across"
-            ], 
-            "number": 6, 
-            "clue": "Act the wrong way, cutting precious tree (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 8
-            }, 
-            "id": "6-across"
-        }, 
+                "x": 8,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "DEODAR"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Leaders in White House the reverse of smart in Washington \u2014 what's the downside? (3,3)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Leaders in White House the reverse of smart in Washington \u2014 what's the downside? (3,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "WHYNOT"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Weapon in novel Pale Fire (3,5)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Weapon in novel Pale Fire (3,5)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 3, 
-                "x": 7
-            }, 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "PEARIFLE"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Heads off tippler's excessive alco\u00adholic tendency, attachment to bottle (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Heads off tippler's excessive alco\u00adholic tendency, attachment to bottle (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "TEAT"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Something sailor needs at that point covered by one side of bridge always (7,3)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Something sailor needs at that point covered by one side of bridge always (7,3)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 5, 
-                "x": 5
-            }, 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "WEATHEREYE"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Set piece \u2014 it's spelt out, as you can hear, in the other across solutions (apart from 23) (7,4)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Set piece \u2014 it's spelt out, as you can hear, in the other across solutions (apart from 23) (7,4)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "CRYPTICCLUE"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Leaderless, is deaf \u2014 his thing is what'll diminish schools? (3-7)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Leaderless, is deaf \u2014 his thing is what'll diminish schools? (3-7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 9
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "id": "18-across"
-        }, 
+            },
+            "solution": "SEAFISHING"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Quick removal of initial no-no for doctors from pharmacy (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Quick removal of initial no-no for doctors from pharmacy (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 11
-            }, 
-            "id": "21-across"
-        }, 
+                "x": 11,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "PACY"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Notice changes after English left democratic process (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Notice changes after English left democratic process (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "ELECTION"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Exactly 50% of disease in one area, part of Europe (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Exactly 50% of disease in one area, part of Europe (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 9
-            }, 
-            "id": "23-across"
-        }, 
+                "x": 9,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "IBERIA"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Live in endless childhood? Certainly! (3,3)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Live in endless childhood? Certainly! (3,3)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 13, 
-                "x": 1
-            }, 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "YOUBET"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Anxious, having no time to get Chinese manual (1,5)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Anxious, having no time to get Chinese manual (1,5)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": [
                     1
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 13, 
-                "x": 8
-            }, 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "ICHING"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Tranche of boodle in sterling for Irish quarter? (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Tranche of boodle in sterling for Irish quarter? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "id": "1-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LEINSTER"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Give in first place with pained expression (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Give in first place with pained expression (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "id": "2-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BESTOW"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Harpies gallivanting about, like other mythical creatures (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Harpies gallivanting about, like other mythical creatures (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "id": "3-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SERAPHIC"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Less composed editor fighting American over royalty (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Less composed editor fighting American over royalty (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "id": "4-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EDGIER"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "That is to say, arranged help for arduous trek (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "That is to say, arranged help for arduous trek (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 1
-            }, 
-            "id": "5-down"
-        }, 
+                "x": 1,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "SCHLEP"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Races one can't complete (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Races one can't complete (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 13
-            }, 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "RELAYS"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Entering a quiet city, changed into shades (11)",
+            "direction": "down",
+            "length": 11,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Entering a quiet city, changed into shades (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 7
-            }, 
-            "id": "8-down"
-        }, 
+                "x": 7,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "APPARITIONS"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Old man's daily crosswords etc (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Old man's daily crosswords etc (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "id": "14-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "PASTIMES"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Refer to work Greek character turned up that's prosaic (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Refer to work Greek character turned up that's prosaic (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "id": "15-down"
-        }, 
+                "x": 11,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "UNPOETIC"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "In fact, join a new league? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "In fact, join a new league? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "id": "16-down"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "REALLY"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Playing in position as substitute (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Playing in position as substitute (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 13
-            }, 
-            "id": "17-down"
-        }, 
+                "x": 13,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ACTING"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "If upset, put on such varied neckwear (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "If upset, put on such varied neckwear (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 3
-            }, 
-            "id": "19-down"
-        }, 
+                "x": 3,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "FICHUS"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Problem with equipment, needing good fruit pruned (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Problem with equipment, needing good fruit pruned (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "id": "20-down"
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "GLITCH"
         }
-    ], 
-    "date": 1618617600000, 
-    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20210417.pdf", 
-    "solutionAvailable": false, 
-    "id": "crosswords/prize/28422", 
+    ],
+    "solutionAvailable": false,
+    "dateSolutionAvailable": 1619218800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "prize",
+    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20210417.pdf",
+    "_gridType": "M31"
 }

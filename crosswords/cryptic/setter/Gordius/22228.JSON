@@ -1,520 +1,522 @@
 {
-    "name": "Cryptic crossword No 22,228", 
+    "id": "crosswords/cryptic/22228",
+    "number": 22228,
+    "name": "Cryptic crossword No 22,228",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/gordius", 
-        "name": "Gordius"
-    }, 
-    "dateSolutionAvailable": 991782000000, 
-    "number": 22228, 
-    "crosswordType": "cryptic", 
+        "name": "Gordius",
+        "webUrl": "https://www.theguardian.com/profile/gordius"
+    },
+    "date": 991785600000,
+    "webPublicationDate": 991782000000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Classic exemplar of stable government (9,5)",
+            "direction": "across",
+            "length": 14,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Classic exemplar of stable government (9,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     9
                 ]
-            }, 
-            "length": 14, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "CALIGULASHORSE", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "CALIGULASHORSE"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Elusive counter-revolutionary growth (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Elusive counter-revolutionary growth (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "PIMPERNEL", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "PIMPERNEL"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Free to live without a partner? (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Free to live without a partner? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 10
-            }, 
-            "solution": "BRIDE", 
-            "id": "10-across"
-        }, 
+                "x": 10,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "BRIDE"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Perhaps hash with time may come to flower (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Perhaps hash with time may come to flower (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "TWEED", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "TWEED"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Capital transaction it means a lot (5,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Capital transaction it means a lot (5,4)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 4, 
-                "x": 6
-            }, 
-            "solution": "GREATDEAL", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "GREATDEAL"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Hardly a hot gospeller? (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Hardly a hot gospeller? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "LUKEWARM", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "LUKEWARM"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Brought up on Housman's hill (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Brought up on Housman's hill (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 9
-            }, 
-            "solution": "BREDON", 
-            "id": "14-across"
-        }, 
+                "x": 9,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "BREDON"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Like a cat starting to leap in agitation (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Like a cat starting to leap in agitation (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "FLURRY", 
-            "id": "17-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "FLURRY"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Climber of the Caroline Restoration (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Climber of the Caroline Restoration (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "LONICERA", 
-            "id": "19-across"
-        }, 
+                "x": 7,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "LONICERA"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Stretches for poor Noel and rich Bill (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Stretches for poor Noel and rich Bill (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "ELONGATES", 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "ELONGATES"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Journalist takes cover before becoming unpopular (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Journalist takes cover before becoming unpopular (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 10
-            }, 
-            "solution": "HATED", 
-            "id": "24-across"
-        }, 
+                "x": 10,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "HATED"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "King Charles's peculiar governing power (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "King Charles's peculiar governing power (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "CROWN", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "CROWN"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Atmosphere of extravagant design about an eating place (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Atmosphere of extravagant design about an eating place (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 6
-            }, 
-            "solution": "TRATTORIA", 
-            "id": "26-across"
-        }, 
+                "x": 6,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "TRATTORIA"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Once gay characters reform, there's reasonable treatment for women (14)",
+            "direction": "across",
+            "length": 14,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Once gay characters reform, there's reasonable treatment for women (14)", 
-            "separatorLocations": {}, 
-            "length": 14, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "GYNAECOLOGICAL", 
-            "id": "27-across"
-        }, 
+                "x": 1,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "GYNAECOLOGICAL"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Police affect an outbreak of serious crime (7,7)",
+            "direction": "down",
+            "length": 14,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Police affect an outbreak of serious crime (7,7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 14, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "CAPITALOFFENCE", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "CAPITALOFFENCE"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Beat gong in aphetic still (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Beat gong in aphetic still (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "LIMBECK", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LIMBECK"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Owen's \u00a31,000 loan to debtor? (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Owen's \u00a31,000 loan to debtor? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "GLENDOWER", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "GLENDOWER"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Daughter of an earth mother? (4-4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Daughter of an earth mother? (4-4)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "LANDGIRL", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "LANDGIRL"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "You could be lovers (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "You could be lovers (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "SOLVER", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SOLVER"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "A gold piece, of course (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "A gold piece, of course (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "ORBIT", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ORBIT"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Pay - mine's about to finish (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Pay - mine's about to finish (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "STIPEND", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "STIPEND"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Find all cleaned out - the fruit of war, it's said (7,3,4)",
+            "direction": "down",
+            "length": 14,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Find all cleaned out - the fruit of war, it's said (7,3,4)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
-                    7, 
+                    7,
                     10
                 ]
-            }, 
-            "length": 14, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 1, 
-                "x": 14
-            }, 
-            "solution": "DECLINEANDFALL", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "DECLINEANDFALL"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "The cigars rolled for a German's diet (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "The cigars rolled for a German's diet (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 10
-            }, 
-            "solution": "REICHSTAG", 
-            "id": "15-down"
-        }, 
+                "x": 10,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "REICHSTAG"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "End of beef? (4,4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "End of beef? (4,4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "COWSTAIL", 
-            "id": "16-down"
-        }, 
+            },
+            "solution": "COWSTAIL"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Medical study of sound currency? (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Medical study of sound currency? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 2
-            }, 
-            "solution": "UROLOGY", 
-            "id": "18-down"
-        }, 
+                "x": 2,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "UROLOGY"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Hospital department to which boy is taken for typhoid (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Hospital department to which boy is taken for typhoid (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 12
-            }, 
-            "solution": "ENTERIC", 
-            "id": "20-down"
-        }, 
+                "x": 12,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ENTERIC"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "It acts badly, lacking motivation (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "It acts badly, lacking motivation (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 6
-            }, 
-            "solution": "STATIC", 
-            "id": "21-down"
-        }, 
+                "x": 6,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "STATIC"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": " Force a single over in Italy (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": " Force a single over in Italy (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 4
-            }, 
-            "solution": "GENOA", 
-            "id": "23-down"
+                "x": 4,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "GENOA"
         }
-    ], 
-    "date": 991785600000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/22228", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 991782000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M04"
 }

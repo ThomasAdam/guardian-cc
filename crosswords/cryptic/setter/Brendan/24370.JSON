@@ -1,572 +1,574 @@
 {
-    "name": "Cryptic crossword No 24,370", 
+    "id": "crosswords/cryptic/24370",
+    "number": 24370,
+    "name": "Cryptic crossword No 24,370",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/brendan", 
-        "name": "Brendan"
-    }, 
-    "dateSolutionAvailable": 1208905200000, 
-    "number": 24370, 
-    "crosswordType": "cryptic", 
+        "name": "Brendan",
+        "webUrl": "https://www.theguardian.com/profile/brendan"
+    },
+    "date": 1208908800000,
+    "webPublicationDate": 1208905200000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Climber creating a system of tracks on small mountain (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Climber creating a system of tracks on small mountain (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "HILLARY", 
-            "id": "1-across"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "HILLARY"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Pound and a shilling I laid out to see early movie great (7,4)",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "5-across", 
+                "5-across",
                 "10-across"
-            ], 
-            "number": 5, 
-            "clue": "Pound and a shilling I laid out to see early movie great (7,4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "LILLIAN", 
-            "id": "5-across"
-        }, 
+            },
+            "solution": "LILLIAN"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "See 5",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "5-across", 
+                "5-across",
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "See 5", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "GISH", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "GISH"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "There's no time for this in the Olympics, for example (5,5)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "There's no time for this in the Olympics, for example (5,5)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 2, 
-                "x": 5
-            }, 
-            "solution": "FIELDEVENT", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "FIELDEVENT"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Rewrite a banal clue by learner about queen or film star (6,6)",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "12-across", 
+                "12-across",
                 "22-down"
-            ], 
-            "number": 12, 
-            "clue": "Rewrite a banal clue by learner about queen or film star (6,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "LAUREN", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "LAUREN"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Run into party with one's date, an actress (5,3)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Run into party with one's date, an actress (5,3)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 4, 
-                "x": 7
-            }, 
-            "solution": "DORISDAY", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "DORISDAY"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Making poor start - finally good fish caught (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Making poor start - finally good fish caught (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "BEGGARING", 
-            "id": "14-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "BEGGARING"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Animal first across threshold of ark (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Animal first across threshold of ark (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 10
-            }, 
-            "solution": "BEAST", 
-            "id": "16-across"
-        }, 
+                "x": 10,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "BEAST"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Fish was far from fresh! (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Fish was far from fresh! (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "SMELT", 
-            "id": "17-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "SMELT"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Organising big, nothing small? (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Organising big, nothing small? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 6
-            }, 
-            "solution": "GLOBALISM", 
-            "id": "19-across"
-        }, 
+                "x": 6,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "GLOBALISM"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Support advocate primarily put in place (5,3)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Support advocate primarily put in place (5,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "23", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "LEGALAID", 
-            "id": "23-across"
-        }, 
+            },
+            "solution": "LEGALAID"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "See 6",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "6-down", 
+                "6-down",
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "See 6", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 10
+            },
             "separatorLocations": {
                 ".": []
-            }, 
-            "length": 6, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 10, 
-                "x": 9
-            }, 
-            "solution": "GANDHI", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "GANDHI"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Some Africans have seen eagles flying around (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Some Africans have seen eagles flying around (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "SENEGALESE", 
-            "id": "26-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "SENEGALESE"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "The second part of what you're doing makes news (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "The second part of what you're doing makes news (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 11
-            }, 
-            "solution": "WORD", 
-            "id": "27-across"
-        }, 
+                "x": 11,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "WORD"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "Rattle badly with surprise, initially? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "28-across"
-            ], 
-            "number": 28, 
-            "clue": "Rattle badly with surprise, initially? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "28", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "STARTLE", 
-            "id": "28-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "STARTLE"
+        },
         {
-            "direction": "across", 
+            "id": "29-across",
+            "number": 29,
+            "humanNumber": "29",
+            "clue": "Block on name of former president (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "29-across"
-            ], 
-            "number": 29, 
-            "clue": "Block on name of former president (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "29", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "CLINTON", 
-            "id": "29-across"
-        }, 
+                "x": 8,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "CLINTON"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Follow the example of one Christian, say, about it (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Follow the example of one Christian, say, about it (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "IMITATE", 
-            "id": "2-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "IMITATE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Composer's piece of subtle harmony (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Composer's piece of subtle harmony (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "LEHAR", 
-            "id": "3-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LEHAR"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "About to punish, in a way, monarch who makes improvements? (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "About to punish, in a way, monarch who makes improvements? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "REFINER", 
-            "id": "4-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "REFINER"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Ruler in Asian country heading changes out East(6.6)",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "6-down", 
+                "6-down",
                 "24-across"
-            ], 
-            "number": 6, 
-            "clue": "Ruler in Asian country heading changes out East(6.6)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 0
+            },
             "separatorLocations": {
                 ".": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "INDIRA", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "INDIRA"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Experiences awful situation that's potentially explosive (4,5)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Experiences awful situation that's potentially explosive (4,5)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "LIVESHELL", 
-            "id": "7-down"
-        }, 
+            },
+            "solution": "LIVESHELL"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Over small area, abolishes certain plants (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Over small area, abolishes certain plants (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "ANNUALS", 
-            "id": "8-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ANNUALS"
+        },
         {
-            "direction": "down", 
+            "id": "9-down",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "For example, 5 10, 12 22, 13 and 18; or 6 24 and 15 - and 1 29, maybe (7,6)",
+            "direction": "down",
+            "length": 13,
             "group": [
                 "9-down"
-            ], 
-            "number": 9, 
-            "clue": "For example, 5 10, 12 22, 13 and 18; or 6 24 and 15 - and 1 29, maybe (7,6)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 1, 
-                "x": 7
-            }, 
-            "solution": "LEADINGLADIES", 
-            "id": "9-down"
-        }, 
+            },
+            "solution": "LEADINGLADIES"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Leave a milder recollection of so-called Iron Lady (5,4)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Leave a milder recollection of so-called Iron Lady (5,4)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 6, 
-                "x": 3
-            }, 
-            "solution": "GOLDAMEIR", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "GOLDAMEIR"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "She was prominent at the front as a wartime life-saver (3,4)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "She was prominent at the front as a wartime life-saver (3,4)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "MAEWEST", 
-            "id": "18-down"
-        }, 
+            },
+            "solution": "MAEWEST"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Something of importance from British government leader, in principle (3,4)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Something of importance from British government leader, in principle (3,4)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "20", 
-            "position": {
-                "y": 8, 
-                "x": 9
-            }, 
-            "solution": "BIGDEAL", 
-            "id": "20-down"
-        }, 
+            },
+            "solution": "BIGDEAL"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Musical piece unknown in 60% of orchestras, oddly (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Musical piece unknown in 60% of orchestras, oddly (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 13
-            }, 
-            "solution": "SCHERZO", 
-            "id": "21-down"
-        }, 
+                "x": 13,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "SCHERZO"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "See 12",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "12-across", 
+                "12-across",
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "See 12", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 9, 
-                "x": 5
-            }, 
-            "solution": "BACALL", 
-            "id": "22-down"
-        }, 
+            },
+            "solution": "BACALL"
+        },
         {
-            "direction": "down", 
+            "id": "25-down",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Unsuccessful kind of situation currently at one's office (2-3)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "25-down"
-            ], 
-            "number": 25, 
-            "clue": "Unsuccessful kind of situation currently at one's office (2-3)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 10
+            },
             "separatorLocations": {
                 "-": [
                     2
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 10, 
-                "x": 11
-            }, 
-            "solution": "NOWIN", 
-            "id": "25-down"
+            },
+            "solution": "NOWIN"
         }
-    ], 
-    "date": 1208908800000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/24370", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1208905200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": null
 }

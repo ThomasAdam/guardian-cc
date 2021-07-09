@@ -1,548 +1,550 @@
 {
-    "name": "Cryptic crossword No 27,170", 
+    "id": "crosswords/cryptic/27170",
+    "number": 27170,
+    "name": "Cryptic crossword No 27,170",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/paul", 
-        "name": "Paul"
-    }, 
-    "dateSolutionAvailable": 1492038000000, 
-    "number": 27170, 
-    "crosswordType": "cryptic", 
+        "name": "Paul",
+        "webUrl": "https://www.theguardian.com/profile/paul"
+    },
+    "date": 1492041600000,
+    "webPublicationDate": 1492038010000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Wide containers, four in river (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Wide containers, four in river (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "EXPANSIVE", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "EXPANSIVE"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Batting sides interrupted (2-3)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Batting sides interrupted (2-3)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 1
+            },
             "separatorLocations": {
                 "-": [
                     2
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 1, 
-                "x": 10
-            }, 
-            "solution": "ONOFF", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "ONOFF"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Sooner at sea, hard to be kept \u2014 away from it? (2,5)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Sooner at sea, hard to be kept \u2014 away from it? (2,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "ONSHORE", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "ONSHORE"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "More than one case exists in glens (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "More than one case exists in glens (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 8
-            }, 
-            "solution": "VALISES", 
-            "id": "12-across"
-        }, 
+                "x": 8,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "VALISES"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Man, failure heading for extinction (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Man, failure heading for extinction (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "DUDE", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "DUDE"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Ornate picture frames or nothing in US territory (6,4)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Ornate picture frames or nothing in US territory (6,4)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 5, 
-                "x": 5
-            }, 
-            "solution": "PUERTORICO", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "PUERTORICO"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16, 23",
+            "clue": " Old song lyric contested by a number in the south of France? (4,3,5)",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "16-across", 
+                "16-across",
                 "23-down"
-            ], 
-            "number": 16, 
-            "clue": " Old song lyric contested by a number in the south of France? (4,3,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "16, 23", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "NICEONE", 
-            "id": "16-across"
-        }, 
+            },
+            "solution": "NICEONE"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "See 3",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "3-down", 
+                "3-down",
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "See 3", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "WETRUST", 
-            "id": "17-across"
-        }, 
+            },
+            "solution": "WETRUST"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Instrument, on which I produce notes, is running (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Instrument, on which I produce notes, is running (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "ORGANISING", 
-            "id": "19-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ORGANISING"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Pudding failed (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Pudding failed (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 11
-            }, 
-            "solution": "DUFF", 
-            "id": "22-across"
-        }, 
+                "x": 11,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "DUFF"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Argentine trained to shoot Admiral Horatio primarily, as Lord (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Argentine trained to shoot Admiral Horatio primarily, as Lord (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "MESSIAH", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "MESSIAH"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "In Greece, plain old folly ultimately, politician inspired by cheat no end (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "In Greece, plain old folly ultimately, politician inspired by cheat no end (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 8
-            }, 
-            "solution": "OLYMPIA", 
-            "id": "25-across"
-        }, 
+                "x": 8,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "OLYMPIA"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Relative seen from behind in codpiece, inconsolable (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Relative seen from behind in codpiece, inconsolable (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "NIECE", 
-            "id": "26-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "NIECE"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "As soon as guards happen to fade away, that's submission (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "As soon as guards happen to fade away, that's submission (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 6
-            }, 
-            "solution": "OBEDIENCE", 
-            "id": "27-across"
-        }, 
+                "x": 6,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "OBEDIENCE"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "O for Officer? (6,2,7)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "O for Officer? (6,2,7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    6, 
+                    6,
                     8
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "SECONDINCOMMAND", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "SECONDINCOMMAND"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "In various parts, classic tours thus restricted by passport? (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "In various parts, classic tours thus restricted by passport? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "EPISODIC", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EPISODIC"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3, 17 across",
+            "clue": " American saw evidence of deterioration after doing exercises, pathetic (2,3,2,5)",
+            "direction": "down",
+            "length": 5,
             "group": [
-                "3-down", 
+                "3-down",
                 "17-across"
-            ], 
-            "number": 3, 
-            "clue": " American saw evidence of deterioration after doing exercises, pathetic (2,3,2,5)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "3, 17 across", 
-            "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "INGOD", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "INGOD"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Assuming elected, hold down a cushy job (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Assuming elected, hold down a cushy job (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "SINECURE", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SINECURE"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "See 21",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "21-down", 
+                "21-down",
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "See 21", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": []
-            }, 
-            "length": 6, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "LEAVER", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "LEAVER"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "High street retailer once seeing value in a fabric? (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "High street retailer once seeing value in a fabric? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "WOOLWORTH", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "WOOLWORTH"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Little growth in industry initially, while privileged type stuck up (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Little growth in industry initially, while privileged type stuck up (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "BONSAI", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BONSAI"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "One in unfamiliar surroundings, as 21 5? (1,4,3,2,5)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "One in unfamiliar surroundings, as 21 5? (1,4,3,2,5)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    1, 
-                    5, 
-                    8, 
+                    1,
+                    5,
+                    8,
                     10
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "AFISHOUTOFWATER", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "AFISHOUTOFWATER"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Individual club sandwiches toward the mouth? (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Individual club sandwiches toward the mouth? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 4
-            }, 
-            "solution": "DOWNRIVER", 
-            "id": "15-down"
-        }, 
+                "x": 4,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "DOWNRIVER"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Buckinghamshire town upset different town in Kent (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Buckinghamshire town upset different town in Kent (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "WENDOVER", 
-            "id": "17-down"
-        }, 
+                "x": 8,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "WENDOVER"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "American sport on the rise, game not half taking over (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "American sport on the rise, game not half taking over (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 12
-            }, 
-            "solution": "USURPING", 
-            "id": "18-down"
-        }, 
+                "x": 12,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "USURPING"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "8, perhaps? One's smoked (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "8, perhaps? One's smoked (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 2
-            }, 
-            "solution": "GASPER", 
-            "id": "20-down"
-        }, 
+                "x": 2,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "GASPER"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21, 5",
+            "clue": " Serve alcohol in a quandary \u2014 might one be 16 or 18? (6-6)",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "21-down", 
+                "21-down",
                 "5-down"
-            ], 
-            "number": 21, 
-            "clue": " Serve alcohol in a quandary \u2014 might one be 16 or 18? (6-6)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 9
+            },
             "separatorLocations": {
                 "-": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "21, 5", 
-            "position": {
-                "y": 9, 
-                "x": 6
-            }, 
-            "solution": "SCHOOL", 
-            "id": "21-down"
-        }, 
+            },
+            "solution": "SCHOOL"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "See 16",
+            "direction": "down",
+            "length": 5,
             "group": [
-                "16-across", 
+                "16-across",
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "See 16", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 5, 
-            "humanNumber": "23", 
-            "position": {
-                "y": 10, 
-                "x": 10
-            }, 
-            "solution": "CYRIL", 
-            "id": "23-down"
+            },
+            "solution": "CYRIL"
         }
-    ], 
-    "date": 1492041600000, 
-    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20170413.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/27170", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1492038000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20170413.pdf",
+    "_gridType": "M14"
 }

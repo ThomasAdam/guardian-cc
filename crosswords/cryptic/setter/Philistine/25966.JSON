@@ -1,535 +1,537 @@
 {
-    "name": "Cryptic crossword No 25,966", 
+    "id": "crosswords/cryptic/25966",
+    "number": 25966,
+    "name": "Cryptic crossword No 25,966",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/philistine", 
-        "name": "Philistine"
-    }, 
-    "dateSolutionAvailable": 1370386800000, 
-    "number": 25966, 
-    "crosswordType": "cryptic", 
+        "name": "Philistine",
+        "webUrl": "https://www.theguardian.com/profile/philistine"
+    },
+    "date": 1370390400000,
+    "webPublicationDate": 1370386800000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Crackling in exaltation, having left the City (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Crackling in exaltation, having left the City (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "STATIC", 
-            "id": "1-across"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "STATIC"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "On a ship overseas subject to right promotion (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "On a ship overseas subject to right promotion (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "ABOARD", 
-            "id": "5-across"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ABOARD"
+        },
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "One might 18 12, amazing feat involving beer (3,4)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "One might 18 12, amazing feat involving beer (3,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "TEALEAF", 
-            "id": "8-across"
-        }, 
+            },
+            "solution": "TEALEAF"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Slight one who'd be profligate with a penny for a pound (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Slight one who'd be profligate with a penny for a pound (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 8
-            }, 
-            "solution": "SLENDER", 
-            "id": "9-across"
-        }, 
+                "x": 8,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "SLENDER"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Out of sight tonight, no possibility of wild goose chase (6,2,7)",
+            "direction": "across",
+            "length": 15,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Out of sight tonight, no possibility of wild goose chase (6,2,7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
-                    6, 
+                    6,
                     8
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "HIDINGTONOTHING", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "HIDINGTONOTHING"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "See 18",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "18-across", 
+                "18-across",
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "See 18", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 6
+            },
             "separatorLocations": {
                 "-": []
-            }, 
-            "length": 4, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "INCH", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "INCH"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Trivial about one role in three (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Trivial about one role in three (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 5
-            }, 
-            "solution": "TRIPARTITE", 
-            "id": "13-across"
-        }, 
+                "x": 5,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "TRIPARTITE"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Keeping page almost at start of chapter in honour (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Keeping page almost at start of chapter in honour (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "OBSERVANCE", 
-            "id": "17-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "OBSERVANCE"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18, 12",
+            "clue": " Appropriate short distance (4-4)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "18-across", 
+                "18-across",
                 "12-across"
-            ], 
-            "number": 18, 
-            "clue": " Appropriate short distance (4-4)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 8
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "18, 12", 
-            "position": {
-                "y": 8, 
-                "x": 11
-            }, 
-            "solution": "HALF", 
-            "id": "18-across"
-        }, 
+            },
+            "solution": "HALF"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "The very one, she'd accepted climax frequently sinful (5,2,3,5)",
+            "direction": "across",
+            "length": 15,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "The very one, she'd accepted climax frequently sinful (5,2,3,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
-                    5, 
-                    7, 
+                    5,
+                    7,
                     10
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "20", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "SPEAKOFTHEDEVIL", 
-            "id": "20-across"
-        }, 
+            },
+            "solution": "SPEAKOFTHEDEVIL"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Desired study reversed after a long time (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Desired study reversed after a long time (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "YEARNED", 
-            "id": "23-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "YEARNED"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "The ultimate in domestic energy distribution for 18 11 to 20 (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "The ultimate in domestic energy distribution for 18 11 to 20 (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 8
-            }, 
-            "solution": "REGENCY", 
-            "id": "24-across"
-        }, 
+                "x": 8,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "REGENCY"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Oldest ancestor's position (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Oldest ancestor's position (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "STANCE", 
-            "id": "25-across"
-        }, 
+                "x": 1,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "STANCE"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Bananas ordered right away and eaten (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Bananas ordered right away and eaten (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "ERODED", 
-            "id": "26-across"
-        }, 
+                "x": 8,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "ERODED"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Trade cuts out sad flowers (4,5)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Trade cuts out sad flowers (4,5)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "TEARDUCTS", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "TEARDUCTS"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Finished clue for \"E\" (3,3)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Finished clue for \"E\" (3,3)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "THEEND", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "THEEND"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Restaurant music finale: celebration in song (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Restaurant music finale: celebration in song (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "CAFETERIA", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CAFETERIA"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Crime of boy on a rooftop (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Crime of boy on a rooftop (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "ARSON", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ARSON"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Clear river akin to 18 12 (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Clear river akin to 18 12 (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "OVERTURE", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OVERTURE"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "One for love in wireless spokes (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "One for love in wireless spokes (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "RADII", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "RADII"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "18 12 6 writer starting to compose short poem broadcaster heard of first (11)",
+            "direction": "down",
+            "length": 11,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "18 12 6 writer starting to compose short poem broadcaster heard of first (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "TCHAIKOVSKY", 
-            "id": "8-down"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "TCHAIKOVSKY"
+        },
         {
-            "direction": "down", 
+            "id": "10-down",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Really gutted, having eaten bird, no longer hungry, alas (11)",
+            "direction": "down",
+            "length": 11,
             "group": [
                 "10-down"
-            ], 
-            "number": 10, 
-            "clue": "Really gutted, having eaten bird, no longer hungry, alas (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 14
-            }, 
-            "solution": "REGRETFULLY", 
-            "id": "10-down"
-        }, 
+                "x": 14,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "REGRETFULLY"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Cards shuffled or he's one with a load (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Cards shuffled or he's one with a load (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 8
-            }, 
-            "solution": "PACKHORSE", 
-            "id": "14-down"
-        }, 
+                "x": 8,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "PACKHORSE"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "At home having a ball around five \u2014 that's early (2,7)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "At home having a ball around five \u2014 that's early (2,7)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 6, 
-                "x": 12
-            }, 
-            "solution": "INADVANCE", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "INADVANCE"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Not wild or forced entry (6,2)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Not wild or forced entry (6,2)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "BROKENIN", 
-            "id": "16-down"
-        }, 
+            },
+            "solution": "BROKENIN"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Cockney tried to let one in at a leisurely pace (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Cockney tried to let one in at a leisurely pace (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "ADAGIO", 
-            "id": "19-down"
-        }, 
+                "x": 10,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ADAGIO"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Spot on skirt's first to go in intercourse (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Spot on skirt's first to go in intercourse (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 2
-            }, 
-            "solution": "EXACT", 
-            "id": "21-down"
-        }, 
+                "x": 2,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "EXACT"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Sweet cheat (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Sweet cheat (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 6
-            }, 
-            "solution": "FUDGE", 
-            "id": "22-down"
+                "x": 6,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "FUDGE"
         }
-    ], 
-    "date": 1370390400000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20130605.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25966", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1370386800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20130605.pdf",
+    "_gridType": "M38"
 }

@@ -1,516 +1,518 @@
 {
-    "name": "Cryptic crossword No 21,926", 
+    "id": "crosswords/cryptic/21926",
+    "number": 21926,
+    "name": "Cryptic crossword No 21,926",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/gemini", 
-        "name": "Gemini"
-    }, 
-    "dateSolutionAvailable": 961110000000, 
-    "number": 21926, 
-    "crosswordType": "cryptic", 
+        "name": "Gemini",
+        "webUrl": "https://www.theguardian.com/profile/gemini"
+    },
+    "date": 961113600000,
+    "webPublicationDate": 961110000000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Post Doctor Spooner's medical record (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Post Doctor Spooner's medical record (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "CASEBOOK", 
-            "id": "1-across"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CASEBOOK"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Replacing of \"ruth\" by \"quarter\" (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "Replacing of \"ruth\" by \"quarter\" (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "FOURTH", 
-            "id": "5-across"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "FOURTH"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Fit to be tied? (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Fit to be tied? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "ELIGIBLE", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "ELIGIBLE"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Small boat crank (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Small boat crank (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 9
-            }, 
-            "solution": "TENDER", 
-            "id": "10-across"
-        }, 
+                "x": 9,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "TENDER"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Attribute English try, converted, to front row forward (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Attribute English try, converted, to front row forward (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "PROPERTY", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "PROPERTY"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Doubt over dullard, with English limited (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Doubt over dullard, with English limited (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 9
-            }, 
-            "solution": "FINITE", 
-            "id": "12-across"
-        }, 
+                "x": 9,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "FINITE"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "National waterway? Yes, indeed! (5,5)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "National waterway? Yes, indeed! (5,5)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 5
-            }, 
-            "solution": "GRANDCANAL", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "GRANDCANAL"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Being alert, could be soon seen to (2,4,4)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Being alert, could be soon seen to (2,4,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     6
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "ONONESTOES", 
-            "id": "18-across"
-        }, 
+            },
+            "solution": "ONONESTOES"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Food spat out? Quite the opposite! (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Food spat out? Quite the opposite! (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "TIFFIN", 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "TIFFIN"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Not the main concern of party policy (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Not the main concern of party policy (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 7
-            }, 
-            "solution": "SIDELINE", 
-            "id": "23-across"
-        }, 
+                "x": 7,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "SIDELINE"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Boy of few years turning to drink (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Boy of few years turning to drink (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "ALEXIS", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "ALEXIS"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Fellow takes nearest roundabout to Pinner (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Fellow takes nearest roundabout to Pinner (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 7
-            }, 
-            "solution": "FASTENER", 
-            "id": "25-across"
-        }, 
+                "x": 7,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "FASTENER"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Fixed course back to island republic (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Fixed course back to island republic (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "TURKEY", 
-            "id": "26-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "TURKEY"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Arrested? That's not very clever! (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Arrested? That's not very clever! (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 7
-            }, 
-            "solution": "RETARDED", 
-            "id": "27-across"
-        }, 
+                "x": 7,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "RETARDED"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Jaws about first Egyptian pyramid builder (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Jaws about first Egyptian pyramid builder (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "CHEOPS", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CHEOPS"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Garment revealing a little boob - getting forward? (4-2)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Garment revealing a little boob - getting forward? (4-2)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "SLIPON", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "SLIPON"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Exclamation heard when Brit meets Brit! (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Exclamation heard when Brit meets Brit! (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "BLIMEY", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BLIMEY"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "That is blot out and tear in shreds (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "That is blot out and tear in shreds (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "OBLITERATE", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OBLITERATE"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Sort of wear for a single man (3-5)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Sort of wear for a single man (3-5)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "ONEPIECE", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "ONEPIECE"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Cool megastar (3,5)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Cool megastar (3,5)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "REDGIANT", 
-            "id": "7-down"
-        }, 
+            },
+            "solution": "REDGIANT"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Bloodsucker obtains buck by cunning (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Bloodsucker obtains buck by cunning (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "HORSEFLY", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "HORSEFLY"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Neat Gemini anagram for \"repeat\" (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Neat Gemini anagram for \"repeat\" (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 8
-            }, 
-            "solution": "INGEMINATE", 
-            "id": "13-down"
-        }, 
+                "x": 8,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "INGEMINATE"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Narrow agreement (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Narrow agreement (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "CONTRACT", 
-            "id": "15-down"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "CONTRACT"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Locksmith? (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Locksmith? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "COIFFEUR", 
-            "id": "16-down"
-        }, 
+                "x": 2,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "COIFFEUR"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Is taking issue without showing contempt (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Is taking issue without showing contempt (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "DERISIVE", 
-            "id": "17-down"
-        }, 
+                "x": 4,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "DERISIVE"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Girl's collar (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Girl's collar (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "BERTHA", 
-            "id": "19-down"
-        }, 
+                "x": 10,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "BERTHA"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Local litter, scattered about, hasn't been what? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Local litter, scattered about, hasn't been what? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 12
-            }, 
-            "solution": "BINNED", 
-            "id": "20-down"
-        }, 
+                "x": 12,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "BINNED"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Overtime imposed on staff - walked over again! (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Overtime imposed on staff - walked over again! (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 14
-            }, 
-            "solution": "RETROD", 
-            "id": "21-down"
+                "x": 14,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "RETROD"
         }
-    ], 
-    "date": 961113600000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/21926", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 961110000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": null
 }

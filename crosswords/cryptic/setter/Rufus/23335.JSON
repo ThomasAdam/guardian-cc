@@ -1,529 +1,531 @@
 {
-    "name": "Cryptic crossword No 23,335", 
+    "id": "crosswords/cryptic/23335",
+    "number": 23335,
+    "name": "Cryptic crossword No 23,335",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/rufus", 
-        "name": "Rufus"
-    }, 
-    "dateSolutionAvailable": 1104105600000, 
-    "number": 23335, 
-    "crosswordType": "cryptic", 
+        "name": "Rufus",
+        "webUrl": "https://www.theguardian.com/profile/rufus"
+    },
+    "date": 1104105600000,
+    "webPublicationDate": 1104105600000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Has dispute about right usage (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Has dispute about right usage (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "ARGUES", 
-            "id": "1-across"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ARGUES"
+        },
         {
-            "direction": "across", 
+            "id": "4-across",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Dog Star (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "4-across"
-            ], 
-            "number": 4, 
-            "clue": "Dog Star (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "LASSIE", 
-            "id": "4-across"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LASSIE"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Standard wear for officers and NCOs (5,3,7)",
+            "direction": "across",
+            "length": 15,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Standard wear for officers and NCOs (5,3,7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
-                    5, 
+                    5,
                     8
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "STARSANDSTRIPES", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "STARSANDSTRIPES"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Second-class in an exam - that's the most hopeful view (2,4)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Second-class in an exam - that's the most hopeful view (2,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "ATBEST", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "ATBEST"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Turn buns when cooked and well browned (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Turn buns when cooked and well browned (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 7
-            }, 
-            "solution": "SUNBURNT", 
-            "id": "11-across"
-        }, 
+                "x": 7,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "SUNBURNT"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Animal disinfectant mixed deep inside a vessel (5-3)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Animal disinfectant mixed deep inside a vessel (5-3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 6
+            },
             "separatorLocations": {
                 "-": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "SHEEPDIP", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "SHEEPDIP"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "A Saudi, say, takes the French to be cultivated (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "A Saudi, say, takes the French to be cultivated (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 9
-            }, 
-            "solution": "ARABLE", 
-            "id": "14-across"
-        }, 
+                "x": 9,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "ARABLE"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Wager about a dumb animal being a dog (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Wager about a dumb animal being a dog (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "BASSET", 
-            "id": "15-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "BASSET"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Extra fashionable line in trousers (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Extra fashionable line in trousers (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "INCREASE", 
-            "id": "18-across"
-        }, 
+                "x": 7,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "INCREASE"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Cheap items don't allow profits (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Cheap items don't allow profits (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "BARGAINS", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "BARGAINS"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Drains designed to reach the lowest depths (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Drains designed to reach the lowest depths (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 9
-            }, 
-            "solution": "NADIRS", 
-            "id": "22-across"
-        }, 
+                "x": 9,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "NADIRS"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "See 1 down",
+            "direction": "across",
+            "length": 15,
             "group": [
-                "1-down", 
+                "1-down",
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "See 1 down", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
-                    6, 
+                    2,
+                    6,
                     11
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "INTIMESAVESNINE", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "INTIMESAVESNINE"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Things loose women won't wear? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Things loose women won't wear? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "TIGHTS", 
-            "id": "25-across"
-        }, 
+                "x": 1,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "TIGHTS"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Out of the office, but ready to receive calls (2,4)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Out of the office, but ready to receive calls (2,4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "26", 
-            "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "ATHOME", 
-            "id": "26-across"
-        }, 
+            },
+            "solution": "ATHOME"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Maybe this is meant as incentive not to procrastinate (1,6,2,4,5,4)",
+            "direction": "down",
+            "length": 7,
             "group": [
-                "1-down", 
+                "1-down",
                 "24-across"
-            ], 
-            "number": 1, 
-            "clue": "Maybe this is meant as incentive not to procrastinate (1,6,2,4,5,4)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    1, 
+                    1,
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "ASTITCH", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "ASTITCH"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Overindulge in food or in egg flip (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Overindulge in food or in egg flip (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "GORGE", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "GORGE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "A decent performance carried out (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "A decent performance carried out (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "ENACTED", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ENACTED"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Feeler from worker girl rejected (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Feeler from worker girl rejected (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "ANTENNA", 
-            "id": "5-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ANTENNA"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Fan fire? (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Fan fire? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "STIMULATE", 
-            "id": "6-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "STIMULATE"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Point learnt afresh for all time (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Point learnt afresh for all time (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "ETERNAL", 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ETERNAL"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "It comes to something when Dad's upset and out of bed (4,2)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "It comes to something when Dad's upset and out of bed (4,2)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 1, 
-                "x": 7
-            }, 
-            "solution": "ADDSUP", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "ADDSUP"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Cheerful midshipman goes on leave (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Cheerful midshipman goes on leave (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 3
-            }, 
-            "solution": "EASYGOING", 
-            "id": "13-down"
-        }, 
+                "x": 3,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "EASYGOING"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Anti-cooking, anti-gas (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Anti-cooking, anti-gas (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "AGAINST", 
-            "id": "16-down"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "AGAINST"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Fish in river with spear (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Fish in river with spear (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 5
-            }, 
-            "solution": "TRIDENT", 
-            "id": "17-down"
-        }, 
+                "x": 5,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "TRIDENT"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Latins put out or put in office (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Latins put out or put in office (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "INSTAL", 
-            "id": "18-down"
-        }, 
+                "x": 7,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "INSTAL"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Trick examination question (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Trick examination question (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 9
-            }, 
-            "solution": "CONTEST", 
-            "id": "19-down"
-        }, 
+                "x": 9,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "CONTEST"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Odd way to travel about (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Odd way to travel about (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 13
-            }, 
-            "solution": "STRANGE", 
-            "id": "20-down"
-        }, 
+                "x": 13,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "STRANGE"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Noise and energy seen in dog that's wild (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Noise and energy seen in dog that's wild (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 11
-            }, 
-            "solution": "DINGO", 
-            "id": "23-down"
+                "x": 11,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "DINGO"
         }
-    ], 
-    "date": 1104105600000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/23335", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1104105600000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M32"
 }

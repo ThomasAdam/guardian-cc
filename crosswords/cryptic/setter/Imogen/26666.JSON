@@ -1,570 +1,572 @@
 {
-    "name": "Cryptic crossword No 26,666", 
+    "id": "crosswords/cryptic/26666",
+    "number": 26666,
+    "name": "Cryptic crossword No 26,666",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/imogen", 
-        "name": "Imogen"
-    }, 
-    "dateSolutionAvailable": 1441148400000, 
-    "number": 26666, 
-    "crosswordType": "cryptic", 
+        "name": "Imogen",
+        "webUrl": "https://www.theguardian.com/profile/imogen"
+    },
+    "date": 1441152000000,
+    "webPublicationDate": 1441148400000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "7-across",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "12 across in curried food business (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "7-across"
-            ], 
-            "number": 7, 
-            "clue": "12 across in curried food business (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "FISHERY", 
-            "id": "7-across"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "FISHERY"
+        },
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Lionel, a hot favourite at Christmas? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "Lionel, a hot favourite at Christmas? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 8
-            }, 
-            "solution": "MESSIAH", 
-            "id": "8-across"
-        }, 
+                "x": 8,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "MESSIAH"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Deal here in broken toys (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Deal here in broken toys (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "KENT", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "KENT"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "See 2",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "2-down", 
-                "10-across", 
-                "23-down", 
+                "2-down",
+                "10-across",
+                "23-down",
                 "21-across"
-            ], 
-            "number": 10, 
-            "clue": "See 2", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     9
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 3, 
-                "x": 5
-            }, 
-            "solution": "THEROMANS", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "THEROMANS"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "An expert in the gymnasium? (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "An expert in the gymnasium? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 1
-            }, 
-            "solution": "PEACE", 
-            "id": "12-across"
-        }, 
+                "x": 1,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "PEACE"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "It helps feet go on platforms (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "It helps feet go on platforms (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 7
-            }, 
-            "solution": "PODIATRY", 
-            "id": "13-across"
-        }, 
+                "x": 7,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "PODIATRY"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Two elements essential to our existence (and to 16 across?) (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Two elements essential to our existence (and to 16 across?) (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "LIFE", 
-            "id": "15-across"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "LIFE"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Queen may, we hear, be confused with 8 (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Queen may, we hear, be confused with 8 (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "BRIAN", 
-            "id": "16-across"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "BRIAN"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "A girl, not a son?  I'm not happy about that (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "A girl, not a son?  I'm not happy about that (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "solution": "ALAS", 
-            "id": "17-across"
-        }, 
+                "x": 11,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ALAS"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Brief order to stop working (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Brief order to stop working (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "MEDICINE", 
-            "id": "18-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "MEDICINE"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Savages bad housing that holds area back (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Savages bad housing that holds area back (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "MAULS", 
-            "id": "20-across"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "MAULS"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "See 2",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "2-down", 
-                "10-across", 
-                "23-down", 
+                "2-down",
+                "10-across",
+                "23-down",
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "See 2", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     7
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 11, 
-                "x": 1
-            }, 
-            "solution": "DONEFORUS", 
-            "id": "21-across"
-        }, 
+            },
+            "solution": "DONEFORUS"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Expected learner to get to the end of Pushkin (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Expected learner to get to the end of Pushkin (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 11
-            }, 
-            "solution": "DUEL", 
-            "id": "22-across"
-        }, 
+                "x": 11,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "DUEL"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Paul had one for 10 (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Paul had one for 10 (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "EPISTLE", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "EPISTLE"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "B___ awful noise made by group together (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "B___ awful noise made by group together (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 8
-            }, 
-            "solution": "BRACKET", 
-            "id": "25-across"
-        }, 
+                "x": 8,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "BRACKET"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Home adopted by the Guardian (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Home adopted by the Guardian (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "WINE", 
-            "id": "1-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "WINE"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2, 10, 23, 21 across",
+            "clue": " Excuse me? Did some old people at any time cause our ruin? That's a funny revolutionary line (4,4,3,6,4,4,3,2)",
+            "direction": "down",
+            "length": 8,
             "group": [
-                "2-down", 
-                "10-across", 
-                "23-down", 
+                "2-down",
+                "10-across",
+                "23-down",
                 "21-across"
-            ], 
-            "number": 2, 
-            "clue": " Excuse me? Did some old people at any time cause our ruin? That's a funny revolutionary line (4,4,3,6,4,4,3,2)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "2, 10, 23, 21 across", 
-            "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "WHATHAVE", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "WHATHAVE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Feel shame, seeing horse in pen (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Feel shame, seeing horse in pen (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "WRITHE", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "WRITHE"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Obliged to look over opponents (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Obliged to look over opponents (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "BEHOLDEN", 
-            "id": "4-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BEHOLDEN"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "A short clever answer is capital (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "A short clever answer is capital (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "ASMARA", 
-            "id": "5-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ASMARA"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Bog briefly venerated by 10 (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Bog briefly venerated by 10 (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "MARS", 
-            "id": "6-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "MARS"
+        },
         {
-            "direction": "down", 
+            "id": "11-down",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Drink while young \u2014 make mine purer when brewed (2,7)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "11-down"
-            ], 
-            "number": 11, 
-            "clue": "Drink while young \u2014 make mine purer when brewed (2,7)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 3, 
-                "x": 7
-            }, 
-            "solution": "ENPRIMEUR", 
-            "id": "11-down"
-        }, 
+            },
+            "solution": "ENPRIMEUR"
+        },
         {
-            "direction": "down", 
+            "id": "12-down",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Sit, keeping one's balance (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "12-down"
-            ], 
-            "number": 12, 
-            "clue": "Sit, keeping one's balance (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 1
-            }, 
-            "solution": "POISE", 
-            "id": "12-down"
-        }, 
+                "x": 1,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "POISE"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "A part of Norfolk that's not British (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "A part of Norfolk that's not British (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 13
-            }, 
-            "solution": "ROADS", 
-            "id": "14-down"
-        }, 
+                "x": 13,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "ROADS"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Firm moves into sort of market with no room left (4-4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Firm moves into sort of market with no room left (4-4)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 7
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "BRIMFULL", 
-            "id": "16-down"
-        }, 
+            },
+            "solution": "BRIMFULL"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "A line abandoned by Europe, avoided in hearing (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "A line abandoned by Europe, avoided in hearing (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "solution": "AQUEDUCT", 
-            "id": "17-down"
-        }, 
+                "x": 11,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "AQUEDUCT"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "To remove electrons from position is easy (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "To remove electrons from position is easy (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 3
-            }, 
-            "solution": "IONISE", 
-            "id": "19-down"
-        }, 
+                "x": 3,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "IONISE"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "What hurts me in Indian city (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "What hurts me in Indian city (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "MYSORE", 
-            "id": "20-down"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "MYSORE"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Patsy's English, looked down on by Irish party (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Patsy's English, looked down on by Irish party (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 1
-            }, 
-            "solution": "DUPE", 
-            "id": "21-down"
-        }, 
+                "x": 1,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "DUPE"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "See 2",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "2-down", 
-                "10-across", 
-                "23-down", 
+                "2-down",
+                "10-across",
+                "23-down",
                 "21-across"
-            ], 
-            "number": 23, 
-            "clue": "See 2", 
+            ],
+            "position": {
+                "x": 13,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "23", 
-            "position": {
-                "y": 11, 
-                "x": 13
-            }, 
-            "solution": "EVER", 
-            "id": "23-down"
+            },
+            "solution": "EVER"
         }
-    ], 
-    "date": 1441152000000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20150902.pdf", 
-    "instructions": "Five of the thematic solutions have something in common, not further defined in their clues", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/26666", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1441148400000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20150902.pdf",
+    "instructions": "Five of the thematic solutions have something in common, not further defined in their clues",
+    "_gridType": "M58"
 }

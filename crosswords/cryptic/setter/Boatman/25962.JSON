@@ -1,614 +1,616 @@
 {
-    "name": "Cryptic crossword No 25,962", 
+    "id": "crosswords/cryptic/25962",
+    "number": 25962,
+    "name": "Cryptic crossword No 25,962",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/boatman", 
-        "name": "Boatman"
-    }, 
-    "dateSolutionAvailable": 1369954800000, 
-    "number": 25962, 
-    "crosswordType": "cryptic", 
+        "name": "Boatman",
+        "webUrl": "https://www.theguardian.com/profile/boatman"
+    },
+    "date": 1369958400000,
+    "webPublicationDate": 1369954800000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "7-across",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "They make cold scalp hot in a blizzard (5,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "7-across"
-            ], 
-            "number": 7, 
-            "clue": "They make cold scalp hot in a blizzard (5,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "CLOTHCAPS", 
-            "id": "7-across"
-        }, 
+            },
+            "solution": "CLOTHCAPS"
+        },
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8, 27",
+            "clue": " Banana split by Monsieur Escoffier, le premier pour pr\u00e9parer une bombe? (5,1,4)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "8-across", 
+                "8-across",
                 "27-across"
-            ], 
-            "number": 8, 
-            "clue": " Banana split by Monsieur Escoffier, le premier pour pr\u00e9parer une bombe? (5,1,4)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "8, 27", 
-            "position": {
-                "y": 1, 
-                "x": 10
-            }, 
-            "solution": "PLANT", 
-            "id": "8-across"
-        }, 
+            },
+            "solution": "PLANT"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "As it has no limit, no end of folly (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "As it has no limit, no end of folly (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "ASININITY", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "ASININITY"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10, 1",
+            "clue": " Pudding cooked ? I'll check with wife, say (5,6)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "10-across", 
+                "10-across",
                 "1-down"
-            ], 
-            "number": 10, 
-            "clue": " Pudding cooked ? I'll check with wife, say (5,6)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "10, 1", 
-            "position": {
-                "y": 3, 
-                "x": 10
-            }, 
-            "solution": "BAKED", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "BAKED"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Egg \u2014 perhaps pheasant \u2014 found by Lawrence (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Egg \u2014 perhaps pheasant \u2014 found by Lawrence (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "GAMETE", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "GAMETE"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Teaser: eg \"oddities and whatnots\" (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Teaser: eg \"oddities and whatnots\" (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 7
-            }, 
-            "solution": "ETAGERES", 
-            "id": "13-across"
-        }, 
+                "x": 7,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "ETAGERES"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Part of the story of English pastry is about the land (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Part of the story of English pastry is about the land (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "EPISODE", 
-            "id": "16-across"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "EPISODE"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Here nomads eat sheep's head for pudding (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Here nomads eat sheep's head for pudding (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "DESSERT", 
-            "id": "19-across"
-        }, 
+                "x": 8,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "DESSERT"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "One has faith in the UK's endless fishing? It contains the seeds of complete annihilation (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "One has faith in the UK's endless fishing? It contains the seeds of complete annihilation (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "ANGLICAN", 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ANGLICAN"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Pudding for tea, say? Where's that? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Pudding for tea, say? Where's that? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "AFTERS", 
-            "id": "25-across"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "AFTERS"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "See 8",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "8-across", 
+                "8-across",
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "See 8", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     1
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "27", 
-            "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "AMINE", 
-            "id": "27-across"
-        }, 
+            },
+            "solution": "AMINE"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "Police duo outlook? (4,5)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "28-across"
-            ], 
-            "number": 28, 
-            "clue": "Police duo outlook? (4,5)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "28", 
-            "position": {
-                "y": 11, 
-                "x": 6
-            }, 
-            "solution": "COUPDOEIL", 
-            "id": "28-across"
-        }, 
+            },
+            "solution": "COUPDOEIL"
+        },
         {
-            "direction": "across", 
+            "id": "29-across",
+            "number": 29,
+            "humanNumber": "29",
+            "clue": "Pudding could be said to anticipate shortage (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "29-across"
-            ], 
-            "number": 29, 
-            "clue": "Pudding could be said to anticipate shortage (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "29", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "BLACK", 
-            "id": "29-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "BLACK"
+        },
         {
-            "direction": "across", 
+            "id": "30-across",
+            "number": 30,
+            "humanNumber": "30",
+            "clue": "Barge recklessly overloaded with pudding ingredient, a root (5,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "30-across"
-            ], 
-            "number": 30, 
-            "clue": "Barge recklessly overloaded with pudding ingredient, a root (5,4)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "30", 
-            "position": {
-                "y": 13, 
-                "x": 6
-            }, 
-            "solution": "SUGARBEET", 
-            "id": "30-across"
-        }, 
+            },
+            "solution": "SUGARBEET"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "See 10",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "10-across", 
+                "10-across",
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "See 10", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "ALASKA", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "ALASKA"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Clue to tone of pudding (4,4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Clue to tone of pudding (4,4)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "ETONMESS", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "ETONMESS"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Basis of sweet course in times past: a lot of ale (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Basis of sweet course in times past: a lot of ale (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "SCONCE", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SCONCE"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4, 18",
+            "clue": " To make pudding, boil diced ingredients in empty tank (7,4)",
+            "direction": "down",
+            "length": 7,
             "group": [
-                "4-down", 
+                "4-down",
                 "18-down"
-            ], 
-            "number": 4, 
-            "clue": " To make pudding, boil diced ingredients in empty tank (7,4)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "4, 18", 
-            "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "SPOTTED", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "SPOTTED"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Indulge in pudding (extra large) (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Indulge in pudding (extra large) (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "PLEASE", 
-            "id": "5-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PLEASE"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Spooner's starting to say joints are a problem with cold (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Spooner's starting to say joints are a problem with cold (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "SNEEZE", 
-            "id": "6-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SNEEZE"
+        },
         {
-            "direction": "down", 
+            "id": "11-down",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "See 17",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "17-down", 
+                "17-down",
                 "11-down"
-            ], 
-            "number": 11, 
-            "clue": "See 17", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 9
-            }, 
-            "solution": "RATE", 
-            "id": "11-down"
-        }, 
+                "x": 9,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "RATE"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "See 16",
+            "direction": "down",
+            "length": 3,
             "group": [
-                "16-down", 
+                "16-down",
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "See 16", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 12
-            }, 
-            "solution": "RTE", 
-            "id": "14-down"
-        }, 
+                "x": 12,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "RTE"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Boatman's in the way \u2014 it's deliberate (3)",
+            "direction": "down",
+            "length": 3,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Boatman's in the way \u2014 it's deliberate (3)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 14
-            }, 
-            "solution": "SIT", 
-            "id": "15-down"
-        }, 
+                "x": 14,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "SIT"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16, 14",
+            "clue": " Follow up point in game (6)",
+            "direction": "down",
+            "length": 3,
             "group": [
-                "16-down", 
+                "16-down",
                 "14-down"
-            ], 
-            "number": 16, 
-            "clue": " Follow up point in game (6)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "16, 14", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "ECA", 
-            "id": "16-down"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ECA"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17, 11",
+            "clue": " Ingredient of pudding: rat? Evidently, one says: \"No thank you\" (7)",
+            "direction": "down",
+            "length": 3,
             "group": [
-                "17-down", 
+                "17-down",
                 "11-down"
-            ], 
-            "number": 17, 
-            "clue": " Ingredient of pudding: rat? Evidently, one says: \"No thank you\" (7)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "17, 11", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "ING", 
-            "id": "17-down"
-        }, 
+                "x": 2,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ING"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "See 4",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "4-down", 
+                "4-down",
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "See 4", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "DICK", 
-            "id": "18-down"
-        }, 
+            },
+            "solution": "DICK"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Strange custom, to live in Devon (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Strange custom, to live in Devon (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "solution": "SUTCOMBE", 
-            "id": "20-down"
-        }, 
+                "x": 11,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "SUTCOMBE"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Sharp, concise facts: key on the Guardian (2,5)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Sharp, concise facts: key on the Guardian (2,5)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "INFOCUS", 
-            "id": "21-down"
-        }, 
+            },
+            "solution": "INFOCUS"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Viz features Spooner's problem joint (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Viz features Spooner's problem joint (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 1
-            }, 
-            "solution": "NAMELY", 
-            "id": "23-down"
-        }, 
+                "x": 1,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "NAMELY"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Folly of starting to let unhealthy nutrition affect chubby youths (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "Folly of starting to let unhealthy nutrition affect chubby youths (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 3
-            }, 
-            "solution": "LUNACY", 
-            "id": "24-down"
-        }, 
+                "x": 3,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "LUNACY"
+        },
         {
-            "direction": "down", 
+            "id": "25-down",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Entice with an apple crumble (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "25-down"
-            ], 
-            "number": 25, 
-            "clue": "Entice with an apple crumble (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "APPEAL", 
-            "id": "25-down"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "APPEAL"
+        },
         {
-            "direction": "down", 
+            "id": "26-down",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Agitated and drunk after end of dinner (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "26-down"
-            ], 
-            "number": 26, 
-            "clue": "Agitated and drunk after end of dinner (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 13
-            }, 
-            "solution": "ROILED", 
-            "id": "26-down"
+                "x": 13,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ROILED"
         }
-    ], 
-    "date": 1369958400000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20130531.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25962", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1369954800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20130531.pdf",
+    "_gridType": null
 }

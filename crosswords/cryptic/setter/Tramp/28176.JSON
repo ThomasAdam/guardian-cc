@@ -1,570 +1,572 @@
 {
-    "name": "Cryptic crossword No 28,176", 
+    "id": "crosswords/cryptic/28176",
+    "number": 28176,
+    "name": "Cryptic crossword No 28,176",
     "creator": {
-        "webUrl": "https://www.theguardian.com/profile/tramp", 
-        "name": "Tramp"
-    }, 
-    "dateSolutionAvailable": 1593730800000, 
-    "number": 28176, 
-    "crosswordType": "cryptic", 
+        "name": "Tramp",
+        "webUrl": "https://www.theguardian.com/profile/tramp"
+    },
+    "date": 1593734400000,
+    "webPublicationDate": 1593730805000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Jumper might go over this, missing tie (8,4)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Jumper might go over this, missing tie (8,4)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "SKIPPINGROPE", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "SKIPPINGROPE"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "See 22",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "22-across", 
-                "9-across", 
+                "22-across",
+                "9-across",
                 "15-across"
-            ], 
-            "number": 9, 
-            "clue": "See 22", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "AUDIO", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "AUDIO"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Pulls out of hospital procedure after doctor gives you bug (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Pulls out of hospital procedure after doctor gives you bug (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 6
-            }, 
-            "solution": "EAVESDROP", 
-            "id": "10-across"
-        }, 
+                "x": 6,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "EAVESDROP"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Time for contraception? Strip (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Time for contraception? Strip (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "PILLAGE", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "PILLAGE"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Weary race to the bottom? (3-4)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Weary race to the bottom? (3-4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 4
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 4, 
-                "x": 8
-            }, 
-            "solution": "RUNDOWN", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "RUNDOWN"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Perhaps rock and roll CD in US came out (5,5)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Perhaps rock and roll CD in US came out (5,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "DANCEMUSIC", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "DANCEMUSIC"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "See 22",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "22-across", 
-                "9-across", 
+                "22-across",
+                "9-across",
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "See 22", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 6, 
-                "x": 11
-            }, 
-            "solution": "TAPE", 
-            "id": "15-across"
-        }, 
+            },
+            "solution": "TAPE"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Sit on river and fish (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Sit on river and fish (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "RIDE", 
-            "id": "18-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "RIDE"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Suspect shot:  unwind seeing crime dramas (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Suspect shot:  unwind seeing crime dramas (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 5
-            }, 
-            "solution": "WHODUNNITS", 
-            "id": "19-across"
-        }, 
+                "x": 5,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "WHODUNNITS"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22, 9, 15",
+            "clue": " Performing it, Dua Lipa got idea for recording (7,5,4)",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "22-across", 
-                "9-across", 
+                "22-across",
+                "9-across",
                 "15-across"
-            ], 
-            "number": 22, 
-            "clue": " Performing it, Dua Lipa got idea for recording (7,5,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "22, 9, 15", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "DIGITAL", 
-            "id": "22-across"
-        }, 
+            },
+            "solution": "DIGITAL"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Around centre of town, spilled milk here? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Around centre of town, spilled milk here? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 8
-            }, 
-            "solution": "COWSHED", 
-            "id": "24-across"
-        }, 
+                "x": 8,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "COWSHED"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "English call on John Barnes, ultimately to lead dribbling (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "English call on John Barnes, ultimately to lead dribbling (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "SLAVERING", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "SLAVERING"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Group of drivers right to restrict parking out of consideration (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Group of drivers right to restrict parking out of consideration (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 10
-            }, 
-            "solution": "APART", 
-            "id": "26-across"
-        }, 
+                "x": 10,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "APART"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Serve sugarless cola without opening snacks (7,5)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Serve sugarless cola without opening snacks (7,5)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "27", 
-            "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "SAUSAGEROLLS", 
-            "id": "27-across"
-        }, 
+            },
+            "solution": "SAUSAGEROLLS"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Relegated team getting stuffed (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Relegated team getting stuffed (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "SIDELINED", 
-            "id": "1-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SIDELINED"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "One piece of turf outside recently cut off (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "One piece of turf outside recently cut off (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "ISOLATED", 
-            "id": "2-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ISOLATED"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Bit of pastry on outside of cake (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Bit of pastry on outside of cake (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "PIECE", 
-            "id": "3-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PIECE"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Forget it? Number always on memory (5,4)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Forget it? Number always on memory (5,4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "NEVERMIND", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "NEVERMIND"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Object to nurse cutting break (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Object to nurse cutting break (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "RESENT", 
-            "id": "5-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "RESENT"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "European side left with no goals (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "European side left with no goals (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "PORTO", 
-            "id": "6-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PORTO"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Out-of-shape group of patients receiving exercise classes (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Out-of-shape group of patients receiving exercise classes (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "WARPED", 
-            "id": "7-down"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "WARPED"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Cleaner bum (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Cleaner bum (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 14
-            }, 
-            "solution": "SPONGE", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "SPONGE"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Supporting being raised on farm (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Supporting being raised on farm (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 6
-            }, 
-            "solution": "UPHOLDING", 
-            "id": "14-down"
-        }, 
+                "x": 6,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "UPHOLDING"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Help to smuggle cocaine: tips for drug users (4,5)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Help to smuggle cocaine: tips for drug users (4,5)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 6, 
-                "x": 12
-            }, 
-            "solution": "ACIDHEADS", 
-            "id": "16-down"
-        }, 
+            },
+            "solution": "ACIDHEADS"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Balloon with delivery following small present (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Balloon with delivery following small present (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 10
-            }, 
-            "solution": "SNOWBALL", 
-            "id": "17-down"
-        }, 
+                "x": 10,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "SNOWBALL"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Part of salad not left on a plate (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Part of salad not left on a plate (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "RADISH", 
-            "id": "18-down"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "RADISH"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Relax with partner after endless sex (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Relax with partner after endless sex (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 14
-            }, 
-            "solution": "SEDATE", 
-            "id": "20-down"
-        }, 
+                "x": 14,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "SEDATE"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Pure soprano voices (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Pure soprano voices (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 4
-            }, 
-            "solution": "UTTERS", 
-            "id": "21-down"
-        }, 
+                "x": 4,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "UTTERS"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Country harvest picked up (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Country harvest picked up (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 2
-            }, 
-            "solution": "GHANA", 
-            "id": "23-down"
-        }, 
+                "x": 2,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "GHANA"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "One's rolled up with soldier upset in vehicle (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "One's rolled up with soldier upset in vehicle (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 8
-            }, 
-            "solution": "CIGAR", 
-            "id": "24-down"
+                "x": 8,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "CIGAR"
         }
-    ], 
-    "date": 1593734400000, 
-    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20200703.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/28176", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1593730800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20200703.pdf",
+    "_gridType": "M70"
 }

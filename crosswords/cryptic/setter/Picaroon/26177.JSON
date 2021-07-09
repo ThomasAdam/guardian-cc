@@ -1,559 +1,561 @@
 {
-    "name": "Cryptic crossword No 26,177", 
+    "id": "crosswords/cryptic/26177",
+    "number": 26177,
+    "name": "Cryptic crossword No 26,177",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/picaroon", 
-        "name": "Picaroon"
-    }, 
-    "dateSolutionAvailable": 1391731200000, 
-    "number": 26177, 
-    "crosswordType": "cryptic", 
+        "name": "Picaroon",
+        "webUrl": "https://www.theguardian.com/profile/picaroon"
+    },
+    "date": 1391731200000,
+    "webPublicationDate": 1391731200000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Enter horse in pet competition and stop dallying! (5,2)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Enter horse in pet competition and stop dallying! (5,2)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "CATCHUP", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "CATCHUP"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Driver about to pocket one million, back in taxi not keeping fare down (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "Driver about to pocket one million, back in taxi not keeping fare down (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "BULIMIC", 
-            "id": "5-across"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BULIMIC"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Perhaps Indian's ornate canoe (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Perhaps Indian's ornate canoe (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "OCEAN", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "OCEAN"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "See 2",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "2-down", 
+                "2-down",
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "See 2", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 9, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 2, 
-                "x": 6
-            }, 
-            "solution": "KNOWLEDGE", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "KNOWLEDGE"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Folk gathering mostly jeered Mary Poppins? (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Folk gathering mostly jeered Mary Poppins? (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "HOOTENANNY", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "HOOTENANNY"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Tips from expert for floral screens, as accompaniment to blinds? (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Tips from expert for floral screens, as accompaniment to blinds? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 11
-            }, 
-            "solution": "EFFS", 
-            "id": "12-across"
-        }, 
+                "x": 11,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "EFFS"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Tasteless fellows donning this scruffy bit of flannel (12)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Tasteless fellows donning this scruffy bit of flannel (12)", 
-            "separatorLocations": {}, 
-            "length": 12, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 3
-            }, 
-            "solution": "BLANDISHMENT", 
-            "id": "14-across"
-        }, 
+                "x": 3,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "BLANDISHMENT"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Rock singer's lost stone, adopting good recipe for veg (6,6)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Rock singer's lost stone, adopting good recipe for veg (6,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "SPRINGGREENS", 
-            "id": "18-across"
-        }, 
+            },
+            "solution": "SPRINGGREENS"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Drunken fling is stupidity (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Drunken fling is stupidity (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "TOSH", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "TOSH"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Oh for a tale of adventure on the high seas! (8,2)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Oh for a tale of adventure on the high seas! (8,2)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 10, 
-                "x": 5
-            }, 
-            "solution": "WESTWARDHO", 
-            "id": "22-across"
-        }, 
+            },
+            "solution": "WESTWARDHO"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Elder statesman in US (Republican) protecting computer data (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Elder statesman in US (Republican) protecting computer data (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "PRESBYTER", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "PRESBYTER"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Soak putting away litre in confession from one down? (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Soak putting away litre in confession from one down? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 10
-            }, 
-            "solution": "IMBUE", 
-            "id": "26-across"
-        }, 
+                "x": 10,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "IMBUE"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "King stopped guards in need of evening out (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "King stopped guards in need of evening out (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "CREASED", 
-            "id": "27-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "CREASED"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "Analyse Rome's Hell worshippers? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "28-across"
-            ], 
-            "number": 28, 
-            "clue": "Analyse Rome's Hell worshippers? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "28", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "DISSECT", 
-            "id": "28-across"
-        }, 
+                "x": 8,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "DISSECT"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Antique Fate unwilling to interrupt business (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Antique Fate unwilling to interrupt business (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "CLOTHO", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CLOTHO"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2, 10",
+            "clue": " New ref took latitude, playing advantage for Eden Hazard (4,2,9)",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "2-down", 
+                "2-down",
                 "10-across"
-            ], 
-            "number": 2, 
-            "clue": " New ref took latitude, playing advantage for Eden Hazard (4,2,9)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "2, 10", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "TREEOF", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "TREEOF"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Dash with antelope across river in remote region (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Dash with antelope across river in remote region (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "HINTERLAND", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "HINTERLAND"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Proper way to prepare for a snog, we're told (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Proper way to prepare for a snog, we're told (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "PUKKA", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PUKKA"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Staple sticking right in head \u2014 charming! (5,4)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Staple sticking right in head \u2014 charming! (5,4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "BROWNRICE", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "BROWNRICE"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "How amusing walls line lounge (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "How amusing walls line lounge (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "LOLL", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LOLL"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Adverb I repeatedly formed incorrectly (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Adverb I repeatedly formed incorrectly (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "MODIFIER", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "MODIFIER"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Protector of wood that's vast and old in part of Greece (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Protector of wood that's vast and old in part of Greece (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "CREOSOTE", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CREOSOTE"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Shatter a thespian's illusions (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Shatter a thespian's illusions (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 10
-            }, 
-            "solution": "PHANTASIES", 
-            "id": "13-down"
-        }, 
+                "x": 10,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "PHANTASIES"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "We're told any government chosen leaves English without proper care (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "We're told any government chosen leaves English without proper care (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 6
-            }, 
-            "solution": "NEGLECTED", 
-            "id": "15-down"
-        }, 
+                "x": 6,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "NEGLECTED"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Sort of spin one thus put on an issue (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Sort of spin one thus put on an issue (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "ISOTOPIC", 
-            "id": "16-down"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ISOTOPIC"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "XI said to give trouble for the spectator (5-3)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "XI said to give trouble for the spectator (5-3)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 7
+            },
             "separatorLocations": {
                 "-": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "CROSSEYE", 
-            "id": "17-down"
-        }, 
+            },
+            "solution": "CROSSEYE"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Like food from Spain the Spanish offer up (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Like food from Spain the Spanish offer up (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 12
-            }, 
-            "solution": "EDIBLE", 
-            "id": "19-down"
-        }, 
+                "x": 12,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "EDIBLE"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Part of Channel is indeed fast (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Part of Channel is indeed fast (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 14
-            }, 
-            "solution": "SOLENT", 
-            "id": "20-down"
-        }, 
+                "x": 14,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "SOLENT"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Sick, knocking back vermouth and wine (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Sick, knocking back vermouth and wine (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 8
-            }, 
-            "solution": "TIRED", 
-            "id": "23-down"
-        }, 
+                "x": 8,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "TIRED"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Wader again following current (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "Wader again following current (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 4
-            }, 
-            "solution": "IBIS", 
-            "id": "24-down"
+                "x": 4,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "IBIS"
         }
-    ], 
-    "date": 1391731200000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20140207.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/26177", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1391731200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20140207.pdf",
+    "_gridType": "M57"
 }

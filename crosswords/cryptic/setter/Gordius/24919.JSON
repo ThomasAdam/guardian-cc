@@ -1,470 +1,472 @@
 {
-    "name": "Cryptic crossword No 24,919", 
+    "id": "crosswords/cryptic/24919",
+    "number": 24919,
+    "name": "Cryptic crossword No 24,919",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/gordius", 
-        "name": "Gordius"
-    }, 
-    "dateSolutionAvailable": 1264636800000, 
-    "number": 24919, 
-    "crosswordType": "cryptic", 
+        "name": "Gordius",
+        "webUrl": "https://www.theguardian.com/profile/gordius"
+    },
+    "date": 1264636800000,
+    "webPublicationDate": 1264636800000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Benefit favouring the healthy (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "Benefit favouring the healthy (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 1
-            }, 
-            "solution": "PROFIT", 
-            "id": "5-across"
-        }, 
+                "x": 1,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "PROFIT"
+        },
         {
-            "direction": "across", 
+            "id": "6-across",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Murphy takes a shot at nothing (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "6-across"
-            ], 
-            "number": 6, 
-            "clue": "Murphy takes a shot at nothing (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 8
-            }, 
-            "solution": "POTATO", 
-            "id": "6-across"
-        }, 
+                "x": 8,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "POTATO"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Flier over Iran may help to get 7 (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Flier over Iran may help to get 7 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "WIRING", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "WIRING"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "July nuts cracked with criminal intent (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "July nuts cracked with criminal intent (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 7
-            }, 
-            "solution": "UNJUSTLY", 
-            "id": "10-across"
-        }, 
+                "x": 7,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "UNJUSTLY"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Source of exotic food sounds capital (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Source of exotic food sounds capital (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "DELI", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "DELI"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Backing for old age (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Backing for old age (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 5
-            }, 
-            "solution": "RETIREMENT", 
-            "id": "12-across"
-        }, 
+                "x": 5,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "RETIREMENT"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Lodge broken contract once emanating from Victoria (6,5)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Lodge broken contract once emanating from Victoria (6,5)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "GOLDENARROW", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "GOLDENARROW"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Acclamation over a tumult, such as Ben Hur (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Acclamation over a tumult, such as Ben Hur (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "CHARIOTEER", 
-            "id": "18-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "CHARIOTEER"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Reader's possessive (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Reader's possessive (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 11
-            }, 
-            "solution": "YOUR", 
-            "id": "21-across"
-        }, 
+                "x": 11,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "YOUR"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Spirits for composer and poet (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Spirits for composer and poet (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "GINSBERG", 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "GINSBERG"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Leave record in river (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Leave record in river (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 9
-            }, 
-            "solution": "DEPART", 
-            "id": "23-across"
-        }, 
+                "x": 9,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "DEPART"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Sight and sound of a monumental building (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Sight and sound of a monumental building (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 1
-            }, 
-            "solution": "EYEFUL", 
-            "id": "24-across"
-        }, 
+                "x": 1,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "EYEFUL"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Foulness, say, is light (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Foulness, say, is light (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 8
-            }, 
-            "solution": "ISLAND", 
-            "id": "25-across"
-        }, 
+                "x": 8,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "ISLAND"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Not altogether courteous, almost icy, nothing but a party type (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Not altogether courteous, almost icy, nothing but a party type (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "POLITICO", 
-            "id": "1-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "POLITICO"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Underwear that's left to hang about (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Underwear that's left to hang about (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "LINGER", 
-            "id": "2-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LINGER"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "One uses sleight of hand to deceive one in box (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "One uses sleight of hand to deceive one in box (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "CONJUROR", 
-            "id": "3-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CONJUROR"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Conveyance said to be generous (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Conveyance said to be generous (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "HANSOM", 
-            "id": "4-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "HANSOM"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Introduction to a stiffly formal ruler? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Introduction to a stiffly formal ruler? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 1
-            }, 
-            "solution": "PRIMER", 
-            "id": "5-down"
-        }, 
+                "x": 1,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "PRIMER"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Person secures zero return using a computer (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Person secures zero return using a computer (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 13
-            }, 
-            "solution": "ONLINE", 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "ONLINE"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Latest thing in London topiary? (7,4)",
+            "direction": "down",
+            "length": 11,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Latest thing in London topiary? (7,4)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 2, 
-                "x": 7
-            }, 
-            "solution": "CUTTINGEDGE", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "CUTTINGEDGE"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Awkward mound due to something in the middle (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Awkward mound due to something in the middle (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "DUODENUM", 
-            "id": "14-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "DUODENUM"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Mail pony beaten by athlete (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Mail pony beaten by athlete (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "solution": "OLYMPIAN", 
-            "id": "15-down"
-        }, 
+                "x": 11,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "OLYMPIAN"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Vehicle with one in pursuit (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Vehicle with one in pursuit (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "CHAISE", 
-            "id": "16-down"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "CHAISE"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Free place given precedence, which is rotten (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Free place given precedence, which is rotten (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 13
-            }, 
-            "solution": "PUTRID", 
-            "id": "17-down"
-        }, 
+                "x": 13,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "PUTRID"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Spots hesitation with less careful cut (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Spots hesitation with less careful cut (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 3
-            }, 
-            "solution": "RASHER", 
-            "id": "19-down"
-        }, 
+                "x": 3,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "RASHER"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Plant makes radio almost quiet (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Plant makes radio almost quiet (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "RADISH", 
-            "id": "20-down"
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "RADISH"
         }
-    ], 
-    "date": 1264636800000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20100128.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/24919", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1264636800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20100128.pdf",
+    "_gridType": "M31"
 }

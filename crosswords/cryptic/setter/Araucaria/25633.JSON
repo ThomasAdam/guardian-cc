@@ -1,588 +1,590 @@
 {
-    "name": "Cryptic crossword No 25,633", 
+    "id": "crosswords/cryptic/25633",
+    "number": 25633,
+    "name": "Cryptic crossword No 25,633",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/araucaria", 
-        "name": "Araucaria"
-    }, 
-    "dateSolutionAvailable": 1336690800000, 
-    "number": 25633, 
-    "crosswordType": "cryptic", 
+        "name": "Araucaria",
+        "webUrl": "https://www.theguardian.com/profile/araucaria"
+    },
+    "date": 1336694400000,
+    "webPublicationDate": 1336690800000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "City animal \u2014 about half's half (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "City animal \u2014 about half's half (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "BELFAST", 
-            "id": "1-across"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BELFAST"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Trust devouring energy \u2014 don't go off it (4,3)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "Trust devouring energy \u2014 don't go off it (4,3)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "DEEPEND", 
-            "id": "5-across"
-        }, 
+            },
+            "solution": "DEEPEND"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Burden for young animal breaking in America (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Burden for young animal breaking in America (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "INCUBUS", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "INCUBUS"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Colours used by artist in front (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Colours used by artist in front (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 8
-            }, 
-            "solution": "RAINBOW", 
-            "id": "10-across"
-        }, 
+                "x": 8,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "RAINBOW"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Religion of the opposition with strange hoops to go through (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Religion of the opposition with strange hoops to go through (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "THEOSOPHY", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "THEOSOPHY"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Polish backing for king with a cover that's almost complete (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Polish backing for king with a cover that's almost complete (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 10
-            }, 
-            "solution": "BURKA", 
-            "id": "12-across"
-        }, 
+                "x": 10,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "BURKA"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13, 15",
+            "clue": " Intercity waterway they say guides organ game (5-9)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "13-across", 
+                "13-across",
                 "15-across"
-            ], 
-            "number": 13, 
-            "clue": " Intercity waterway they say guides organ game (5-9)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 6
+            },
             "separatorLocations": {
                 "-": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "13, 15", 
-            "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "LEEDS", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "LEEDS"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "See 13",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "13-across", 
+                "13-across",
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "See 13", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 6
+            },
             "separatorLocations": {
                 "-": []
-            }, 
-            "length": 9, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 6, 
-                "x": 6
-            }, 
-            "solution": "LIVERPOOL", 
-            "id": "15-across"
-        }, 
+            },
+            "solution": "LIVERPOOL"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "City of revolutionary in duty list (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "City of revolutionary in duty list (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "ROCHESTER", 
-            "id": "17-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ROCHESTER"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Engineer put in boiler with mount (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Engineer put in boiler with mount (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 10
-            }, 
-            "solution": "HOREB", 
-            "id": "19-across"
-        }, 
+                "x": 10,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "HOREB"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Flourish backfires (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Flourish backfires (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "SERIF", 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "SERIF"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Acknowledgement of superior allusion with changed head (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Acknowledgement of superior allusion with changed head (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 6
-            }, 
-            "solution": "DEFERENCE", 
-            "id": "23-across"
-        }, 
+                "x": 6,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "DEFERENCE"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Liqueur for castles (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Liqueur for castles (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "BAILEYS", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "BAILEYS"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Aquatic larva, drunk and dishonourable? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Aquatic larva, drunk and dishonourable? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 8
-            }, 
-            "solution": "CADDISH", 
-            "id": "26-across"
-        }, 
+                "x": 8,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "CADDISH"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Fund-raiser at the present time (4,3)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Fund-raiser at the present time (4,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "27", 
-            "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "GIFTDAY", 
-            "id": "27-across"
-        }, 
+            },
+            "solution": "GIFTDAY"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "City shot in the theatre (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "28-across"
-            ], 
-            "number": 28, 
-            "clue": "City shot in the theatre (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "28", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "LINCOLN", 
-            "id": "28-across"
-        }, 
+                "x": 8,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "LINCOLN"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "City of fashion (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "City of fashion (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "BRISTOL", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BRISTOL"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Rape victim gives money to church (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Rape victim gives money to church (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "LUCRECE", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LUCRECE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Dumbledore is a number on public transport (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Dumbledore is a number on public transport (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "ALBUS", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ALBUS"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Match religious group with flying guinea pig? (4,5)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Match religious group with flying guinea pig? (4,5)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "TESTPILOT", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "TESTPILOT"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "City matched with neighbour (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "City matched with neighbour (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "DERBY", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DERBY"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Eat last course first and send hot food back to city (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Eat last course first and send hot food back to city (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "EDINBURGH", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EDINBURGH"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Prohibition? I've kept my head about it (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Prohibition? I've kept my head about it (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "EMBARGO", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EMBARGO"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Deposit required from badly flawed student (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Deposit required from badly flawed student (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "DEWFALL", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DEWFALL"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "City life with female arranged in outbuilding (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "City life with female arranged in outbuilding (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 4
-            }, 
-            "solution": "SHEFFIELD", 
-            "id": "14-down"
-        }, 
+                "x": 4,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "SHEFFIELD"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Outspoken about doubtfully fair sort of spectacles (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Outspoken about doubtfully fair sort of spectacles (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 8
-            }, 
-            "solution": "VARIFOCAL", 
-            "id": "16-down"
-        }, 
+                "x": 8,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "VARIFOCAL"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Garden pest from Bourges (4,3)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Garden pest from Bourges (4,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "ROSEBUG", 
-            "id": "17-down"
-        }, 
+            },
+            "solution": "ROSEBUG"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "City transport to dis\u00adagree with monarch being dropped (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "City transport to dis\u00adagree with monarch being dropped (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 2
-            }, 
-            "solution": "CARDIFF", 
-            "id": "18-down"
-        }, 
+                "x": 2,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "CARDIFF"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Little piece of music has donor in trouble (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Little piece of music has donor in trouble (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 12
-            }, 
-            "solution": "RONDINO", 
-            "id": "20-down"
-        }, 
+                "x": 12,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "RONDINO"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Plant raised, when cold inside, in city (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Plant raised, when cold inside, in city (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 14
-            }, 
-            "solution": "BRECHIN", 
-            "id": "21-down"
-        }, 
+                "x": 14,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "BRECHIN"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Miller needs second in what he should do (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Miller needs second in what he should do (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 6
-            }, 
-            "solution": "DUSTY", 
-            "id": "23-down"
-        }, 
+                "x": 6,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "DUSTY"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Colourful article on fieldwork (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "Colourful article on fieldwork (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 10
-            }, 
-            "solution": "REDAN", 
-            "id": "24-down"
+                "x": 10,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "REDAN"
         }
-    ], 
-    "date": 1336694400000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20120511.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25633", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1336690800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20120511.pdf",
+    "_gridType": "M48"
 }

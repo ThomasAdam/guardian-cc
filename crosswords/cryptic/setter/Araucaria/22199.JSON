@@ -1,538 +1,540 @@
 {
-    "name": "Cryptic crossword No 22,199", 
+    "id": "crosswords/cryptic/22199",
+    "number": 22199,
+    "name": "Cryptic crossword No 22,199",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/araucaria", 
-        "name": "Araucaria"
-    }, 
-    "dateSolutionAvailable": 988844400000, 
-    "number": 22199, 
-    "crosswordType": "cryptic", 
+        "name": "Araucaria",
+        "webUrl": "https://www.theguardian.com/profile/araucaria"
+    },
+    "date": 988848000000,
+    "webPublicationDate": 988844400000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Finale: work of college cad had Burns' quotation (6,3,12,2,6)",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "1-across", 
+                "1-across",
                 "11-across"
-            ], 
-            "number": 1, 
-            "clue": "Finale: work of college cad had Burns' quotation (6,3,12,2,6)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "SHOULD", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "SHOULD"
+        },
         {
-            "direction": "across", 
+            "id": "4-across",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Not a straight tool? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "4-across"
-            ], 
-            "number": 4, 
-            "clue": "Not a straight tool? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "CHISEL", 
-            "id": "4-across"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CHISEL"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "See 1",
+            "direction": "across",
+            "length": 15,
             "group": [
-                "1-across", 
+                "1-across",
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "See 1", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "OLDACQUAINTANCE", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "OLDACQUAINTANCE"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Hot iron available? Come out! (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Hot iron available? Come out! (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "STRIKE", 
-            "id": "10-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "STRIKE"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "See 1",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "1-across", 
+                "1-across",
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "See 1", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 4, 
-                "x": 7
-            }, 
-            "solution": "BEFORGOT", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "BEFORGOT"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "A lot of memories? Some of them get by in 21 (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "A lot of memories? Some of them get by in 21 (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "MEGABYTE", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "MEGABYTE"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Joint consumed by diplomat (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Joint consumed by diplomat (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 9
-            }, 
-            "solution": "LEGATE", 
-            "id": "14-across"
-        }, 
+                "x": 9,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "LEGATE"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Quantity of human milk taken in context (1,3,2,8)",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "15-across", 
+                "15-across",
                 "18-across"
-            ], 
-            "number": 15, 
-            "clue": "Quantity of human milk taken in context (1,3,2,8)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
-                    1, 
-                    4, 
+                    1,
+                    4,
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "ACUPOF", 
-            "id": "15-across"
-        }, 
+            },
+            "solution": "ACUPOF"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "See 15",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "15-across", 
+                "15-across",
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "See 15", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 8, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "KINDNESS", 
-            "id": "18-across"
-        }, 
+            },
+            "solution": "KINDNESS"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Fascinate, not being way out (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Fascinate, not being way out (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "ENTRANCE", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "ENTRANCE"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Mother to Hamlet backed by bacchante (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Mother to Hamlet backed by bacchante (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 9
-            }, 
-            "solution": "MAENAD", 
-            "id": "22-across"
-        }, 
+                "x": 9,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "MAENAD"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Words of finale range so fully and extravagantly (3,4,4,4)",
+            "direction": "across",
+            "length": 15,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Words of finale range so fully and extravagantly (3,4,4,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
-                    7, 
+                    3,
+                    7,
                     11
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "FORAULDLANGSYNE", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "FORAULDLANGSYNE"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Letter opener between 24 and 24 (2,4)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Letter opener between 24 and 24 (2,4)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "MYDEAR", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "MYDEAR"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Spiral without its head, but with its heart, would turn gold (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Spiral without its head, but with its heart, would turn gold (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "ELIXIR", 
-            "id": "26-across"
-        }, 
+                "x": 8,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "ELIXIR"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Barrister to level scores by elegant item of dress (4,3)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Barrister to level scores by elegant item of dress (4,3)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "SILKTIE", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "SILKTIE"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Authorisation for a relation ? of the giraffe (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Authorisation for a relation ? of the giraffe (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "OKAPI", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OKAPI"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Brains needed in fuel production next year to turn coal to oil? (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Brains needed in fuel production next year to turn coal to oil? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "LIQUEFY", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LIQUEFY"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Big and naughty baby? (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Big and naughty baby? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "HANDFUL", 
-            "id": "5-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "HANDFUL"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Orangeade's drunk (point taken) by marine monster (3-6)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Orangeade's drunk (point taken) by marine monster (3-6)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "SEADRAGON", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "SEADRAGON"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Reverse of 10 making TUC look uncomfortable? (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Reverse of 10 making TUC look uncomfortable? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "LOCKOUT", 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LOCKOUT"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Play with water as a dilettante? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Play with water as a dilettante? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 7
-            }, 
-            "solution": "DABBLE", 
-            "id": "8-down"
-        }, 
+                "x": 7,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "DABBLE"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Sign for and accept a morning by the beach? (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Sign for and accept a morning by the beach? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 3
-            }, 
-            "solution": "AMPERSAND", 
-            "id": "13-down"
-        }, 
+                "x": 3,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "AMPERSAND"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "See how they run and go with the flow? (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "See how they run and go with the flow? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "CONFORM", 
-            "id": "16-down"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "CONFORM"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Lowland measure for a girl's name (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Lowland measure for a girl's name (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 5
-            }, 
-            "solution": "FENELLA", 
-            "id": "17-down"
-        }, 
+                "x": 5,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "FENELLA"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Qualification for feeling Len should go in as new opener (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Qualification for feeling Len should go in as new opener (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "KEENLY", 
-            "id": "18-down"
-        }, 
+                "x": 7,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "KEENLY"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "So-called lion-man comes adrift (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "So-called lion-man comes adrift (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 9
-            }, 
-            "solution": "NOMINAL", 
-            "id": "19-down"
-        }, 
+                "x": 9,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "NOMINAL"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "It helps to reproduce, with science, the dead queen's signature (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "It helps to reproduce, with science, the dead queen's signature (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 13
-            }, 
-            "solution": "SCANNER", 
-            "id": "20-down"
-        }, 
+                "x": 13,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "SCANNER"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Being an unknown man that's become nouveau riche? (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Being an unknown man that's become nouveau riche? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 11
-            }, 
-            "solution": "ESSEX", 
-            "id": "23-down"
+                "x": 11,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "ESSEX"
         }
-    ], 
-    "date": 988848000000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/22199", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 988844400000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M32"
 }

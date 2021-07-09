@@ -1,549 +1,551 @@
 {
-    "name": "Cryptic crossword No 24,775", 
+    "id": "crosswords/cryptic/24775",
+    "number": 24775,
+    "name": "Cryptic crossword No 24,775",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/paul", 
-        "name": "Paul"
-    }, 
-    "dateSolutionAvailable": 1249945200000, 
-    "number": 24775, 
-    "crosswordType": "cryptic", 
+        "name": "Paul",
+        "webUrl": "https://www.theguardian.com/profile/paul"
+    },
+    "date": 1249948800000,
+    "webPublicationDate": 1249945200000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8, 22",
+            "clue": " Joker having sworn, nothing less, an individual taken off as perjurer (8,6)",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "8-across", 
+                "8-across",
                 "22-across"
-            ], 
-            "number": 8, 
-            "clue": " Joker having sworn, nothing less, an individual taken off as perjurer (8,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "8, 22", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "JONATHAN", 
-            "id": "8-across"
-        }, 
+            },
+            "solution": "JONATHAN"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "A time to back the stadium (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "A time to back the stadium (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 9
-            }, 
-            "solution": "ARENA", 
-            "id": "9-across"
-        }, 
+                "x": 9,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "ARENA"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Grey has a fling (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Grey has a fling (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "ASHY", 
-            "id": "10-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "ASHY"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "See 2",
+            "direction": "across",
+            "length": 10,
             "group": [
-                "2-down", 
+                "2-down",
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "See 2", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 10, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 3, 
-                "x": 5
-            }, 
-            "solution": "WHITEHOUSE", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "WHITEHOUSE"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Top starter? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Top starter? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "JUMPER", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "JUMPER"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Might 25 be close to breast, trapped, protecting ring (3-5)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Might 25 be close to breast, trapped, protecting ring (3-5)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 5
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 5, 
-                "x": 7
-            }, 
-            "solution": "TWOEDGED", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "TWOEDGED"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "See 25",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "25-across", 
+                "25-across",
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "See 25", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "OFTRUTH", 
-            "id": "15-across"
-        }, 
+            },
+            "solution": "OFTRUTH"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Community head: e's sent round for basic thing (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Community head: e's sent round for basic thing (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "ESSENCE", 
-            "id": "17-across"
-        }, 
+                "x": 8,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ESSENCE"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "US measure it, beginning to accelerate in recession, people learned (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "US measure it, beginning to accelerate in recession, people learned (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "LITERATI", 
-            "id": "20-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "LITERATI"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "See 8",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "8-across", 
+                "8-across",
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "See 8", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "AITKEN", 
-            "id": "22-across"
-        }, 
+            },
+            "solution": "AITKEN"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Speeding driver's pal hurt in middle of pal's race (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Speeding driver's pal hurt in middle of pal's race (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "SCHUMACHER", 
-            "id": "23-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "SCHUMACHER"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24, 19",
+            "clue": " Incendiary device, Spooner's 25 15? (4,7)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "24-across", 
+                "24-across",
                 "19-down"
-            ], 
-            "number": 24, 
-            "clue": " Incendiary device, Spooner's 25 15? (4,7)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "24, 19", 
-            "position": {
-                "y": 11, 
-                "x": 11
-            }, 
-            "solution": "FIRE", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "FIRE"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25, 15",
+            "clue": " Not hard to keep promise, pity 8 22 spoke of this (5,2,5)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "25-across", 
+                "25-across",
                 "15-across"
-            ], 
-            "number": 25, 
-            "clue": " Not hard to keep promise, pity 8 22 spoke of this (5,2,5)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "25, 15", 
-            "position": {
-                "y": 13, 
-                "x": 1
-            }, 
-            "solution": "SWORD", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "SWORD"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "No longer confined, holding on for advocate (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "No longer confined, holding on for advocate (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 7
-            }, 
-            "solution": "EXPONENT", 
-            "id": "26-across"
-        }, 
+                "x": 7,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "EXPONENT"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Wonderful thing curry, perhaps (3,5)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Wonderful thing curry, perhaps (3,5)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "HOTSTUFF", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "HOTSTUFF"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2, 11",
+            "clue": " Obscene author? See why I'm she who used to disapprove of it? (4,10)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "2-down", 
+                "2-down",
                 "11-across"
-            ], 
-            "number": 2, 
-            "clue": " Obscene author? See why I'm she who used to disapprove of it? (4,10)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "2, 11", 
-            "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "MARY", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "MARY"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "One demonstrating Hitchcock's murder scene (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "One demonstrating Hitchcock's murder scene (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "SHOWER", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SHOWER"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Distress seen, whoever seizes revolving exit (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Distress seen, whoever seizes revolving exit (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "ANXIETY", 
-            "id": "4-down"
-        }, 
+                "x": 7,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ANXIETY"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Slight sensation in fingers, some taken upwards (4,4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Slight sensation in fingers, some taken upwards (4,4)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "KATEMOSS", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "KATEMOSS"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Tarnished silver (6,4)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Tarnished silver (6,4)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "SECONDBEST", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "SECONDBEST"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Instruction to dog to bite fool \u2014 dog acting? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Instruction to dog to bite fool \u2014 dog acting? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "LASSIE", 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LASSIE"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Tyrant developed our respect (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Tyrant developed our respect (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 3
-            }, 
-            "solution": "PERSECUTOR", 
-            "id": "13-down"
-        }, 
+                "x": 3,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "PERSECUTOR"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "For Spooner, essential father leaves here (3,5)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "For Spooner, essential father leaves here (3,5)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "TEACADDY", 
-            "id": "16-down"
-        }, 
+            },
+            "solution": "TEACADDY"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Stick grabs attention where trees not seen (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Stick grabs attention where trees not seen (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 13
-            }, 
-            "solution": "CLEARING", 
-            "id": "18-down"
-        }, 
+                "x": 13,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "CLEARING"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "See 24 across",
+            "direction": "down",
+            "length": 7,
             "group": [
-                "24-across", 
+                "24-across",
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "See 24 across", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "19", 
-            "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "LIGHTER", 
-            "id": "19-down"
-        }, 
+            },
+            "solution": "LIGHTER"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Cut in dimensions, say (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Cut in dimensions, say (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 1
-            }, 
-            "solution": "INCISE", 
-            "id": "21-down"
-        }, 
+                "x": 1,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "INCISE"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Odd bits removed, barber cut path so short (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Odd bits removed, barber cut path so short (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "ABRUPT", 
-            "id": "22-down"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ABRUPT"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Fair charge (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "Fair charge (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 11
-            }, 
-            "solution": "FINE", 
-            "id": "24-down"
+                "x": 11,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "FINE"
         }
-    ], 
-    "date": 1249948800000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/24775", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1249945200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M46"
 }

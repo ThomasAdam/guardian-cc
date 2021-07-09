@@ -1,525 +1,527 @@
 {
-    "name": "Cryptic crossword No 26,009", 
+    "id": "crosswords/cryptic/26009",
+    "number": 26009,
+    "name": "Cryptic crossword No 26,009",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/philistine", 
-        "name": "Philistine"
-    }, 
-    "dateSolutionAvailable": 1374706800000, 
-    "number": 26009, 
-    "crosswordType": "cryptic", 
+        "name": "Philistine",
+        "webUrl": "https://www.theguardian.com/profile/philistine"
+    },
+    "date": 1374710400000,
+    "webPublicationDate": 1374706800000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Criminals had fruit before 13 (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Criminals had fruit before 13 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "FELONS", 
-            "id": "1-across"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "FELONS"
+        },
         {
-            "direction": "across", 
+            "id": "4-across",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Chap relaxed before 13 (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "4-across"
-            ], 
-            "number": 4, 
-            "clue": "Chap relaxed before 13 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "FELLOW", 
-            "id": "4-across"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "FELLOW"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Kitty's game (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Kitty's game (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "POOL", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "POOL"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "The cocoa's final end products (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "The cocoa's final end products (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 5
-            }, 
-            "solution": "CHOCOLATES", 
-            "id": "10-across"
-        }, 
+                "x": 5,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "CHOCOLATES"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Europeans reporting money orders (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Europeans reporting money orders (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "CZECHS", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "CZECHS"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Spring elevation before 13 (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Spring elevation before 13 (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 7
-            }, 
-            "solution": "FOUNTAIN", 
-            "id": "12-across"
-        }, 
+                "x": 7,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "FOUNTAIN"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "F-form s-swap? (3,6)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "F-form s-swap? (3,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "SEXCHANGE", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "SEXCHANGE"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Canine in a fit of anger (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Canine in a fit of anger (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 10
-            }, 
-            "solution": "FANG", 
-            "id": "15-across"
-        }, 
+                "x": 10,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "FANG"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Confront staff before 13 (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Confront staff before 13 (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "FACE", 
-            "id": "16-across"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "FACE"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Officer's ship given a rough ride (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Officer's ship given a rough ride (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 6
-            }, 
-            "solution": "BRIGADIER", 
-            "id": "17-across"
-        }, 
+                "x": 6,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "BRIGADIER"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Possibly next Open champion (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Possibly next Open champion (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "EXPONENT", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "EXPONENT"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Disagree with switch before 13 (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Disagree with switch before 13 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 9
-            }, 
-            "solution": "DIFFER", 
-            "id": "22-across"
-        }, 
+                "x": 9,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "DIFFER"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Do E-numbers turn heavy? (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Do E-numbers turn heavy? (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "BURDENSOME", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "BURDENSOME"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Pick up entitlement at the ceremony (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Pick up entitlement at the ceremony (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 11
-            }, 
-            "solution": "RITE", 
-            "id": "25-across"
-        }, 
+                "x": 11,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "RITE"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Death to river bear (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Death to river bear (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "ENDURE", 
-            "id": "26-across"
-        }, 
+                "x": 1,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "ENDURE"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Essential grandmother has a change of heart to become an African (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Essential grandmother has a change of heart to become an African (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "KENYAN", 
-            "id": "27-across"
-        }, 
+                "x": 8,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "KENYAN"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Female to sleep around the flipping place with all sorts of creatures (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Female to sleep around the flipping place with all sorts of creatures (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "FLOOZIE", 
-            "id": "1-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "FLOOZIE"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Bush in a relapse of critical illness (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Bush in a relapse of critical illness (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "LILAC", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LILAC"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Capital report on underwear drawer? (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Capital report on underwear drawer? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "NICOSIA", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "NICOSIA"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Crazy duo in kinky sex book (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Crazy duo in kinky sex book (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "EXODUS", 
-            "id": "5-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EXODUS"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Prerequisite to quick fix as details hammered out (5,4)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Prerequisite to quick fix as details hammered out (5,4)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "LEASTSAID", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "LEASTSAID"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Small half-game greeting for the Scots (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Small half-game greeting for the Scots (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "WEEPING", 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "WEEPING"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Layout of Agincourt in conflict (13)",
+            "direction": "down",
+            "length": 13,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Layout of Agincourt in conflict (13)", 
-            "separatorLocations": {}, 
-            "length": 13, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 7
-            }, 
-            "solution": "CONFIGURATION", 
-            "id": "8-down"
-        }, 
+                "x": 7,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "CONFIGURATION"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Betrayed at heart, wicked love caught in illicit cuddle (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Betrayed at heart, wicked love caught in illicit cuddle (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 3
-            }, 
-            "solution": "CUCKOLDED", 
-            "id": "14-down"
-        }, 
+                "x": 3,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "CUCKOLDED"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Fitting blend before 13 (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Fitting blend before 13 (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "FIXTURE", 
-            "id": "16-down"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "FIXTURE"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Examines setter, coming up with spiritual yarn (4,3)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Examines setter, coming up with spiritual yarn (4,3)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 8, 
-                "x": 9
-            }, 
-            "solution": "GODSEYE", 
-            "id": "18-down"
-        }, 
+            },
+            "solution": "GODSEYE"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Team heavyweight's always first (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Team heavyweight's always first (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 13
-            }, 
-            "solution": "EVERTON", 
-            "id": "19-down"
-        }, 
+                "x": 13,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "EVERTON"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Hear the pitch of this note (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Hear the pitch of this note (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 5
-            }, 
-            "solution": "TENNER", 
-            "id": "20-down"
-        }, 
+                "x": 5,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "TENNER"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Ship was happy before 13 (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Ship was happy before 13 (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 11
-            }, 
-            "solution": "FERRY", 
-            "id": "23-down"
+                "x": 11,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "FERRY"
         }
-    ], 
-    "date": 1374710400000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20130725.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/26009", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1374706800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20130725.pdf",
+    "_gridType": "M28"
 }

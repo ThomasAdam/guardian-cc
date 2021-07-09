@@ -1,588 +1,590 @@
 {
-    "name": "Prize crossword No 23,299", 
+    "id": "crosswords/prize/23299",
+    "number": 23299,
+    "name": "Prize crossword No 23,299",
     "creator": {
-        "webUrl": "https://www.theguardian.com/profile/enigmatist", 
-        "name": "Enigmatist"
-    }, 
-    "dateSolutionAvailable": 1100908800000, 
-    "number": 23299, 
-    "crosswordType": "prize", 
+        "name": "Enigmatist",
+        "webUrl": "https://www.theguardian.com/profile/enigmatist"
+    },
+    "date": 1100304000000,
+    "webPublicationDate": 1100304000000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Sin of Grant I drove him to rue: I've reformed, realising this? (2,3,2,5,2,7,6)",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "1-across", 
+                "1-across",
                 "19-down"
-            ], 
-            "number": 1, 
-            "clue": "Sin of Grant I drove him to rue: I've reformed, realising this? (2,3,2,5,2,7,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
-                    5, 
+                    2,
+                    5,
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "TOERRIS", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "TOERRIS"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "She regrets holding Mercury back: 5 one spent on new vestment given to weaver, 12 to the poet (5,2,6,5)",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "5-across", 
+                "5-across",
                 "14-across"
-            ], 
-            "number": 5, 
-            "clue": "She regrets holding Mercury back: 5 one spent on new vestment given to weaver, 12 to the poet (5,2,6,5)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    5, 
+                    5,
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "SIGHTOF", 
-            "id": "5-across"
-        }, 
+            },
+            "solution": "SIGHTOF"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Smell - one confronted by 4 in 9, 12 to the poet (5,4,6)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "9-across", 
+                "9-across",
                 "24-down"
-            ], 
-            "number": 9, 
-            "clue": "Smell - one confronted by 4 in 9, 12 to the poet (5,4,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "HUMAN", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "HUMAN"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "See 1",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "1-across", 
+                "1-across",
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "See 1", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 6
-            }, 
-            "solution": "TOFORGIVE", 
-            "id": "10-across"
-        }, 
+                "x": 6,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "TOFORGIVE"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "I did it to show you an example (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "I did it to show you an example (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "CONFESSION", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "CONFESSION"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Got out of touch with gent, nearly, after one left ghosts out (4,5,2)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Got out of touch with gent, nearly, after one left ghosts out (4,5,2)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 4, 
-                "x": 11
-            }, 
-            "solution": "LOST", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "LOST"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "See 5",
+            "direction": "across",
+            "length": 11,
             "group": [
-                "5-across", 
+                "5-across",
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "See 5", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 4
-            }, 
-            "solution": "VERNALBLOOM", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "VERNALBLOOM"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Unheard condemnation of dead agents in project fronted by new rep (11)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Unheard condemnation of dead agents in project fronted by new rep (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "PREJUDGMENT", 
-            "id": "18-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "PREJUDGMENT"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "See 27",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "27-across", 
+                "27-across",
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "See 27", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "ROSE", 
-            "id": "21-across"
-        }, 
+            },
+            "solution": "ROSE"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Annie, say, backing hooker to bring Ireland to justice (6,4)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Annie, say, backing hooker to bring Ireland to justice (6,4)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 10, 
-                "x": 5
-            }, 
-            "solution": "ORPHANGIRL", 
-            "id": "22-across"
-        }, 
+            },
+            "solution": "ORPHANGIRL"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Rocker - not a roller - one looking round for the Advertiser (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Rocker - not a roller - one looking round for the Advertiser (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "SLOGANEER", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "SLOGANEER"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Troy's hippy! (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Troy's hippy! (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 10
-            }, 
-            "solution": "ILIAC", 
-            "id": "26-across"
-        }, 
+                "x": 10,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "ILIAC"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "We've added up and added up, 12 to the poet (7,4)",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "27-across", 
+                "27-across",
                 "21-across"
-            ], 
-            "number": 27, 
-            "clue": "We've added up and added up, 12 to the poet (7,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "27", 
-            "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "SUMMERS", 
-            "id": "27-across"
-        }, 
+            },
+            "solution": "SUMMERS"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "27 aren't, except when following onset of shower (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "28-across"
-            ], 
-            "number": 28, 
-            "clue": "27 aren't, except when following onset of shower (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "28", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "SUNLESS", 
-            "id": "28-across"
-        }, 
+                "x": 8,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "SUNLESS"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Sound of move on Church in a second (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Sound of move on Church in a second (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "TCHICK", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TCHICK"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Whose is this fur? The writer's not sure (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Whose is this fur? The writer's not sure (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "ERMINE", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ERMINE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "North Dakota admitted to wrangling over Suez meeting points (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "North Dakota admitted to wrangling over Suez meeting points (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "RENDEZVOUS", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "RENDEZVOUS"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Position of organ? There's suspicion about it (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Position of organ? There's suspicion about it (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "SITUS", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SITUS"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Endlessly put up with constriction of rolled-up pancake and choke (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Endlessly put up with constriction of rolled-up pancake and choke (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "SUFFOCATE", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SUFFOCATE"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Spear US politician, producing blood (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Spear US politician, producing blood (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "GORE", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "GORE"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Resistance a bit upset about places for raising American flag (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Resistance a bit upset about places for raising American flag (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "TRICOLOR", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TRICOLOR"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Fletcher's release from prison duties? (4,4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Fletcher's release from prison duties? (4,4)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "FREETIME", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "FREETIME"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Refraining from messing about in boats, ten holed up (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Refraining from messing about in boats, ten holed up (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 10
-            }, 
-            "solution": "ABSTENTION", 
-            "id": "13-down"
-        }, 
+                "x": 10,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "ABSTENTION"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "They see Team B holding up bull's incitement (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "They see Team B holding up bull's incitement (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 6
-            }, 
-            "solution": "REGARDERS", 
-            "id": "15-down"
-        }, 
+                "x": 6,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "REGARDERS"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Tells of values - antique copies, pair is accepted (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Tells of values - antique copies, pair is accepted (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "APPRISES", 
-            "id": "16-down"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "APPRISES"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Gents having no memories: that's sad, that's unwanted (4,4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Gents having no memories: that's sad, that's unwanted (4,4)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "MENSROOM", 
-            "id": "17-down"
-        }, 
+            },
+            "solution": "MENSROOM"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "See 1 across and 9",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "1-across", 
+                "1-across",
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "See 1 across and 9", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "19", 
-            "position": {
-                "y": 9, 
-                "x": 12
-            }, 
-            "solution": "DIVINE", 
-            "id": "19-down"
-        }, 
+            },
+            "solution": "DIVINE"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "First sign of frizzy hair, 12 to poet (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "First sign of frizzy hair, 12 to poet (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 14
-            }, 
-            "solution": "FLOCKS", 
-            "id": "20-down"
-        }, 
+                "x": 14,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "FLOCKS"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Smothered badly, 12 to me, 12 to poet (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Smothered badly, 12 to me, 12 to poet (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 8
-            }, 
-            "solution": "HERDS", 
-            "id": "23-down"
-        }, 
+                "x": 8,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "HERDS"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "See 9",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "9-across", 
+                "9-across",
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "See 9", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 11, 
-                "x": 4
-            }, 
-            "solution": "FACE", 
-            "id": "24-down"
+            },
+            "solution": "FACE"
         }
-    ], 
-    "date": 1100304000000, 
-    "instructions": "Clue 5,14 should read \"She regrets holding Mercury back: &#163;5 one spent on new vestment given to weaver, 12 to the poet (5,2,6,5)\"", 
-    "solutionAvailable": true, 
-    "id": "crosswords/prize/23299", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1100908800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "prize",
+    "instructions": "Clue 5,14 should read \"She regrets holding Mercury back: &#163;5 one spent on new vestment given to weaver, 12 to the poet (5,2,6,5)\"",
+    "_gridType": "M20"
 }

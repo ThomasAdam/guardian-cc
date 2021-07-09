@@ -1,526 +1,557 @@
 {
-    "name": "Prize crossword No 28,315", 
+    "id": "crosswords/prize/28315",
+    "number": 28315,
+    "name": "Prize crossword No 28,315",
     "creator": {
-        "webUrl": "https://www.theguardian.com/profile/paul", 
-        "name": "Paul"
-    }, 
-    "dateSolutionAvailable": 1608336000000, 
-    "number": 28315, 
-    "crosswordType": "prize", 
+        "name": "Paul",
+        "webUrl": "https://www.theguardian.com/profile/paul"
+    },
+    "date": 1607731200000,
+    "webPublicationDate": 1607731222000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Cold sore (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Cold sore (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "id": "1-across"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BITTER"
+        },
         {
-            "direction": "across", 
+            "id": "4-across",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "See 10",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "10-across", 
+                "10-across",
                 "4-across"
-            ], 
-            "number": 4, 
-            "clue": "See 10", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "id": "4-across"
-        }, 
+            },
+            "solution": "PARENT"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9, 11",
+            "clue": " Weasel's relative staff and I put back in absurdly long hole? (4,6)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "9-across", 
+                "9-across",
                 "11-across"
-            ], 
-            "number": 9, 
-            "clue": " Weasel's relative staff and I put back in absurdly long hole? (4,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "9, 11", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "PINE"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10, 4",
+            "clue": " Egg beater father damaged \u2014 might he be coddling? (10,6)",
+            "direction": "across",
+            "length": 10,
             "group": [
-                "10-across", 
+                "10-across",
                 "4-across"
-            ], 
-            "number": 10, 
-            "clue": " Egg beater father damaged \u2014 might he be coddling? (10,6)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     10
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "10, 4", 
-            "position": {
-                "y": 2, 
-                "x": 5
-            }, 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "HELICOPTER"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "See 9",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "9-across", 
+                "9-across",
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "See 9", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "MARTEN"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Tiny spot that's pink on leg (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Tiny spot that's pink on leg (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 7
-            }, 
-            "id": "12-across"
-        }, 
+                "x": 7,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "PINPRICK"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Drug that's popular filling plate beside me (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Drug that's popular filling plate beside me (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "MESCALINE"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15, 25",
+            "clue": " Old strip with hat in yellow and pink, primarily (4,4)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "15-across", 
+                "15-across",
                 "25-across"
-            ], 
-            "number": 15, 
-            "clue": " Old strip with hat in yellow and pink, primarily (4,4)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "15, 25", 
-            "position": {
-                "y": 6, 
-                "x": 10
-            }, 
-            "id": "15-across"
-        }, 
+            },
+            "solution": "ANDY"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Three quarters of twelve people on a Hebridean isle (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Three quarters of twelve people on a Hebridean isle (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "id": "16-across"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "JURA"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Game, one prodding virile chap? (4,5)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Game, one prodding virile chap? (4,5)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 8, 
-                "x": 6
-            }, 
-            "id": "17-across"
-        }, 
+            },
+            "solution": "STUDPOKER"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "One doesn't believe it: number reversed in account (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "One doesn't believe it: number reversed in account (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "AGNOSTIC"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Wee like wee? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Wee like wee? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 9
-            }, 
-            "id": "22-across"
-        }, 
+                "x": 9,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "PIDDLY"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24, 1 down",
+            "clue": " Circling oil platform, sustainable power demanded \u2014 privileged few going to the country? (5,5,7)",
+            "direction": "across",
+            "length": 10,
             "group": [
-                "24-across", 
+                "24-across",
                 "1-down"
-            ], 
-            "number": 24, 
-            "clue": " Circling oil platform, sustainable power demanded \u2014 privileged few going to the country? (5,5,7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
-                    5, 
+                    5,
                     10
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "24, 1 down", 
-            "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "GREENWELLY"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "See 15",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "15-across", 
+                "15-across",
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "See 15", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 12, 
-                "x": 11
-            }, 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "CAPP"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Reflective poem set in Spanish city (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Reflective poem set in Spanish city (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "id": "26-across"
-        }, 
+                "x": 1,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "TOLEDO"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Storm damage (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Storm damage (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "id": "27-across"
-        }, 
+                "x": 8,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "CHARGE"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "See 24",
+            "direction": "down",
+            "length": 7,
             "group": [
-                "24-across", 
+                "24-across",
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "See 24", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "BRIGADE"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Message to take down, quickly read out? (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Message to take down, quickly read out? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TWEET"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Fuel compared to first of oil in middle of well (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Fuel compared to first of oil in middle of well (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ETHANOL"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Mysterious vessel in time capsized (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Mysterious vessel in time capsized (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "id": "5-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ARCANE"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Tongue in pain ultimately, doctor operates to sew it up (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Tongue in pain ultimately, doctor operates to sew it up (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "id": "6-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ESPERANTO"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Overly sweet claret drunk with last of sherry (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Overly sweet claret drunk with last of sherry (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TREACLY"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Combination of painful and exciting strokes? That's it! (4,3,6)",
+            "direction": "down",
+            "length": 13,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Combination of painful and exciting strokes? That's it! (4,3,6)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     7
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 1, 
-                "x": 7
-            }, 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "SLAPANDTICKLE"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Bodily hole in shade of pink (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Bodily hole in shade of pink (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 3
-            }, 
-            "id": "14-down"
-        }, 
+                "x": 3,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "CORPOREAL"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Pace jerk has wrong, upped (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Pace jerk has wrong, upped (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "id": "16-down"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "JOGTROT"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Lower temperature necessary in the end above church altarpiece (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Lower temperature necessary in the end above church altarpiece (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 9
-            }, 
-            "id": "18-down"
-        }, 
+                "x": 9,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "DIPTYCH"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Better shears cutting coat of ewe (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Better shears cutting coat of ewe (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 13
-            }, 
-            "id": "19-down"
-        }, 
+                "x": 13,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ECLIPSE"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Drunk was irritated (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Drunk was irritated (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 5
-            }, 
-            "id": "20-down"
-        }, 
+                "x": 5,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "STEWED"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Look back in anger after Nov 31, fancifully? (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Look back in anger after Nov 31, fancifully? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 11
-            }, 
-            "id": "23-down"
+                "x": 11,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "DECOR"
         }
-    ], 
-    "date": 1607731200000, 
-    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20201212.pdf", 
-    "solutionAvailable": false, 
-    "id": "crosswords/prize/28315", 
+    ],
+    "solutionAvailable": false,
+    "dateSolutionAvailable": 1608336000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "prize",
+    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20201212.pdf",
+    "_gridType": "M28"
 }

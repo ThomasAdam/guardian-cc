@@ -1,548 +1,550 @@
 {
-    "name": "Cryptic crossword No 25,746", 
+    "id": "crosswords/cryptic/25746",
+    "number": 25746,
+    "name": "Cryptic crossword No 25,746",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/crucible", 
-        "name": "Crucible"
-    }, 
-    "dateSolutionAvailable": 1348095600000, 
-    "number": 25746, 
-    "crosswordType": "cryptic", 
+        "name": "Crucible",
+        "webUrl": "https://www.theguardian.com/profile/crucible"
+    },
+    "date": 1348099200000,
+    "webPublicationDate": 1348095600000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "7-across",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Virgin, perhaps Irish, wearing flared style (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "7-across"
-            ], 
-            "number": 7, 
-            "clue": "Virgin, perhaps Irish, wearing flared style (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "AIRLINE", 
-            "id": "7-across"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "AIRLINE"
+        },
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Bumper edition of \u201cLatin for Everyone\u201d? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "Bumper edition of \u201cLatin for Everyone\u201d? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 8
-            }, 
-            "solution": "OMNIBUS", 
-            "id": "8-across"
-        }, 
+                "x": 8,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "OMNIBUS"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Asian capital hasn't managed to progress (2,2)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Asian capital hasn't managed to progress (2,2)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "GOON", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "GOON"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10, 21",
+            "clue": " Hit by 2 and 16 across, new Pathfinder got lost crossing river (9,2,7)",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "10-across", 
+                "10-across",
                 "21-across"
-            ], 
-            "number": 10, 
-            "clue": " Hit by 2 and 16 across, new Pathfinder got lost crossing river (9,2,7)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     9
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "10, 21", 
-            "position": {
-                "y": 3, 
-                "x": 5
-            }, 
-            "solution": "TRANSPORT", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "TRANSPORT"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "10 was boss on board (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "10 was boss on board (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 1
-            }, 
-            "solution": "SLEDS", 
-            "id": "12-across"
-        }, 
+                "x": 1,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "SLEDS"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Line in religious writing by Hardy that's deleted another line (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Line in religious writing by Hardy that's deleted another line (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 7
-            }, 
-            "solution": "PLIMSOLL", 
-            "id": "13-across"
-        }, 
+                "x": 7,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "PLIMSOLL"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "10s despot's scratching head (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "10s despot's scratching head (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "VANS", 
-            "id": "15-across"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "VANS"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Pen name for Proust's hero (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Pen name for Proust's hero (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "SWANN", 
-            "id": "16-across"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "SWANN"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "10's about right (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "10's about right (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "solution": "CART", 
-            "id": "17-across"
-        }, 
+                "x": 11,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "CART"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Touching a female in Indian dress after game (2,6)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Touching a female in Indian dress after game (2,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "ONSAFARI", 
-            "id": "18-across"
-        }, 
+            },
+            "solution": "ONSAFARI"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Elizabeth Fry's nursing 10 (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Elizabeth Fry's nursing 10 (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "FERRY", 
-            "id": "20-across"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "FERRY"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "See 10",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "10-across", 
+                "10-across",
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "See 10", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 11, 
-                "x": 1
-            }, 
-            "solution": "OFDELIGHT", 
-            "id": "21-across"
-        }, 
+            },
+            "solution": "OFDELIGHT"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Non-striker's first to finish 10s (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Non-striker's first to finish 10s (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 11
-            }, 
-            "solution": "CABS", 
-            "id": "22-across"
-        }, 
+                "x": 11,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "CABS"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Kit is able to enter \"Come Dancing\" (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Kit is able to enter \"Come Dancing\" (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "MECCANO", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "MECCANO"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "10 dashes round to collect papers (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "10 dashes round to collect papers (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 8
-            }, 
-            "solution": "SIDECAR", 
-            "id": "25-across"
-        }, 
+                "x": 8,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "SIDECAR"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "10 put up two million, ignoring banks (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "10 put up two million, ignoring banks (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "LIMO", 
-            "id": "1-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LIMO"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Leader of foreign country regularly rearms in battle zone (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Leader of foreign country regularly rearms in battle zone (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "FLANDERS", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "FLANDERS"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Joins Victorian 10s touring province (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Joins Victorian 10s touring province (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "UNITES", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "UNITES"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Avoid one in time for discharge (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Avoid one in time for discharge (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "EMISSION", 
-            "id": "4-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EMISSION"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "7 commanders pistol-whipped (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "7 commanders pistol-whipped (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "PILOTS", 
-            "id": "5-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PILOTS"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "10 set to cross Norway (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "10 set to cross Norway (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "PUNT", 
-            "id": "6-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PUNT"
+        },
         {
-            "direction": "down", 
+            "id": "11-down",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "A very quiet part of London's attractive (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "11-down"
-            ], 
-            "number": 11, 
-            "clue": "A very quiet part of London's attractive (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 7
-            }, 
-            "solution": "APPEALING", 
-            "id": "11-down"
-        }, 
+                "x": 7,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "APPEALING"
+        },
         {
-            "direction": "down", 
+            "id": "12-down",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Lover was injured at home (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "12-down"
-            ], 
-            "number": 12, 
-            "clue": "Lover was injured at home (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 1
-            }, 
-            "solution": "SWAIN", 
-            "id": "12-down"
-        }, 
+                "x": 1,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "SWAIN"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Liberal's sad leader discarded 10 (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Liberal's sad leader discarded 10 (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 13
-            }, 
-            "solution": "LORRY", 
-            "id": "14-down"
-        }, 
+                "x": 13,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "LORRY"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "10 understand a scheme's boring (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "10 understand a scheme's boring (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "SEAPLANE", 
-            "id": "16-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "SEAPLANE"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "County Clare ordered small 10s (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "County Clare ordered small 10s (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "solution": "CORACLES", 
-            "id": "17-down"
-        }, 
+                "x": 11,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "CORACLES"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Lincoln nearly escaped so-called 10 (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Lincoln nearly escaped so-called 10 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 3
-            }, 
-            "solution": "ABDUCT", 
-            "id": "19-down"
-        }, 
+                "x": 3,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ABDUCT"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Jazz pianist's ideal climbing shrub (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Jazz pianist's ideal climbing shrub (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "FATSIA", 
-            "id": "20-down"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "FATSIA"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "An up-and-coming Cole Porter entertained 10 (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "An up-and-coming Cole Porter entertained 10 (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 1
-            }, 
-            "solution": "OPEL", 
-            "id": "21-down"
-        }, 
+                "x": 1,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "OPEL"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Old 7 runs 10 (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Old 7 runs 10 (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 13
-            }, 
-            "solution": "BEAR", 
-            "id": "23-down"
+                "x": 13,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "BEAR"
         }
-    ], 
-    "date": 1348099200000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20120920.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25746", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1348095600000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20120920.pdf",
+    "_gridType": "M58"
 }

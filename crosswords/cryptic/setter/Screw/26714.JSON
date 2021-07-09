@@ -1,592 +1,594 @@
 {
-    "name": "Cryptic crossword No 26,714", 
+    "id": "crosswords/cryptic/26714",
+    "number": 26714,
+    "name": "Cryptic crossword No 26,714",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/screw", 
-        "name": "Screw"
-    }, 
-    "dateSolutionAvailable": 1445990400000, 
-    "number": 26714, 
-    "crosswordType": "cryptic", 
+        "name": "Screw",
+        "webUrl": "https://www.theguardian.com/profile/screw"
+    },
+    "date": 1445990400000,
+    "webPublicationDate": 1445990400000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "What open doors and often don't close, shock horror! (5,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "What open doors and often don't close, shock horror! (5,4)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "SPLITENDS", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "SPLITENDS"
+        },
         {
-            "direction": "across", 
+            "id": "6-across",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Loud weapon that's more than stable! (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "6-across"
-            ], 
-            "number": 6, 
-            "clue": "Loud weapon that's more than stable! (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "FARM", 
-            "id": "6-across"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "FARM"
+        },
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Help on the way (cases yet to be resolved) (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "Help on the way (cases yet to be resolved) (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "CATSEYES", 
-            "id": "8-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "CATSEYES"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Grabbing cloudy drinks each day for starters (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Grabbing cloudy drinks each day for starters (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 9
-            }, 
-            "solution": "GREEDY", 
-            "id": "9-across"
-        }, 
+                "x": 9,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "GREEDY"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Slump forward into bottle (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Slump forward into bottle (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "FLAGON", 
-            "id": "10-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "FLAGON"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11, 21",
+            "clue": " Relentless nympho? (3,5,3,5)",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "11-across", 
+                "11-across",
                 "21-across"
-            ], 
-            "number": 11, 
-            "clue": " Relentless nympho? (3,5,3,5)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "11, 21", 
-            "position": {
-                "y": 4, 
-                "x": 7
-            }, 
-            "solution": "ONEAFTER", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "ONEAFTER"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "When bongs were used by day nurse (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "When bongs were used by day nurse (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "ATTEND", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "ATTEND"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Green leaves, having pretended Brighton's good (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Green leaves, having pretended Brighton's good (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 7
-            }, 
-            "solution": "SHAMROCK", 
-            "id": "15-across"
-        }, 
+                "x": 7,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "SHAMROCK"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16, 19",
+            "clue": " Craft enabled landfall short of France, the ultimate target (2-3,3,3-3)",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "16-across", 
+                "16-across",
                 "19-across"
-            ], 
-            "number": 16, 
-            "clue": " Craft enabled landfall short of France, the ultimate target (2-3,3,3-3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 8
+            },
             "separatorLocations": {
+                ",": [
+                    5,
+                    8
+                ],
                 "-": [
                     2
-                ], 
-                ",": [
-                    5, 
-                    8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "16, 19", 
-            "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "BEALLAND", 
-            "id": "16-across"
-        }, 
+            },
+            "solution": "BEALLAND"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "See 16",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "16-across", 
+                "16-across",
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "See 16", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 8
+            },
             "separatorLocations": {
+                ",": [],
                 "-": [
                     3
-                ], 
-                ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "19", 
-            "position": {
-                "y": 8, 
-                "x": 9
-            }, 
-            "solution": "ENDALL", 
-            "id": "19-across"
-        }, 
+                ]
+            },
+            "solution": "ENDALL"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "See 11",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "11-across", 
+                "11-across",
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "See 11", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "THEOTHER", 
-            "id": "21-across"
-        }, 
+            },
+            "solution": "THEOTHER"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Trouble surrendering is a slight difference (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Trouble surrendering is a slight difference (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 9
-            }, 
-            "solution": "NUANCE", 
-            "id": "22-across"
-        }, 
+                "x": 9,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "NUANCE"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "With empty menu, enjoys linguini for breakfast (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "With empty menu, enjoys linguini for breakfast (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "MUESLI", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "MUESLI"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "With 11 21, it'd mean new wheels (2,6)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "With 11 21, it'd mean new wheels (2,6)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 12, 
-                "x": 7
-            }, 
-            "solution": "INTANDEM", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "INTANDEM"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Abandon future plant, possibly in speech (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Abandon future plant, possibly in speech (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "CEDE", 
-            "id": "26-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "CEDE"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Bloke's weight is entertaining to chart (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Bloke's weight is entertaining to chart (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 5
-            }, 
-            "solution": "HISTOGRAM", 
-            "id": "27-across"
-        }, 
+                "x": 5,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "HISTOGRAM"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Home supporter catches cycling (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Home supporter catches cycling (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "SNAIL", 
-            "id": "1-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SNAIL"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Dip in road brings up food (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Dip in road brings up food (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "LASAGNE", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LASAGNE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Test clothes, chance to go over line (3,2)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Test clothes, chance to go over line (3,2)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "TRYON", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "TRYON"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "They don't make theatre bookings \u2014 and their excuse? (2-5)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "They don't make theatre bookings \u2014 and their excuse? (2-5)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     2
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "NOSHOWS", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "NOSHOWS"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Split up and get grease monkeys around (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Split up and get grease monkeys around (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "SEGREGATE", 
-            "id": "5-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SEGREGATE"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Sympathise with price that's hilarious in retrospect (4,3)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Sympathise with price that's hilarious in retrospect (4,3)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "FEELFOR", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "FEELFOR"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Correct parasol's opening with drunk reclined outside (3-6)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Correct parasol's opening with drunk reclined outside (3-6)", 
+            ],
+            "position": {
+                "x": 13,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "REDPENCIL", 
-            "id": "7-down"
-        }, 
+            },
+            "solution": "REDPENCIL"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Unfortunately, these euro coins build up (4,5)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Unfortunately, these euro coins build up (4,5)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 6, 
-                "x": 1
-            }, 
-            "solution": "TREEHOUSE", 
-            "id": "13-down"
-        }, 
+            },
+            "solution": "TREEHOUSE"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Checking out will hide what's wrong (5,4)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Checking out will hide what's wrong (5,4)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 5
-            }, 
-            "solution": "DEATHWISH", 
-            "id": "14-down"
-        }, 
+            },
+            "solution": "DEATHWISH"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Ladies, perhaps, kind to kick off date's brief search (4-3)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Ladies, perhaps, kind to kick off date's brief search (4-3)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 8
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 8, 
-                "x": 3
-            }, 
-            "solution": "LOOKSEE", 
-            "id": "17-down"
-        }, 
+            },
+            "solution": "LOOKSEE"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Had mate coming up with ideas regularly for Spurs v Arsenal etc (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Had mate coming up with ideas regularly for Spurs v Arsenal etc (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "DERBIES", 
-            "id": "18-down"
-        }, 
+                "x": 7,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "DERBIES"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "In Berlin, the wet parts becoming drier (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "In Berlin, the wet parts becoming drier (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 11
-            }, 
-            "solution": "DRAINER", 
-            "id": "20-down"
-        }, 
+                "x": 11,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "DRAINER"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Explosive start (I must be delayed) (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Explosive start (I must be delayed) (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 9
-            }, 
-            "solution": "NITRO", 
-            "id": "22-down"
-        }, 
+                "x": 9,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "NITRO"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Best sheets about to be put on (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Best sheets about to be put on (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 13
-            }, 
-            "solution": "CREAM", 
-            "id": "23-down"
+                "x": 13,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "CREAM"
         }
-    ], 
-    "date": 1445990400000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20151028.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/26714", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1445990400000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20151028.pdf",
+    "_gridType": null
 }

@@ -1,553 +1,555 @@
 {
-    "name": "Cryptic crossword No 24,961", 
+    "id": "crosswords/cryptic/24961",
+    "number": 24961,
+    "name": "Cryptic crossword No 24,961",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/puck", 
-        "name": "Puck"
-    }, 
-    "dateSolutionAvailable": 1268870400000, 
-    "number": 24961, 
-    "crosswordType": "cryptic", 
+        "name": "Puck",
+        "webUrl": "https://www.theguardian.com/profile/puck"
+    },
+    "date": 1268870400000,
+    "webPublicationDate": 1268870400000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1, 16 down",
+            "clue": " One who wrote lines about Greek island for 13 once (6,7)",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "1-across", 
+                "1-across",
                 "16-down"
-            ], 
-            "number": 1, 
-            "clue": " One who wrote lines about Greek island for 13 once (6,7)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "1, 16 down", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "LONDON", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "LONDON"
+        },
         {
-            "direction": "across", 
+            "id": "4-across",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Stays in Cornwall init\u00adial\u00adly, heading away from a nearby county (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "4-across"
-            ], 
-            "number": 4, 
-            "clue": "Stays in Cornwall init\u00adial\u00adly, heading away from a nearby county (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "CORSET", 
-            "id": "4-across"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CORSET"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Lived quietly as one of 15 or one of the 18? (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Lived quietly as one of 15 or one of the 18? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "WASP", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "WASP"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "15 hospital somewhere in southern France holds one of 5 (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "15 hospital somewhere in southern France holds one of 5 (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 5
-            }, 
-            "solution": "HARLEQUINS", 
-            "id": "10-across"
-        }, 
+                "x": 5,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "HARLEQUINS"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Queen with quite short temper (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Queen with quite short temper (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "ANNEAL", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "ANNEAL"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "15 people admitted to hospitals shortly? (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "15 people admitted to hospitals shortly? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 7
-            }, 
-            "solution": "SARACENS", 
-            "id": "12-across"
-        }, 
+                "x": 7,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "SARACENS"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Relative by blood loses nothing by a jibe (5-4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Relative by blood loses nothing by a jibe (5-4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 6
+            },
             "separatorLocations": {
                 "-": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "GREATAUNT", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "GREATAUNT"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Hot times in Surrey after leaving the city, right? (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Hot times in Surrey after leaving the city, right? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 10
-            }, 
-            "solution": "SEXY", 
-            "id": "15-across"
-        }, 
+                "x": 10,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "SEXY"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Give birth to one of 13 in Bradford? No, opposite in the marketplace (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Give birth to one of 13 in Bradford? No, opposite in the marketplace (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "BEAR", 
-            "id": "16-across"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "BEAR"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Some that lost time with no more allowed (2,3,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Some that lost time with no more allowed (2,3,4)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 8, 
-                "x": 6
-            }, 
-            "solution": "ATTHEMOST", 
-            "id": "17-across"
-        }, 
+            },
+            "solution": "ATTHEMOST"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21, 18",
+            "clue": " Playing Handel, orchestra ring for a 13 (8,7)",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "21-across", 
+                "21-across",
                 "18-down"
-            ], 
-            "number": 21, 
-            "clue": " Playing Handel, orchestra ring for a 13 (8,7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "21, 18", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "ROCHDALE", 
-            "id": "21-across"
-        }, 
+            },
+            "solution": "ROCHDALE"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Make fun of bottom that's bony? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Make fun of bottom that's bony? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 9
-            }, 
-            "solution": "RIBBED", 
-            "id": "22-across"
-        }, 
+                "x": 9,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "RIBBED"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Worried about acne? Cut out stress (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Worried about acne? Cut out stress (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "ACCENTUATE", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "ACCENTUATE"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "15 witches hunted here, briefly (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "15 witches hunted here, briefly (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 11
-            }, 
-            "solution": "SALE", 
-            "id": "25-across"
-        }, 
+                "x": 11,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "SALE"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "I have hidden Titania's crown amongst enchanted trees  \u2026 (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "I have hidden Titania's crown amongst enchanted trees  \u2026 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "SETTER", 
-            "id": "26-across"
-        }, 
+                "x": 1,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "SETTER"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "\u2026  putting love into one enterprise with right chemical substance (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "\u2026  putting love into one enterprise with right chemical substance (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "ISOMER", 
-            "id": "27-across"
-        }, 
+                "x": 8,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "ISOMER"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "One getting to know English composer between hands (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "One getting to know English composer between hands (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "LEARNER", 
-            "id": "1-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LEARNER"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Almost slept through this rock piece? (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Almost slept through this rock piece? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "NAPPE", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "NAPPE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Shakespearean involved in catastrophe? Liar! (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Shakespearean involved in catastrophe? Liar! (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "OPHELIA", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OPHELIA"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "First bit of eroticism penned by absurdly horny writer (1,5)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "First bit of eroticism penned by absurdly horny writer (1,5)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     1
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "OHENRY", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "OHENRY"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "What's best off on the dairy counter? (4,5)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "What's best off on the dairy counter? (4,5)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "SOURCREAM", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "SOURCREAM"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Occupation of the vacant girl (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Occupation of the vacant girl (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "TENANCY", 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TENANCY"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Drama ham sent off new play (4,3,3,3)",
+            "direction": "down",
+            "length": 13,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Drama ham sent off new play (4,3,3,3)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
-                    7, 
+                    4,
+                    7,
                     10
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 1, 
-                "x": 7
-            }, 
-            "solution": "ARMSANDTHEMAN", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "ARMSANDTHEMAN"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "One party intended verbal shaming (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "One party intended verbal shaming (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 3
-            }, 
-            "solution": "ABASHMENT", 
-            "id": "14-down"
-        }, 
+                "x": 3,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "ABASHMENT"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "See 1 across",
+            "direction": "down",
+            "length": 7,
             "group": [
-                "1-across", 
+                "1-across",
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "See 1 across", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "BRONCOS", 
-            "id": "16-down"
-        }, 
+            },
+            "solution": "BRONCOS"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "See 21",
+            "direction": "down",
+            "length": 7,
             "group": [
-                "21-across", 
+                "21-across",
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "See 21", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 8, 
-                "x": 9
-            }, 
-            "solution": "HORNETS", 
-            "id": "18-down"
-        }, 
+            },
+            "solution": "HORNETS"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "McCartney runs like a celebrity? (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "McCartney runs like a celebrity? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 13
-            }, 
-            "solution": "STELLAR", 
-            "id": "19-down"
-        }, 
+                "x": 13,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "STELLAR"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Man stealing Ford from 13 (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Man stealing Ford from 13 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 5
-            }, 
-            "solution": "CASTLE", 
-            "id": "20-down"
-        }, 
+                "x": 5,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "CASTLE"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Most Moses baskets originally revolved around a bunch of twigs (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Most Moses baskets originally revolved around a bunch of twigs (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 11
-            }, 
-            "solution": "BESOM", 
-            "id": "23-down"
+                "x": 11,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "BESOM"
         }
-    ], 
-    "date": 1268870400000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20100318.pdf", 
-    "instructions": "Different rules apply to 13 and 15", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/24961", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1268870400000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20100318.pdf",
+    "instructions": "Different rules apply to 13 and 15",
+    "_gridType": "M28"
 }

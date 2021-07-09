@@ -1,522 +1,524 @@
 {
-    "name": "Cryptic crossword No 23,132", 
+    "id": "crosswords/cryptic/23132",
+    "number": 23132,
+    "name": "Cryptic crossword No 23,132",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/audreus", 
-        "name": "Audreus"
-    }, 
-    "dateSolutionAvailable": 1083538800000, 
-    "number": 23132, 
-    "crosswordType": "cryptic", 
+        "name": "Audreus",
+        "webUrl": "https://www.theguardian.com/profile/audreus"
+    },
+    "date": 1083542400000,
+    "webPublicationDate": 1083538800000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Seasoned, but looked about a hundred (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Seasoned, but looked about a hundred (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "SPICED", 
-            "id": "1-across"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SPICED"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Meet requirements flexibly (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "Meet requirements flexibly (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "SUPPLY", 
-            "id": "5-across"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SUPPLY"
+        },
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Escorts to one performance, going back alone (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "Escorts to one performance, going back alone (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "GIGOLOS", 
-            "id": "8-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "GIGOLOS"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Broadcast decline in supplies from above (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Broadcast decline in supplies from above (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 8
-            }, 
-            "solution": "AIRDROP", 
-            "id": "9-across"
-        }, 
+                "x": 8,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "AIRDROP"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Kipling's skin-deep relationship with the Raj lay closed, oddly no guy involved (3,8,4,4,6)",
+            "direction": "across",
+            "length": 15,
             "group": [
-                "11-across", 
+                "11-across",
                 "25-across"
-            ], 
-            "number": 11, 
-            "clue": "Kipling's skin-deep relationship with the Raj lay closed, oddly no guy involved (3,8,4,4,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
-                    11, 
+                    3,
+                    11,
                     15
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "THECOLONELSLADY", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "THECOLONELSLADY"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "See 11",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "11-across", 
+                "11-across",
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "See 11", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "JUDY", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "JUDY"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Flirty question to alien returning it in club (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Flirty question to alien returning it in club (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 5
-            }, 
-            "solution": "COQUETTISH", 
-            "id": "13-across"
-        }, 
+                "x": 5,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "COQUETTISH"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Touching last month's talk on \"How to improve our surroundings\" (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Touching last month's talk on \"How to improve our surroundings\" (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "REDECORATE", 
-            "id": "17-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "REDECORATE"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Cross over entrance (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Cross over entrance (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 11
-            }, 
-            "solution": "ROOD", 
-            "id": "18-across"
-        }, 
+                "x": 11,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ROOD"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Care centre that's not operational (7,8)",
+            "direction": "across",
+            "length": 15,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Care centre that's not operational (7,8)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "20", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "COTTAGEHOSPITAL", 
-            "id": "20-across"
-        }, 
+            },
+            "solution": "COTTAGEHOSPITAL"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Opening made by reactor, if icebound (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Opening made by reactor, if icebound (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "ORIFICE", 
-            "id": "23-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "ORIFICE"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "It's back in character, turning savage (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "It's back in character, turning savage (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 8
-            }, 
-            "solution": "DRASTIC", 
-            "id": "24-across"
-        }, 
+                "x": 8,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "DRASTIC"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "See 11",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "11-across", 
+                "11-across",
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "See 11", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "OGRADY", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "OGRADY"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "See the sign? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "See the sign? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "NOTICE", 
-            "id": "26-across"
-        }, 
+                "x": 8,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "NOTICE"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Stubborn beast made for  ... (3-6)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Stubborn beast made for  ... (3-6)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "PIGHEADED", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "PIGHEADED"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "...  elephant's mate, wholly captivated and guileless (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "...  elephant's mate, wholly captivated and guileless (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "CALLOW", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CALLOW"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Tarnish the shade of Hell? (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Tarnish the shade of Hell? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "DISCOLOUR", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DISCOLOUR"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Not required to give up time to an afterthought (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Not required to give up time to an afterthought (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "SPARE", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SPARE"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Cadger takes cut as it splits (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Cadger takes cut as it splits (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "PARASITE", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PARASITE"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Popular Valentines feature a nymph (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Popular Valentines feature a nymph (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "LARVA", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LARVA"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Get thee hence! To Jordan? (2,2,7)",
+            "direction": "down",
+            "length": 11,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Get thee hence! To Jordan? (2,2,7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     4
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "GOTOJERICHO", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "GOTOJERICHO"
+        },
         {
-            "direction": "down", 
+            "id": "10-down",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Cupid's love for exotic foods to many can be mind-blowing (11)",
+            "direction": "down",
+            "length": 11,
             "group": [
                 "10-down"
-            ], 
-            "number": 10, 
-            "clue": "Cupid's love for exotic foods to many can be mind-blowing (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 14
-            }, 
-            "solution": "PSYCHEDELIC", 
-            "id": "10-down"
-        }, 
+                "x": 14,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "PSYCHEDELIC"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Not trampled under, don't move! (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Not trampled under, don't move! (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 8
-            }, 
-            "solution": "UNTRODDEN", 
-            "id": "14-down"
-        }, 
+                "x": 8,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "UNTRODDEN"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "One like this still in a state of equilibrium (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "One like this still in a state of equilibrium (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 12
-            }, 
-            "solution": "ISOSTATIC", 
-            "id": "15-down"
-        }, 
+                "x": 12,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "ISOSTATIC"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Complaint (without date) about American spies with a twitch (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Complaint (without date) about American spies with a twitch (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "SCIATICA", 
-            "id": "16-down"
-        }, 
+                "x": 4,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "SCIATICA"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Love quiet time with a good book when one is given a choice (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Love quiet time with a good book when one is given a choice (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "OPTANT", 
-            "id": "19-down"
-        }, 
+                "x": 10,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "OPTANT"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Object for beginners to take home in new gear (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Object for beginners to take home in new gear (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 2
-            }, 
-            "solution": "THING", 
-            "id": "21-down"
-        }, 
+                "x": 2,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "THING"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Disliked person putting me up in eastern city (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Disliked person putting me up in eastern city (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 6
-            }, 
-            "solution": "ENEMY", 
-            "id": "22-down"
+                "x": 6,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "ENEMY"
         }
-    ], 
-    "date": 1083542400000, 
-    "instructions": "Clue 11,12,25 should read: 11 an'12,25: Kipling's skin-deep relationship with the Raj lay closed, oddly no guy involved (3,8,4 an' 4,6)", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/23132", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1083538800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "instructions": "Clue 11,12,25 should read: 11 an'12,25: Kipling's skin-deep relationship with the Raj lay closed, oddly no guy involved (3,8,4 an' 4,6)",
+    "_gridType": "M38"
 }

@@ -1,567 +1,569 @@
 {
-    "name": "Cryptic crossword No 23,689", 
+    "id": "crosswords/cryptic/23689",
+    "number": 23689,
+    "name": "Cryptic crossword No 23,689",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/paul", 
-        "name": "Paul"
-    }, 
-    "dateSolutionAvailable": 1139875200000, 
-    "number": 23689, 
-    "crosswordType": "cryptic", 
+        "name": "Paul",
+        "webUrl": "https://www.theguardian.com/profile/paul"
+    },
+    "date": 1139875200000,
+    "webPublicationDate": 1139875200000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Crude metal with crude definition of copper to decrease? (3,4)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Crude metal with crude definition of copper to decrease? (3,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "PIGIRON", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "PIGIRON"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Weapon did its job on maiden (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "Weapon did its job on maiden (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "CUTLASS", 
-            "id": "5-across"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CUTLASS"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Plant the first of acorns handed over (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Plant the first of acorns handed over (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "AGAVE", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "AGAVE"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Is he seen as somewhat dictatorial by nothing being given to the left? (4,5)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Is he seen as somewhat dictatorial by nothing being given to the left? (4,5)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 2, 
-                "x": 6
-            }, 
-            "solution": "TONYBLAIR", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "TONYBLAIR"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "How to pay in terms of golf? (4,3,3)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "How to pay in terms of golf? (4,3,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     7
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "CHIPANDPIN", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "CHIPANDPIN"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "One can tell automatically oxygen involved - it's basic (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "One can tell automatically oxygen involved - it's basic (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 11
-            }, 
-            "solution": "ATOM", 
-            "id": "12-across"
-        }, 
+                "x": 11,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "ATOM"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Blue public transporter in a state found in yellow stream (11)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Blue public transporter in a state found in yellow stream (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 4
-            }, 
-            "solution": "ULTRAMARINE", 
-            "id": "14-across"
-        }, 
+                "x": 4,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "ULTRAMARINE"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "One suit for all the ship's officers (11)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "One suit for all the ship's officers (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "QUARTERDECK", 
-            "id": "18-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "QUARTERDECK"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Name of authors' family friends unfamiliar to the British (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Name of authors' family friends unfamiliar to the British (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "AMIS", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "AMIS"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Action taken by queen vacating throne that's on the cards (5,5)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Action taken by queen vacating throne that's on the cards (5,5)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 10, 
-                "x": 5
-            }, 
-            "solution": "ROYALFLUSH", 
-            "id": "22-across"
-        }, 
+            },
+            "solution": "ROYALFLUSH"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Araucaria's indecipherable anagram to ignore letters of \"bread\" (5,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Araucaria's indecipherable anagram to ignore letters of \"bread\" (5,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "CHILEPINE", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "CHILEPINE"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "An animal turned, one turned painfully? (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "An animal turned, one turned painfully? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 10
-            }, 
-            "solution": "ANKLE", 
-            "id": "26-across"
-        }, 
+                "x": 10,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "ANKLE"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Once more bring in dance, twist etc (2-5)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Once more bring in dance, twist etc (2-5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 14
+            },
             "separatorLocations": {
                 "-": [
                     2
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "27", 
-            "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "REELECT", 
-            "id": "27-across"
-        }, 
+            },
+            "solution": "REELECT"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "Look into a proposal by model in the Sun, perhaps (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "28-across"
-            ], 
-            "number": 28, 
-            "clue": "Look into a proposal by model in the Sun, perhaps (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "28", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "TABLOID", 
-            "id": "28-across"
-        }, 
+                "x": 8,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "TABLOID"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Fish, one established? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Fish, one established? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "PLAICE", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PLAICE"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "One of six monarchs keen to get pregnant (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "One of six monarchs keen to get pregnant (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "GRAVID", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "GRAVID"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Leave a true drunk to make further judgement (2-8)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Leave a true drunk to make further judgement (2-8)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     2
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "REEVALUATE", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "REEVALUATE"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Scores are famous (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Scores are famous (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "NOTED", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "NOTED"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Potential employee Frank had for breakfast (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Potential employee Frank had for breakfast (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "CANDIDATE", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CANDIDATE"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Join up to make brass (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Join up to make brass (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "TUBA", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TUBA"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Bloody scene in a club with mob violence on the up (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Bloody scene in a club with mob violence on the up (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "ABATTOIR", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ABATTOIR"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Device which cuts grass ultimately to get neater (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Device which cuts grass ultimately to get neater (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "STRIMMER", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "STRIMMER"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Spooner's reason why mutton's off the menu, providing a more tender choice (4,2,4)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Spooner's reason why mutton's off the menu, providing a more tender choice (4,2,4)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     6
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 10
-            }, 
-            "solution": "RACKOFLAMB", 
-            "id": "13-down"
-        }, 
+            },
+            "solution": "RACKOFLAMB"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Bomber's inaccuracy is featured in The Times initially (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Bomber's inaccuracy is featured in The Times initially (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 6
-            }, 
-            "solution": "TERRORIST", 
-            "id": "15-down"
-        }, 
+                "x": 6,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "TERRORIST"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Panda to cause shock eating one of four children (5,3)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Panda to cause shock eating one of four children (5,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "SQUADCAR", 
-            "id": "16-down"
-        }, 
+            },
+            "solution": "SQUADCAR"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Free from filth, it is mad? (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Free from filth, it is mad? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "SANITISE", 
-            "id": "17-down"
-        }, 
+                "x": 2,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "SANITISE"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Mad flier (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Mad flier (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 12
-            }, 
-            "solution": "CUCKOO", 
-            "id": "19-down"
-        }, 
+                "x": 12,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "CUCKOO"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Unfinished article interpreted as yarn (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Unfinished article interpreted as yarn (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 14
-            }, 
-            "solution": "THREAD", 
-            "id": "20-down"
-        }, 
+                "x": 14,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "THREAD"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "A man's instrument (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "A man's instrument (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 8
-            }, 
-            "solution": "AGENT", 
-            "id": "23-down"
-        }, 
+                "x": 8,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "AGENT"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Goddess offering wine to make man live (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "Goddess offering wine to make man live (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 4
-            }, 
-            "solution": "HEBE", 
-            "id": "24-down"
+                "x": 4,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "HEBE"
         }
-    ], 
-    "date": 1139875200000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/23689", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1139875200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M20"
 }

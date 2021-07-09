@@ -1,587 +1,589 @@
 {
-    "name": "Cryptic crossword No 26,576", 
+    "id": "crosswords/cryptic/26576",
+    "number": 26576,
+    "name": "Cryptic crossword No 26,576",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/paul", 
-        "name": "Paul"
-    }, 
-    "dateSolutionAvailable": 1432076400000, 
-    "number": 26576, 
-    "crosswordType": "cryptic", 
+        "name": "Paul",
+        "webUrl": "https://www.theguardian.com/profile/paul"
+    },
+    "date": 1432080000000,
+    "webPublicationDate": 1432076400000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Colour blue round lips (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Colour blue round lips (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "CRIMSON", 
-            "id": "1-across"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CRIMSON"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "A trodden-on jellyfish? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "A trodden-on jellyfish? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "DOORMAT", 
-            "id": "5-across"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DOORMAT"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9, 28, 22, 24",
+            "clue": " Struggling after heavy meal? Nice? No! Turn to dietary wisdom from  \u2026 (5,3,4,4,3,3,4)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "9-across", 
-                "28-across", 
-                "22-across", 
+                "9-across",
+                "28-across",
+                "22-across",
                 "24-down"
-            ], 
-            "number": 9, 
-            "clue": " Struggling after heavy meal? Nice? No! Turn to dietary wisdom from  \u2026 (5,3,4,4,3,3,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "9, 28, 22, 24", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "NEVER", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "NEVER"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "\u2026  Fleming role: is Bond possibly scoffing one horse, the greedy one? (4,5)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "\u2026  Fleming role: is Bond possibly scoffing one horse, the greedy one? (4,5)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 2, 
-                "x": 6
-            }, 
-            "solution": "MISSPIGGY", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "MISSPIGGY"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Kidnapper, inexperienced poisoner (5,5)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Kidnapper, inexperienced poisoner (5,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "PARISGREEN", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "PARISGREEN"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Socialist walked out (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Socialist walked out (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 11
-            }, 
-            "solution": "LEFT", 
-            "id": "12-across"
-        }, 
+                "x": 11,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "LEFT"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "See 17",
+            "direction": "across",
+            "length": 11,
             "group": [
-                "17-down", 
+                "17-down",
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "See 17", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 11, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 4
-            }, 
-            "solution": "MALFUNCTION", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "MALFUNCTION"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Birds, by the sound of it, travelled on skis (11)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Birds, by the sound of it, travelled on skis (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "ROADRUNNERS", 
-            "id": "18-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ROADRUNNERS"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Papers stuffed inside gas mask (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Papers stuffed inside gas mask (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "HIDE", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "HIDE"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "See 9",
+            "direction": "across",
+            "length": 10,
             "group": [
-                "9-across", 
-                "28-across", 
-                "22-across", 
+                "9-across",
+                "28-across",
+                "22-across",
                 "24-down"
-            ], 
-            "number": 22, 
-            "clue": "See 9", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
-                    7, 
+                    4,
+                    7,
                     10
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 10, 
-                "x": 5
-            }, 
-            "solution": "THANYOUCAN", 
-            "id": "22-across"
-        }, 
+            },
+            "solution": "THANYOUCAN"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Musician I love nothing about coming into view, shortly (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Musician I love nothing about coming into view, shortly (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "VIOLINIST", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "VIOLINIST"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Cold, frozen vegetable (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Cold, frozen vegetable (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 10
-            }, 
-            "solution": "CHARD", 
-            "id": "26-across"
-        }, 
+                "x": 10,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "CHARD"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Enclose PM in silence, having dropped guts (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Enclose PM in silence, having dropped guts (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "SHEATHE", 
-            "id": "27-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "SHEATHE"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "See 9",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "9-across", 
-                "28-across", 
-                "22-across", 
+                "9-across",
+                "28-across",
+                "22-across",
                 "24-down"
-            ], 
-            "number": 28, 
-            "clue": "See 9", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "28", 
-            "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "EATMORE", 
-            "id": "28-across"
-        }, 
+            },
+            "solution": "EATMORE"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Image over an awning (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Image over an awning (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "CANOPY", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CANOPY"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Claiming victory, still upset (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Claiming victory, still upset (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "INVERT", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "INVERT"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "An aid to pronunciation, that's the way to comment about ship (6,4)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "An aid to pronunciation, that's the way to comment about ship (6,4)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "STRESSMARK", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "STRESSMARK"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "One identifying someone on camera from the swagger, by all conclusions (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "One identifying someone on camera from the swagger, by all conclusions (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "NAMER", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "NAMER"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Shame to stop drinking purest fluid (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Shame to stop drinking purest fluid (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "DISREPUTE", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DISREPUTE"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Neither knife nor fork cut up \u2014 oh dear! (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Neither knife nor fork cut up \u2014 oh dear! (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "OOPS", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OOPS"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Court feature in wonderful drawing? (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Court feature in wonderful drawing? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "MAGNETIC", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "MAGNETIC"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Policeman supports judge in meeting (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Policeman supports judge in meeting (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "TRYSTING", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TRYSTING"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Barber's work, Adagio for Strings, by all conclusions suits Christmas concert initially, when jazzed up (7,3)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Barber's work, Adagio for Strings, by all conclusions suits Christmas concert initially, when jazzed up (7,3)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 10
-            }, 
-            "solution": "SCISSORCUT", 
-            "id": "13-down"
-        }, 
+            },
+            "solution": "SCISSORCUT"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "One perhaps requiring fresh hint with clue about possum's bottom (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "One perhaps requiring fresh hint with clue about possum's bottom (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 6
-            }, 
-            "solution": "LUNCHTIME", 
-            "id": "15-down"
-        }, 
+                "x": 6,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "LUNCHTIME"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Crook with rash deeds in store, perhaps? (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Crook with rash deeds in store, perhaps? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "ARCHIVES", 
-            "id": "16-down"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ARCHIVES"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17, 14",
+            "clue": " Action blamed for embarrassingly affected manner, as boob revealed on the catwalk? (8,11)",
+            "direction": "down",
+            "length": 8,
             "group": [
-                "17-down", 
+                "17-down",
                 "14-across"
-            ], 
-            "number": 17, 
-            "clue": " Action blamed for embarrassingly affected manner, as boob revealed on the catwalk? (8,11)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "17, 14", 
-            "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "WARDROBE", 
-            "id": "17-down"
-        }, 
+            },
+            "solution": "WARDROBE"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Engine not starting, tank fills up \u2014 might this be the size of the issue? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Engine not starting, tank fills up \u2014 might this be the size of the issue? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 12
-            }, 
-            "solution": "OCTAVO", 
-            "id": "19-down"
-        }, 
+                "x": 12,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "OCTAVO"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Tense figure, old magistrate with nothing to lose (2,4)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Tense figure, old magistrate with nothing to lose (2,4)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "20", 
-            "position": {
-                "y": 9, 
-                "x": 14
-            }, 
-            "solution": "ONEDGE", 
-            "id": "20-down"
-        }, 
+            },
+            "solution": "ONEDGE"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Explosive ingredient added to biriani, treacherous (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Explosive ingredient added to biriani, treacherous (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 8
-            }, 
-            "solution": "NITRE", 
-            "id": "23-down"
-        }, 
+                "x": 8,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "NITRE"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "See 9",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "9-across", 
-                "28-across", 
-                "22-across", 
+                "9-across",
+                "28-across",
+                "22-across",
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "See 9", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 11, 
-                "x": 4
-            }, 
-            "solution": "LIFT", 
-            "id": "24-down"
+            },
+            "solution": "LIFT"
         }
-    ], 
-    "date": 1432080000000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20150520.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/26576", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1432076400000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20150520.pdf",
+    "_gridType": "M20"
 }

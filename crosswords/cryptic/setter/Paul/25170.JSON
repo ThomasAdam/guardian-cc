@@ -1,580 +1,582 @@
 {
-    "name": "Cryptic crossword No 25,170", 
+    "id": "crosswords/cryptic/25170",
+    "number": 25170,
+    "name": "Cryptic crossword No 25,170",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/paul", 
-        "name": "Paul"
-    }, 
-    "dateSolutionAvailable": 1289952000000, 
-    "number": 25170, 
-    "crosswordType": "cryptic", 
+        "name": "Paul",
+        "webUrl": "https://www.theguardian.com/profile/paul"
+    },
+    "date": 1289952000000,
+    "webPublicationDate": 1289952000000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1, 13",
+            "clue": " 20's schmuck eating metal, different inhaling nitrogen, it follows (6,2,3,4)",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "1-across", 
+                "1-across",
                 "13-across"
-            ], 
-            "number": 1, 
-            "clue": " 20's schmuck eating metal, different inhaling nitrogen, it follows (6,2,3,4)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "1, 13", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "PUTTIN", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "PUTTIN"
+        },
         {
-            "direction": "across", 
+            "id": "4-across",
+            "number": 4,
+            "humanNumber": "4, 23, 26, 2",
+            "clue": " 20's adaptations, with title he made up (3,3,5,3,3,5)",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "4-across", 
-                "23-down", 
-                "26-across", 
+                "4-across",
+                "23-down",
+                "26-across",
                 "2-down"
-            ], 
-            "number": 4, 
-            "clue": " 20's adaptations, with title he made up (3,3,5,3,3,5)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "4, 23, 26, 2", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "TOPHAT", 
-            "id": "4-across"
-        }, 
+            },
+            "solution": "TOPHAT"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Drink requiring 15 25 stomach? (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Drink requiring 15 25 stomach? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "ASTI", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "ASTI"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10, 18",
+            "clue": " 20's reason fool follows regular pattern (10,7)",
+            "direction": "across",
+            "length": 10,
             "group": [
-                "10-across", 
+                "10-across",
                 "18-down"
-            ], 
-            "number": 10, 
-            "clue": " 20's reason fool follows regular pattern (10,7)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     10
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "10, 18", 
-            "position": {
-                "y": 2, 
-                "x": 5
-            }, 
-            "solution": "CHECKPOINT", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "CHECKPOINT"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Wife, seeing girl with husband, blowing top and ditching ring (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Wife, seeing girl with husband, blowing top and ditching ring (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "MISSUS", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "MISSUS"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Short man of the cloth cut a few sharp lines? (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Short man of the cloth cut a few sharp lines? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 7
-            }, 
-            "solution": "CLERIHEW", 
-            "id": "12-across"
-        }, 
+                "x": 7,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "CLERIHEW"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "See 1",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "1-across", 
+                "1-across",
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "See 1", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "ONTHERITZ", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "ONTHERITZ"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15, 25",
+            "clue": " Certain to find a prison in prisoner (4-4)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "15-across", 
+                "15-across",
                 "25-across"
-            ], 
-            "number": 15, 
-            "clue": " Certain to find a prison in prisoner (4-4)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 6
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "15, 25", 
-            "position": {
-                "y": 6, 
-                "x": 10
-            }, 
-            "solution": "CAST", 
-            "id": "15-across"
-        }, 
+            },
+            "solution": "CAST"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Drop down to pinch women's booty (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Drop down to pinch women's booty (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "SWAG", 
-            "id": "16-across"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "SWAG"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "20's right, case to be reassessed (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "20's right, case to be reassessed (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 6
-            }, 
-            "solution": "REICHSTAG", 
-            "id": "17-across"
-        }, 
+                "x": 6,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "REICHSTAG"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Sell pint that's dodgy, getting wasted (3-5)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Sell pint that's dodgy, getting wasted (3-5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "ILLSPENT", 
-            "id": "21-across"
-        }, 
+            },
+            "solution": "ILLSPENT"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "20's sailing boat capsizing in middle of Wash (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "20's sailing boat capsizing in middle of Wash (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 9
-            }, 
-            "solution": "ALWAYS", 
-            "id": "22-across"
-        }, 
+                "x": 9,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "ALWAYS"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "First of students taking alcohol, sozzled, scoffing me for his dinner? (6,4)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "First of students taking alcohol, sozzled, scoffing me for his dinner? (6,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "SCHOOLMEAL", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "SCHOOLMEAL"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "See 15",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "15-across", 
+                "15-across",
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "See 15", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 12
+            },
             "separatorLocations": {
                 "-": []
-            }, 
-            "length": 4, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 12, 
-                "x": 11
-            }, 
-            "solution": "IRON", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "IRON"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "See 4",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "4-across", 
-                "23-down", 
-                "26-across", 
+                "4-across",
+                "23-down",
+                "26-across",
                 "2-down"
-            ], 
-            "number": 26, 
-            "clue": "See 4", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "26", 
-            "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "TIEAND", 
-            "id": "26-across"
-        }, 
+            },
+            "solution": "TIEAND"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "This is why, say, it's impious (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "This is why, say, it's impious (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "HERESY", 
-            "id": "27-across"
-        }, 
+                "x": 8,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "HERESY"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Become stiff absorbing one's heat (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Become stiff absorbing one's heat (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "PASSION", 
-            "id": "1-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PASSION"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "See 4",
+            "direction": "down",
+            "length": 5,
             "group": [
-                "4-across", 
-                "23-down", 
-                "26-across", 
+                "4-across",
+                "23-down",
+                "26-across",
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "See 4", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 5, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "TAILS", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "TAILS"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Tooth in canine a figure's lost is gold (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Tooth in canine a figure's lost is gold (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "INCISOR", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "INCISOR"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Islands or island around the north (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Islands or island around the north (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "ORKNEY", 
-            "id": "5-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ORKNEY"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Number of thugs, German, holding soldier John up (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Number of thugs, German, holding soldier John up (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "HOOLIGANS", 
-            "id": "6-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "HOOLIGANS"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Most insignificant little bird circling European river, endlessly rising (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Most insignificant little bird circling European river, endlessly rising (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "TINIEST", 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TINIEST"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Important agreements keeping church in fuel are new relationships (5,8)",
+            "direction": "down",
+            "length": 13,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Important agreements keeping church in fuel are new relationships (5,8)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 1, 
-                "x": 7
-            }, 
-            "solution": "PEACETREATIES", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "PEACETREATIES"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Person after death's represented \u2014 here? (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Person after death's represented \u2014 here? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 3
-            }, 
-            "solution": "HEADSTONE", 
-            "id": "14-down"
-        }, 
+                "x": 3,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "HEADSTONE"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Very proper request (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Very proper request (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "SOLICIT", 
-            "id": "16-down"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "SOLICIT"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "See 10",
+            "direction": "down",
+            "length": 7,
             "group": [
-                "10-across", 
+                "10-across",
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "See 10", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 8, 
-                "x": 9
-            }, 
-            "solution": "CHARLIE", 
-            "id": "18-down"
-        }, 
+            },
+            "solution": "CHARLIE"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "A son of the Empire State bearing daughter, no one specific (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "A son of the Empire State bearing daughter, no one specific (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 13
-            }, 
-            "solution": "ANYBODY", 
-            "id": "19-down"
-        }, 
+                "x": 13,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ANYBODY"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "European city sees African country losing heart to characters in opposition? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "European city sees African country losing heart to characters in opposition? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 5
-            }, 
-            "solution": "BERLIN", 
-            "id": "20-down"
-        }, 
+                "x": 5,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "BERLIN"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "See 4",
+            "direction": "down",
+            "length": 5,
             "group": [
-                "4-across", 
-                "23-down", 
-                "26-across", 
+                "4-across",
+                "23-down",
+                "26-across",
                 "2-down"
-            ], 
-            "number": 23, 
-            "clue": "See 4", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "23", 
-            "position": {
-                "y": 10, 
-                "x": 11
-            }, 
-            "solution": "WHITE", 
-            "id": "23-down"
+            },
+            "solution": "WHITE"
         }
-    ], 
-    "date": 1289952000000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20101117.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25170", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1289952000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20101117.pdf",
+    "_gridType": "M28"
 }

@@ -1,547 +1,549 @@
 {
-    "name": "Cryptic crossword No 26,265", 
+    "id": "crosswords/cryptic/26265",
+    "number": 26265,
+    "name": "Cryptic crossword No 26,265",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/paul", 
-        "name": "Paul"
-    }, 
-    "dateSolutionAvailable": 1400626800000, 
-    "number": 26265, 
-    "crosswordType": "cryptic", 
+        "name": "Paul",
+        "webUrl": "https://www.theguardian.com/profile/paul"
+    },
+    "date": 1400630400000,
+    "webPublicationDate": 1400626800000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Approximate amount of time that's not processed internally (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Approximate amount of time that's not processed internally (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "ROUGHAGE", 
-            "id": "1-across"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ROUGHAGE"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Fruit jam (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "Fruit jam (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "SQUASH", 
-            "id": "5-across"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SQUASH"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "See 10",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "10-across", 
+                "10-across",
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "See 10", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "ANDFRIES", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "ANDFRIES"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10, 9",
+            "clue": " Order magnified with carbs? (3,3,3,5)",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "10-across", 
+                "10-across",
                 "9-across"
-            ], 
-            "number": 10, 
-            "clue": " Order magnified with carbs? (3,3,3,5)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "10, 9", 
-            "position": {
-                "y": 2, 
-                "x": 9
-            }, 
-            "solution": "BIGMAC", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "BIGMAC"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Little and pale, say, dish of meat (6,5)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Little and pale, say, dish of meat (6,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "MINUTESTEAK", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "MINUTESTEAK"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Right to puncture preposterous plan (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Right to puncture preposterous plan (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "DRAFT", 
-            "id": "15-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "DRAFT"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Seasick from Barcelona to Marseille? Something eaten for breakfast! (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Seasick from Barcelona to Marseille? Something eaten for breakfast! (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 6
-            }, 
-            "solution": "MARMALADE", 
-            "id": "17-across"
-        }, 
+                "x": 6,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "MARMALADE"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Two pounds into one dime, terribly unlucky (3-6)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Two pounds into one dime, terribly unlucky (3-6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 8
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "ILLOMENED", 
-            "id": "18-across"
-        }, 
+            },
+            "solution": "ILLOMENED"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Naturalist without success tours a capital in Khartoum, an African city (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Naturalist without success tours a capital in Khartoum, an African city (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 10
-            }, 
-            "solution": "DAKAR", 
-            "id": "19-across"
-        }, 
+                "x": 10,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "DAKAR"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Something eaten for breakfast \u2014 sant\u00e9? (6,5)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Something eaten for breakfast \u2014 sant\u00e9? (6,5)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "20", 
-            "position": {
-                "y": 10, 
-                "x": 4
-            }, 
-            "solution": "FRENCHTOAST", 
-            "id": "20-across"
-        }, 
+            },
+            "solution": "FRENCHTOAST"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24, 26",
+            "clue": " Slowcoach, one with an ice-cream van, did you say? (6,6)",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "24-across", 
+                "24-across",
                 "26-across"
-            ], 
-            "number": 24, 
-            "clue": " Slowcoach, one with an ice-cream van, did you say? (6,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "24, 26", 
-            "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "SUNDAY", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "SUNDAY"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Unfortunately I'm sadder, as now harmless (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Unfortunately I'm sadder, as now harmless (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 7
-            }, 
-            "solution": "DISARMED", 
-            "id": "25-across"
-        }, 
+                "x": 7,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "DISARMED"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "See 24",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "24-across", 
+                "24-across",
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "See 24", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "26", 
-            "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "DRIVER", 
-            "id": "26-across"
-        }, 
+            },
+            "solution": "DRIVER"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Aboard ship pirate ultimately welcomed \u2014 that's funny (3-5)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Aboard ship pirate ultimately welcomed \u2014 that's funny (3-5)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 14
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "27", 
-            "position": {
-                "y": 14, 
-                "x": 7
-            }, 
-            "solution": "ONELINER", 
-            "id": "27-across"
-        }, 
+            },
+            "solution": "ONELINER"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Capital city's un-Daliesque side? (4,6)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Capital city's un-Daliesque side? (4,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "REALMADRID", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "REALMADRID"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Certain difference in Danube and Nile (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Certain difference in Danube and Nile (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "UNDENIABLE", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "UNDENIABLE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "World Cup hero injured, striker's head getting bandaged (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "World Cup hero injured, striker's head getting bandaged (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "HURST", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "HURST"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Make climbing trees difficult for mechanic (6,6)",
+            "direction": "down",
+            "length": 12,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Make climbing trees difficult for mechanic (6,6)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "GREASEMONKEY", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "GREASEMONKEY"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "\"Clever\" ahead of \"stupid\" initially, with sucker (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "\"Clever\" ahead of \"stupid\" initially, with sucker (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "QUICKSAND", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "QUICKSAND"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Topless mad host (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Topless mad host (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "ARMY", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ARMY"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Drink for some horse (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Drink for some horse (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "HOCK", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "HOCK"
+        },
         {
-            "direction": "down", 
+            "id": "11-down",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Breeding expert in decline (12)",
+            "direction": "down",
+            "length": 12,
             "group": [
                 "11-down"
-            ], 
-            "number": 11, 
-            "clue": "Breeding expert in decline (12)", 
-            "separatorLocations": {}, 
-            "length": 12, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 8
-            }, 
-            "solution": "REPRODUCTION", 
-            "id": "11-down"
-        }, 
+                "x": 8,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "REPRODUCTION"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Second cut for game (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Second cut for game (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 12
-            }, 
-            "solution": "BACKGAMMON", 
-            "id": "13-down"
-        }, 
+                "x": 12,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "BACKGAMMON"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Terribly rude and thorny, victor under the Lancastrian rose (5,5)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Terribly rude and thorny, victor under the Lancastrian rose (5,5)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 5, 
-                "x": 14
-            }, 
-            "solution": "HENRYTUDOR", 
-            "id": "14-down"
-        }, 
+            },
+            "solution": "HENRYTUDOR"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "I'm after new setter for the scheduled period (4,5)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "I'm after new setter for the scheduled period (4,5)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 6, 
-                "x": 4
-            }, 
-            "solution": "TIMEFRAME", 
-            "id": "16-down"
-        }, 
+            },
+            "solution": "TIMEFRAME"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Track, t-track! (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Track, t-track! (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 10
-            }, 
-            "solution": "TRAIL", 
-            "id": "21-down"
-        }, 
+                "x": 10,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "TRAIL"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Old leader of the New York Times? (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Old leader of the New York Times? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "USED", 
-            "id": "22-down"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "USED"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Against being held in quarantine (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Against being held in quarantine (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 2
-            }, 
-            "solution": "ANTI", 
-            "id": "23-down"
+                "x": 2,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "ANTI"
         }
-    ], 
-    "date": 1400630400000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20140521.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/26265", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1400626800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20140521.pdf",
+    "_gridType": "M43"
 }

@@ -1,529 +1,531 @@
 {
-    "name": "Cryptic crossword No 27,011", 
+    "id": "crosswords/cryptic/27011",
+    "number": 27011,
+    "name": "Cryptic crossword No 27,011",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/rufus", 
-        "name": "Rufus"
-    }, 
-    "dateSolutionAvailable": 1476054000000, 
-    "number": 27011, 
-    "crosswordType": "cryptic", 
+        "name": "Rufus",
+        "webUrl": "https://www.theguardian.com/profile/rufus"
+    },
+    "date": 1476057600000,
+    "webPublicationDate": 1476054024000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Radiator provided by a hotelier (3,6)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Radiator provided by a hotelier (3,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "OILHEATER", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "OILHEATER"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Showing no flaws, though I have a lot (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Showing no flaws, though I have a lot (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 10
-            }, 
-            "solution": "IDEAL", 
-            "id": "10-across"
-        }, 
+                "x": 10,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "IDEAL"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Fork out for trunk at university (5,2)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Fork out for trunk at university (5,2)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "STUMPUP", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "STUMPUP"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Regularly late, yet sounding chivalrous (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Regularly late, yet sounding chivalrous (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 8
-            }, 
-            "solution": "NIGHTLY", 
-            "id": "12-across"
-        }, 
+                "x": 8,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "NIGHTLY"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Equestrian, it's clear, about to return (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Equestrian, it's clear, about to return (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "RIDER", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "RIDER"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Accommodation for those not wishing to move when they retire (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Accommodation for those not wishing to move when they retire (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 6
-            }, 
-            "solution": "BEDSITTER", 
-            "id": "14-across"
-        }, 
+                "x": 6,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "BEDSITTER"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Just the same, it can't be bettered (7,8)",
+            "direction": "across",
+            "length": 15,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Just the same, it can't be bettered (7,8)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "PERFECTLIKENESS", 
-            "id": "16-across"
-        }, 
+            },
+            "solution": "PERFECTLIKENESS"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Salt recollected in sea song (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Salt recollected in sea song (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "SEASONING", 
-            "id": "19-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "SEASONING"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Targets given by teachers for work (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Targets given by teachers for work (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "MARKS", 
-            "id": "21-across"
-        }, 
+                "x": 10,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "MARKS"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Bad habit in which Tom gets dressed as a French aristocrat (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Bad habit in which Tom gets dressed as a French aristocrat (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "VICOMTE", 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "VICOMTE"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "River of wine? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "River of wine? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 8
-            }, 
-            "solution": "MADEIRA", 
-            "id": "23-across"
-        }, 
+                "x": 8,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "MADEIRA"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Famous composer? Hear, hear (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Famous composer? Hear, hear (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "LISZT", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "LISZT"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Drowsy, left the cigar to go out (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Drowsy, left the cigar to go out (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 6
-            }, 
-            "solution": "LETHARGIC", 
-            "id": "25-across"
-        }, 
+                "x": 6,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "LETHARGIC"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "They are forced into private service (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "They are forced into private service (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "CONSCRIPTS", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CONSCRIPTS"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Swimmer appears to be thrashing about (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Swimmer appears to be thrashing about (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "FLOUNDER", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "FLOUNDER"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Even when frayed, it should be kept (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Even when frayed, it should be kept (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "TEMPER", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TEMPER"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "A full one should give you a capital start (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "A full one should give you a capital start (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "STOP", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "STOP"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "The crime of performing badly? (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "The crime of performing badly? (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "WRONGDOING", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "WRONGDOING"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Close to fighting, call on support (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Close to fighting, call on support (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "RINGSIDE", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "RINGSIDE"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Dismissive order to a drummer, perhaps (4,2)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Dismissive order to a drummer, perhaps (4,2)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "BEATIT", 
-            "id": "7-down"
-        }, 
+            },
+            "solution": "BEATIT"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "It's somebody's work, oddly enough (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "It's somebody's work, oddly enough (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "PLAY", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PLAY"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Painter's bill to cite rework (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Painter's bill to cite rework (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 6
-            }, 
-            "solution": "BOTTICELLI", 
-            "id": "14-down"
-        }, 
+                "x": 6,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "BOTTICELLI"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Insects are developing immunity (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Insects are developing immunity (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 14
-            }, 
-            "solution": "RESISTANCE", 
-            "id": "15-down"
-        }, 
+                "x": 14,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "RESISTANCE"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "An outrage otherwise concealed by ill-will (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "An outrage otherwise concealed by ill-will (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "ENORMITY", 
-            "id": "17-down"
-        }, 
+                "x": 4,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ENORMITY"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Grannies making money (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Grannies making money (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 12
-            }, 
-            "solution": "EARNINGS", 
-            "id": "18-down"
-        }, 
+                "x": 12,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "EARNINGS"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "To make a charge is a county council practice (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "To make a charge is a county council practice (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 2
-            }, 
-            "solution": "ACCUSE", 
-            "id": "20-down"
-        }, 
+                "x": 2,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ACCUSE"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Old city of crazy artists (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Old city of crazy artists (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "MADRAS", 
-            "id": "21-down"
-        }, 
+                "x": 10,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "MADRAS"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Evil, possibly depraved (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Evil, possibly depraved (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "VILE", 
-            "id": "22-down"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "VILE"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Sailor to finish the game on board (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Sailor to finish the game on board (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 8
-            }, 
-            "solution": "MATE", 
-            "id": "23-down"
+                "x": 8,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "MATE"
         }
-    ], 
-    "date": 1476057600000, 
-    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20161010.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/27011", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1476054000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20161010.pdf",
+    "_gridType": "M08"
 }

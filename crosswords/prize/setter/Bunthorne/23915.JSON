@@ -1,546 +1,548 @@
 {
-    "name": "Prize crossword No 23,915", 
+    "id": "crosswords/prize/23915",
+    "number": 23915,
+    "name": "Prize crossword No 23,915",
     "creator": {
-        "webUrl": "https://www.theguardian.com/profile/bunthorne", 
-        "name": "Bunthorne"
-    }, 
-    "dateSolutionAvailable": 1163203200000, 
-    "number": 23915, 
-    "crosswordType": "prize", 
+        "name": "Bunthorne",
+        "webUrl": "https://www.theguardian.com/profile/bunthorne"
+    },
+    "date": 1162598400000,
+    "webPublicationDate": 1162598400000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Slid on heel, can't repair the weak spot (8,6)",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "1-across", 
+                "1-across",
                 "5-across"
-            ], 
-            "number": 1, 
-            "clue": "Slid on heel, can't repair the weak spot (8,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "BRHILLES", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "BRHILLES"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "See 1 across",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "1-across", 
+                "1-across",
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "See 1 across", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "TENDON", 
-            "id": "5-across"
-        }, 
+            },
+            "solution": "TENDON"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Ireland is cleaving Bremner for mocking (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Ireland is cleaving Bremner for mocking (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "IRRISORY", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "IRRISORY"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Theologian has turned to embrace holy man, refined (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Theologian has turned to embrace holy man, refined (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 9
-            }, 
-            "solution": "SADDHU", 
-            "id": "10-across"
-        }, 
+                "x": 9,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "SADDHU"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Cracked basin the Degas drinkers put down (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Cracked basin the Degas drinkers put down (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "ABSINTHE", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "ABSINTHE"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Councillor to augment outdated nursery provision (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Councillor to augment outdated nursery provision (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 9
-            }, 
-            "solution": "CRECHE", 
-            "id": "12-across"
-        }, 
+                "x": 9,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "CRECHE"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Well done, the solver! That was Erin's stout assertion! (4,3,3)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Well done, the solver! That was Erin's stout assertion! (4,3,3)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     7
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 5
-            }, 
-            "solution": "GOODFORYOU", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "GOODFORYOU"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Odd! The Guardian's economist here with unconfirmed reports (6,4)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Odd! The Guardian's economist here with unconfirmed reports (6,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "RUMOURMILL", 
-            "id": "18-across"
-        }, 
+            },
+            "solution": "RUMOURMILL"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "As insincere as a smile from Cheshire? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "As insincere as a smile from Cheshire? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "CHEESY", 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "CHEESY"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "A tricky problem: with ie not one calorie in Madame Butterfly's cuisine (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "A tricky problem: with ie not one calorie in Madame Butterfly's cuisine (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 7
-            }, 
-            "solution": "TERIYAKI", 
-            "id": "23-across"
-        }, 
+                "x": 7,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "TERIYAKI"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Lamb devotees beginning to eat escargot over here! (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Lamb devotees beginning to eat escargot over here! (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "ELIANS", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "ELIANS"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Had I had trouble with Liberal revolutionary, would be affected (3-2-3)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Had I had trouble with Liberal revolutionary, would be affected (3-2-3)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 12
+            },
             "separatorLocations": {
                 "-": [
-                    3, 
+                    3,
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 12, 
-                "x": 7
-            }, 
-            "solution": "LAHDIDAH", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "LAHDIDAH"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Ascetic wobbling 'til on 'is stem? Yes! (6,8)",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "26-across", 
+                "26-across",
                 "27-across"
-            ], 
-            "number": 26, 
-            "clue": "Ascetic wobbling 'til on 'is stem? Yes! (6,8)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "26", 
-            "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "SIMEON", 
-            "id": "26-across"
-        }, 
+            },
+            "solution": "SIMEON"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "See 26",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "26-across", 
+                "26-across",
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "See 26", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 8, 
-            "humanNumber": "27", 
-            "position": {
-                "y": 14, 
-                "x": 7
-            }, 
-            "solution": "STYLITES", 
-            "id": "27-across"
-        }, 
+            },
+            "solution": "STYLITES"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Mad dog for one transferred from the Marx oeuvre (6,8)",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "1-down", 
+                "1-down",
                 "15-down"
-            ], 
-            "number": 1, 
-            "clue": "Mad dog for one transferred from the Marx oeuvre (6,8)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "BNIMAL", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "BNIMAL"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Elsewhere synods embracing auto-da-f\u00e9 for this (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Elsewhere synods embracing auto-da-f\u00e9 for this (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "HERESY", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "HERESY"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Not netting around big fish (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Not netting around big fish (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "LOSING", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LOSING"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Mother's raw material for chicken feed (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Mother's raw material for chicken feed (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "EARTHWORMS", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EARTHWORMS"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Fruit with an evening in Paris: eat English and throw up! (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Fruit with an evening in Paris: eat English and throw up! (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "ETAERIOS", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ETAERIOS"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Did Bunthorne shy stone at first travelling folk? (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Did Bunthorne shy stone at first travelling folk? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "DIDICOYS", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DIDICOYS"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Upstarts? Excuse our havin' blundered (8,6)",
+            "direction": "down",
+            "length": 8,
             "group": [
-                "8-down", 
+                "8-down",
                 "21-down"
-            ], 
-            "number": 8, 
-            "clue": "Upstarts? Excuse our havin' blundered (8,6)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "NOUVEAUX", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "NOUVEAUX"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Mature tirade about oriental contaminant (10) (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Mature tirade about oriental contaminant (10) (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 8
-            }, 
-            "solution": "ADULTERANT", 
-            "id": "13-down"
-        }, 
+                "x": 8,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "ADULTERANT"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "See 1 down",
+            "direction": "down",
+            "length": 8,
             "group": [
-                "1-down", 
+                "1-down",
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "See 1 down", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 8, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "CRACKERS", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "CRACKERS"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "By what authority? I'm umpire! Out! (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "By what authority? I'm umpire! Out! (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "IMPERIUM", 
-            "id": "16-down"
-        }, 
+                "x": 2,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "IMPERIUM"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "How a marathon competitor comes across and collides? (4,4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "How a marathon competitor comes across and collides? (4,4)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "RUNSINTO", 
-            "id": "17-down"
-        }, 
+            },
+            "solution": "RUNSINTO"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Petty officer can raise a child (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Petty officer can raise a child (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "TINDAL", 
-            "id": "19-down"
-        }, 
+                "x": 10,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "TINDAL"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Marianne personified as fantastic broad: a model! (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Marianne personified as fantastic broad: a model! (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 12
-            }, 
-            "solution": "BARDOT", 
-            "id": "20-down"
-        }, 
+                "x": 12,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "BARDOT"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "See 8",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "8-down", 
+                "8-down",
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "See 8", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 9, 
-                "x": 14
-            }, 
-            "solution": "RICHES", 
-            "id": "21-down"
+            },
+            "solution": "RICHES"
         }
-    ], 
-    "date": 1162598400000, 
-    "instructions": "This is the late Bunthorne's last puzzle.<br /><br /><a href=\"http://www.guardian.co.uk/crossword/page/0,,1945162,00.html\">Click here</a> for the annotated solutions.", 
-    "solutionAvailable": true, 
-    "id": "crosswords/prize/23915", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1163203200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "prize",
+    "instructions": "This is the late Bunthorne's last puzzle.<br /><br /><a href=\"http://www.guardian.co.uk/crossword/page/0,,1945162,00.html\">Click here</a> for the annotated solutions.",
+    "_gridType": null
 }

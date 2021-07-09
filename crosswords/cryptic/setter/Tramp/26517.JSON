@@ -1,535 +1,537 @@
 {
-    "name": "Cryptic crossword No 26,517", 
+    "id": "crosswords/cryptic/26517",
+    "number": 26517,
+    "name": "Cryptic crossword No 26,517",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/tramp", 
-        "name": "Tramp"
-    }, 
-    "dateSolutionAvailable": 1426118400000, 
-    "number": 26517, 
-    "crosswordType": "cryptic", 
+        "name": "Tramp",
+        "webUrl": "https://www.theguardian.com/profile/tramp"
+    },
+    "date": 1426118400000,
+    "webPublicationDate": 1426118400000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "One qualified to dive \u2014 look to partner (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "One qualified to dive \u2014 look to partner (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "DIPLOMATE", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "DIPLOMATE"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Go through, winning by point (3,2)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Go through, winning by point (3,2)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 1, 
-                "x": 10
-            }, 
-            "solution": "USEUP", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "USEUP"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11, 5",
+            "clue": " Like a pioneering 13 broadcast, back to Victoria Coren Mitchell: ace (17)",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "11-across", 
+                "11-across",
                 "5-down"
-            ], 
-            "number": 11, 
-            "clue": " Like a pioneering 13 broadcast, back to Victoria Coren Mitchell: ace (17)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "11, 5", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "ELECTRO", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "ELECTRO"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "A measure of judge, charge finally consuming court (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "A measure of judge, charge finally consuming court (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 8
-            }, 
-            "solution": "HECTARE", 
-            "id": "12-across"
-        }, 
+                "x": 8,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "HECTARE"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Screen victory \u2014 quiz returns to entertain (2,3)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Screen victory \u2014 quiz returns to entertain (2,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "TVSET", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "TVSET"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Rivalries and 13 struggling over English (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Rivalries and 13 struggling over English (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 6
-            }, 
-            "solution": "VENDETTAS", 
-            "id": "14-across"
-        }, 
+                "x": 6,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "VENDETTAS"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Train we miss commuting; in summer, it might get packed? (8,7)",
+            "direction": "across",
+            "length": 15,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Train we miss commuting; in summer, it might get packed? (8,7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "SWIMMINGCOSTUME", 
-            "id": "16-across"
-        }, 
+            },
+            "solution": "SWIMMINGCOSTUME"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Winged one scene that's cut on programme (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Winged one scene that's cut on programme (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "SPOONBILL", 
-            "id": "19-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "SPOONBILL"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Fine in a game (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Fine in a game (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "POKER", 
-            "id": "21-across"
-        }, 
+                "x": 10,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "POKER"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Dish or short girl with new range to wear (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Dish or short girl with new range to wear (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "LASAGNA", 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "LASAGNA"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Make for camera, distinctive \"cheese\" outside? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Make for camera, distinctive \"cheese\" outside? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 8
-            }, 
-            "solution": "BROWNIE", 
-            "id": "23-across"
-        }, 
+                "x": 8,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "BROWNIE"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Lines playing theatre (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Lines playing theatre (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "ODEON", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "ODEON"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Pay too much postage, initially cutting deliveries by mail (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Pay too much postage, initially cutting deliveries by mail (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 6
-            }, 
-            "solution": "OVERSPEND", 
-            "id": "25-across"
-        }, 
+                "x": 6,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "OVERSPEND"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Broadcasts 13, mostly with raised bust (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Broadcasts 13, mostly with raised bust (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "ADVERTISES", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ADVERTISES"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Fun after going down? A soft kisser gets ex-cited (5-3)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Fun after going down? A soft kisser gets ex-cited (5-3)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "APRESSKI", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "APRESSKI"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Sticky after sex? (4-2)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Sticky after sex? (4-2)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "POSTIT", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "POSTIT"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Card game very much over (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Card game very much over (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "FARO", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "FARO"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "See 11",
+            "direction": "down",
+            "length": 10,
             "group": [
-                "11-across", 
+                "11-across",
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "See 11", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "MECHANICAL", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "MECHANICAL"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Look, the woman's following Only Connect's introduction (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Look, the woman's following Only Connect's introduction (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "BUTCHERS", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BUTCHERS"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Couple of presenters move to a new place (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Couple of presenters move to a new place (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "DECANT", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DECANT"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Energy to go for point in contest (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Energy to go for point in contest (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "EPEE", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EPEE"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "One justifies V-sign (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "One justifies V-sign (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 6
-            }, 
-            "solution": "VINDICATOR", 
-            "id": "14-down"
-        }, 
+                "x": 6,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "VINDICATOR"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Leads parade, she's fantastic (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Leads parade, she's fantastic (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 14
-            }, 
-            "solution": "SPEARHEADS", 
-            "id": "15-down"
-        }, 
+                "x": 14,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "SPEARHEADS"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Guy dating is carrying on (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Guy dating is carrying on (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "MANAGING", 
-            "id": "17-down"
-        }, 
+                "x": 4,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "MANAGING"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "More horrible German children after French one (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "More horrible German children after French one (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 12
-            }, 
-            "solution": "UNKINDER", 
-            "id": "18-down"
-        }, 
+                "x": 12,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "UNKINDER"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Playboy's terrific cover (one taken on bed) (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Playboy's terrific cover (one taken on bed) (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 2
-            }, 
-            "solution": "OYSTER", 
-            "id": "20-down"
-        }, 
+                "x": 2,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "OYSTER"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Novelist's written for American Time (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Novelist's written for American Time (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "PROUST", 
-            "id": "21-down"
-        }, 
+                "x": 10,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "PROUST"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Round and game over (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Round and game over (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "LOOP", 
-            "id": "22-down"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "LOOP"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Contract gamble upset live broadcaster? (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Contract gamble upset live broadcaster? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 8
-            }, 
-            "solution": "BEEB", 
-            "id": "23-down"
+                "x": 8,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "BEEB"
         }
-    ], 
-    "date": 1426118400000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20150312.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/26517", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1426118400000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20150312.pdf",
+    "_gridType": "M08"
 }

@@ -1,529 +1,531 @@
 {
-    "name": "Cryptic crossword No 25,900", 
+    "id": "crosswords/cryptic/25900",
+    "number": 25900,
+    "name": "Cryptic crossword No 25,900",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/philistine", 
-        "name": "Philistine"
-    }, 
-    "dateSolutionAvailable": 1363737600000, 
-    "number": 25900, 
-    "crosswordType": "cryptic", 
+        "name": "Philistine",
+        "webUrl": "https://www.theguardian.com/profile/philistine"
+    },
+    "date": 1363737600000,
+    "webPublicationDate": 1363737600000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "I'm no lunatic, coming in to reduce hate (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "I'm no lunatic, coming in to reduce hate (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "ABOMINATE", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "ABOMINATE"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Fur would have been warmer after 3 (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Fur would have been warmer after 3 (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 10
-            }, 
-            "solution": "OTTER", 
-            "id": "10-across"
-        }, 
+                "x": 10,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "OTTER"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "One may be speeding either way (4,3)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "One may be speeding either way (4,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "RACECAR", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "RACECAR"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Agent dines often on box (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Agent dines often on box (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 8
-            }, 
-            "solution": "REPEATS", 
-            "id": "12-across"
-        }, 
+                "x": 8,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "REPEATS"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "If it's after 3, hang around for deliveries (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "If it's after 3, hang around for deliveries (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "OVER", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "OVER"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Bipolar disorder features everywhere (4,3,3)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Bipolar disorder features everywhere (4,3,3)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     7
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 5, 
-                "x": 5
-            }, 
-            "solution": "HIGHANDLOW", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "HIGHANDLOW"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Dude perhaps worried at the end of term (3,4)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Dude perhaps worried at the end of term (3,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "DUEDATE", 
-            "id": "16-across"
-        }, 
+            },
+            "solution": "DUEDATE"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Self-proclaimed birdwatcher? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Self-proclaimed birdwatcher? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "SPOONER", 
-            "id": "17-across"
-        }, 
+                "x": 8,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "SPOONER"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Traffic warden's note stated why I don't like this fine (7-3)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Traffic warden's note stated why I don't like this fine (7-3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 9
+            },
             "separatorLocations": {
                 "-": [
                     7
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "19", 
-            "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "TICKETYBOO", 
-            "id": "19-across"
-        }, 
+            },
+            "solution": "TICKETYBOO"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Shall I speak of which force is 4th? (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Shall I speak of which force is 4th? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 11
-            }, 
-            "solution": "LISP", 
-            "id": "22-across"
-        }, 
+                "x": 11,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "LISP"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Island's fine, after a fashion? Not quite (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Island's fine, after a fashion? Not quite (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "OKINAWA", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "OKINAWA"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Dash a couple of final letters on food (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Dash a couple of final letters on food (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 8
-            }, 
-            "solution": "PIZZAZZ", 
-            "id": "25-across"
-        }, 
+                "x": 8,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "PIZZAZZ"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Peer of Tennyson's temper of heroic hearts (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Peer of Tennyson's temper of heroic hearts (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "EQUAL", 
-            "id": "26-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "EQUAL"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Scientific investigator smashed china and left (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Scientific investigator smashed china and left (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 6
-            }, 
-            "solution": "TECHNICAL", 
-            "id": "27-across"
-        }, 
+                "x": 6,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "TECHNICAL"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "3 cooler cosmetic (4,11)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "3 cooler cosmetic (4,11)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "HAIRCONDITIONER", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "HAIRCONDITIONER"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "It's hard for prisoner on island (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "It's hard for prisoner on island (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "CONCRETE", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CONCRETE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "A desire or aspiration (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "A desire or aspiration (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "AITCH", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "AITCH"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Very thin 3 carrier recedes with time (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Very thin 3 carrier recedes with time (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "HAIRLINE", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "HAIRLINE"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Home 3 home? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Home 3 home? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "HEARTH", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "HEARTH"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Fellow compiler's half-written something positive (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Fellow compiler's half-written something positive (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "COMPANION", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "COMPANION"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Correspondent in Minnesota (2,4)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Correspondent in Minnesota (2,4)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "STPAUL", 
-            "id": "7-down"
-        }, 
+            },
+            "solution": "STPAUL"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "This angry expression by fox (9,6)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "This angry expression by fox (9,6)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     9
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "CROSSWORDPUZZLE", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "CROSSWORDPUZZLE"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Last minute gathering to one side (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Last minute gathering to one side (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 4
-            }, 
-            "solution": "LATERALLY", 
-            "id": "15-down"
-        }, 
+                "x": 4,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "LATERALLY"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "The last word of 14 in room making laborious progress (4,4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "The last word of 14 in room making laborious progress (4,4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "SLOWPACE", 
-            "id": "17-down"
-        }, 
+            },
+            "solution": "SLOWPACE"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Subtle difference is admitted to be a bother (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Subtle difference is admitted to be a bother (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 12
-            }, 
-            "solution": "NUISANCE", 
-            "id": "18-down"
-        }, 
+                "x": 12,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "NUISANCE"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Result of seduction: getting end away, maybe (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Result of seduction: getting end away, maybe (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 2
-            }, 
-            "solution": "COITUS", 
-            "id": "20-down"
-        }, 
+                "x": 2,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "COITUS"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "The old stay out for bread and beer (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "The old stay out for bread and beer (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 6
-            }, 
-            "solution": "YEASTY", 
-            "id": "21-down"
-        }, 
+                "x": 6,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "YEASTY"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Lightweight single layer (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Lightweight single layer (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 10
-            }, 
-            "solution": "OZONE", 
-            "id": "23-down"
+                "x": 10,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "OZONE"
         }
-    ], 
-    "date": 1363737600000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20130320.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25900", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1363737600000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20130320.pdf",
+    "_gridType": "M14"
 }

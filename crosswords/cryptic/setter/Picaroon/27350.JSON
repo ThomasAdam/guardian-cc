@@ -1,577 +1,579 @@
 {
-    "name": "Cryptic crossword No 27,350", 
+    "id": "crosswords/cryptic/27350",
+    "number": 27350,
+    "name": "Cryptic crossword No 27,350",
     "creator": {
-        "webUrl": "https://www.theguardian.com/profile/picaroon", 
-        "name": "Picaroon"
-    }, 
-    "dateSolutionAvailable": 1510185600000, 
-    "number": 27350, 
-    "crosswordType": "cryptic", 
+        "name": "Picaroon",
+        "webUrl": "https://www.theguardian.com/profile/picaroon"
+    },
+    "date": 1510185600000,
+    "webPublicationDate": 1510185606000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "As printed, this could make propane (2,5)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "As printed, this could make propane (2,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "ONPAPER", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "ONPAPER"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "See 16",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "16-down", 
+                "16-down",
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "See 16", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "THUNDER", 
-            "id": "5-across"
-        }, 
+            },
+            "solution": "THUNDER"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9, 18",
+            "clue": " Corbyn's defeated after nothing succeeded in funny drama (5,7,4)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "9-across", 
+                "9-across",
                 "18-across"
-            ], 
-            "number": 9, 
-            "clue": " Corbyn's defeated after nothing succeeded in funny drama (5,7,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "9, 18", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "LOVES", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "LOVES"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Broadcast US comic's takeoffs from here (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Broadcast US comic's takeoffs from here (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 6
-            }, 
-            "solution": "AIRFIELDS", 
-            "id": "10-across"
-        }, 
+                "x": 6,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "AIRFIELDS"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Brexit not a disaster? It's very costly (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Brexit not a disaster? It's very costly (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "EXORBITANT", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "EXORBITANT"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Viva the foreign king, over from the east! (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Viva the foreign king, over from the east! (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 11
-            }, 
-            "solution": "ORAL", 
-            "id": "12-across"
-        }, 
+                "x": 11,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "ORAL"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Both parents in lounge at home, or one helping kids outside (8,3)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Both parents in lounge at home, or one helping kids outside (8,3)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 4
-            }, 
-            "solution": "LOLLIPOPMAN", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "LOLLIPOPMAN"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "See 9",
+            "direction": "across",
+            "length": 11,
             "group": [
-                "9-across", 
+                "9-across",
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "See 9", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "LABOURSLOST", 
-            "id": "18-across"
-        }, 
+            },
+            "solution": "LABOURSLOST"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Love writer accessible to everyone (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Love writer accessible to everyone (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "OPEN", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "OPEN"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Vote Conservative? Crikey! Make sure that's right (5-5)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Vote Conservative? Crikey! Make sure that's right (5-5)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 10
+            },
             "separatorLocations": {
                 "-": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 10, 
-                "x": 5
-            }, 
-            "solution": "CROSSCHECK", 
-            "id": "22-across"
-        }, 
+            },
+            "solution": "CROSSCHECK"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Moment to change clothes for bit of pilot's kit (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Moment to change clothes for bit of pilot's kit (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "ALTIMETER", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "ALTIMETER"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Field team from Spain in the first half (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Field team from Spain in the first half (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 10
-            }, 
-            "solution": "REALM", 
-            "id": "26-across"
-        }, 
+                "x": 10,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "REALM"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "River birds: they provide songs (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "River birds: they provide songs (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "DEEJAYS", 
-            "id": "27-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "DEEJAYS"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "Leftist who's gently run media empire (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "28-across"
-            ], 
-            "number": 28, 
-            "clue": "Leftist who's gently run media empire (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "28", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "TROTSKY", 
-            "id": "28-across"
-        }, 
+                "x": 8,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "TROTSKY"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Boring entrepreneurs taking time away from industry workers (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Boring entrepreneurs taking time away from industry workers (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "OILMEN", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OILMEN"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Ballerina shaking bottom, one who induced drooling (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Ballerina shaking bottom, one who induced drooling (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "PAVLOV", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PAVLOV"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Model receiving complaint to consider retiring after hostilities ended (4-6)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Model receiving complaint to consider retiring after hostilities ended (4-6)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "POSTBELLUM", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "POSTBELLUM"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Use oven or pan (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Use oven or pan (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "ROAST", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ROAST"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "US shooter backing renegade, rogue nation (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "US shooter backing renegade, rogue nation (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "TARANTINO", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TARANTINO"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Constituent's texting: \"You idiot!\" (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Constituent's texting: \"You idiot!\" (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "UNIT", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "UNIT"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Daughter getting on alcohol's in depressed state (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Daughter getting on alcohol's in depressed state (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "DOLDRUMS", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DOLDRUMS"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Game to defraud, pocketing pounds in crooked stocktaking (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Game to defraud, pocketing pounds in crooked stocktaking (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "RUSTLING", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "RUSTLING"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Day to clear out town for the better (5,5)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Day to clear out town for the better (5,5)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 10
-            }, 
-            "solution": "MONTECARLO", 
-            "id": "13-down"
-        }, 
+            },
+            "solution": "MONTECARLO"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Girl catching banal ceremony before the end (4,5)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Girl catching banal ceremony before the end (4,5)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 6, 
-                "x": 6
-            }, 
-            "solution": "LASTRITES", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "LASTRITES"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16, 5 across",
+            "clue": " The Donald bound to spoil rule with violent actions (5,3,7)",
+            "direction": "down",
+            "length": 8,
             "group": [
-                "16-down", 
+                "16-down",
                 "5-across"
-            ], 
-            "number": 16, 
-            "clue": " The Donald bound to spoil rule with violent actions (5,3,7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
-                    5, 
+                    5,
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "16, 5 across", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "BLOODAND", 
-            "id": "16-down"
-        }, 
+            },
+            "solution": "BLOODAND"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Person missing shot nets during a competition (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Person missing shot nets during a competition (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "ABSENTEE", 
-            "id": "17-down"
-        }, 
+                "x": 2,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ABSENTEE"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Lists including motorway as place to race (2,4)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Lists including motorway as place to race (2,4)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "19", 
-            "position": {
-                "y": 9, 
-                "x": 12
-            }, 
-            "solution": "LEMANS", 
-            "id": "19-down"
-        }, 
+            },
+            "solution": "LEMANS"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Snoop around a Kardashian exhibiting flesh (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Snoop around a Kardashian exhibiting flesh (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 14
-            }, 
-            "solution": "SKIMPY", 
-            "id": "20-down"
-        }, 
+                "x": 14,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "SKIMPY"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Maybe Rod Stewart's tips to get groove (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Maybe Rod Stewart's tips to get groove (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 8
-            }, 
-            "solution": "STRUT", 
-            "id": "23-down"
-        }, 
+                "x": 8,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "STRUT"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Turned up a shortened Madame Bovary? (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "Turned up a shortened Madame Bovary? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 4
-            }, 
-            "solution": "EMMA", 
-            "id": "24-down"
+                "x": 4,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "EMMA"
         }
-    ], 
-    "date": 1510185600000, 
-    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20171109.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/27350", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1510185600000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20171109.pdf",
+    "_gridType": "M20"
 }

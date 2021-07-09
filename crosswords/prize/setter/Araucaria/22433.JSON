@@ -1,528 +1,530 @@
 {
-    "name": "Prize crossword No 22,433", 
+    "id": "crosswords/prize/22433",
+    "number": 22433,
+    "name": "Prize crossword No 22,433",
     "creator": {
-        "webUrl": "https://www.theguardian.com/profile/araucaria", 
-        "name": "Araucaria"
-    }, 
-    "dateSolutionAvailable": 1013212800000, 
-    "number": 22433, 
-    "crosswordType": "prize", 
+        "name": "Araucaria",
+        "webUrl": "https://www.theguardian.com/profile/araucaria"
+    },
+    "date": 1012608000000,
+    "webPublicationDate": 1012608000000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Risk superior cast (the Guardian's) coming in to strip (4,4,4)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Risk superior cast (the Guardian's) coming in to strip (4,4,4)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     8
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "PUSHYOURLUCK", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "PUSHYOURLUCK"
+        },
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Complaint involving risk, etc (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "Complaint involving risk, etc (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "RICKETS", 
-            "id": "8-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "RICKETS"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Dance bringing ursine perambulation to a ticklish conclusion? (3-4)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Dance bringing ursine perambulation to a ticklish conclusion? (3-4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 2
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 8
-            }, 
-            "solution": "TWOSTEP", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "TWOSTEP"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Risk taking student into the choir (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Risk taking student into the choir (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "CHANCEL", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "CHANCEL"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "He took his time (vulgarly), never mind anyone else (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "He took his time (vulgarly), never mind anyone else (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 8
-            }, 
-            "solution": "EGOTIST", 
-            "id": "12-across"
-        }, 
+                "x": 8,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "EGOTIST"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "I'm good at location, whichever way you look at it (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "I'm good at location, whichever way you look at it (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "RADAR", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "RADAR"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Racing vehicle reversed into tree to get article of lambskin (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Racing vehicle reversed into tree to get article of lambskin (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 6
-            }, 
-            "solution": "ASTRAKHAN", 
-            "id": "14-across"
-        }, 
+                "x": 6,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "ASTRAKHAN"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Not in one's cabin, needing to be picked up? (2,3,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Not in one's cabin, needing to be picked up? (2,3,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "ONTHEDECK", 
-            "id": "16-across"
-        }, 
+            },
+            "solution": "ONTHEDECK"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Hard to get your teeth into? Too bad! (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Hard to get your teeth into? Too bad! (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 10
-            }, 
-            "solution": "TOUGH", 
-            "id": "19-across"
-        }, 
+                "x": 10,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "TOUGH"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Politicians in heaven preceded Edward VIII (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Politicians in heaven preceded Edward VIII (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "SIMPSON", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "SIMPSON"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Miners with real problem, anything from 1 to 9? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Miners with real problem, anything from 1 to 9? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 8
-            }, 
-            "solution": "NUMERAL", 
-            "id": "23-across"
-        }, 
+                "x": 8,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "NUMERAL"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Feet where hands should be under the masthead (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Feet where hands should be under the masthead (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "YARDARM", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "YARDARM"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "It could be the reverse of a fixer at first (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "It could be the reverse of a fixer at first (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 8
-            }, 
-            "solution": "ITALIAN", 
-            "id": "25-across"
-        }, 
+                "x": 8,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "ITALIAN"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Risk a spirited stage production (4,4,4)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Risk a spirited stage production (4,4,4)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     8
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "26", 
-            "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "PLAYWITHFIRE", 
-            "id": "26-across"
-        }, 
+            },
+            "solution": "PLAYWITHFIRE"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Duck and fish in case (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Duck and fish in case (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "POCHARD", 
-            "id": "1-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "POCHARD"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Relative of princes' sister accepting old money (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Relative of princes' sister accepting old money (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "SPENCER", 
-            "id": "2-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SPENCER"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Sleep easy, result of being polite? (3,6)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Sleep easy, result of being polite? (3,6)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "YESPLEASE", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "YESPLEASE"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "BBC's leader dismissed and set loose (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "BBC's leader dismissed and set loose (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "UNTIE", 
-            "id": "4-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "UNTIE"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Overture, one or other, in US city (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Overture, one or other, in US city (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "LEONORA", 
-            "id": "5-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LEONORA"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Aquarium dweller as model provided rise in money (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Aquarium dweller as model provided rise in money (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "CATFISH", 
-            "id": "6-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CATFISH"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Roy's peculiar arrangement thus involving risk (12)",
+            "direction": "down",
+            "length": 12,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Roy's peculiar arrangement thus involving risk (12)", 
-            "separatorLocations": {}, 
-            "length": 12, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "PRECARIOUSLY", 
-            "id": "7-down"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "PRECARIOUSLY"
+        },
         {
-            "direction": "down", 
+            "id": "10-down",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Risk - don't send by road? (3,2,3,4)",
+            "direction": "down",
+            "length": 12,
             "group": [
                 "10-down"
-            ], 
-            "number": 10, 
-            "clue": "Risk - don't send by road? (3,2,3,4)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
-                    5, 
+                    3,
+                    5,
                     8
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 2, 
-                "x": 14
-            }, 
-            "solution": "PUTONTHELINE", 
-            "id": "10-down"
-        }, 
+            },
+            "solution": "PUTONTHELINE"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Attracted by knowledge and intelligence in cover-up (5,4)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Attracted by knowledge and intelligence in cover-up (5,4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 6, 
-                "x": 8
-            }, 
-            "solution": "TAKENWITH", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "TAKENWITH"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Cart whose base needs some protection from the rain (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Cart whose base needs some protection from the rain (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 2
-            }, 
-            "solution": "TUMBREL", 
-            "id": "17-down"
-        }, 
+                "x": 2,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "TUMBREL"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Drug scene starts up - stay resolved (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Drug scene starts up - stay resolved (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 4
-            }, 
-            "solution": "ECSTASY", 
-            "id": "18-down"
-        }, 
+                "x": 4,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ECSTASY"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Little boy with great fear not ended by percussion (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Little boy with great fear not ended by percussion (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 10
-            }, 
-            "solution": "TIMPANI", 
-            "id": "19-down"
-        }, 
+                "x": 10,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "TIMPANI"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Lift and bend to get commendation (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Lift and bend to get commendation (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 12
-            }, 
-            "solution": "UPRAISE", 
-            "id": "20-down"
-        }, 
+                "x": 12,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "UPRAISE"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Clouds not in my backiard? (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Clouds not in my backiard? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 6
-            }, 
-            "solution": "NIMBI", 
-            "id": "22-down"
+                "x": 6,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "NIMBI"
         }
-    ], 
-    "date": 1012608000000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/prize/22433", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1013212800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "prize",
+    "_gridType": "M13"
 }

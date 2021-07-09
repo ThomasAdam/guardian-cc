@@ -1,563 +1,565 @@
 {
-    "name": "Cryptic crossword No 27,259", 
+    "id": "crosswords/cryptic/27259",
+    "number": 27259,
+    "name": "Cryptic crossword No 27,259",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/vlad", 
-        "name": "Vlad"
-    }, 
-    "dateSolutionAvailable": 1501023600000, 
-    "number": 27259, 
-    "crosswordType": "cryptic", 
+        "name": "Vlad",
+        "webUrl": "https://www.theguardian.com/profile/vlad"
+    },
+    "date": 1501027200000,
+    "webPublicationDate": 1501023625000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "They're presently taking up space (8,7)",
+            "direction": "across",
+            "length": 15,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "They're presently taking up space (8,7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "STOCKINGFILLERS", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "STOCKINGFILLERS"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Daft mother avoids speaking naturally (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Daft mother avoids speaking naturally (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "IDIOTIC", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "IDIOTIC"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Got to hurt splitting wine (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Got to hurt splitting wine (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 8
-            }, 
-            "solution": "REACHED", 
-            "id": "10-across"
-        }, 
+                "x": 8,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "REACHED"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Some much appreciated liquid refreshment (3)",
+            "direction": "across",
+            "length": 3,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Some much appreciated liquid refreshment (3)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "CHA", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "CHA"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12, 23",
+            "clue": " It's not as bad as 16 but may cause tears, when shopping (5,6,6,2,3)",
+            "direction": "across",
+            "length": 11,
             "group": [
-                "12-across", 
+                "12-across",
                 "23-across"
-            ], 
-            "number": 12, 
-            "clue": " It's not as bad as 16 but may cause tears, when shopping (5,6,6,2,3)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
-                    5, 
+                    5,
                     11
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "12, 23", 
-            "position": {
-                "y": 4, 
-                "x": 4
-            }, 
-            "solution": "WORSETHINGS", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "WORSETHINGS"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Erotic show condemned \u2014 a big change for Hefner (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Erotic show condemned \u2014 a big change for Hefner (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "SWITCHEROO", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "SWITCHEROO"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Cook's leaving a food shop (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Cook's leaving a food shop (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 11
-            }, 
-            "solution": "DELI", 
-            "id": "15-across"
-        }, 
+                "x": 11,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "DELI"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Reputed to be carrying 1 down (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Reputed to be carrying 1 down (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "SAID", 
-            "id": "18-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "SAID"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Empty box \u2014 it's stuffed into drawer (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Empty box \u2014 it's stuffed into drawer (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 5
-            }, 
-            "solution": "CARTOONIST", 
-            "id": "20-across"
-        }, 
+                "x": 5,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "CARTOONIST"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "See 12",
+            "direction": "across",
+            "length": 11,
             "group": [
-                "12-across", 
+                "12-across",
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "See 12", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
-                    6, 
+                    6,
                     8
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "23", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "HAPPENATSEA", 
-            "id": "23-across"
-        }, 
+            },
+            "solution": "HAPPENATSEA"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Struggle to see with drops (3)",
+            "direction": "across",
+            "length": 3,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Struggle to see with drops (3)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 12
-            }, 
-            "solution": "VIE", 
-            "id": "25-across"
-        }, 
+                "x": 12,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "VIE"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Ends call home? Reportedly, yes (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Ends call home? Reportedly, yes (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "TERMINI", 
-            "id": "26-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "TERMINI"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Song captivates country \u2014 Thailand or another (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Song captivates country \u2014 Thailand or another (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 8
-            }, 
-            "solution": "AUSTRIA", 
-            "id": "27-across"
-        }, 
+                "x": 8,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "AUSTRIA"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "Craft seen with ageing props \u2014 it's no longer flying (9,6)",
+            "direction": "across",
+            "length": 15,
             "group": [
                 "28-across"
-            ], 
-            "number": 28, 
-            "clue": "Craft seen with ageing props \u2014 it's no longer flying (9,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
                     9
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "28", 
-            "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "PASSENGERPIGEON", 
-            "id": "28-across"
-        }, 
+            },
+            "solution": "PASSENGERPIGEON"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Stops sweetheart going to clubs? They're packed (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Stops sweetheart going to clubs? They're packed (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "SUITCASES", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SUITCASES"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Payment going up \u2014 aim to adjust paperwork (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Payment going up \u2014 aim to adjust paperwork (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "ORIGAMI", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ORIGAMI"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Ford programme initially takes 100 in European city (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Ford programme initially takes 100 in European city (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "KATOWICE", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "KATOWICE"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Better name reserve side (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Better name reserve side (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "NICER", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "NICER"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "After persistent investigation, find Jill possibly at fault (6,3)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "After persistent investigation, find Jill possibly at fault (6,3)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "FERRETOUT", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "FERRETOUT"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Be disgusted by articles \u2014 see above (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Be disgusted by articles \u2014 see above (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "LOATHE", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LOATHE"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Better prospect when nurse is about (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Better prospect when nurse is about (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "ENHANCE", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ENHANCE"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Slips left out in banks (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Slips left out in banks (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "SIDES", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SIDES"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Fellow's worrying about coming out (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Fellow's worrying about coming out (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 6
-            }, 
-            "solution": "EMANATING", 
-            "id": "14-down"
-        }, 
+                "x": 6,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "EMANATING"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "9th last, losing heads mostly (2,3,4)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "9th last, losing heads mostly (2,3,4)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 6, 
-                "x": 14
-            }, 
-            "solution": "INTHEMAIN", 
-            "id": "16-down"
-        }, 
+            },
+            "solution": "INTHEMAIN"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Director's cut turned up with a new short film (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Director's cut turned up with a new short film (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 10
-            }, 
-            "solution": "POLANSKI", 
-            "id": "17-down"
-        }, 
+                "x": 10,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "POLANSKI"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Passes on little devilish tricks (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Passes on little devilish tricks (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 2
-            }, 
-            "solution": "IMPARTS", 
-            "id": "19-down"
-        }, 
+                "x": 2,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "IMPARTS"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Opposite of poetic (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Opposite of poetic (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 12
-            }, 
-            "solution": "INVERSE", 
-            "id": "21-down"
-        }, 
+                "x": 12,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "INVERSE"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Polish official in charge at the end (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Polish official in charge at the end (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 4
-            }, 
-            "solution": "REFINE", 
-            "id": "22-down"
-        }, 
+                "x": 4,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "REFINE"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Sheep tautologically excited (3,2)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Sheep tautologically excited (3,2)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "23", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "HETUP", 
-            "id": "23-down"
-        }, 
+            },
+            "solution": "HETUP"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "One of Steps developed his art \u2014 not H (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "One of Steps developed his art \u2014 not H (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 8
-            }, 
-            "solution": "STAIR", 
-            "id": "24-down"
+                "x": 8,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "STAIR"
         }
-    ], 
-    "date": 1501027200000, 
-    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20170726.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/27259", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1501023600000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20170726.pdf",
+    "_gridType": "M65"
 }

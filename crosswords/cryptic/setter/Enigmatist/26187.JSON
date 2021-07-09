@@ -1,567 +1,569 @@
 {
-    "name": "Cryptic crossword No 26,187", 
+    "id": "crosswords/cryptic/26187",
+    "number": 26187,
+    "name": "Cryptic crossword No 26,187",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/enigmatist", 
-        "name": "Enigmatist"
-    }, 
-    "dateSolutionAvailable": 1392768000000, 
-    "number": 26187, 
-    "crosswordType": "cryptic", 
+        "name": "Enigmatist",
+        "webUrl": "https://www.theguardian.com/profile/enigmatist"
+    },
+    "date": 1392768000000,
+    "webPublicationDate": 1392768000000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Lightweight service of no note? (3,4)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Lightweight service of no note? (3,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "LOWMASS", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "LOWMASS"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "It was honourable, for Japanese double-decker was open-top? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "It was honourable, for Japanese double-decker was open-top? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "BUSHIDO", 
-            "id": "5-across"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BUSHIDO"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9, 10",
+            "clue": " Small time Scots golfer packs in US round \u2014 the price he pays for his driving? (5,9)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "9-across", 
+                "9-across",
                 "10-across"
-            ], 
-            "number": 9, 
-            "clue": " Small time Scots golfer packs in US round \u2014 the price he pays for his driving? (5,9)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "9, 10", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "MOTOR", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "MOTOR"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "See 9",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "9-across", 
+                "9-across",
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "See 9", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 9, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 2, 
-                "x": 6
-            }, 
-            "solution": "INSURANCE", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "INSURANCE"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Here's the latest deplorably bad ratatouille! (4,3,5,2)",
+            "direction": "across",
+            "length": 14,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Here's the latest deplorably bad ratatouille! (4,3,5,2)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
-                    7, 
+                    4,
+                    7,
                     12
                 ]
-            }, 
-            "length": 14, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 4, 
-                "x": 1
-            }, 
-            "solution": "READALLABOUTIT", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "READALLABOUTIT"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "High sea swirling round Sardinia manor houses (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "High sea swirling round Sardinia manor houses (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "MAIN", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "MAIN"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Knowing about false icon, failed to impress (3,2,3)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Knowing about false icon, failed to impress (3,2,3)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 7
-            }, 
-            "solution": "CUTNOICE", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "CUTNOICE"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Say \"That was funny!\", then tour model village (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Say \"That was funny!\", then tour model village (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "LEGOLAND", 
-            "id": "17-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "LEGOLAND"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Mausoleum site's \u00a31K value reduced by 33% (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Mausoleum site's \u00a31K value reduced by 33% (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 11
-            }, 
-            "solution": "AGRA", 
-            "id": "18-across"
-        }, 
+                "x": 11,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "AGRA"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Strong second eleven players each get forward quickly (4,5,5)",
+            "direction": "across",
+            "length": 14,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Strong second eleven players each get forward quickly (4,5,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     9
                 ]
-            }, 
-            "length": 14, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "FULLSTEAMAHEAD", 
-            "id": "21-across"
-        }, 
+            },
+            "solution": "FULLSTEAMAHEAD"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23, 24",
+            "clue": " Where chests are looked after, is writhing outside of emergency room in awful pain (9,5)",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "23-across", 
+                "23-across",
                 "24-across"
-            ], 
-            "number": 23, 
-            "clue": " Where chests are looked after, is writhing outside of emergency room in awful pain (9,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
                     9
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "23, 24", 
-            "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "CONTAINER", 
-            "id": "23-across"
-        }, 
+            },
+            "solution": "CONTAINER"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "See 23",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "23-across", 
+                "23-across",
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "See 23", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 5, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 12, 
-                "x": 10
-            }, 
-            "solution": "PORTS", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "PORTS"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Passion exhibited in novel case (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Passion exhibited in novel case (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "SHEATHE", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "SHEATHE"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Make a better offer (3,4)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Make a better offer (3,4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "26", 
-            "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "LAYODDS", 
-            "id": "26-across"
-        }, 
+            },
+            "solution": "LAYODDS"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Beastly young spy boss trespassing on Q Division? (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Beastly young spy boss trespassing on Q Division? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "LAMB", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LAMB"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Cycle across carpet with weapon, giving a look of disdain (9,6)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Cycle across carpet with weapon, giving a look of disdain (9,6)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     9
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "WITHERINGGLANCE", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "WITHERINGGLANCE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Nameless type in A&E scrape (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Nameless type in A&E scrape (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "ABRADE", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ABRADE"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "To repress lecturer going through first of epileptic seizures, stood up (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "To repress lecturer going through first of epileptic seizures, stood up (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "STIFLE", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "STIFLE"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Try very hard to pull replacement player over, collecting cheers! (4,1,3)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Try very hard to pull replacement player over, collecting cheers! (4,1,3)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "BUSTAGUT", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "BUSTAGUT"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Where to get taught in present-day European capital and afflicted round former one (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Where to get taught in present-day European capital and afflicted round former one (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "SORBONNE", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SORBONNE"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Christian song corrupted by editor might elicit such a question (2,7,6)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Christian song corrupted by editor might elicit such a question (2,7,6)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     9
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "ISNOTHINGSACRED", 
-            "id": "7-down"
-        }, 
+            },
+            "solution": "ISNOTHINGSACRED"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Open cut? Yes, across road (4,3,3)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Open cut? Yes, across road (4,3,3)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     7
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "OVERTHEWAY", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "OVERTHEWAY"
+        },
         {
-            "direction": "down", 
+            "id": "12-down",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Walk into sci-fi expert's group (5,5)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "12-down"
-            ], 
-            "number": 12, 
-            "clue": "Walk into sci-fi expert's group (5,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "SMALLFACES", 
-            "id": "12-down"
-        }, 
+            },
+            "solution": "SMALLFACES"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Outstanding performer on court contracted canine fever (5,3)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Outstanding performer on court contracted canine fever (5,3)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "CLASSACT", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "CLASSACT"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Prisoner's nice warm coat, perhaps sleeveless (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Prisoner's nice warm coat, perhaps sleeveless (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 6
-            }, 
-            "solution": "INTERNEE", 
-            "id": "16-down"
-        }, 
+                "x": 6,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "INTERNEE"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Smell put up by Liberal, having no principles (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Smell put up by Liberal, having no principles (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 8
-            }, 
-            "solution": "AMORAL", 
-            "id": "19-down"
-        }, 
+                "x": 8,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "AMORAL"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "\"Takeaway\" Catholic, well-equipped for child-bearing? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "\"Takeaway\" Catholic, well-equipped for child-bearing? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "CHIPPY", 
-            "id": "20-down"
-        }, 
+                "x": 10,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "CHIPPY"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Noel, Liam & Co are unloved, like Status Quo (2,2)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Noel, Liam & Co are unloved, like Status Quo (2,2)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 11, 
-                "x": 14
-            }, 
-            "solution": "ASIS", 
-            "id": "22-down"
+            },
+            "solution": "ASIS"
         }
-    ], 
-    "date": 1392768000000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20140219.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/26187", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1392768000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20140219.pdf",
+    "_gridType": "M44"
 }

@@ -1,535 +1,537 @@
 {
-    "name": "Cryptic crossword No 22,022", 
+    "id": "crosswords/cryptic/22022",
+    "number": 22022,
+    "name": "Cryptic crossword No 22,022",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/bunthorne", 
-        "name": "Bunthorne"
-    }, 
-    "dateSolutionAvailable": 970786800000, 
-    "number": 22022, 
-    "crosswordType": "cryptic", 
+        "name": "Bunthorne",
+        "webUrl": "https://www.theguardian.com/profile/bunthorne"
+    },
+    "date": 970790400000,
+    "webPublicationDate": 970786800000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "7-across",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "See 11 (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "11-across", 
+                "11-across",
                 "7-across"
-            ], 
-            "number": 7, 
-            "clue": "See 11 (8)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "YOURHARE", 
-            "id": "7-across"
-        }, 
+            },
+            "solution": "YOURHARE"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "See 10 (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "10-across", 
+                "10-across",
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "See 10 (6)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 1, 
-                "x": 9
-            }, 
-            "solution": "TORULE", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "TORULE"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "He was, some said of the Skye-bound lad, a king having no trouble failing (4,2,4)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "10-across", 
+                "10-across",
                 "9-across"
-            ], 
-            "number": 10, 
-            "clue": "He was, some said of the Skye-bound lad, a king having no trouble failing (4,2,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "BORN", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "BORN"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Caution opening game plan: author-chefs carry it out (5,5,4,4)",
+            "direction": "across",
+            "length": 10,
             "group": [
-                "11-across", 
+                "11-across",
                 "7-across"
-            ], 
-            "number": 11, 
-            "clue": "Caution opening game plan: author-chefs carry it out (5,5,4,4)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
-                    5, 
+                    5,
                     10
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 3, 
-                "x": 5
-            }, 
-            "solution": "FIRSTCATCH", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "FIRSTCATCH"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Something fishy about this duck? Try some old port (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Something fishy about this duck? Try some old port (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "BOMBAY", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "BOMBAY"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Taking it on the chin, lodger goes out, giving us the key (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Taking it on the chin, lodger goes out, giving us the key (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 7
-            }, 
-            "solution": "PITCHING", 
-            "id": "14-across"
-        }, 
+                "x": 7,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "PITCHING"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Fool I see in Richard's house - or Denmark's? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Fool I see in Richard's house - or Denmark's? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 1
-            }, 
-            "solution": "YORICK", 
-            "id": "15-across"
-        }, 
+                "x": 1,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "YORICK"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Elevation of priest into a division of the church (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Elevation of priest into a division of the church (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "ASPECT", 
-            "id": "17-across"
-        }, 
+                "x": 8,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ASPECT"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Still beyond infinity (5,3)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Still beyond infinity (5,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "20", 
-            "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "AFTERALL", 
-            "id": "20-across"
-        }, 
+            },
+            "solution": "AFTERALL"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Public transport without conductor (3-3)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Public transport without conductor (3-3)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 9
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "BUSBAR", 
-            "id": "22-across"
-        }, 
+            },
+            "solution": "BUSBAR"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Exhausted knight, holding mirror to naked duchess, might get nowhere (4,1,5)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Exhausted knight, holding mirror to naked duchess, might get nowhere (4,1,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "23", 
-            "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "DRAWABLANK", 
-            "id": "23-across"
-        }, 
+            },
+            "solution": "DRAWABLANK"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Constable positioned at this level-crossing? (8)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Constable positioned at this level-crossing? (8)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 11
-            }, 
-            "solution": "FLAT", 
-            "id": "24-across"
-        }, 
+                "x": 11,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "FLAT"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Servant paid on demand? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Servant paid on demand? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "BEARER", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "BEARER"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Like the Brontes? That's so right! One's spoken about! (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Like the Brontes? That's so right! One's spoken about! (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 7
-            }, 
-            "solution": "SORORIAL", 
-            "id": "26-across"
-        }, 
+                "x": 7,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "SORORIAL"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "An engrossing game (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "An engrossing game (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "MONOPOLY", 
-            "id": "1-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "MONOPOLY"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Knutsford, literally where Conservative ran for the money in Harrods (8)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "2-down", 
+                "2-down",
                 "24-down"
-            ], 
-            "number": 2, 
-            "clue": "Knutsford, literally where Conservative ran for the money in Harrods (8)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "CRAN", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CRAN"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "When fellow leaves for Spain, barely drunk (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "When fellow leaves for Spain, barely drunk (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "BARFLY", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BARFLY"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Proclaims, but doesn't begin to intrude in, standing orders (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Proclaims, but doesn't begin to intrude in, standing orders (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "STATUTES", 
-            "id": "4-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "STATUTES"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Hush! It's Newman's \"Gone With the Wind\" (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Hush! It's Newman's \"Gone With the Wind\" (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "BREATHLESS", 
-            "id": "5-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BREATHLESS"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "No veal raised in this small container (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "No veal raised in this small container (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "FLACON", 
-            "id": "6-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "FLACON"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Community work in the French department (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Community work in the French department (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 7
-            }, 
-            "solution": "EUROPE", 
-            "id": "8-down"
-        }, 
+                "x": 7,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "EUROPE"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Cutting communication between landowners and ramblers? (6-4)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Cutting communication between landowners and ramblers? (6-4)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 5
+            },
             "separatorLocations": {
                 "-": [
                     6
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 3
-            }, 
-            "solution": "BARBEDWIRE", 
-            "id": "13-down"
-        }, 
+            },
+            "solution": "BARBEDWIRE"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Po-faced lexicography here? (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Po-faced lexicography here? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "CHAMBERS", 
-            "id": "16-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "CHAMBERS"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "The direction of Westerns (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "The direction of Westerns (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 13
-            }, 
-            "solution": "THATAWAY", 
-            "id": "18-down"
-        }, 
+                "x": 13,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "THATAWAY"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "A two-master turning south invariably (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "A two-master turning south invariably (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "ALWAYS", 
-            "id": "19-down"
-        }, 
+                "x": 7,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ALWAYS"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "False bread maker  ... (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "False bread maker  ... (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 1
-            }, 
-            "solution": "FORGER", 
-            "id": "21-down"
-        }, 
+                "x": 1,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "FORGER"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "...  one could prove it here (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "...  one could prove it here (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "BAKERY", 
-            "id": "22-down"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "BAKERY"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "See 2 and 24 across (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "2-down", 
+                "2-down",
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "See 2 and 24 across (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 11
-            }, 
-            "solution": "FORD", 
-            "id": "24-down"
+                "x": 11,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "FORD"
         }
-    ], 
-    "date": 970790400000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/22022", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 970786800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M30"
 }

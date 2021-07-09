@@ -1,503 +1,505 @@
 {
-    "name": "Cryptic crossword No 23,163", 
+    "id": "crosswords/cryptic/23163",
+    "number": 23163,
+    "name": "Cryptic crossword No 23,163",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/shed", 
-        "name": "Shed"
-    }, 
-    "dateSolutionAvailable": 1086649200000, 
-    "number": 23163, 
-    "crosswordType": "cryptic", 
+        "name": "Shed",
+        "webUrl": "https://www.theguardian.com/profile/shed"
+    },
+    "date": 1086652800000,
+    "webPublicationDate": 1086649200000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Meaning to buy in (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Meaning to buy in (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "IMPORT", 
-            "id": "1-across"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "IMPORT"
+        },
         {
-            "direction": "across", 
+            "id": "4-across",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "\"Compiler's in the car\" - that's a quotation (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "4-across"
-            ], 
-            "number": 4, 
-            "clue": "\"Compiler's in the car\" - that's a quotation (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "ESTIMATE", 
-            "id": "4-across"
-        }, 
+                "x": 7,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ESTIMATE"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "One hooked did wrong indeed (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "One hooked did wrong indeed (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "ADDICT", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "ADDICT"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Occupants of bed pleased to take heart from violin (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Occupants of bed pleased to take heart from violin (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 7
-            }, 
-            "solution": "GLADIOLI", 
-            "id": "10-across"
-        }, 
+                "x": 7,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "GLADIOLI"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Toffs' 1ac-ed imperative in toff-free globe? That's unlikely (8,6)",
+            "direction": "across",
+            "length": 14,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Toffs' 1ac-ed imperative in toff-free globe? That's unlikely (8,6)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 14, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 4, 
-                "x": 1
-            }, 
-            "solution": "NOBLESSEOBLIGE", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "NOBLESSEOBLIGE"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Is he or she right about the heavy worker? (5,5)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Is he or she right about the heavy worker? (5,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "SHIREHORSE", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "SHIREHORSE"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Pretend to point to the meat (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Pretend to point to the meat (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 11
-            }, 
-            "solution": "SHAM", 
-            "id": "14-across"
-        }, 
+                "x": 11,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "SHAM"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Heavenly bodies in otherwise empty bus (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Heavenly bodies in otherwise empty bus (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "ORBS", 
-            "id": "16-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ORBS"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Is nervous affliction in the East End selfish? (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Is nervous affliction in the East End selfish? (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 5
-            }, 
-            "solution": "EGOISTICAL", 
-            "id": "18-across"
-        }, 
+                "x": 5,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "EGOISTICAL"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Lash one with science, suspended round gold philosophical 1ac (14)",
+            "direction": "across",
+            "length": 14,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Lash one with science, suspended round gold philosophical 1ac (14)", 
-            "separatorLocations": {}, 
-            "length": 14, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "WELTANSCHAUUNG", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "WELTANSCHAUUNG"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Sailor to keep teasing Herb? (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Sailor to keep teasing Herb? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "TARRAGON", 
-            "id": "23-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "TARRAGON"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Impose about it with light-heartedness (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Impose about it with light-heartedness (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 9
-            }, 
-            "solution": "LEVITY", 
-            "id": "24-across"
-        }, 
+                "x": 9,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "LEVITY"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "First hint a secret service admits death by agricultural 1ac (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "First hint a secret service admits death by agricultural 1ac (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "HACIENDA", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "HACIENDA"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Append return of \"The Cat in the Hat\", perhaps (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Append return of \"The Cat in the Hat\", perhaps (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 9
-            }, 
-            "solution": "ATTACH", 
-            "id": "26-across"
-        }, 
+                "x": 9,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "ATTACH"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Single parent's religious 1ac (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Single parent's religious 1ac (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "IMAM", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "IMAM"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "1ac-ed employers causing pain with rod (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "1ac-ed employers causing pain with rod (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "PADRONI", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PADRONI"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Remembered to cry in the grass (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Remembered to cry in the grass (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "RECALLED", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "RECALLED"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Metalwork master's awkward student strives with him (11)",
+            "direction": "down",
+            "length": 11,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Metalwork master's awkward student strives with him (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "SILVERSMITH", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SILVERSMITH"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "1ac-ed gathering of the clans, a wicked Ulster Rising (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "1ac-ed gathering of the clans, a wicked Ulster Rising (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "INDABA", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "INDABA"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Get rid of residue that's about to boil away (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Get rid of residue that's about to boil away (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "ABOLISH", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ABOLISH"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Duck keeps quiet: mother acquires top layer of skin (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Duck keeps quiet: mother acquires top layer of skin (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "EPIDERMAL", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EPIDERMAL"
+        },
         {
-            "direction": "down", 
+            "id": "12-down",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Writing up alternative to old fuel authority losing a culinary 1ac (11)",
+            "direction": "down",
+            "length": 11,
             "group": [
                 "12-down"
-            ], 
-            "number": 12, 
-            "clue": "Writing up alternative to old fuel authority losing a culinary 1ac (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 6
-            }, 
-            "solution": "SMORGASBORD", 
-            "id": "12-down"
-        }, 
+                "x": 6,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "SMORGASBORD"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Timer to stay up below s-summit (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Timer to stay up below s-summit (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "STOPWATCH", 
-            "id": "13-down"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "STOPWATCH"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Bowled, perhaps, in second match, being most brave (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Bowled, perhaps, in second match, being most brave (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 10
-            }, 
-            "solution": "STOUTEST", 
-            "id": "15-down"
-        }, 
+                "x": 10,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "STOUTEST"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Bare one concealed by Catholic sash (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Bare one concealed by Catholic sash (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 2
-            }, 
-            "solution": "BALDRIC", 
-            "id": "17-down"
-        }, 
+                "x": 2,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "BALDRIC"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "May, a girl with a catering 1ac (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "May, a girl with a catering 1ac (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 12
-            }, 
-            "solution": "CANTINA", 
-            "id": "19-down"
-        }, 
+                "x": 12,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "CANTINA"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Girl receiving gunners' martial 1ac (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Girl receiving gunners' martial 1ac (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 4
-            }, 
-            "solution": "KARATE", 
-            "id": "20-down"
-        }, 
+                "x": 4,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "KARATE"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Conversely, bedding a domestic 1ac (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Conversely, bedding a domestic 1ac (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 14
-            }, 
-            "solution": "AYAH", 
-            "id": "22-down"
+                "x": 14,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "AYAH"
         }
-    ], 
-    "date": 1086652800000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/23163", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1086649200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M41"
 }

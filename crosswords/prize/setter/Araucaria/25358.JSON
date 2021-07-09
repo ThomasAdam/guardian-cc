@@ -1,587 +1,589 @@
 {
-    "name": "Prize crossword No 25,358", 
+    "id": "crosswords/prize/25358",
+    "number": 25358,
+    "name": "Prize crossword No 25,358",
     "creator": {
-        "webUrl": "https://www.theguardian.com/profile/araucaria", 
-        "name": "Araucaria"
-    }, 
-    "dateSolutionAvailable": 1309561200000, 
-    "number": 25358, 
-    "crosswordType": "prize", 
+        "name": "Araucaria",
+        "webUrl": "https://www.theguardian.com/profile/araucaria"
+    },
+    "date": 1308960000000,
+    "webPublicationDate": 1308956400000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "\"Ocean\" corrected to \"sea\" here (3,6)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "\"Ocean\" corrected to \"sea\" here (3,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "ONEACROSS", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "ONEACROSS"
+        },
         {
-            "direction": "across", 
+            "id": "6-across",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "See 3",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "3-down", 
+                "3-down",
                 "6-across"
-            ], 
-            "number": 6, 
-            "clue": "See 3", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "CRAKE", 
-            "id": "6-across"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CRAKE"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Goldsmith's work for house inside worth being given advantage (8,7)",
+            "direction": "across",
+            "length": 15,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Goldsmith's work for house inside worth being given advantage (8,7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "DESERTEDVILLAGE", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "DESERTEDVILLAGE"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10, 15",
+            "clue": " Bird's eggs found on sideboard? (5,4)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "10-across", 
+                "10-across",
                 "15-across"
-            ], 
-            "number": 10, 
-            "clue": " Bird's eggs found on sideboard? (5,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "10, 15", 
-            "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "ROOK", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "ROOK"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Soon Old English will be attractive (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Soon Old English will be attractive (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 7
-            }, 
-            "solution": "ENGAGING", 
-            "id": "11-across"
-        }, 
+                "x": 7,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "ENGAGING"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Fragrant medley of Roman Catholicism, say? (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Fragrant medley of Roman Catholicism, say? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "POTPOURRI", 
-            "id": "14-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "POTPOURRI"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "See 10",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "10-across", 
+                "10-across",
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "See 10", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     1
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 6, 
-                "x": 10
-            }, 
-            "solution": "SPAWN", 
-            "id": "15-across"
-        }, 
+            },
+            "solution": "SPAWN"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "See 23",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "23-down", 
+                "23-down",
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "See 23", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "LIGHT", 
-            "id": "16-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "LIGHT"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Influence of the upper class, dead, to breed abundantly (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Influence of the upper class, dead, to breed abundantly (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 6
-            }, 
-            "solution": "PULLULATE", 
-            "id": "18-across"
-        }, 
+                "x": 6,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "PULLULATE"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Teaching worked out during most of play (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Teaching worked out during most of play (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "TUTORAGE", 
-            "id": "20-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "TUTORAGE"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21, 1 down",
+            "clue": " Regulation of height is a lot to ask (4,5)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "21-across", 
+                "21-across",
                 "1-down"
-            ], 
-            "number": 21, 
-            "clue": " Regulation of height is a lot to ask (4,5)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "21, 1 down", 
-            "position": {
-                "y": 10, 
-                "x": 11
-            }, 
-            "solution": "TALL", 
-            "id": "21-across"
-        }, 
+            },
+            "solution": "TALL"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "No hat? Odd \u2014 possible mistake about that to be melodramatic (5-3-7)",
+            "direction": "across",
+            "length": 15,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "No hat? Odd \u2014 possible mistake about that to be melodramatic (5-3-7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 12
+            },
             "separatorLocations": {
                 "-": [
-                    5, 
+                    5,
                     8
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "BLOODANDTHUNDER", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "BLOODANDTHUNDER"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Bond boy, one caught by raptor (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Bond boy, one caught by raptor (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "ERNIE", 
-            "id": "26-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "ERNIE"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Cargo near wrecking through high-handedness (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Cargo near wrecking through high-handedness (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 6
-            }, 
-            "solution": "ARROGANCE", 
-            "id": "27-across"
-        }, 
+                "x": 6,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "ARROGANCE"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "See 21",
+            "direction": "down",
+            "length": 5,
             "group": [
-                "21-across", 
+                "21-across",
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "See 21", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 5, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "ORDER", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "ORDER"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Absorb outside capital (less a pound) and remove gently (4,3)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Absorb outside capital (less a pound) and remove gently (4,3)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "EASEOUT", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "EASEOUT"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3, 6 across",
+            "clue": " Rail company has service to take in food (9)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "3-down", 
+                "3-down",
                 "6-across"
-            ], 
-            "number": 3, 
-            "clue": " Rail company has service to take in food (9)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "3, 6 across", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "CORN", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CORN"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "See 24",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "24-down", 
+                "24-down",
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "See 24", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "OVER", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "OVER"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Multifaceted area \u2014 see the last one encased in shutters (5,5)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Multifaceted area \u2014 see the last one encased in shutters (5,5)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "SEVENDIALS", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "SEVENDIALS"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Take charge of breeding ground where there's a tie? (6,4)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Take charge of breeding ground where there's a tie? (6,4)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "COLLARSTUD", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "COLLARSTUD"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Fungus from an island part of Italy (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Fungus from an island part of Italy (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "AMANITA", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "AMANITA"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Coming out of Greece with men at sea (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Coming out of Greece with men at sea (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "EMERGENCE", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EMERGENCE"
+        },
         {
-            "direction": "down", 
+            "id": "12-down",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Former party leader game to cross the line (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "12-down"
-            ], 
-            "number": 12, 
-            "clue": "Former party leader game to cross the line (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 4
-            }, 
-            "solution": "FOOTBRIDGE", 
-            "id": "12-down"
-        }, 
+                "x": 4,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "FOOTBRIDGE"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Spin with the right look, you might say (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Spin with the right look, you might say (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 6
-            }, 
-            "solution": "PROPAGANDA", 
-            "id": "13-down"
-        }, 
+                "x": 6,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "PROPAGANDA"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Mate on a board that can be accepted (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Mate on a board that can be accepted (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "PALATABLE", 
-            "id": "14-down"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "PALATABLE"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Depress duck (3,4)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Depress duck (3,4)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 8, 
-                "x": 2
-            }, 
-            "solution": "GETDOWN", 
-            "id": "17-down"
-        }, 
+            },
+            "solution": "GETDOWN"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "A boy having a row with a lamp (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "A boy having a row with a lamp (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 12
-            }, 
-            "solution": "ALADDIN", 
-            "id": "19-down"
-        }, 
+                "x": 12,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ALADDIN"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Left some silver, which is generous (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Left some silver, which is generous (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 14
-            }, 
-            "solution": "LARGE", 
-            "id": "22-down"
-        }, 
+                "x": 14,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "LARGE"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23, 16",
+            "clue": " Sailor hid by little space traveller (9)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "23-down", 
+                "23-down",
                 "16-across"
-            ], 
-            "number": 23, 
-            "clue": " Sailor hid by little space traveller (9)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "23, 16", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 8
-            }, 
-            "solution": "STAR", 
-            "id": "23-down"
-        }, 
+                "x": 8,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "STAR"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24, 4",
+            "clue": " Barbarian to run all but the north country the morning after? (4,4)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "24-down", 
+                "24-down",
                 "4-down"
-            ], 
-            "number": 24, 
-            "clue": " Barbarian to run all but the north country the morning after? (4,4)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "24, 4", 
-            "position": {
-                "y": 11, 
-                "x": 10
-            }, 
-            "solution": "HUNG", 
-            "id": "24-down"
+            },
+            "solution": "HUNG"
         }
-    ], 
-    "date": 1308960000000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20110625.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/prize/25358", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1309561200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "prize",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20110625.pdf",
+    "_gridType": "M37"
 }

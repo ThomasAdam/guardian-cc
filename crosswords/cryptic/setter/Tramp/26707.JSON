@@ -1,574 +1,576 @@
 {
-    "name": "Cryptic crossword No 26,707", 
+    "id": "crosswords/cryptic/26707",
+    "number": 26707,
+    "name": "Cryptic crossword No 26,707",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/tramp", 
-        "name": "Tramp"
-    }, 
-    "dateSolutionAvailable": 1445295600000, 
-    "number": 26707, 
-    "crosswordType": "cryptic", 
+        "name": "Tramp",
+        "webUrl": "https://www.theguardian.com/profile/tramp"
+    },
+    "date": 1445299200000,
+    "webPublicationDate": 1445295600000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "See 14",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "14-across", 
+                "14-across",
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "See 14", 
-            "separatorLocations": {
-                "-": [], 
-                ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "MACHINE", 
-            "id": "1-across"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {
+                ",": [],
+                "-": []
+            },
+            "solution": "MACHINE"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Recasts terrible performer (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "Recasts terrible performer (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "ACTRESS", 
-            "id": "5-across"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ACTRESS"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "See 17",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "17-down", 
+                "17-down",
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "See 17", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 5, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "IMAGE", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "IMAGE"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10, 28",
+            "clue": " Grounds cost Brad and Angelina in settlement (9,7)",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "10-across", 
+                "10-across",
                 "28-across"
-            ], 
-            "number": 10, 
-            "clue": " Grounds cost Brad and Angelina in settlement (9,7)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     9
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "10, 28", 
-            "position": {
-                "y": 2, 
-                "x": 6
-            }, 
-            "solution": "BOTANICAL", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "BOTANICAL"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Driving record and chart? Go off speed (acceleration for miles) (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Driving record and chart? Go off speed (acceleration for miles) (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "TACHOGRAPH", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "TACHOGRAPH"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "French model Nicole stripped for casting? (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "French model Nicole stripped for casting? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 11
-            }, 
-            "solution": "CLIO", 
-            "id": "12-across"
-        }, 
+                "x": 11,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "CLIO"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14, 1",
+            "clue": " Almost finish Tramp clue \u2014 hope cryptic device keeps some going (4-7,7)",
+            "direction": "across",
+            "length": 11,
             "group": [
-                "14-across", 
+                "14-across",
                 "1-across"
-            ], 
-            "number": 14, 
-            "clue": " Almost finish Tramp clue \u2014 hope cryptic device keeps some going (4-7,7)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 6
+            },
             "separatorLocations": {
-                "-": [
-                    4
-                ], 
                 ",": [
                     11
+                ],
+                "-": [
+                    4
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "14, 1", 
-            "position": {
-                "y": 6, 
-                "x": 4
-            }, 
-            "solution": "LIFESUPPORT", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "LIFESUPPORT"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Feature of 14 publicity around hard people (11)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Feature of 14 publicity around hard people (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "HYPHENATION", 
-            "id": "18-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "HYPHENATION"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Using wife, husband after sex (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Using wife, husband after sex (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "WITH", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "WITH"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Going Large on for couple grabbing space in Burger King? (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Going Large on for couple grabbing space in Burger King? (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 5
-            }, 
-            "solution": "BURGEONING", 
-            "id": "22-across"
-        }, 
+                "x": 5,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "BURGEONING"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Headless supporter is English \u2014 that man will cause trouble (5,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Headless supporter is English \u2014 that man will cause trouble (5,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "RAISEHELL", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "RAISEHELL"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Boxer and sucker: time for fresh start (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Boxer and sucker: time for fresh start (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 10
-            }, 
-            "solution": "TYSON", 
-            "id": "26-across"
-        }, 
+                "x": 10,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "TYSON"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Track box not on vehicle (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Track box not on vehicle (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "DOGCART", 
-            "id": "27-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "DOGCART"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "See 10",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "10-across", 
+                "10-across",
                 "28-across"
-            ], 
-            "number": 28, 
-            "clue": "See 10", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "28", 
-            "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "GARDENS", 
-            "id": "28-across"
-        }, 
+            },
+            "solution": "GARDENS"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Half of champagne covering one year (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Half of champagne covering one year (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "MOIETY", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "MOIETY"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Change clubs for golf break (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Change clubs for golf break (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "CHANCE", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CHANCE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Sticks to these stories going after drug with text message? (3,7)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Sticks to these stories going after drug with text message? (3,7)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "ICELOLLIES", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "ICELOLLIES"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Queen holding award for one burnt in fire? (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Queen holding award for one burnt in fire? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "EMBER", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EMBER"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "One to pour out wine for starters (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "One to pour out wine for starters (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "ANTIPASTI", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ANTIPASTI"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Tie up and hit hard (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Tie up and hit hard (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "TONK", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TONK"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Model flips over label that's cut into curves (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Model flips over label that's cut into curves (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "ESCALLOP", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ESCALLOP"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "No seats \u2014 full tours \u2014 fan sadly missing such events? (4-4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "No seats \u2014 full tours \u2014 fan sadly missing such events? (4-4)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "SELLOUTS", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "SELLOUTS"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Who is one after \"upping\" vacuous policies to get elected? (4,6)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Who is one after \"upping\" vacuous policies to get elected? (4,6)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 10
-            }, 
-            "solution": "SPINDOCTOR", 
-            "id": "13-down"
-        }, 
+            },
+            "solution": "SPINDOCTOR"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Likely to let one go fast after puncture on bend (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Likely to let one go fast after puncture on bend (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 6
-            }, 
-            "solution": "FLATULENT", 
-            "id": "15-down"
-        }, 
+                "x": 6,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "FLATULENT"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Inundated and embarrassed following speech, primarily; he brought Thatcher down (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Inundated and embarrassed following speech, primarily; he brought Thatcher down (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "SHOWERED", 
-            "id": "16-down"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "SHOWERED"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17, 9",
+            "clue": " Ringer Enigmatist's tormented with pig (8,5)",
+            "direction": "down",
+            "length": 8,
             "group": [
-                "17-down", 
+                "17-down",
                 "9-across"
-            ], 
-            "number": 17, 
-            "clue": " Ringer Enigmatist's tormented with pig (8,5)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "17, 9", 
-            "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "SPITTING", 
-            "id": "17-down"
-        }, 
+            },
+            "solution": "SPITTING"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Model supply for fine paper (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Model supply for fine paper (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 12
-            }, 
-            "solution": "TISSUE", 
-            "id": "19-down"
-        }, 
+                "x": 12,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "TISSUE"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "American guys, they deal with business (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "American guys, they deal with business (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 14
-            }, 
-            "solution": "AGENTS", 
-            "id": "20-down"
-        }, 
+                "x": 14,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "AGENTS"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Weapon shortened by prisoner for prison (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Weapon shortened by prisoner for prison (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 8
-            }, 
-            "solution": "GULAG", 
-            "id": "23-down"
-        }, 
+                "x": 8,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "GULAG"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Greek character after fine food (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "Greek character after fine food (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 4
-            }, 
-            "solution": "FETA", 
-            "id": "24-down"
+                "x": 4,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "FETA"
         }
-    ], 
-    "date": 1445299200000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20151020.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/26707", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1445295600000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20151020.pdf",
+    "_gridType": "M20"
 }

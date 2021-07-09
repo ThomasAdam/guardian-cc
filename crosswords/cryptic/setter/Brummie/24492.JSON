@@ -1,637 +1,639 @@
 {
-    "name": "Cryptic crossword No 24,492", 
+    "id": "crosswords/cryptic/24492",
+    "number": 24492,
+    "name": "Cryptic crossword No 24,492",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/brummie", 
-        "name": "Brummie"
-    }, 
-    "dateSolutionAvailable": 1221174000000, 
-    "number": 24492, 
-    "crosswordType": "cryptic", 
+        "name": "Brummie",
+        "webUrl": "https://www.theguardian.com/profile/brummie"
+    },
+    "date": 1221177600000,
+    "webPublicationDate": 1221174000000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Bitter, drunk sour, binds one, I say (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Bitter, drunk sour, binds one, I say (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "RANCOROUS", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "RANCOROUS"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Bear - in cave? No, other way round (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Bear - in cave? No, other way round (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 10
-            }, 
-            "solution": "YIELD", 
-            "id": "10-across"
-        }, 
+                "x": 10,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "YIELD"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "See 22 down",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "22-down", 
+                "22-down",
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "See 22 down", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 5, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "PRIDE", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "PRIDE"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Song of praise in 13 down makes wicked, cold Frank (witch) dash (9,10)",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "12-across", 
+                "12-across",
                 "3-down"
-            ], 
-            "number": 12, 
-            "clue": "Song of praise in 13 down makes wicked, cold Frank (witch) dash (9,10)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     9
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 3, 
-                "x": 6
-            }, 
-            "solution": "WONDERFUL", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "WONDERFUL"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Stein's latest picture taken for the record (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Stein's latest picture taken for the record (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "MUGSHOT", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "MUGSHOT"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "See 26",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "26-across", 
+                "26-across",
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "See 26", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 5, 
-                "x": 8
-            }, 
-            "solution": "INPARIS", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "INPARIS"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "On the way out, not dead but very competitive (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "On the way out, not dead but very competitive (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "VYING", 
-            "id": "17-across"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "VYING"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Mother ending in ruin (gin?) - \"One way to catch a bloke\" (7)",
+            "direction": "across",
+            "length": 3,
             "group": [
-                "19-across", 
+                "19-across",
                 "1-down"
-            ], 
-            "number": 19, 
-            "clue": "Mother ending in ruin (gin?) - \"One way to catch a bloke\" (7)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 6
-            }, 
-            "solution": "MAN", 
-            "id": "19-across"
-        }, 
+                "x": 6,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "MAN"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Great energy-releasing round movement (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Great energy-releasing round movement (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 10
-            }, 
-            "solution": "LARGO", 
-            "id": "20-across"
-        }, 
+                "x": 10,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "LARGO"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "King Edward was exploitative, in the royal habit (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "King Edward was exploitative, in the royal habit (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "ERMINED", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ERMINED"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "In which volume may/may not be turned up? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "In which volume may/may not be turned up? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 8
-            }, 
-            "solution": "LIBRARY", 
-            "id": "22-across"
-        }, 
+                "x": 8,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "LIBRARY"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Labour would be after this on stage - it's \"New\"! (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Labour would be after this on stage - it's \"New\"! (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "GESTATION", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "GESTATION"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Avril's little pair in distress - aspirin dished out (5,2,5)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "26-across", 
+                "26-across",
                 "14-across"
-            ], 
-            "number": 26, 
-            "clue": "Avril's little pair in distress - aspirin dished out (5,2,5)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "26", 
-            "position": {
-                "y": 11, 
-                "x": 10
-            }, 
-            "solution": "APRIL", 
-            "id": "26-across"
-        }, 
+            },
+            "solution": "APRIL"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "Spirited account of grand entertainer on the level in US (5,5)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "28-across", 
+                "28-across",
                 "16-down"
-            ], 
-            "number": 28, 
-            "clue": "Spirited account of grand entertainer on the level in US (5,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "28", 
-            "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "GHOST", 
-            "id": "28-across"
-        }, 
+            },
+            "solution": "GHOST"
+        },
         {
-            "direction": "across", 
+            "id": "29-across",
+            "number": 29,
+            "humanNumber": "29",
+            "clue": "Do housework, mother - it has great potential power behind it in America (6,3)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "29-across"
-            ], 
-            "number": 29, 
-            "clue": "Do housework, mother - it has great potential power behind it in America (6,3)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "29", 
-            "position": {
-                "y": 13, 
-                "x": 6
-            }, 
-            "solution": "HOOVERDAM", 
-            "id": "29-across"
-        }, 
+            },
+            "solution": "HOOVERDAM"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "See 19 across",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "19-across", 
+                "19-across",
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "See 19 across", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "TRAP", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TRAP"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Louis XIV's lost his crown? Annul his coronation! (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Louis XIV's lost his crown? Annul his coronation! (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "UNKING", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "UNKING"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "See 12",
+            "direction": "down",
+            "length": 10,
             "group": [
-                "12-across", 
+                "12-across",
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "See 12", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 10, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "COPENHAGEN", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "COPENHAGEN"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Bird brains following idol (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Bird brains following idol (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "GODWIT", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "GODWIT"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "One star icon represented city (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "One star icon represented city (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "ASUNCION", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ASUNCION"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "See 24",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "24-down", 
+                "24-down",
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "See 24", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "BYTE", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BYTE"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Food covered in brown salt (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Food covered in brown salt (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "SEAFARER", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SEAFARER"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Figure one had nothing left (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Figure one had nothing left (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "IDOL", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "IDOL"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Picture of innocence's debut, wearing shift (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Picture of innocence's debut, wearing shift (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "MOVIE", 
-            "id": "13-down"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "MOVIE"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Not the only one to hold up a person who's late (4-6)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Not the only one to hold up a person who's late (4-6)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 5
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 5, 
-                "x": 10
-            }, 
-            "solution": "PALLBEARER", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "PALLBEARER"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "See 28",
+            "direction": "down",
+            "length": 5,
             "group": [
-                "28-across", 
+                "28-across",
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "See 28", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 5, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 5, 
-                "x": 14
-            }, 
-            "solution": "STORY", 
-            "id": "16-down"
-        }, 
+            },
+            "solution": "STORY"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "See 19",
+            "direction": "down",
+            "length": 8,
             "group": [
-                "19-down", 
+                "19-down",
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "See 19", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "INMOSCOW", 
-            "id": "18-down"
-        }, 
+            },
+            "solution": "INMOSCOW"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Jazzman's hit, \"Kind of Blue\", popular with Maureen, old Bob and Daisy? (8,2,6)",
+            "direction": "down",
+            "length": 8,
             "group": [
-                "19-down", 
+                "19-down",
                 "18-down"
-            ], 
-            "number": 19, 
-            "clue": "Jazzman's hit, \"Kind of Blue\", popular with Maureen, old Bob and Daisy? (8,2,6)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "19", 
-            "position": {
-                "y": 7, 
-                "x": 6
-            }, 
-            "solution": "MIDNIGHT", 
-            "id": "19-down"
-        }, 
+            },
+            "solution": "MIDNIGHT"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Regent's Park Zoo lions and rockery plant? (6,5)",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "22-down", 
+                "22-down",
                 "11-across"
-            ], 
-            "number": 22, 
-            "clue": "Regent's Park Zoo lions and rockery plant? (6,5)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 9, 
-                "x": 8
-            }, 
-            "solution": "LONDON", 
-            "id": "22-down"
-        }, 
+            },
+            "solution": "LONDON"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Wear one item of underwear by day with elastic top (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Wear one item of underwear by day with elastic top (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 12
-            }, 
-            "solution": "ABRADE", 
-            "id": "23-down"
-        }, 
+                "x": 12,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ABRADE"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Memory of concert followed by talk of something to eat (8)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "24-down", 
+                "24-down",
                 "6-down"
-            ], 
-            "number": 24, 
-            "clue": "Memory of concert followed by talk of something to eat (8)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "GIGA", 
-            "id": "24-down"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "GIGA"
+        },
         {
-            "direction": "down", 
+            "id": "25-down",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Sporty type, unmanned, becomes \"creative\" (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "25-down"
-            ], 
-            "number": 25, 
-            "clue": "Sporty type, unmanned, becomes \"creative\" (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 4
-            }, 
-            "solution": "ARTY", 
-            "id": "25-down"
-        }, 
+                "x": 4,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "ARTY"
+        },
         {
-            "direction": "down", 
+            "id": "27-down",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Colour of gunge after sulphur removed (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "27-down"
-            ], 
-            "number": 27, 
-            "clue": "Colour of gunge after sulphur removed (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 14
-            }, 
-            "solution": "LIME", 
-            "id": "27-down"
+                "x": 14,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "LIME"
         }
-    ], 
-    "date": 1221177600000, 
-    "instructions": "Click <a href=\"http://image.guardian.co.uk/sys-files/Guardian/documents/2008/09/09/xwMain1209_24492.indd.pdf \">here</a> for a printable version of this crossword.", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/24492", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1221174000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "instructions": "Click <a href=\"http://image.guardian.co.uk/sys-files/Guardian/documents/2008/09/09/xwMain1209_24492.indd.pdf \">here</a> for a printable version of this crossword.",
+    "_gridType": "M54a"
 }

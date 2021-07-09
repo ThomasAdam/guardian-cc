@@ -1,536 +1,538 @@
 {
-    "name": "Cryptic crossword No 24,410", 
+    "id": "crosswords/cryptic/24410",
+    "number": 24410,
+    "name": "Cryptic crossword No 24,410",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/rufus", 
-        "name": "Rufus"
-    }, 
-    "dateSolutionAvailable": 1212966000000, 
-    "number": 24410, 
-    "crosswordType": "cryptic", 
+        "name": "Rufus",
+        "webUrl": "https://www.theguardian.com/profile/rufus"
+    },
+    "date": 1212969600000,
+    "webPublicationDate": 1212966000000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Not a complete games player? (5-7)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Not a complete games player? (5-7)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     5
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "THREEQUARTER", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "THREEQUARTER"
+        },
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Commodity extensively used (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "Commodity extensively used (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "ELASTIC", 
-            "id": "8-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "ELASTIC"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Fully deploying an umbrella, for example? (5,2)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Fully deploying an umbrella, for example? (5,2)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 8
-            }, 
-            "solution": "USINGUP", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "USINGUP"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "What's enjoyed by a sick celebrity? (3,4)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "What's enjoyed by a sick celebrity? (3,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "ILLFAME", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "ILLFAME"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "A purest form of milk results from his work (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "A purest form of milk results from his work (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 8
-            }, 
-            "solution": "PASTEUR", 
-            "id": "12-across"
-        }, 
+                "x": 8,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "PASTEUR"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Crest of a game bird having part missing (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Crest of a game bird having part missing (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "RIDGE", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "RIDGE"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "In trouble, but the flag is still flying (2,3,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "In trouble, but the flag is still flying (2,3,4)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 6
-            }, 
-            "solution": "UPTHEPOLE", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "UPTHEPOLE"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Where one may serve oneself tea if care is exercised (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Where one may serve oneself tea if care is exercised (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "CAFETERIA", 
-            "id": "16-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "CAFETERIA"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "It is, in fact, a point of view (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "It is, in fact, a point of view (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 10
-            }, 
-            "solution": "FACET", 
-            "id": "19-across"
-        }, 
+                "x": 10,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "FACET"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Not a straightforward job for woodworkers (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Not a straightforward job for woodworkers (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "TURNING", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "TURNING"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Obscure point repeated about prunes (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Obscure point repeated about prunes (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 8
-            }, 
-            "solution": "ECLIPSE", 
-            "id": "23-across"
-        }, 
+                "x": 8,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "ECLIPSE"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Undeterred by sandbank in river (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Undeterred by sandbank in river (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "DESPITE", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "DESPITE"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Keeps warm and quiet (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Keeps warm and quiet (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 8
-            }, 
-            "solution": "MUFFLES", 
-            "id": "25-across"
-        }, 
+                "x": 8,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "MUFFLES"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Shakespeare play in its second week (7,5)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Shakespeare play in its second week (7,5)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "26", 
-            "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "TWELFTHNIGHT", 
-            "id": "26-across"
-        }, 
+            },
+            "solution": "TWELFTHNIGHT"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Dogged, but couldn't keep up with the others (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Dogged, but couldn't keep up with the others (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "TRAILED", 
-            "id": "1-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TRAILED"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Desert people engaged in fierce competition (3,4)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Desert people engaged in fierce competition (3,4)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "RATRACE", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "RATRACE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Former supermarket cashier reportedly in the accounts department (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Former supermarket cashier reportedly in the accounts department (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "EXCHEQUER", 
-            "id": "3-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EXCHEQUER"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Make pretence a reality? (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Make pretence a reality? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "USURP", 
-            "id": "4-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "USURP"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Reproduce and distribute university series (2-5)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Reproduce and distribute university series (2-5)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     2
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "REISSUE", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "REISSUE"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Attic studio suitable for this Spanish painter? (2,5)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Attic studio suitable for this Spanish painter? (2,5)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "ELGRECO", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "ELGRECO"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "I accept order mistakenly went to and fro (12)",
+            "direction": "down",
+            "length": 12,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "I accept order mistakenly went to and fro (12)", 
-            "separatorLocations": {}, 
-            "length": 12, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "RECIPROCATED", 
-            "id": "7-down"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "RECIPROCATED"
+        },
         {
-            "direction": "down", 
+            "id": "10-down",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Ideal drawn from the past, grammatically speaking (7,5)",
+            "direction": "down",
+            "length": 12,
             "group": [
                 "10-down"
-            ], 
-            "number": 10, 
-            "clue": "Ideal drawn from the past, grammatically speaking (7,5)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 2, 
-                "x": 14
-            }, 
-            "solution": "PERFECTTENSE", 
-            "id": "10-down"
-        }, 
+            },
+            "solution": "PERFECTTENSE"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Skilled worker and master in reconstruction (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Skilled worker and master in reconstruction (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 8
-            }, 
-            "solution": "TRADESMAN", 
-            "id": "15-down"
-        }, 
+                "x": 8,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "TRADESMAN"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Anticipated war breaking out with foes (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Anticipated war breaking out with foes (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 2
-            }, 
-            "solution": "FORESAW", 
-            "id": "17-down"
-        }, 
+                "x": 2,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "FORESAW"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Getting only four in a test is not worth talking about (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Getting only four in a test is not worth talking about (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 4
-            }, 
-            "solution": "TRIVIAL", 
-            "id": "18-down"
-        }, 
+                "x": 4,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "TRIVIAL"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Mature fruit getting conventional dressing (4,3)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Mature fruit getting conventional dressing (4,3)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "19", 
-            "position": {
-                "y": 8, 
-                "x": 10
-            }, 
-            "solution": "FULLFIG", 
-            "id": "19-down"
-        }, 
+            },
+            "solution": "FULLFIG"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Shakespeare play house (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Shakespeare play house (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 12
-            }, 
-            "solution": "CAPULET", 
-            "id": "20-down"
-        }, 
+                "x": 12,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "CAPULET"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Thought I heard a visitor (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Thought I heard a visitor (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 6
-            }, 
-            "solution": "GUEST", 
-            "id": "22-down"
+                "x": 6,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "GUEST"
         }
-    ], 
-    "date": 1212969600000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/24410", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1212966000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M13"
 }

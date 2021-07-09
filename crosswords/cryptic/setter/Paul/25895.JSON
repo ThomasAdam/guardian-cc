@@ -1,568 +1,570 @@
 {
-    "name": "Cryptic crossword No 25,895", 
+    "id": "crosswords/cryptic/25895",
+    "number": 25895,
+    "name": "Cryptic crossword No 25,895",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/paul", 
-        "name": "Paul"
-    }, 
-    "dateSolutionAvailable": 1363219200000, 
-    "number": 25895, 
-    "crosswordType": "cryptic", 
+        "name": "Paul",
+        "webUrl": "https://www.theguardian.com/profile/paul"
+    },
+    "date": 1363219200000,
+    "webPublicationDate": 1363219200000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "See 27",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "27-across", 
+                "27-across",
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "See 27", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "CAPOTE", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "CAPOTE"
+        },
         {
-            "direction": "across", 
+            "id": "4-across",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "See 23",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "23-down", 
+                "23-down",
                 "4-across"
-            ], 
-            "number": 4, 
-            "clue": "See 23", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "IMADAM", 
-            "id": "4-across"
-        }, 
+            },
+            "solution": "IMADAM"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "See 24",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "24-across", 
+                "24-across",
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "See 24", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "MOVE", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "MOVE"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Appear to drown two articles, one a water-dweller (3,7)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Appear to drown two articles, one a water-dweller (3,7)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 2, 
-                "x": 5
-            }, 
-            "solution": "SEAANEMONE", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "SEAANEMONE"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Rock guitarist's assistant always into R&B (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Rock guitarist's assistant always into R&B (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "REVERB", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "REVERB"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Zero rate surprisingly faster (3-5)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Zero rate surprisingly faster (3-5)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 4
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 4, 
-                "x": 7
-            }, 
-            "solution": "NONEATER", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "NONEATER"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Among the pride of lions, problem turning to catch gazelle's tail for some element (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Among the pride of lions, problem turning to catch gazelle's tail for some element (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "MANGANESE", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "MANGANESE"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Kilimanjaro, from which to see capital city (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Kilimanjaro, from which to see capital city (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 10
-            }, 
-            "solution": "LIMA", 
-            "id": "15-across"
-        }, 
+                "x": 10,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "LIMA"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Fifty pairs of animals here, for a bird (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Fifty pairs of animals here, for a bird (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "LARK", 
-            "id": "16-across"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "LARK"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Very quick kiss on holiday (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Very quick kiss on holiday (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 6
-            }, 
-            "solution": "BREAKNECK", 
-            "id": "17-across"
-        }, 
+                "x": 6,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "BREAKNECK"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Eat more than you during dance (6,2)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Eat more than you during dance (6,2)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "HOOVERUP", 
-            "id": "21-across"
-        }, 
+            },
+            "solution": "HOOVERUP"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Military leader has the first twelve hours of the week to bring riches (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Military leader has the first twelve hours of the week to bring riches (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 9
-            }, 
-            "solution": "MAMMON", 
-            "id": "22-across"
-        }, 
+                "x": 9,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "MAMMON"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24, 9",
+            "clue": " Upset over comrade with ego, 14 on the death of 27 1? (4,6,4)",
+            "direction": "across",
+            "length": 10,
             "group": [
-                "24-across", 
+                "24-across",
                 "9-across"
-            ], 
-            "number": 24, 
-            "clue": " Upset over comrade with ego, 14 on the death of 27 1? (4,6,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     10
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "24, 9", 
-            "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "GOODCAREER", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "GOODCAREER"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Responsibility has eluded you just lately, by all conclusions (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Responsibility has eluded you just lately, by all conclusions (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 11
-            }, 
-            "solution": "DUTY", 
-            "id": "25-across"
-        }, 
+                "x": 11,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "DUTY"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Book that made me laugh reaching middle of epitaph (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Book that made me laugh reaching middle of epitaph (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "LOLITA", 
-            "id": "26-across"
-        }, 
+                "x": 1,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "LOLITA"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27, 1",
+            "clue": " Writer attributing habit to president (6,6)",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "27-across", 
+                "27-across",
                 "1-across"
-            ], 
-            "number": 27, 
-            "clue": " Writer attributing habit to president (6,6)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "27, 1", 
-            "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "TRUMAN", 
-            "id": "27-across"
-        }, 
+            },
+            "solution": "TRUMAN"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "One successfully putting into Manx cat disease (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "One successfully putting into Manx cat disease (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "CHOLERA", 
-            "id": "1-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CHOLERA"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Bit that's evading the Middle East, it's reported (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Bit that's evading the Middle East, it's reported (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "PIECE", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PIECE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Treaty barring nuclear trials puts best explosive in the shade (4,3)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Treaty barring nuclear trials puts best explosive in the shade (4,3)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "TESTBAN", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "TESTBAN"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Women of two generations later (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Women of two generations later (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "MANANA", 
-            "id": "5-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "MANANA"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Stop people creating hell (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Stop people creating hell (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "DAMNATION", 
-            "id": "6-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DAMNATION"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Leader of Africa also gatecrashing Hindu festival (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Leader of Africa also gatecrashing Hindu festival (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "MANDELA", 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "MANDELA"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Doctor prints it in publication that's caustic (5,8)",
+            "direction": "down",
+            "length": 13,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Doctor prints it in publication that's caustic (5,8)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 1, 
-                "x": 7
-            }, 
-            "solution": "PAINTSTRIPPER", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "PAINTSTRIPPER"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Great wit, one coming down coming up in the end (4,5)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Great wit, one coming down coming up in the end (4,5)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 3
-            }, 
-            "solution": "GOREVIDAL", 
-            "id": "14-down"
-        }, 
+            },
+            "solution": "GOREVIDAL"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Bad wiping face having accessed bum \u2014 with this tissue? (3,4)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Bad wiping face having accessed bum \u2014 with this tissue? (3,4)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "LOOROLL", 
-            "id": "16-down"
-        }, 
+            },
+            "solution": "LOOROLL"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Married, desperately seeking lover (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Married, desperately seeking lover (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 9
-            }, 
-            "solution": "ADMIRER", 
-            "id": "18-down"
-        }, 
+                "x": 9,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ADMIRER"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Party admitting defeat producing little bit of food (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Party admitting defeat producing little bit of food (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 13
-            }, 
-            "solution": "CROUTON", 
-            "id": "19-down"
-        }, 
+                "x": 13,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "CROUTON"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Some turkey, last of supper gobbled by pig (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Some turkey, last of supper gobbled by pig (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 5
-            }, 
-            "solution": "BREAST", 
-            "id": "20-down"
-        }, 
+                "x": 5,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "BREAST"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23, 4",
+            "clue": " Introduction to \"Eve\" as a palindrome? (5,2,4)",
+            "direction": "down",
+            "length": 5,
             "group": [
-                "23-down", 
+                "23-down",
                 "4-across"
-            ], 
-            "number": 23, 
-            "clue": " Introduction to \"Eve\" as a palindrome? (5,2,4)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "23, 4", 
-            "position": {
-                "y": 10, 
-                "x": 11
-            }, 
-            "solution": "MADAM", 
-            "id": "23-down"
+            },
+            "solution": "MADAM"
         }
-    ], 
-    "date": 1363219200000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20130314.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25895", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1363219200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20130314.pdf",
+    "_gridType": "M28"
 }

@@ -1,548 +1,550 @@
 {
-    "name": "Prize crossword No 26,705", 
+    "id": "crosswords/prize/26705",
+    "number": 26705,
+    "name": "Prize crossword No 26,705",
     "creator": {
-        "webUrl": "https://www.theguardian.com/profile/paul", 
-        "name": "Paul"
-    }, 
-    "dateSolutionAvailable": 1445641200000, 
-    "number": 26705, 
-    "crosswordType": "prize", 
+        "name": "Paul",
+        "webUrl": "https://www.theguardian.com/profile/paul"
+    },
+    "date": 1445040000000,
+    "webPublicationDate": 1445036400000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "7-across",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "See 12",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "12-across", 
+                "12-across",
                 "7-across"
-            ], 
-            "number": 7, 
-            "clue": "See 12", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "CARAMEL", 
-            "id": "7-across"
-        }, 
+            },
+            "solution": "CARAMEL"
+        },
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Car shows vigour around street, reaching 50 (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "Car shows vigour around street, reaching 50 (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 8
-            }, 
-            "solution": "BRISTOL", 
-            "id": "8-across"
-        }, 
+                "x": 8,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "BRISTOL"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Car's board to break \u2014 a bit (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Car's board to break \u2014 a bit (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "DASH", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "DASH"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "One seeking to form a contract with special agent? Not I! (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "One seeking to form a contract with special agent? Not I! (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 5
-            }, 
-            "solution": "NEGOTIANT", 
-            "id": "10-across"
-        }, 
+                "x": 5,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "NEGOTIANT"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12, 7",
+            "clue": " Male spins off after putting race car in reverse \u2014 that's sweet (5,7)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "12-across", 
+                "12-across",
                 "7-across"
-            ], 
-            "number": 12, 
-            "clue": " Male spins off after putting race car in reverse \u2014 that's sweet (5,7)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "12, 7", 
-            "position": {
-                "y": 5, 
-                "x": 1
-            }, 
-            "solution": "CREME", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "CREME"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Trespass, while refining crude (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Trespass, while refining crude (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 7
-            }, 
-            "solution": "INFRINGE", 
-            "id": "13-across"
-        }, 
+                "x": 7,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "INFRINGE"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15, 6",
+            "clue": " Craft fancy robe in car (8)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "15-across", 
+                "15-across",
                 "6-down"
-            ], 
-            "number": 15, 
-            "clue": " Craft fancy robe in car (8)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "15, 6", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "FIRE", 
-            "id": "15-across"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "FIRE"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Car from Leeds (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Car from Leeds (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "EDSEL", 
-            "id": "16-across"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "EDSEL"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17, 17 down",
+            "clue": " Car operating perfectly starts to make a comeback, then place number one returned \u2014 here? (4,8)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "17-across", 
+                "17-across",
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": " Car operating perfectly starts to make a comeback, then place number one returned \u2014 here? (4,8)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "17, 17 down", 
-            "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "solution": "POLE", 
-            "id": "17-across"
-        }, 
+            },
+            "solution": "POLE"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Car knowledge assimilated by college official (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Car knowledge assimilated by college official (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "DELOREAN", 
-            "id": "18-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "DELOREAN"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Rover possibly, growling (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Rover possibly, growling (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "HUSKY", 
-            "id": "20-across"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "HUSKY"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Negative attitude in belief inspiring achievement (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Negative attitude in belief inspiring achievement (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 1
-            }, 
-            "solution": "DEFEATISM", 
-            "id": "21-across"
-        }, 
+                "x": 1,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "DEFEATISM"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Seemingly the same thing, core of victory and Triumph! (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Seemingly the same thing, core of victory and Triumph! (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 11
-            }, 
-            "solution": "TWIN", 
-            "id": "22-across"
-        }, 
+                "x": 11,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "TWIN"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Red small Mini? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Red small Mini? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "SCARLET", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "SCARLET"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Good character offered drug after drug (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Good character offered drug after drug (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 8
-            }, 
-            "solution": "HEROINE", 
-            "id": "25-across"
-        }, 
+                "x": 8,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "HEROINE"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Car upset Muhammad Ali's boxing? (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Car upset Muhammad Ali's boxing? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "LADA", 
-            "id": "1-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LADA"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Fabric in bread and water (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Fabric in bread and water (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "CASHMERE", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CASHMERE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Malevolent type average, that is (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Malevolent type average, that is (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "MEANIE", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "MEANIE"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Appreciative, having fat and gruel in a stew (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Appreciative, having fat and gruel in a stew (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "GRATEFUL", 
-            "id": "4-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "GRATEFUL"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "In Senna's car, indomitable former Formula One champion (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "In Senna's car, indomitable former Formula One champion (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "ASCARI", 
-            "id": "5-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ASCARI"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "See 15",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "15-across", 
+                "15-across",
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "See 15", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "BOAT", 
-            "id": "6-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BOAT"
+        },
         {
-            "direction": "down", 
+            "id": "11-down",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Slides, as sliding slides (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "11-down"
-            ], 
-            "number": 11, 
-            "clue": "Slides, as sliding slides (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 7
-            }, 
-            "solution": "GLISSANDI", 
-            "id": "11-down"
-        }, 
+                "x": 7,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "GLISSANDI"
+        },
         {
-            "direction": "down", 
+            "id": "12-down",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "British general, leader in Calcutta as it happens (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "12-down"
-            ], 
-            "number": 12, 
-            "clue": "British general, leader in Calcutta as it happens (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 1
-            }, 
-            "solution": "CLIVE", 
-            "id": "12-down"
-        }, 
+                "x": 1,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "CLIVE"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "17 down like a bird? (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "17 down like a bird? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 13
-            }, 
-            "solution": "GULLY", 
-            "id": "14-down"
-        }, 
+                "x": 13,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "GULLY"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Promoted jerks leave Heath (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Promoted jerks leave Heath (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "ELEVATED", 
-            "id": "16-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ELEVATED"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "See 17 across",
+            "direction": "down",
+            "length": 8,
             "group": [
-                "17-across", 
+                "17-across",
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "See 17 across", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 8, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "solution": "POSITION", 
-            "id": "17-down"
-        }, 
+            },
+            "solution": "POSITION"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "A Morris, neat car (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "A Morris, neat car (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 3
-            }, 
-            "solution": "OXFORD", 
-            "id": "19-down"
-        }, 
+                "x": 3,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "OXFORD"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Bee car (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Bee car (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "HUMMER", 
-            "id": "20-down"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "HUMMER"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Dodge for nothing (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Dodge for nothing (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 1
-            }, 
-            "solution": "DUCK", 
-            "id": "21-down"
-        }, 
+                "x": 1,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "DUCK"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Some Bugatti on Automobile Island (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Some Bugatti on Automobile Island (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 13
-            }, 
-            "solution": "IONA", 
-            "id": "23-down"
+                "x": 13,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "IONA"
         }
-    ], 
-    "date": 1445040000000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20151017.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/prize/26705", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1445641200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "prize",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20151017.pdf",
+    "_gridType": "M58"
 }

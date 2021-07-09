@@ -1,547 +1,549 @@
 {
-    "name": "Cryptic crossword No 22,774", 
+    "id": "crosswords/cryptic/22774",
+    "number": 22774,
+    "name": "Cryptic crossword No 22,774",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/rufus", 
-        "name": "Rufus"
-    }, 
-    "dateSolutionAvailable": 1047254400000, 
-    "number": 22774, 
-    "crosswordType": "cryptic", 
+        "name": "Rufus",
+        "webUrl": "https://www.theguardian.com/profile/rufus"
+    },
+    "date": 1047254400000,
+    "webPublicationDate": 1047254400000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Sign of distemper being difficult to apply to one's room (4,3)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Sign of distemper being difficult to apply to one's room (4,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "HARDPAD", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "HARDPAD"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Pushing out a helicopter, for example (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "Pushing out a helicopter, for example (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "GUNSHIP", 
-            "id": "5-across"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "GUNSHIP"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Port trade (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Port trade (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "DEAL", 
-            "id": "10-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "DEAL"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Plays records and is greatly affected (4,2,4)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Plays records and is greatly affected (4,2,4)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     6
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 2, 
-                "x": 5
-            }, 
-            "solution": "PUTSONAIRS", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "PUTSONAIRS"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Issue a word of thanks for some music (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Issue a word of thanks for some music (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "SONATA", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "SONATA"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Where barristers practise drinking (2,3,3)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Where barristers practise drinking (2,3,3)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 4, 
-                "x": 7
-            }, 
-            "solution": "ATTHEBAR", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "ATTHEBAR"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "A vow to make both alter (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "A vow to make both alter (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "BETROTHAL", 
-            "id": "14-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "BETROTHAL"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Failure to supply material (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Failure to supply material (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 10
-            }, 
-            "solution": "CRASH", 
-            "id": "16-across"
-        }, 
+                "x": 10,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "CRASH"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Cheat with cards and make a pile (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Cheat with cards and make a pile (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "STACK", 
-            "id": "17-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "STACK"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Water for a mother pig (5,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Water for a mother pig (5,4)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "19", 
-            "position": {
-                "y": 8, 
-                "x": 6
-            }, 
-            "solution": "ADAMSWINE", 
-            "id": "19-across"
-        }, 
+            },
+            "solution": "ADAMSWINE"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Send off message in haste (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Send off message in haste (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "DISPATCH", 
-            "id": "23-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "DISPATCH"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Bare form of Bunter? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Bare form of Bunter? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 9
-            }, 
-            "solution": "REMOVE", 
-            "id": "24-across"
-        }, 
+                "x": 9,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "REMOVE"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Boy upset at vandalised tourist attraction (6,4)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Boy upset at vandalised tourist attraction (6,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "26", 
-            "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "BEAUTYSPOT", 
-            "id": "26-across"
-        }, 
+            },
+            "solution": "BEAUTYSPOT"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Government measure (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Government measure (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 11
-            }, 
-            "solution": "RULE", 
-            "id": "27-across"
-        }, 
+                "x": 11,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "RULE"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "Possibly rely on clergyman for the festivities (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "28-across"
-            ], 
-            "number": 28, 
-            "clue": "Possibly rely on clergyman for the festivities (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "28", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "REVELRY", 
-            "id": "28-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "REVELRY"
+        },
         {
-            "direction": "across", 
+            "id": "29-across",
+            "number": 29,
+            "humanNumber": "29",
+            "clue": "Is dismissed, but doesn't go (5,2)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "29-across"
-            ], 
-            "number": 29, 
-            "clue": "Is dismissed, but doesn't go (5,2)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "29", 
-            "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "PLAYSON", 
-            "id": "29-across"
-        }, 
+            },
+            "solution": "PLAYSON"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Chemical one keeps in school (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Chemical one keeps in school (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "ACETONE", 
-            "id": "2-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ACETONE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Water at the mouth (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Water at the mouth (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "DELTA", 
-            "id": "3-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DELTA"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Pitch of the roof (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Pitch of the roof (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "ASPHALT", 
-            "id": "4-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ASPHALT"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Turnabouts in vessels (1-5)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Turnabouts in vessels (1-5)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     1
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "UBOATS", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "UBOATS"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "A guy in the field (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "A guy in the field (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "SCARECROW", 
-            "id": "7-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SCARECROW"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Hostile incursions into Greek island, say (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Hostile incursions into Greek island, say (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "INROADS", 
-            "id": "8-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "INROADS"
+        },
         {
-            "direction": "down", 
+            "id": "9-down",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Make bet, say, with counters on what may be on the menu (5,3,5)",
+            "direction": "down",
+            "length": 13,
             "group": [
                 "9-down"
-            ], 
-            "number": 9, 
-            "clue": "Make bet, say, with counters on what may be on the menu (5,3,5)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
-                    5, 
+                    5,
                     8
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 1, 
-                "x": 7
-            }, 
-            "solution": "STEAKANDCHIPS", 
-            "id": "9-down"
-        }, 
+            },
+            "solution": "STEAKANDCHIPS"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Recovery results in delight round the City (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Recovery results in delight round the City (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 3
-            }, 
-            "solution": "RECAPTURE", 
-            "id": "15-down"
-        }, 
+                "x": 3,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "RECAPTURE"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Its crew makes progress on three levels (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Its crew makes progress on three levels (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "TRIREME", 
-            "id": "18-down"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "TRIREME"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Master takes female, over 50, in marriage (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Master takes female, over 50, in marriage (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 9
-            }, 
-            "solution": "MARITAL", 
-            "id": "20-down"
-        }, 
+                "x": 9,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "MARITAL"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Book to see actor-composer (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Book to see actor-composer (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 13
-            }, 
-            "solution": "NOVELLO", 
-            "id": "21-down"
-        }, 
+                "x": 13,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "NOVELLO"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "He remains in the running for a long time (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "He remains in the running for a long time (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 5
-            }, 
-            "solution": "STAYER", 
-            "id": "22-down"
-        }, 
+                "x": 5,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "STAYER"
+        },
         {
-            "direction": "down", 
+            "id": "25-down",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Take a wife, forsooth (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "25-down"
-            ], 
-            "number": 25, 
-            "clue": "Take a wife, forsooth (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 11
-            }, 
-            "solution": "MARRY", 
-            "id": "25-down"
+                "x": 11,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "MARRY"
         }
-    ], 
-    "date": 1047254400000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/22774", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1047254400000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": null
 }

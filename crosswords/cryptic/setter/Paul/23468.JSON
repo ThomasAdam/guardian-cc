@@ -1,628 +1,630 @@
 {
-    "name": "Cryptic crossword No 23,468", 
+    "id": "crosswords/cryptic/23468",
+    "number": 23468,
+    "name": "Cryptic crossword No 23,468",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/paul", 
-        "name": "Paul"
-    }, 
-    "dateSolutionAvailable": 1117494000000, 
-    "number": 23468, 
-    "crosswordType": "cryptic", 
+        "name": "Paul",
+        "webUrl": "https://www.theguardian.com/profile/paul"
+    },
+    "date": 1117497600000,
+    "webPublicationDate": 1117494000000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "A painter burying dead, not a cheat (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "A painter burying dead, not a cheat (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "ADULTERER", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "ADULTERER"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "13 across to fail approaching finishing line (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "13 across to fail approaching finishing line (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 10
-            }, 
-            "solution": "CHOKE", 
-            "id": "10-across"
-        }, 
+                "x": 10,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "CHOKE"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Teletubby baby to appear suddenly (3,2)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Teletubby baby to appear suddenly (3,2)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "POPUP", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "POPUP"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "13 across to spoil meals (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "13 across to spoil meals (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 6
-            }, 
-            "solution": "DASHBOARD", 
-            "id": "12-across"
-        }, 
+                "x": 6,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "DASHBOARD"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "It's what driver is expected to get in vehicle! (3,4)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "It's what driver is expected to get in vehicle! (3,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "CARPART", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "CARPART"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "One doesn't believe near the wicket Derbyshire opener should shift (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "One doesn't believe near the wicket Derbyshire opener should shift (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 8
-            }, 
-            "solution": "INFIDEL", 
-            "id": "14-across"
-        }, 
+                "x": 8,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "INFIDEL"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "13 across to reportedly bankrupt the Telegraph (5,5)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "17-across", 
+                "17-across",
                 "13-down"
-            ], 
-            "number": 17, 
-            "clue": "13 across to reportedly bankrupt the Telegraph (5,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "BRAKE", 
-            "id": "17-across"
-        }, 
+            },
+            "solution": "BRAKE"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "13 across person affected claims dazzling (3)",
+            "direction": "across",
+            "length": 3,
             "group": [
-                "19-across", 
+                "19-across",
                 "1-down"
-            ], 
-            "number": 19, 
-            "clue": "13 across person affected claims dazzling (3)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 6
-            }, 
-            "solution": "FOG", 
-            "id": "19-across"
-        }, 
+                "x": 6,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "FOG"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Countryside sport legitimate without conclusion to chase (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Countryside sport legitimate without conclusion to chase (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 10
-            }, 
-            "solution": "RURAL", 
-            "id": "20-across"
-        }, 
+                "x": 10,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "RURAL"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Allow hospital department one let-off (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Allow hospital department one let-off (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "ENTITLE", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ENTITLE"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "13 across in crime (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "13 across in crime (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 8
-            }, 
-            "solution": "BATTERY", 
-            "id": "22-across"
-        }, 
+                "x": 8,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "BATTERY"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "13 across to start and stop? (5,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "13 across to start and stop? (5,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "SPARKPLUG", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "SPARKPLUG"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "See 8",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "8-down", 
+                "8-down",
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "See 8", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 10
-            }, 
-            "solution": "LIGHT", 
-            "id": "26-across"
-        }, 
+                "x": 10,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "LIGHT"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "13 across hard to shift past forty? (5,4)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "28-across", 
+                "28-across",
                 "27-down"
-            ], 
-            "number": 28, 
-            "clue": "13 across hard to shift past forty? (5,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "28", 
-            "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "SPARE", 
-            "id": "28-across"
-        }, 
+            },
+            "solution": "SPARE"
+        },
         {
-            "direction": "across", 
+            "id": "29-across",
+            "number": 29,
+            "humanNumber": "29",
+            "clue": "Australian tramp beginning to despair in grip of Rupert Murdoch? (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "29-across"
-            ], 
-            "number": 29, 
-            "clue": "Australian tramp beginning to despair in grip of Rupert Murdoch? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "29", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 6
-            }, 
-            "solution": "SUNDOWNER", 
-            "id": "29-across"
-        }, 
+                "x": 6,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "SUNDOWNER"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "See 19 across",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "19-across", 
+                "19-across",
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "See 19 across", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "LAMP", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LAMP"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "13 across huge (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "13 across huge (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "BUMPER", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BUMPER"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Relative position I abandoned, obvious non-starter (4-6)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Relative position I abandoned, obvious non-starter (4-6)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "STEPPARENT", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "STEPPARENT"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Heading for crisis with shade of debt? It's beyond belief! (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Heading for crisis with shade of debt? It's beyond belief! (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "CREDIT", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CREDIT"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Total going down (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Total going down (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "CRASHING", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CRASHING"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Automated payment method set up for unpopular worker (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Automated payment method set up for unpopular worker (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "SCAB", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SCAB"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Consider accommodating mother, smelly thing (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Consider accommodating mother, smelly thing (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "POMANDER", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "POMANDER"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "13 across lad adjusted, entering measurement (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "8-down", 
+                "8-down",
                 "26-across"
-            ], 
-            "number": 8, 
-            "clue": "13 across lad adjusted, entering measurement (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "HEAD", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "HEAD"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "See 17",
+            "direction": "down",
+            "length": 5,
             "group": [
-                "17-across", 
+                "17-across",
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "See 17", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 5, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "CABLE", 
-            "id": "13-down"
-        }, 
+            },
+            "solution": "CABLE"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Initially, rise in lifts moving into top of building going up - reaches here? (5,5)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Initially, rise in lifts moving into top of building going up - reaches here? (5,5)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 5, 
-                "x": 10
-            }, 
-            "solution": "FIRSTFLOOR", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "FIRSTFLOOR"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Cold brass? (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Cold brass? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 14
-            }, 
-            "solution": "LOLLY", 
-            "id": "16-down"
-        }, 
+                "x": 14,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "LOLLY"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Architectural moulding in stalag, art sawn up (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Architectural moulding in stalag, art sawn up (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "ASTRAGAL", 
-            "id": "18-down"
-        }, 
+                "x": 2,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ASTRAGAL"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "No marks on neck, no worries? (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "No marks on neck, no worries? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 6
-            }, 
-            "solution": "FRETLESS", 
-            "id": "19-down"
-        }, 
+                "x": 6,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "FRETLESS"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "13 across providing details in offer (3,3)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "13 across providing details in offer (3,3)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 9, 
-                "x": 8
-            }, 
-            "solution": "BIGEND", 
-            "id": "22-down"
-        }, 
+            },
+            "solution": "BIGEND"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "13 across with E number good to be eaten (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "13 across with E number good to be eaten (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 12
-            }, 
-            "solution": "ENGINE", 
-            "id": "23-down"
-        }, 
+                "x": 12,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ENGINE"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Average, huge doubled up (2-2)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "Average, huge doubled up (2-2)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 11
+            },
             "separatorLocations": {
                 "-": [
                     2
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "SOSO", 
-            "id": "24-down"
-        }, 
+            },
+            "solution": "SOSO"
+        },
         {
-            "direction": "down", 
+            "id": "25-down",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Recognised modern sounds (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "25-down"
-            ], 
-            "number": 25, 
-            "clue": "Recognised modern sounds (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 4
-            }, 
-            "solution": "KNEW", 
-            "id": "25-down"
-        }, 
+                "x": 4,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "KNEW"
+        },
         {
-            "direction": "down", 
+            "id": "27-down",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "See 28",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "28-across", 
+                "28-across",
                 "27-down"
-            ], 
-            "number": 27, 
-            "clue": "See 28", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "27", 
-            "position": {
-                "y": 11, 
-                "x": 14
-            }, 
-            "solution": "TYRE", 
-            "id": "27-down"
+            },
+            "solution": "TYRE"
         }
-    ], 
-    "date": 1117497600000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/23468", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1117494000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M54a"
 }

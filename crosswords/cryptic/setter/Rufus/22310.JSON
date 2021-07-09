@@ -1,493 +1,495 @@
 {
-    "name": "Cryptic crossword No 22,310", 
+    "id": "crosswords/cryptic/22310",
+    "number": 22310,
+    "name": "Cryptic crossword No 22,310",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/rufus", 
-        "name": "Rufus"
-    }, 
-    "dateSolutionAvailable": 1000076400000, 
-    "number": 22310, 
-    "crosswordType": "cryptic", 
+        "name": "Rufus",
+        "webUrl": "https://www.theguardian.com/profile/rufus"
+    },
+    "date": 1000080000000,
+    "webPublicationDate": 1000076400000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "7-across",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Pretend to understand (4,3)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "7-across"
-            ], 
-            "number": 7, 
-            "clue": "Pretend to understand (4,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "MAKEOUT", 
-            "id": "7-across"
-        }, 
+            },
+            "solution": "MAKEOUT"
+        },
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Tend not to be on the level (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "Tend not to be on the level (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 8
-            }, 
-            "solution": "INCLINE", 
-            "id": "8-across"
-        }, 
+                "x": 8,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "INCLINE"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Girl carries on in Juliet's place (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Girl carries on in Juliet's place (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "VERONA", 
-            "id": "10-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "VERONA"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Introduce girl to mysterious rite with incense (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Introduce girl to mysterious rite with incense (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 7
-            }, 
-            "solution": "IRRITATE", 
-            "id": "11-across"
-        }, 
+                "x": 7,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "IRRITATE"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Specialist store sounds capital (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Specialist store sounds capital (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "DELI", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "DELI"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "He hasn't made the First XI (7,3)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "He hasn't made the First XI (7,3)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 5
-            }, 
-            "solution": "TWELFTHMAN", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "TWELFTHMAN"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Unwelcome extra duty (3,8)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Unwelcome extra duty (3,8)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "TAXINCREASE", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "TAXINCREASE"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Aristocratic Sixth Form? (5-5)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Aristocratic Sixth Form? (5-5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 9
+            },
             "separatorLocations": {
                 "-": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "19", 
-            "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "UPPERCLASS", 
-            "id": "19-across"
-        }, 
+            },
+            "solution": "UPPERCLASS"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "River that's Polish - or German (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "River that's Polish - or German (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 11
-            }, 
-            "solution": "ODER", 
-            "id": "22-across"
-        }, 
+                "x": 11,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ODER"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Giver of artificial respiration (4,4)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Giver of artificial respiration (4,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "23", 
-            "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "IRONLUNG", 
-            "id": "23-across"
-        }, 
+            },
+            "solution": "IRONLUNG"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Somewhat sooner (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Somewhat sooner (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 9
-            }, 
-            "solution": "RATHER", 
-            "id": "24-across"
-        }, 
+                "x": 9,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "RATHER"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "The side knocked out was robbed (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "The side knocked out was robbed (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "HEISTED", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "HEISTED"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Lawyers' profit is cheap at the price (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Lawyers' profit is cheap at the price (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 8
-            }, 
-            "solution": "BARGAIN", 
-            "id": "26-across"
-        }, 
+                "x": 8,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "BARGAIN"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Club retainers who used to drag their wives along (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Club retainers who used to drag their wives along (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "CAVEMEN", 
-            "id": "1-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CAVEMEN"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Girl executed in the bullring (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Girl executed in the bullring (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "VERONICA", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "VERONICA"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Expert in French (2,4)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Expert in French (2,4)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "AUFAIT", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "AUFAIT"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "A charge made upon income? (5,3)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "A charge made upon income? (5,3)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "ENTRYFEE", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "ENTRYFEE"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Seize an egg collection (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Seize an egg collection (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "CLUTCH", 
-            "id": "5-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CLUTCH"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Beginning a letter (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Beginning a letter (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "INITIAL", 
-            "id": "6-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "INITIAL"
+        },
         {
-            "direction": "down", 
+            "id": "9-down",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "The cost to be met in bayonet attack? (5,6)",
+            "direction": "down",
+            "length": 11,
             "group": [
                 "9-down"
-            ], 
-            "number": 9, 
-            "clue": "The cost to be met in bayonet attack? (5,6)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 7
-            }, 
-            "solution": "FIXEDCHARGE", 
-            "id": "9-down"
-        }, 
+            },
+            "solution": "FIXEDCHARGE"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Takes in Uncle Sid when ousted (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Takes in Uncle Sid when ousted (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "INCLUDES", 
-            "id": "15-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "INCLUDES"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Want footwear bearing right label (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Want footwear bearing right label (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "solution": "SHORTAGE", 
-            "id": "16-down"
-        }, 
+                "x": 11,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "SHORTAGE"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Boxed by fashionable drapers (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Boxed by fashionable drapers (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "SPARRED", 
-            "id": "17-down"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "SPARRED"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Somewhat green and barely in charge of a class (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Somewhat green and barely in charge of a class (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 13
-            }, 
-            "solution": "GENERIC", 
-            "id": "18-down"
-        }, 
+                "x": 13,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "GENERIC"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "He is unusually tense about mid-afternoon (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "He is unusually tense about mid-afternoon (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 3
-            }, 
-            "solution": "ERNEST", 
-            "id": "20-down"
-        }, 
+                "x": 3,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ERNEST"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Second best part in a hilarious performance (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Second best part in a hilarious performance (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "SCREAM", 
-            "id": "21-down"
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "SCREAM"
         }
-    ], 
-    "date": 1000080000000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/22310", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1000076400000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": null
 }

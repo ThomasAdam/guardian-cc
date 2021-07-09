@@ -1,553 +1,555 @@
 {
-    "name": "Cryptic crossword No 25,800", 
+    "id": "crosswords/cryptic/25800",
+    "number": 25800,
+    "name": "Cryptic crossword No 25,800",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/puck", 
-        "name": "Puck"
-    }, 
-    "dateSolutionAvailable": 1353542400000, 
-    "number": 25800, 
-    "crosswordType": "cryptic", 
+        "name": "Puck",
+        "webUrl": "https://www.theguardian.com/profile/puck"
+    },
+    "date": 1353542400000,
+    "webPublicationDate": 1353542400000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Supply dongle to look at duck (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Supply dongle to look at duck (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "GOLDENEYE", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "GOLDENEYE"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Boy on deserted island with a record in right hand (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Boy on deserted island with a record in right hand (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 10
-            }, 
-            "solution": "RALPH", 
-            "id": "10-across"
-        }, 
+                "x": 10,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "RALPH"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Fertiliser from scruffy old man filmed in 4 25 street (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Fertiliser from scruffy old man filmed in 4 25 street (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "COMPOST", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "COMPOST"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "See 20",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "20-down", 
+                "20-down",
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "See 20", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 3, 
-                "x": 8
-            }, 
-            "solution": "COUNTRY", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "COUNTRY"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Very much disadvantaged neonatally, keeps going 4 (2,3)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Very much disadvantaged neonatally, keeps going 4 (2,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "NOEND", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "NOEND"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Reportedly have no money invested in label producing baby food (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Reportedly have no money invested in label producing baby food (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 6
-            }, 
-            "solution": "LACTATING", 
-            "id": "14-across"
-        }, 
+                "x": 6,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "LACTATING"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "A rabble run right round small part of 4 25 (7,8)",
+            "direction": "across",
+            "length": 15,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "A rabble run right round small part of 4 25 (7,8)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "RHUBARBTRIANGLE", 
-            "id": "16-across"
-        }, 
+            },
+            "solution": "RHUBARBTRIANGLE"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Holding degree given by university, cuts pack? (3,6)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Holding degree given by university, cuts pack? (3,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "19", 
-            "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "CUBSCOUTS", 
-            "id": "19-across"
-        }, 
+            },
+            "solution": "CUBSCOUTS"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Element briefly found in two bits of 16 part 1 produced without love (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Element briefly found in two bits of 16 part 1 produced without love (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "BORON", 
-            "id": "21-across"
-        }, 
+                "x": 10,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "BORON"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Revolutionary rhyme mainly penned by fat cat (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Revolutionary rhyme mainly penned by fat cat (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "LEOPARD", 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "LEOPARD"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Type of 16 part 2 with a right angle in view? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Type of 16 part 2 with a right angle in view? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 8
-            }, 
-            "solution": "SCALENE", 
-            "id": "23-across"
-        }, 
+                "x": 8,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "SCALENE"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Dull and not 1, his subject (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Dull and not 1, his subject (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "MATHS", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "MATHS"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "See 4",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "4-down", 
+                "4-down",
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "See 4", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 9, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 13, 
-                "x": 6
-            }, 
-            "solution": "YORKSHIRE", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "YORKSHIRE"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Selfish Englishman beginning to rant about senior officer in charge (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Selfish Englishman beginning to rant about senior officer in charge (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "EGOCENTRIC", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EGOCENTRIC"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Way of serving food \u2014 for starters, always using lit torch (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Way of serving food \u2014 for starters, always using lit torch (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "FLAMBEAU", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "FLAMBEAU"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Barren part of the 4 12, deprived of name and identity (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Barren part of the 4 12, deprived of name and identity (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "DEVOID", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DEVOID"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4, 25",
+            "clue": " County of East Sussex \u2014 thereabouts yeomen primarily got into work by horse (4,9)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "4-down", 
+                "4-down",
                 "25-across"
-            ], 
-            "number": 4, 
-            "clue": " County of East Sussex \u2014 thereabouts yeomen primarily got into work by horse (4,9)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "4, 25", 
-            "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "WEST", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "WEST"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "US volunteers exercise a church body 13 (5,5)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "US volunteers exercise a church body 13 (5,5)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "PEACECORPS", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "PEACECORPS"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Fuss from supporter about where French hotel has fallen short (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Fuss from supporter about where French hotel has fallen short (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "BROUHAHA", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BROUHAHA"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Muscles used in playing lute, initially (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Muscles used in playing lute, initially (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "GLUTEI", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "GLUTEI"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Part of what's expressed while 14 across women dance (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Part of what's expressed while 14 across women dance (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "WHEY", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "WHEY"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Productive periods at end of term? Party times for some! (6,4)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Productive periods at end of term? Party times for some! (6,4)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 5, 
-                "x": 6
-            }, 
-            "solution": "LABOURDAYS", 
-            "id": "14-down"
-        }, 
+            },
+            "solution": "LABOURDAYS"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Bergen deployment with flyer not initially going commando (5,5)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Bergen deployment with flyer not initially going commando (5,5)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 5, 
-                "x": 14
-            }, 
-            "solution": "GREENBERET", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "GREENBERET"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Extraordinary charisma in outmoded form (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Extraordinary charisma in outmoded form (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "ARCHAISM", 
-            "id": "17-down"
-        }, 
+                "x": 4,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ARCHAISM"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Irish girl has to pull up a flower (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Irish girl has to pull up a flower (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 12
-            }, 
-            "solution": "GARDENIA", 
-            "id": "18-down"
-        }, 
+                "x": 12,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "GARDENIA"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20, 12",
+            "clue": " Boycott injured, with runner in place in 4 25 (6,7)",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "20-down", 
+                "20-down",
                 "12-across"
-            ], 
-            "number": 20, 
-            "clue": " Boycott injured, with runner in place in 4 25 (6,7)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "20, 12", 
-            "position": {
-                "y": 9, 
-                "x": 2
-            }, 
-            "solution": "BRONTE", 
-            "id": "20-down"
-        }, 
+            },
+            "solution": "BRONTE"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Stew last bit of 16 part 1 produce (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Stew last bit of 16 part 1 produce (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "BRAISE", 
-            "id": "21-down"
-        }, 
+                "x": 10,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "BRAISE"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "A 20 cut up fruit (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "A 20 cut up fruit (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "LIME", 
-            "id": "22-down"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "LIME"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Half of Ilkley looked for broadcast (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Half of Ilkley looked for broadcast (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 8
-            }, 
-            "solution": "SORT", 
-            "id": "23-down"
+                "x": 8,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "SORT"
         }
-    ], 
-    "date": 1353542400000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20121122.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25800", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1353542400000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20121122.pdf",
+    "_gridType": "M08"
 }

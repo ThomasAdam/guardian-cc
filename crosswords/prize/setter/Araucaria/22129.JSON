@@ -1,556 +1,558 @@
 {
-    "name": "Prize crossword No 22,129", 
+    "id": "crosswords/prize/22129",
+    "number": 22129,
+    "name": "Prize crossword No 22,129",
     "creator": {
-        "webUrl": "https://www.theguardian.com/profile/araucaria", 
-        "name": "Araucaria"
-    }, 
-    "dateSolutionAvailable": 982368000000, 
-    "number": 22129, 
-    "crosswordType": "prize", 
+        "name": "Araucaria",
+        "webUrl": "https://www.theguardian.com/profile/araucaria"
+    },
+    "date": 981763200000,
+    "webPublicationDate": 981763200000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Wet, tottering Noah, ere 'e dines with wife, got idea Chesterton expounded (1,4,4,5,3,5,4,2,2,6,3,4,3,4)",
+            "direction": "across",
+            "length": 14,
             "group": [
-                "1-across", 
+                "1-across",
                 "20-down"
-            ], 
-            "number": 1, 
-            "clue": "Wet, tottering Noah, ere 'e dines with wife, got idea Chesterton expounded (1,4,4,5,3,5,4,2,2,6,3,4,3,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    1, 
-                    5, 
-                    9, 
+                    1,
+                    5,
+                    9,
                     14
                 ]
-            }, 
-            "length": 14, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "IDONTCAREWHERE", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "IDONTCAREWHERE"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Comic poet has nothing to grind without study (5,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Comic poet has nothing to grind without study (5,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "OGDENNASH", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "OGDENNASH"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Turned out from Plymouth with glands (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Turned out from Plymouth with glands (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 10
-            }, 
-            "solution": "LYMPH", 
-            "id": "10-across"
-        }, 
+                "x": 10,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "LYMPH"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Crown's backing for island and the sun (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Crown's backing for island and the sun (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "TIARA", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "TIARA"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Small-time quarrel with centre forwards? (6,3)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Small-time quarrel with centre forwards? (6,3)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 4, 
-                "x": 6
-            }, 
-            "solution": "SECONDROW", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "SECONDROW"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "See 1",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "1-across", 
+                "1-across",
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "See 1", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "ITDOESNT", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "ITDOESNT"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Stress, in a manner of speaking (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Stress, in a manner of speaking (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 9
-            }, 
-            "solution": "ACCENT", 
-            "id": "14-across"
-        }, 
+                "x": 9,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "ACCENT"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Butt or object of wag? (1 down has one) (3,3)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Butt or object of wag? (1 down has one) (3,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "DOGEND", 
-            "id": "17-across"
-        }, 
+            },
+            "solution": "DOGEND"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Part of column makes one in part of book (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Part of column makes one in part of book (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "CHAPITER", 
-            "id": "19-across"
-        }, 
+                "x": 7,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "CHAPITER"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "I'm upset, natch, in view of the very long odds (3,6)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "I'm upset, natch, in view of the very long odds (3,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "FATCHANCE", 
-            "id": "22-across"
-        }, 
+            },
+            "solution": "FATCHANCE"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Try to deceive and don't sail away (3,2)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Try to deceive and don't sail away (3,2)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 10, 
-                "x": 10
-            }, 
-            "solution": "LIETO", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "LIETO"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Faded-looking small craft losing height (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Faded-looking small craft losing height (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "DINGY", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "DINGY"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Wives and mothers all do badly on the other side (3,6)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Wives and mothers all do badly on the other side (3,6)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "26", 
-            "position": {
-                "y": 12, 
-                "x": 6
-            }, 
-            "solution": "OLDLADIES", 
-            "id": "26-across"
-        }, 
+            },
+            "solution": "OLDLADIES"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Setter without domestic help being suicidal... (5,3,6)",
+            "direction": "across",
+            "length": 14,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Setter without domestic help being suicidal... (5,3,6)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
-                    5, 
+                    5,
                     8
                 ]
-            }, 
-            "length": 14, 
-            "humanNumber": "27", 
-            "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "DOINGFORMYSELF", 
-            "id": "27-across"
-        }, 
+            },
+            "solution": "DOINGFORMYSELF"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "... accepts the situation and a drink (1,4,4,2,1,2)",
+            "direction": "down",
+            "length": 14,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "... accepts the situation and a drink (1,4,4,2,1,2)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    1, 
-                    5, 
-                    9, 
-                    11, 
+                    1,
+                    5,
+                    9,
+                    11,
                     12
                 ]
-            }, 
-            "length": 14, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "IDONTMINDIFIDO", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "IDONTMINDIFIDO"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "One single 26 has a game of cards (3,4)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "One single 26 has a game of cards (3,4)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "OLDMAID", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "OLDMAID"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Bond turned up article on Lincoln and tropical fruit (5,4)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Bond turned up article on Lincoln and tropical fruit (5,4)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "TONKABEAN", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "TONKABEAN"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Hoarding shows a church piece with one sharp (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Hoarding shows a church piece with one sharp (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "AMASSING", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "AMASSING"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Behavioural questions affected the first gas (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Behavioural questions affected the first gas (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "ETHICS", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ETHICS"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Bird embracing the French ship launcher (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Bird embracing the French ship launcher (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "HELEN", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "HELEN"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Deep regret about TV detective (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Deep regret about TV detective (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "REMORSE", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "REMORSE"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "See 1 across",
+            "direction": "down",
+            "length": 14,
             "group": [
-                "1-across", 
+                "1-across",
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "See 1 across", 
-            "separatorLocations": {}, 
-            "length": 14, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 14
-            }, 
-            "solution": "THEWATERGOESIF", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "THEWATERGOESIF"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "A column dividing extremes of country has its attraction (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "A column dividing extremes of country has its attraction (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 10
-            }, 
-            "solution": "CAPILLARY", 
-            "id": "15-down"
-        }, 
+                "x": 10,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "CAPILLARY"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Destroyer of documents - don''t say a word - increasingly embarrassed (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Destroyer of documents - don''t say a word - increasingly embarrassed (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "SHREDDER", 
-            "id": "16-down"
-        }, 
+                "x": 8,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "SHREDDER"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "See 1 across",
+            "direction": "down",
+            "length": 7,
             "group": [
-                "1-across", 
+                "1-across",
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "See 1 across", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 2
-            }, 
-            "solution": "GETINTO", 
-            "id": "18-down"
-        }, 
+                "x": 2,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "GETINTO"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "See 1 across",
+            "direction": "down",
+            "length": 7,
             "group": [
-                "1-across", 
+                "1-across",
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "See 1 across", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "20", 
-            "position": {
-                "y": 8, 
-                "x": 12
-            }, 
-            "solution": "THEWINE", 
-            "id": "20-down"
-        }, 
+            },
+            "solution": "THEWINE"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Remove the top  ...  of the car''s summer feature (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Remove the top  ...  of the car''s summer feature (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 6
-            }, 
-            "solution": "UNROOF", 
-            "id": "21-down"
-        }, 
+                "x": 6,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "UNROOF"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Composer followed by Sikh, say (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Composer followed by Sikh, say (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 4
-            }, 
-            "solution": "HAYDN", 
-            "id": "23-down"
+                "x": 4,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "HAYDN"
         }
-    ], 
-    "date": 981763200000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/prize/22129", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 982368000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "prize",
+    "_gridType": "M04"
 }

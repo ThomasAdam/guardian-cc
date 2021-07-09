@@ -1,529 +1,531 @@
 {
-    "name": "Prize crossword No 23,759", 
+    "id": "crosswords/prize/23759",
+    "number": 23759,
+    "name": "Prize crossword No 23,759",
     "creator": {
-        "webUrl": "https://www.theguardian.com/profile/bunthorne", 
-        "name": "Bunthorne"
-    }, 
-    "dateSolutionAvailable": 1147474800000, 
-    "number": 23759, 
-    "crosswordType": "prize", 
+        "name": "Bunthorne",
+        "webUrl": "https://www.theguardian.com/profile/bunthorne"
+    },
+    "date": 1146873600000,
+    "webPublicationDate": 1146870000000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "See 9",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "9-across", 
+                "9-across",
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "See 9", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 8, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "ATHLETIC", 
-            "id": "8-across"
-        }, 
+            },
+            "solution": "ATHLETIC"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Players here waiting the call, almost made it! (5,8)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "9-across", 
+                "9-across",
                 "8-across"
-            ], 
-            "number": 9, 
-            "clue": "Players here waiting the call, almost made it! (5,8)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 1, 
-                "x": 9
-            }, 
-            "solution": "WIGAN", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "WIGAN"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Noble utterance where 21's 24 across ends in 9 (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Noble utterance where 21's 24 across ends in 9 (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "PIER", 
-            "id": "10-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "PIER"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "How to take it easy at home: work fast and play evenly (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "How to take it easy at home: work fast and play evenly (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 5
-            }, 
-            "solution": "INDOLENTLY", 
-            "id": "11-across"
-        }, 
+                "x": 5,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "INDOLENTLY"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "8 players here had left beaten, word of contemplation needed outside (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "8 players here had left beaten, word of contemplation needed outside (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "OLDHAM", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "OLDHAM"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Indonesian holding with end of Kipling's 24 across (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Indonesian holding with end of Kipling's 24 across (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 7
-            }, 
-            "solution": "MANDALAY", 
-            "id": "14-across"
-        }, 
+                "x": 7,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "MANDALAY"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "One dodging the issue with the East German plutocracy (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "One dodging the issue with the East German plutocracy (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "OSTRICH", 
-            "id": "15-across"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "OSTRICH"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Conversely, what one does at the Portaloo, say, with some accuracy (2,3,2)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Conversely, what one does at the Portaloo, say, with some accuracy (2,3,2)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     5
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "PSANDQS", 
-            "id": "17-across"
-        }, 
+            },
+            "solution": "PSANDQS"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Jules et Jim's Jeanne catching canine with some choice scraps (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Jules et Jim's Jeanne catching canine with some choice scraps (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "MORCEAUX", 
-            "id": "20-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "MORCEAUX"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Guardian of the Guardian crossword was he? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Guardian of the Guardian crossword was he? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "CUSTOS", 
-            "id": "22-across"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "CUSTOS"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Precious muddle to sort out which twin? (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Precious muddle to sort out which twin? (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "TWEEDLEDUM", 
-            "id": "23-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "TWEEDLEDUM"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "\"The ___ to 9 10\" (21) (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "\"The ___ to 9 10\" (21) (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 11
-            }, 
-            "solution": "ROAD", 
-            "id": "24-across"
-        }, 
+                "x": 11,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "ROAD"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Pass out from colossal return of catch (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Pass out from colossal return of catch (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 1
-            }, 
-            "solution": "LASSO", 
-            "id": "25-across"
-        }, 
+                "x": 1,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "LASSO"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Bill one to syphon off some pollutant (4,4)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Bill one to syphon off some pollutant (4,4)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "26", 
-            "position": {
-                "y": 13, 
-                "x": 7
-            }, 
-            "solution": "ACIDRAIN", 
-            "id": "26-across"
-        }, 
+            },
+            "solution": "ACIDRAIN"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "End of short and curlies twisting bladders (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "End of short and curlies twisting bladders (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "UTRICLES", 
-            "id": "1-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "UTRICLES"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Slight bending of rules out East (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Slight bending of rules out East (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "SLUR", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SLUR"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Rat one slaughtered with some indecision in the forecourt (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Rat one slaughtered with some indecision in the forecourt (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "ATRIUM", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ATRIUM"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "A Kentish rebel, me? Where's your scholarship? (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "A Kentish rebel, me? Where's your scholarship? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "ACADEME", 
-            "id": "4-down"
-        }, 
+                "x": 7,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ACADEME"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "With a heather on board one might get fires (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "With a heather on board one might get fires (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "SWALINGS", 
-            "id": "5-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SWALINGS"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Counsellors getting letters from young Santa (5,5)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Counsellors getting letters from young Santa (5,5)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "AGONYAUNTS", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "AGONYAUNTS"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Old car's force leaving bundles of nerves (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Old car's force leaving bundles of nerves (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "ANGLIA", 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ANGLIA"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "\"O, woe indeed, Gloucester!\" (4,6)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "\"O, woe indeed, Gloucester!\" (4,6)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 3
-            }, 
-            "solution": "HARDCHEESE", 
-            "id": "13-down"
-        }, 
+            },
+            "solution": "HARDCHEESE"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "8 players here with sweeper not left standing (8) (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "8 players here with sweeper not left standing (8) (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "CHARLTON", 
-            "id": "16-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "CHARLTON"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "\"Where to now?\", said Spartacus. \"Another epic?\" (3,5)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "\"Where to now?\", said Spartacus. \"Another epic?\" (3,5)", 
+            ],
+            "position": {
+                "x": 13,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 7, 
-                "x": 13
-            }, 
-            "solution": "QUOVADIS", 
-            "id": "18-down"
-        }, 
+            },
+            "solution": "QUOVADIS"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Old time dancing's beginning inside English halls (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Old time dancing's beginning inside English halls (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "EXEDRAE", 
-            "id": "19-down"
-        }, 
+                "x": 7,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "EXEDRAE"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "River as alternative water supply (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "River as alternative water supply (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 1
-            }, 
-            "solution": "ORWELL", 
-            "id": "21-down"
-        }, 
+                "x": 1,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ORWELL"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Welsh fancy man, I see, losing cool (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Welsh fancy man, I see, losing cool (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "CYMRIC", 
-            "id": "22-down"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "CYMRIC"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Galley master's verbal instruction repeated on ferry (2-2)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "Galley master's verbal instruction repeated on ferry (2-2)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 11
+            },
             "separatorLocations": {
                 "-": [
                     2
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 11, 
-                "x": 11
-            }, 
-            "solution": "RORO", 
-            "id": "24-down"
+            },
+            "solution": "RORO"
         }
-    ], 
-    "date": 1146873600000, 
-    "instructions": "<a href=\"http://www.guardian.co.uk/crossword/page/0,,1773626,00.html\">Click here</a> for an annotated explanation of the solutions.", 
-    "solutionAvailable": true, 
-    "id": "crosswords/prize/23759", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1147474800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "prize",
+    "instructions": "<a href=\"http://www.guardian.co.uk/crossword/page/0,,1773626,00.html\">Click here</a> for an annotated explanation of the solutions.",
+    "_gridType": "M46"
 }

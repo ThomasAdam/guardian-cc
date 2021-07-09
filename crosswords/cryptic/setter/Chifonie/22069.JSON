@@ -1,554 +1,556 @@
 {
-    "name": "Cryptic crossword No 22,069", 
+    "id": "crosswords/cryptic/22069",
+    "number": 22069,
+    "name": "Cryptic crossword No 22,069",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/chifonie", 
-        "name": "Chifonie"
-    }, 
-    "dateSolutionAvailable": 975542400000, 
-    "number": 22069, 
-    "crosswordType": "cryptic", 
+        "name": "Chifonie",
+        "webUrl": "https://www.theguardian.com/profile/chifonie"
+    },
+    "date": 975542400000,
+    "webPublicationDate": 975542400000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Unfortunately, Iris faced having skin punctured (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Unfortunately, Iris faced having skin punctured (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "SCARIFIED", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "SCARIFIED"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Almost half 9 rash infects one heartless writer (5,5)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "10-across", 
+                "10-across",
                 "21-across"
-            ], 
-            "number": 10, 
-            "clue": "Almost half 9 rash infects one heartless writer (5,5)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 1, 
-                "x": 10
-            }, 
-            "solution": "OSCAR", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "OSCAR"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Leader of performers longed to see cast (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Leader of performers longed to see cast (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "PITCHED", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "PITCHED"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "10 21's alter ego, a six-footer, protecting tree (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "10 21's alter ego, a six-footer, protecting tree (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 8
-            }, 
-            "solution": "MELMOTH", 
-            "id": "12-across"
-        }, 
+                "x": 8,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "MELMOTH"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Get to know king and knight (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Get to know king and knight (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "LEARN", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "LEARN"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Matter-of-fact British leader with a twitch accepts ridicule (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Matter-of-fact British leader with a twitch accepts ridicule (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 6
-            }, 
-            "solution": "PRAGMATIC", 
-            "id": "14-across"
-        }, 
+                "x": 6,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "PRAGMATIC"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Will the mug taking poison lose life or has spa treatment revealed 10 21's supposed last words? (4,9,2,7,2,3,2,2,3,2,2)",
+            "direction": "across",
+            "length": 15,
             "group": [
-                "16-across", 
+                "16-across",
                 "23-across"
-            ], 
-            "number": 16, 
-            "clue": "Will the mug taking poison lose life or has spa treatment revealed 10 21's supposed last words? (4,9,2,7,2,3,2,2,3,2,2)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
-                    13, 
+                    4,
+                    13,
                     15
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "THISWALLPAPERIS", 
-            "id": "16-across"
-        }, 
+            },
+            "solution": "THISWALLPAPERIS"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "See 16 (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "16-across", 
+                "16-across",
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "See 16 (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "KILLINGME", 
-            "id": "19-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "KILLINGME"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "See 10 (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "10-across", 
+                "10-across",
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "See 10 (5)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 5, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "WILDE", 
-            "id": "21-across"
-        }, 
+            },
+            "solution": "WILDE"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "See 16 (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "16-across", 
+                "16-across",
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "See 16 (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "ONEOFUS", 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "ONEOFUS"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "See 16 (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "16-across", 
+                "16-across",
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "See 16 (7)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "23", 
-            "position": {
-                "y": 11, 
-                "x": 8
-            }, 
-            "solution": "HASTOGO", 
-            "id": "23-across"
-        }, 
+            },
+            "solution": "HASTOGO"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Murderer keeps right of way mark (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Murderer keeps right of way mark (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "CAIRN", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "CAIRN"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Elite bout unlikely in dungeon (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Elite bout unlikely in dungeon (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 6
-            }, 
-            "solution": "OUBLIETTE", 
-            "id": "25-across"
-        }, 
+                "x": 6,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "OUBLIETTE"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "OK, I spotlit muddle in Old German scheme (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "OK, I spotlit muddle in Old German scheme (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "OSTPOLITIK", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OSTPOLITIK"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "One supports old meat supplier for beef (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "One supports old meat supplier for beef (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "PASTRAMI", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PASTRAMI"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Companion introduced to the right kind of plant (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Companion introduced to the right kind of plant (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "LICHEN", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LICHEN"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Stopped working and fixed when touring Spain (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Stopped working and fixed when touring Spain (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "DIED", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DIED"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Water swallowed very quietly in the throat (5,5)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Water swallowed very quietly in the throat (5,5)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "ADAMSAPPLE", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "ADAMSAPPLE"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Trollop helping to capture unknown Frenchman (5-3)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Trollop helping to capture unknown Frenchman (5-3)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "DOLLYMOP", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "DOLLYMOP"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Portray a Tory publicist (3,3)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Portray a Tory publicist (3,3)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "ACTOUT", 
-            "id": "7-down"
-        }, 
+            },
+            "solution": "ACTOUT"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Major Russian port loses financial backer (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Major Russian port loses financial backer (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "ARCH", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ARCH"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Mechanical ram restricts hot billet of proposed element (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Mechanical ram restricts hot billet of proposed element (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 6
-            }, 
-            "solution": "PHLOGISTON", 
-            "id": "14-down"
-        }, 
+                "x": 6,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "PHLOGISTON"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Cooked sloes and cedar nuts (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Cooked sloes and cedar nuts (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 14
-            }, 
-            "solution": "CASSEROLED", 
-            "id": "15-down"
-        }, 
+                "x": 14,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "CASSEROLED"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Endlessly rap fellows in squadrons for producing odours (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Endlessly rap fellows in squadrons for producing odours (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "WHIFFING", 
-            "id": "17-down"
-        }, 
+                "x": 4,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "WHIFFING"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Abroad in posh car or public launches (4-4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Abroad in posh car or public launches (4-4)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 7
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 7, 
-                "x": 12
-            }, 
-            "solution": "ROLLOUTS", 
-            "id": "18-down"
-        }, 
+            },
+            "solution": "ROLLOUTS"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Tell a story to eminent scientist (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Tell a story to eminent scientist (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 2
-            }, 
-            "solution": "LIEBIG", 
-            "id": "20-down"
-        }, 
+                "x": 2,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "LIEBIG"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Aeronautical term to pick up about wood (4-2)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Aeronautical term to pick up about wood (4-2)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 9
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "WASHIN", 
-            "id": "21-down"
-        }, 
+            },
+            "solution": "WASHIN"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Sea creature on show in Windsor Castle (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Sea creature on show in Windsor Castle (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "ORCA", 
-            "id": "22-down"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "ORCA"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Goddess makes man survive (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Goddess makes man survive (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 8
-            }, 
-            "solution": "HEBE", 
-            "id": "23-down"
+                "x": 8,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "HEBE"
         }
-    ], 
-    "date": 975542400000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/22069", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 975542400000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M08"
 }

@@ -1,526 +1,528 @@
 {
-    "name": "Cryptic crossword No 26,736", 
+    "id": "crosswords/cryptic/26736",
+    "number": 26736,
+    "name": "Cryptic crossword No 26,736",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/rufus", 
-        "name": "Rufus"
-    }, 
-    "dateSolutionAvailable": 1448236800000, 
-    "number": 26736, 
-    "crosswordType": "cryptic", 
+        "name": "Rufus",
+        "webUrl": "https://www.theguardian.com/profile/rufus"
+    },
+    "date": 1448236800000,
+    "webPublicationDate": 1448236800000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "It comes in to resist on the other side (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "It comes in to resist on the other side (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "OPPOSITE", 
-            "id": "1-across"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OPPOSITE"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Rich and having the power to fire (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "Rich and having the power to fire (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "LOADED", 
-            "id": "5-across"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LOADED"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "American way to spoil fish (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "American way to spoil fish (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "TURNPIKE", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "TURNPIKE"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "American beauty queen is married (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "American beauty queen is married (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 9
-            }, 
-            "solution": "MISSUS", 
-            "id": "10-across"
-        }, 
+                "x": 9,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "MISSUS"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Stroke fawn (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Stroke fawn (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "CRAWL", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "CRAWL"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Splendour pursued by a grim French mistress (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Splendour pursued by a grim French mistress (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 6
-            }, 
-            "solution": "POMPADOUR", 
-            "id": "13-across"
-        }, 
+                "x": 6,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "POMPADOUR"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Do they establish links between correspondents? (5,7)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Do they establish links between correspondents? (5,7)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 3
-            }, 
-            "solution": "CHAINLETTERS", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "CHAINLETTERS"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "It's strictly true but unimaginative (6,2,4)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "It's strictly true but unimaginative (6,2,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
-                    6, 
+                    6,
                     8
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "MATTEROFFACT", 
-            "id": "18-across"
-        }, 
+            },
+            "solution": "MATTEROFFACT"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Artist to recount strange anecdotes? (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Artist to recount strange anecdotes? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "RACONTEUR", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "RACONTEUR"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Ovals? Possibly rounds (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Ovals? Possibly rounds (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 10
-            }, 
-            "solution": "SALVO", 
-            "id": "23-across"
-        }, 
+                "x": 10,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "SALVO"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Friend back with pet \u2014 a pampered one (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Friend back with pet \u2014 a pampered one (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "LAPDOG", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "LAPDOG"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "One drink that refreshes but another is a different matter (3,2,3)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "One drink that refreshes but another is a different matter (3,2,3)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 12, 
-                "x": 7
-            }, 
-            "solution": "CUPOFTEA", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "CUPOFTEA"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Music sets worker on edge (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Music sets worker on edge (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "ANTHEM", 
-            "id": "26-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "ANTHEM"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "This class is certain to be kept in idle fashion (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "This class is certain to be kept in idle fashion (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 7
-            }, 
-            "solution": "LEISURED", 
-            "id": "27-across"
-        }, 
+                "x": 7,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "LEISURED"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Working, get correct mark, attaining credit (2,4)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Working, get correct mark, attaining credit (2,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "ONTICK", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "ONTICK"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Dad locks up an outcast (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Dad locks up an outcast (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "PARIAH", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PARIAH"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Lush cr\u00eape put round burial place (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Lush cr\u00eape put round burial place (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "SEPULCHRE", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SEPULCHRE"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Catch fighting? (4,8)",
+            "direction": "down",
+            "length": 12,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Catch fighting? (4,8)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "TAKEPRISONER", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "TAKEPRISONER"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Board in which French and German concur (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Board in which French and German concur (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "OUIJA", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OUIJA"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Detect Diana's disguise (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Detect Diana's disguise (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "DISCOVER", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DISCOVER"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Stride about ship in trouble (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Stride about ship in trouble (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "DISTRESS", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DISTRESS"
+        },
         {
-            "direction": "down", 
+            "id": "11-down",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Lots of money but little luck (5,7)",
+            "direction": "down",
+            "length": 12,
             "group": [
                 "11-down"
-            ], 
-            "number": 11, 
-            "clue": "Lots of money but little luck (5,7)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 3, 
-                "x": 8
-            }, 
-            "solution": "SMALLFORTUNE", 
-            "id": "11-down"
-        }, 
+            },
+            "solution": "SMALLFORTUNE"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Robin's favourite stores providing food for pupils (4,5)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Robin's favourite stores providing food for pupils (4,5)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 6, 
-                "x": 10
-            }, 
-            "solution": "TUCKSHOPS", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "TUCKSHOPS"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "It's always used up when needed (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "It's always used up when needed (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "UMBRELLA", 
-            "id": "16-down"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "UMBRELLA"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Keep drugs in the kitchen? (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Keep drugs in the kitchen? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "STOCKPOT", 
-            "id": "17-down"
-        }, 
+                "x": 2,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "STOCKPOT"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "A top man in the building trade (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "A top man in the building trade (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 12
-            }, 
-            "solution": "SLATER", 
-            "id": "19-down"
-        }, 
+                "x": 12,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "SLATER"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "One that would be a drawback to the commanding officer? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "One that would be a drawback to the commanding officer? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 14
-            }, 
-            "solution": "COWARD", 
-            "id": "20-down"
-        }, 
+                "x": 14,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "COWARD"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Loop line quickly going north, then east (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Loop line quickly going north, then east (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 4
-            }, 
-            "solution": "NOOSE", 
-            "id": "22-down"
+                "x": 4,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "NOOSE"
         }
-    ], 
-    "date": 1448236800000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20151123.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/26736", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1448236800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20151123.pdf",
+    "_gridType": "M21"
 }

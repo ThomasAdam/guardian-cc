@@ -1,490 +1,492 @@
 {
-    "name": "Cryptic crossword No 25,283", 
+    "id": "crosswords/cryptic/25283",
+    "number": 25283,
+    "name": "Cryptic crossword No 25,283",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/enigmatist", 
-        "name": "Enigmatist"
-    }, 
-    "dateSolutionAvailable": 1301439600000, 
-    "number": 25283, 
-    "crosswordType": "cryptic", 
+        "name": "Enigmatist",
+        "webUrl": "https://www.theguardian.com/profile/enigmatist"
+    },
+    "date": 1301443200000,
+    "webPublicationDate": 1301439600000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "One half of 9 (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "One half of 9 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 1
-            }, 
-            "solution": "SINGLE", 
-            "id": "5-across"
-        }, 
+                "x": 1,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "SINGLE"
+        },
         {
-            "direction": "across", 
+            "id": "6-across",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Reading, say, in 5 across 7, a long runner? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "6-across"
-            ], 
-            "number": 6, 
-            "clue": "Reading, say, in 5 across 7, a long runner? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 8
-            }, 
-            "solution": "SEVERN", 
-            "id": "6-across"
-        }, 
+                "x": 8,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "SEVERN"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "TT Race practice (3,3)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "TT Race practice (3,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "DRYRUN", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "DRYRUN"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Manny R's friend gets stuck into some opposition (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Manny R's friend gets stuck into some opposition (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 7
-            }, 
-            "solution": "ANTONYMY", 
-            "id": "10-across"
-        }, 
+                "x": 7,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "ANTONYMY"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Pass some bananas (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Pass some bananas (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "HAND", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "HAND"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Franglais patients contact policemen about bird (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Franglais patients contact policemen about bird (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 5
-            }, 
-            "solution": "DICKCISSEL", 
-            "id": "12-across"
-        }, 
+                "x": 5,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "DICKCISSEL"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "21 11 is badly 8 (4,7)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "21 11 is badly 8 (4,7)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "ERICCLAPTON", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "ERICCLAPTON"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "He keeps complaining about energy-filled Mr Active's death (4,6)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "He keeps complaining about energy-filled Mr Active's death (4,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "GRIMREAPER", 
-            "id": "18-across"
-        }, 
+            },
+            "solution": "GRIMREAPER"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Delay delivery of gin? (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Delay delivery of gin? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 11
-            }, 
-            "solution": "SLOW", 
-            "id": "21-across"
-        }, 
+                "x": 11,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "SLOW"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Evening do, one at which reporters meet Brynner and McKenna together, say (5-3)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Evening do, one at which reporters meet Brynner and McKenna together, say (5-3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 11
+            },
             "separatorLocations": {
                 "-": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "APRESSKI", 
-            "id": "22-across"
-        }, 
+            },
+            "solution": "APRESSKI"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Barney Rubble, perhaps, close at 11 (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Barney Rubble, perhaps, close at 11 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 9
-            }, 
-            "solution": "NEARBY", 
-            "id": "23-across"
-        }, 
+                "x": 9,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "NEARBY"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Legs that with 17 7 could make 13, the same as  \u2026 (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Legs that with 17 7 could make 13, the same as  \u2026 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 1
-            }, 
-            "solution": "ELEVEN", 
-            "id": "24-across"
-        }, 
+                "x": 1,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "ELEVEN"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "\u2026  apostles with 5 across 7 (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "\u2026  apostles with 5 across 7 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 8
-            }, 
-            "solution": "TWELVE", 
-            "id": "25-across"
-        }, 
+                "x": 8,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "TWELVE"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Bit of \u2019elp given to comparatively unskilled burglar? (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Bit of \u2019elp given to comparatively unskilled burglar? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "INTRUDER", 
-            "id": "1-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "INTRUDER"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "5 across recording goes around with a 17 (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "5 across recording goes around with a 17 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "CLONED", 
-            "id": "2-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CLONED"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "<span>Fancy date with hot-headed guy? It may </span><i>look</i><span> harmless\n\n</span> (5,3)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "<span>Fancy date with hot-headed guy? It may </span><i>look</i><span> harmless\n\n</span> (5,3)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "DEATHCAP", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "DEATHCAP"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "17 7 is an exhibition of 5 acrosses or 17s but not 16s (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "17 7 is an exhibition of 5 acrosses or 17s but not 16s (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "TENNIS", 
-            "id": "4-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TENNIS"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5, 7",
+            "clue": " ID for one \"Holby City\" anaesthetic? (6,6)",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "5-down", 
+                "5-down",
                 "7-down"
-            ], 
-            "number": 5, 
-            "clue": " ID for one \"Holby City\" anaesthetic? (6,6)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "5, 7", 
-            "position": {
-                "y": 1, 
-                "x": 1
-            }, 
-            "solution": "SERIAL", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "SERIAL"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "See 5",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "5-down", 
+                "5-down",
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "See 5", 
+            ],
+            "position": {
+                "x": 13,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 1, 
-                "x": 13
-            }, 
-            "solution": "NUMBER", 
-            "id": "7-down"
-        }, 
+            },
+            "solution": "NUMBER"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Prone to go out for some time, North Pole gets hammered in appropriately? (11)",
+            "direction": "down",
+            "length": 11,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Prone to go out for some time, North Pole gets hammered in appropriately? (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 7
-            }, 
-            "solution": "NARCOLEPTIC", 
-            "id": "8-down"
-        }, 
+                "x": 7,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "NARCOLEPTIC"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "7 of these pieces make 17 16 (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "7 of these pieces make 17 16 (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "CHESSMEN", 
-            "id": "14-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "CHESSMEN"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "New edition of book locates reason for lack of progress (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "New edition of book locates reason for lack of progress (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "solution": "OBSTACLE", 
-            "id": "15-down"
-        }, 
+                "x": 11,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "OBSTACLE"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Bet made by 5 across and 17 down? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Bet made by 5 across and 17 down? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "TRIPLE", 
-            "id": "16-down"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "TRIPLE"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Repeated consumption of 5 across (or 16!) might make you see it (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Repeated consumption of 5 across (or 16!) might make you see it (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 13
-            }, 
-            "solution": "DOUBLE", 
-            "id": "17-down"
-        }, 
+                "x": 13,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "DOUBLE"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Better qualified as someone to provide a welcome (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Better qualified as someone to provide a welcome (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 3
-            }, 
-            "solution": "MEETER", 
-            "id": "19-down"
-        }, 
+                "x": 3,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "MEETER"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Fame thus far executed by name (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Fame thus far executed by name (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "RENOWN", 
-            "id": "20-down"
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "RENOWN"
         }
-    ], 
-    "date": 1301443200000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20110330.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25283", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1301439600000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20110330.pdf",
+    "_gridType": "M31"
 }

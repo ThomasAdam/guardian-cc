@@ -1,532 +1,534 @@
 {
-    "name": "Cryptic crossword No 23,561", 
+    "id": "crosswords/cryptic/23561",
+    "number": 23561,
+    "name": "Cryptic crossword No 23,561",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/araucaria", 
-        "name": "Araucaria"
-    }, 
-    "dateSolutionAvailable": 1126825200000, 
-    "number": 23561, 
-    "crosswordType": "cryptic", 
+        "name": "Araucaria",
+        "webUrl": "https://www.theguardian.com/profile/araucaria"
+    },
+    "date": 1126828800000,
+    "webPublicationDate": 1126825200000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Hill's proclamation: the 13 was 9 15 (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Hill's proclamation: the 13 was 9 15 (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "BENEDICT", 
-            "id": "1-across"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BENEDICT"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "See 22",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "22-down", 
+                "22-down",
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "See 22", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "CHURCH", 
-            "id": "5-across"
-        }, 
+            },
+            "solution": "CHURCH"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Bird and beast (the last in German) recently upgraded (8,9)",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "9-across", 
+                "9-across",
                 "15-down"
-            ], 
-            "number": 9, 
-            "clue": "Bird and beast (the last in German) recently upgraded (8,9)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "CARDINAL", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "CARDINAL"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Boy or girl keeping fool dependant (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Boy or girl keeping fool dependant (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 9
-            }, 
-            "solution": "VASSAL", 
-            "id": "10-across"
-        }, 
+                "x": 9,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "VASSAL"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "The people of Italy? (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "The people of Italy? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "LAITY", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "LAITY"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "6 1/4% is the next problem (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "6 1/4% is the next problem (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 6
-            }, 
-            "solution": "SIXTEENTH", 
-            "id": "13-across"
-        }, 
+                "x": 6,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "SIXTEENTH"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Mechanical facilitators for one's sense of place at a dance (4,8)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Mechanical facilitators for one's sense of place at a dance (4,8)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 3
-            }, 
-            "solution": "BALLBEARINGS", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "BALLBEARINGS"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Redirection of debts - \u00bf25, about: it's in Araucaria's very nature (12)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Redirection of debts - \u00bf25, about: it's in Araucaria's very nature (12)", 
-            "separatorLocations": {}, 
-            "length": 12, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "PSEUDONYMITY", 
-            "id": "18-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "PSEUDONYMITY"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Scots success with 'igher temperature to get result? (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Scots success with 'igher temperature to get result? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "OTTERBURN", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "OTTERBURN"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Picture that is used as cover for periodical  ... (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Picture that is used as cover for periodical  ... (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 10
-            }, 
-            "solution": "IMAGE", 
-            "id": "23-across"
-        }, 
+                "x": 10,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "IMAGE"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "...  which name disclosed a machine used in war (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "...  which name disclosed a machine used in war (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "ENIGMA", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "ENIGMA"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Beast with a 10 inclined to suffer from immobility (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Beast with a 10 inclined to suffer from immobility (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 7
-            }, 
-            "solution": "STAGNATE", 
-            "id": "25-across"
-        }, 
+                "x": 7,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "STAGNATE"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Servant's quarter has very little about it (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Servant's quarter has very little about it (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "TWEENY", 
-            "id": "26-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "TWEENY"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Lorry also known as produce carrier (3,5)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Lorry also known as produce carrier (3,5)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "27", 
-            "position": {
-                "y": 14, 
-                "x": 7
-            }, 
-            "solution": "ARKROYAL", 
-            "id": "27-across"
-        }, 
+            },
+            "solution": "ARKROYAL"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Get down to fastening (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Get down to fastening (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "BUCKLE", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BUCKLE"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Nymph putting head before instincts (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Nymph putting head before instincts (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "NEREID", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "NEREID"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Circumventing flippant parent, performed as farm worker (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Circumventing flippant parent, performed as farm worker (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "DAIRYMAID", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DAIRYMAID"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Without a tool for shaping timeless language, there'll be lying here (6,6)",
+            "direction": "down",
+            "length": 12,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Without a tool for shaping timeless language, there'll be lying here (6,6)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "CHAISELONGUE", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "CHAISELONGUE"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Guy greeting gag (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Guy greeting gag (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "HEAVE", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "HEAVE"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Storm about organ coming up with echoes (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Storm about organ coming up with echoes (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "RESONANT", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "RESONANT"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "What's afoot at home (home counties)? (4-4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "What's afoot at home (home counties)? (4-4)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "HALFHOSE", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "HALFHOSE"
+        },
         {
-            "direction": "down", 
+            "id": "11-down",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Former limit in a hill is a killer (12)",
+            "direction": "down",
+            "length": 12,
             "group": [
                 "11-down"
-            ], 
-            "number": 11, 
-            "clue": "Former limit in a hill is a killer (12)", 
-            "separatorLocations": {}, 
-            "length": 12, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 8
-            }, 
-            "solution": "EXTERMINATOR", 
-            "id": "11-down"
-        }, 
+                "x": 8,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "EXTERMINATOR"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "See 9",
+            "direction": "down",
+            "length": 9,
             "group": [
-                "9-across", 
+                "9-across",
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "See 9", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 9, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 6, 
-                "x": 10
-            }, 
-            "solution": "RATZINGER", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "RATZINGER"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Enemy of love kept in prison briefly upon going inside (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Enemy of love kept in prison briefly upon going inside (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "OPPONENT", 
-            "id": "16-down"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "OPPONENT"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Roar from 11 broadcast - wait for it! (4,4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Roar from 11 broadcast - wait for it! (4,4)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "NEXTTIME", 
-            "id": "17-down"
-        }, 
+            },
+            "solution": "NEXTTIME"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Raised ceiling in earnings of 1 across (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Raised ceiling in earnings of 1 across (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 12
-            }, 
-            "solution": "PAPACY", 
-            "id": "19-down"
-        }, 
+                "x": 12,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "PAPACY"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Make an exposure about meat (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Make an exposure about meat (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 14
-            }, 
-            "solution": "REVEAL", 
-            "id": "20-down"
-        }, 
+                "x": 14,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "REVEAL"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Take our companion round our old home, 50% under the 19 (5,6)",
+            "direction": "down",
+            "length": 5,
             "group": [
-                "22-down", 
+                "22-down",
                 "5-across"
-            ], 
-            "number": 22, 
-            "clue": "Take our companion round our old home, 50% under the 19 (5,6)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 10, 
-                "x": 4
-            }, 
-            "solution": "ROMAN", 
-            "id": "22-down"
+            },
+            "solution": "ROMAN"
         }
-    ], 
-    "date": 1126828800000, 
-    "instructions": "13 across should read 6 1/4% (six and a quarter per cent)is the next problem", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/23561", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1126825200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "instructions": "13 across should read 6 1/4% (six and a quarter per cent)is the next problem",
+    "_gridType": "M21"
 }

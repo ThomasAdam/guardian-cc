@@ -1,529 +1,531 @@
 {
-    "name": "Cryptic crossword No 24,383", 
+    "id": "crosswords/cryptic/24383",
+    "number": 24383,
+    "name": "Cryptic crossword No 24,383",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/paul", 
-        "name": "Paul"
-    }, 
-    "dateSolutionAvailable": 1210201200000, 
-    "number": 24383, 
-    "crosswordType": "cryptic", 
+        "name": "Paul",
+        "webUrl": "https://www.theguardian.com/profile/paul"
+    },
+    "date": 1210204800000,
+    "webPublicationDate": 1210201200000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Action regularly applied to dish creating problem for juggler? (3,6)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Action regularly applied to dish creating problem for juggler? (3,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "HOTPOTATO", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "HOTPOTATO"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Love finds itself in a drink knocked back (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Love finds itself in a drink knocked back (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 10
-            }, 
-            "solution": "AMOUR", 
-            "id": "10-across"
-        }, 
+                "x": 10,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "AMOUR"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Convict held in large building for war crime (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Convict held in large building for war crime (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "PILLAGE", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "PILLAGE"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Make out English service on record (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Make out English service on record (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 8
-            }, 
-            "solution": "DISCERN", 
-            "id": "12-across"
-        }, 
+                "x": 8,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "DISCERN"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "26 15 location, last one to be built over river (4,6)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "13-across", 
+                "13-across",
                 "5-down"
-            ], 
-            "number": 13, 
-            "clue": "26 15 location, last one to be built over river (4,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "EAST", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "EAST"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "County with river entering city in dropping movement (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "County with river entering city in dropping movement (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 5
-            }, 
-            "solution": "DOWNSTROKE", 
-            "id": "14-across"
-        }, 
+                "x": 5,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "DOWNSTROKE"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "See 26",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "26-across", 
+                "26-across",
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "See 26", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "AFRICAN", 
-            "id": "15-across"
-        }, 
+            },
+            "solution": "AFRICAN"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "An earpiece - one's dropped off (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "An earpiece - one's dropped off (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "SLEEPER", 
-            "id": "17-across"
-        }, 
+                "x": 8,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "SLEEPER"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "One succeeds, finding target in range (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "One succeeds, finding target in range (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "DESCENDANT", 
-            "id": "19-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "DESCENDANT"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Where the solution's to be placed in further education (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Where the solution's to be placed in further education (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 11
-            }, 
-            "solution": "HERE", 
-            "id": "22-across"
-        }, 
+                "x": 11,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "HERE"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Roughly, a route taking in Quito for a start (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Roughly, a route taking in Quito for a start (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "EQUATOR", 
-            "id": "23-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "EQUATOR"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Use iodine in disused land? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Use iodine in disused land? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 8
-            }, 
-            "solution": "EXPLOIT", 
-            "id": "24-across"
-        }, 
+                "x": 8,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "EXPLOIT"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Nationality given away with Hungarian capital a day into survey (5,7)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "26-across", 
+                "26-across",
                 "15-across"
-            ], 
-            "number": 26, 
-            "clue": "Nationality given away with Hungarian capital a day into survey (5,7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "26", 
-            "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "SOUTH", 
-            "id": "26-across"
-        }, 
+            },
+            "solution": "SOUTH"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Record holder first after top four (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Record holder first after top four (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 6
-            }, 
-            "solution": "ARCHIVIST", 
-            "id": "27-across"
-        }, 
+                "x": 6,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "ARCHIVIST"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Drunk raved about knight, in short, supporting man in authority (7,3,5)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Drunk raved about knight, in short, supporting man in authority (7,3,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    7, 
+                    7,
                     10
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "CHAPTERANDVERSE", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "CHAPTERANDVERSE"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "One 24-ing shocking result, 1-1 (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "One 24-ing shocking result, 1-1 (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "UTILISER", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "UTILISER"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "British isle superior to a US state (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "British isle superior to a US state (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "IOWA", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "IOWA"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "26 15 location's vixen secures a personal loan, finally (4,4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "26 15 location's vixen secures a personal loan, finally (4,4)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "CAPETOWN", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "CAPETOWN"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "See 13",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "13-across", 
+                "13-across",
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "See 13", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "LONDON", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "LONDON"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Sound container put in order of rank (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Sound container put in order of rank (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "CASSETTE", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CASSETTE"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "26 15 location totally flooded, then duck under (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "26 15 location totally flooded, then duck under (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "SOWETO", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SOWETO"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Historic 26 15 location's fruitlessness? (6,4,5)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Historic 26 15 location's fruitlessness? (6,4,5)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    6, 
+                    6,
                     10
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "ORANGEFREESTATE", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "ORANGEFREESTATE"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Cats listening to sharks? (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Cats listening to sharks? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "CHEETAHS", 
-            "id": "16-down"
-        }, 
+                "x": 4,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "CHEETAHS"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Words passed? (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Words passed? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "SENTENCE", 
-            "id": "17-down"
-        }, 
+                "x": 8,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "SENTENCE"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "26 15 location having to repair disorder (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "26 15 location having to repair disorder (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 12
-            }, 
-            "solution": "PRETORIA", 
-            "id": "18-down"
-        }, 
+                "x": 12,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "PRETORIA"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Write in amount which is ejected from the mouth (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Write in amount which is ejected from the mouth (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 2
-            }, 
-            "solution": "SPUTUM", 
-            "id": "20-down"
-        }, 
+                "x": 2,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "SPUTUM"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "26 15 location's daughter describing the place? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "26 15 location's daughter describing the place? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 6
-            }, 
-            "solution": "DURBAN", 
-            "id": "21-down"
-        }, 
+                "x": 6,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "DURBAN"
+        },
         {
-            "direction": "down", 
+            "id": "25-down",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "2 cut by the ear (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "25-down"
-            ], 
-            "number": 25, 
-            "clue": "2 cut by the ear (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 10
-            }, 
-            "solution": "PAIR", 
-            "id": "25-down"
+                "x": 10,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "PAIR"
         }
-    ], 
-    "date": 1210204800000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/24383", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1210201200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M29"
 }

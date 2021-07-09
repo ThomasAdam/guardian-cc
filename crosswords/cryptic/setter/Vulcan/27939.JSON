@@ -1,621 +1,623 @@
 {
-    "name": "Cryptic crossword No 27,939", 
+    "id": "crosswords/cryptic/27939",
+    "number": 27939,
+    "name": "Cryptic crossword No 27,939",
     "creator": {
-        "webUrl": "https://www.theguardian.com/profile/vulcan", 
-        "name": "Vulcan"
-    }, 
-    "dateSolutionAvailable": 1569798000000, 
-    "number": 27939, 
-    "crosswordType": "cryptic", 
+        "name": "Vulcan",
+        "webUrl": "https://www.theguardian.com/profile/vulcan"
+    },
+    "date": 1569801600000,
+    "webPublicationDate": 1569798050000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Tell story, say, about Belgian city (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Tell story, say, about Belgian city (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "LIEGE", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "LIEGE"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Usually working, affirm how old one is (2,7)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Usually working, affirm how old one is (2,7)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 1, 
-                "x": 6
-            }, 
-            "solution": "ONAVERAGE", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "ONAVERAGE"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Form splinter group for foreign holiday (5,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Form splinter group for foreign holiday (5,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "BREAKAWAY", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "BREAKAWAY"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Sort of day saved for, that is something of a come down (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Sort of day saved for, that is something of a come down (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 10
-            }, 
-            "solution": "RAINY", 
-            "id": "12-across"
-        }, 
+                "x": 10,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "RAINY"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Support the unusual seer (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Support the unusual seer (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "PROPHET", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "PROPHET"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "One away from hedge on tarmac, squashed by this inconsiderate type (4,3)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "One away from hedge on tarmac, squashed by this inconsiderate type (4,3)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 5, 
-                "x": 8
-            }, 
-            "solution": "ROADHOG", 
-            "id": "15-across"
-        }, 
+            },
+            "solution": "ROADHOG"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Four regulars in pub having a joke (2,3)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Four regulars in pub having a joke (2,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "INFUN", 
-            "id": "17-across"
-        }, 
+            },
+            "solution": "INFUN"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Criticise rhythmic chanting (3)",
+            "direction": "across",
+            "length": 3,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Criticise rhythmic chanting (3)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 6
-            }, 
-            "solution": "RAP", 
-            "id": "18-across"
-        }, 
+                "x": 6,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "RAP"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Scatter round record store (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Scatter round record store (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 10
-            }, 
-            "solution": "DEPOT", 
-            "id": "20-across"
-        }, 
+                "x": 10,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "DEPOT"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Non-acceptance of absurd earfuls (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Non-acceptance of absurd earfuls (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "REFUSAL", 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "REFUSAL"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Stressful feelings that may be on the surface (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Stressful feelings that may be on the surface (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 8
-            }, 
-            "solution": "TENSION", 
-            "id": "25-across"
-        }, 
+                "x": 8,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "TENSION"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Small ringing sound is a pain (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Small ringing sound is a pain (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "STING", 
-            "id": "26-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "STING"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Swimmer deploying green arms (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Swimmer deploying green arms (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 6
-            }, 
-            "solution": "MERGANSER", 
-            "id": "27-across"
-        }, 
+                "x": 6,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "MERGANSER"
+        },
         {
-            "direction": "across", 
+            "id": "30-across",
+            "number": 30,
+            "humanNumber": "30",
+            "clue": "Tropical country's price has one fuming aloud (5,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "30-across"
-            ], 
-            "number": 30, 
-            "clue": "Tropical country's price has one fuming aloud (5,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "30", 
-            "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "COSTARICA", 
-            "id": "30-across"
-        }, 
+            },
+            "solution": "COSTARICA"
+        },
         {
-            "direction": "across", 
+            "id": "31-across",
+            "number": 31,
+            "humanNumber": "31",
+            "clue": "A little animal taken in island (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "31-across"
-            ], 
-            "number": 31, 
-            "clue": "A little animal taken in island (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "31", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 10
-            }, 
-            "solution": "MALTA", 
-            "id": "31-across"
-        }, 
+                "x": 10,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "MALTA"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Wonderful to maintain large rolls of flesh (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Wonderful to maintain large rolls of flesh (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "FLAB", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "FLAB"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Monster our team encounters upriver (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Monster our team encounters upriver (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "WEREWOLF", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "WEREWOLF"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Make coffee an extra benefit (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Make coffee an extra benefit (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "PERK", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PERK"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Having trouble in this sort of bottle (3,5)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Having trouble in this sort of bottle (3,5)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "HOTWATER", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "HOTWATER"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Wife in bed: she may need briefs (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Wife in bed: she may need briefs (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "LAWYER", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LAWYER"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Disorderly scene may come to be arranged (4,6)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Disorderly scene may come to be arranged (4,6)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "BEARGARDEN", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "BEARGARDEN"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Like a loo to be luxurious? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Like a loo to be luxurious? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "LAVISH", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LAVISH"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Raise tax (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Raise tax (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "LEVY", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LEVY"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Inquisitive-sounding monk (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Inquisitive-sounding monk (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "PRIOR", 
-            "id": "13-down"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "PRIOR"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Worker, striking, giving a wave (4,6)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Worker, striking, giving a wave (4,6)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 5, 
-                "x": 4
-            }, 
-            "solution": "HANDSIGNAL", 
-            "id": "14-down"
-        }, 
+            },
+            "solution": "HANDSIGNAL"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Advance fare to board (3,2)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Advance fare to board (3,2)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 5, 
-                "x": 14
-            }, 
-            "solution": "GETON", 
-            "id": "16-down"
-        }, 
+            },
+            "solution": "GETON"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Perpetual child's play (5,3)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Perpetual child's play (5,3)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "19", 
-            "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "PETERPAN", 
-            "id": "19-down"
-        }, 
+            },
+            "solution": "PETERPAN"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "A line of footwear (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "A line of footwear (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 12
-            }, 
-            "solution": "PLIMSOLL", 
-            "id": "21-down"
-        }, 
+                "x": 12,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "PLIMSOLL"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Thin female, horribly slimy (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Thin female, horribly slimy (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 2
-            }, 
-            "solution": "FLIMSY", 
-            "id": "23-down"
-        }, 
+                "x": 2,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "FLIMSY"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Awkward gait I had, it's clear (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "Awkward gait I had, it's clear (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 6
-            }, 
-            "solution": "LIMPID", 
-            "id": "24-down"
-        }, 
+                "x": 6,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "LIMPID"
+        },
         {
-            "direction": "down", 
+            "id": "26-down",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Seeing old car kaput, initially one goes on foot (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "26-down"
-            ], 
-            "number": 26, 
-            "clue": "Seeing old car kaput, initially one goes on foot (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "SOCK", 
-            "id": "26-down"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "SOCK"
+        },
         {
-            "direction": "down", 
+            "id": "28-down",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "Top of bill, moi! (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "28-down"
-            ], 
-            "number": 28, 
-            "clue": "Top of bill, moi! (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "28", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 10
-            }, 
-            "solution": "ACME", 
-            "id": "28-down"
-        }, 
+                "x": 10,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "ACME"
+        },
         {
-            "direction": "down", 
+            "id": "29-down",
+            "number": 29,
+            "humanNumber": "29",
+            "clue": "Phone from abroad: somewhere in Italy, say (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "29-down"
-            ], 
-            "number": 29, 
-            "clue": "Phone from abroad: somewhere in Italy, say (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "29", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 14
-            }, 
-            "solution": "ROAM", 
-            "id": "29-down"
+                "x": 14,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "ROAM"
         }
-    ], 
-    "date": 1569801600000, 
-    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20190930.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/27939", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1569798000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20190930.pdf",
+    "_gridType": "M54b"
 }

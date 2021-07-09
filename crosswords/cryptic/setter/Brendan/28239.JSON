@@ -1,474 +1,476 @@
 {
-    "name": "Cryptic crossword No 28,239", 
+    "id": "crosswords/cryptic/28239",
+    "number": 28239,
+    "name": "Cryptic crossword No 28,239",
     "creator": {
-        "webUrl": "https://www.theguardian.com/profile/brendan", 
-        "name": "Brendan"
-    }, 
-    "dateSolutionAvailable": 1600124400000, 
-    "number": 28239, 
-    "crosswordType": "cryptic", 
+        "name": "Brendan",
+        "webUrl": "https://www.theguardian.com/profile/brendan"
+    },
+    "date": 1600128000000,
+    "webPublicationDate": 1600124409000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "They may draw diners in and earn some cash, totally without tips (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "They may draw diners in and earn some cash, totally without tips (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 1
-            }, 
-            "solution": "AROMAS", 
-            "id": "5-across"
-        }, 
+                "x": 1,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "AROMAS"
+        },
         {
-            "direction": "across", 
+            "id": "6-across",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Less than striking action in game's nadir (2-4)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "6-across"
-            ], 
-            "number": 6, 
-            "clue": "Less than striking action in game's nadir (2-4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 1
+            },
             "separatorLocations": {
                 "-": [
                     2
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 1, 
-                "x": 8
-            }, 
-            "solution": "GOSLOW", 
-            "id": "6-across"
-        }, 
+            },
+            "solution": "GOSLOW"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Holy, as reflected by almost all doctrine (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Holy, as reflected by almost all doctrine (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "SACRED", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "SACRED"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Relating to the elements, reach\u00ading exciting conclusions once carbon's extracted (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Relating to the elements, reach\u00ading exciting conclusions once carbon's extracted (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 7
-            }, 
-            "solution": "CLIMATIC", 
-            "id": "10-across"
-        }, 
+                "x": 7,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "CLIMATIC"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Draw, as rule, after switching sides (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Draw, as rule, after switching sides (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "LURE", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "LURE"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Mastered an amended part of commercial vocabulary (5,5)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Mastered an amended part of commercial vocabulary (5,5)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 5, 
-                "x": 5
-            }, 
-            "solution": "TRADENAMES", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "TRADENAMES"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Centres of population, as found in the rest of the across answers (5,6)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Centres of population, as found in the rest of the across answers (5,6)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "INNERCITIES", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "INNERCITIES"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Equivalent of money, including capital, that is at the upper limit of growth (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Equivalent of money, including capital, that is at the upper limit of growth (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "TIMBERLINE", 
-            "id": "18-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "TIMBERLINE"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Letters regularly falling out of mailbags, unfortunately (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Letters regularly falling out of mailbags, unfortunately (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 11
-            }, 
-            "solution": "ALAS", 
-            "id": "21-across"
-        }, 
+                "x": 11,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ALAS"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Starting to create family in which you are reportedly growing up (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Starting to create family in which you are reportedly growing up (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "MATURING", 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "MATURING"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Seabird needed by grateful mariner (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Seabird needed by grateful mariner (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 9
-            }, 
-            "solution": "FULMAR", 
-            "id": "23-across"
-        }, 
+                "x": 9,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "FULMAR"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Vocal performance in opera included by impresario sometimes (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Vocal performance in opera included by impresario sometimes (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 1
-            }, 
-            "solution": "ARIOSO", 
-            "id": "24-across"
-        }, 
+                "x": 1,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "ARIOSO"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Soon switched my name, such as Brendan (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Soon switched my name, such as Brendan (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 8
-            }, 
-            "solution": "ANONYM", 
-            "id": "25-across"
-        }, 
+                "x": 8,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "ANONYM"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Number of characters in Romeo and Juliet older than Juliet? Just so (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Number of characters in Romeo and Juliet older than Juliet? Just so (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "FOURTEEN", 
-            "id": "1-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "FOURTEEN"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Outlaw said in France to be gang member (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Outlaw said in France to be gang member (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "BANDIT", 
-            "id": "2-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BANDIT"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Part of scale that is least likely to collapse (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Part of scale that is least likely to collapse (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "SOLIDEST", 
-            "id": "3-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SOLIDEST"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "A large group of hunters ending off a domesticated mammal (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "A large group of hunters ending off a domesticated mammal (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "ALPACA", 
-            "id": "4-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ALPACA"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Cooling system in a vehicle that's helpful for summer? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Cooling system in a vehicle that's helpful for summer? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 1
-            }, 
-            "solution": "ABACUS", 
-            "id": "5-down"
-        }, 
+                "x": 1,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "ABACUS"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Apply bleach when covering it (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Apply bleach when covering it (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 13
-            }, 
-            "solution": "WHITEN", 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "WHITEN"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Almost fight over articles about cold fatty snack (11)",
+            "direction": "down",
+            "length": 11,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Almost fight over articles about cold fatty snack (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 7
-            }, 
-            "solution": "SCRATCHINGS", 
-            "id": "8-down"
-        }, 
+                "x": 7,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "SCRATCHINGS"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Rise late, perhaps \u2014 or before all the others (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Rise late, perhaps \u2014 or before all the others (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "EARLIEST", 
-            "id": "14-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "EARLIEST"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Allowing to get licence, finally, and catch fish (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Allowing to get licence, finally, and catch fish (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "solution": "ENABLING", 
-            "id": "15-down"
-        }, 
+                "x": 11,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ENABLING"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Producer of drone group of spies used to trap villain (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Producer of drone group of spies used to trap villain (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "CICADA", 
-            "id": "16-down"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "CICADA"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "It spells end of vegetation, when put on a tree (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "It spells end of vegetation, when put on a tree (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 13
-            }, 
-            "solution": "NAPALM", 
-            "id": "17-down"
-        }, 
+                "x": 13,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "NAPALM"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Virus that is pierced by old medical instrument (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Virus that is pierced by old medical instrument (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 3
-            }, 
-            "solution": "BOUGIE", 
-            "id": "19-down"
-        }, 
+                "x": 3,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "BOUGIE"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Initially formed euphemism from guy mostly concealing name (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Initially formed euphemism from guy mostly concealing name (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "EFFING", 
-            "id": "20-down"
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "EFFING"
         }
-    ], 
-    "date": 1600128000000, 
-    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20200915.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/28239", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1600124400000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20200915.pdf",
+    "_gridType": "M31"
 }

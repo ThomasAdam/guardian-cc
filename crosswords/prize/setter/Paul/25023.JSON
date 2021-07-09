@@ -1,534 +1,536 @@
 {
-    "name": "Prize crossword No 25,023", 
+    "id": "crosswords/prize/25023",
+    "number": 25023,
+    "name": "Prize crossword No 25,023",
     "creator": {
-        "webUrl": "https://www.theguardian.com/profile/paul", 
-        "name": "Paul"
-    }, 
-    "dateSolutionAvailable": 1275692400000, 
-    "number": 25023, 
-    "crosswordType": "prize", 
+        "name": "Paul",
+        "webUrl": "https://www.theguardian.com/profile/paul"
+    },
+    "date": 1275091200000,
+    "webPublicationDate": 1275087600000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "See 23",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "23-across", 
+                "23-across",
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "See 23", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 8, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "REDSKINS", 
-            "id": "8-across"
-        }, 
+            },
+            "solution": "REDSKINS"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Setter almost back on the Guardian's scent (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Setter almost back on the Guardian's scent (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 9
-            }, 
-            "solution": "ODOUR", 
-            "id": "9-across"
-        }, 
+                "x": 9,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "ODOUR"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10, 24 down",
+            "clue": " Political item sees party doing U-turn between two of its leaders? (8)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "10-across", 
+                "10-across",
                 "24-down"
-            ], 
-            "number": 10, 
-            "clue": " Political item sees party doing U-turn between two of its leaders? (8)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "10, 24 down", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "FOOT", 
-            "id": "10-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "FOOT"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11, 26",
+            "clue": " 10 24 down's police once maintaining rights, but wrong, by the way (10,8)",
+            "direction": "across",
+            "length": 10,
             "group": [
-                "11-across", 
+                "11-across",
                 "26-across"
-            ], 
-            "number": 11, 
-            "clue": " 10 24 down's police once maintaining rights, but wrong, by the way (10,8)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     10
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "11, 26", 
-            "position": {
-                "y": 3, 
-                "x": 5
-            }, 
-            "solution": "PITTSBURGH", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "PITTSBURGH"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Look for winger (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Look for winger (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "GANDER", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "GANDER"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Actor's supporter must be more punctual? (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Actor's supporter must be more punctual? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 7
-            }, 
-            "solution": "PROMPTER", 
-            "id": "14-across"
-        }, 
+                "x": 7,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "PROMPTER"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "See 22 down",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "22-down", 
+                "22-down",
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "See 22 down", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "BRONCOS", 
-            "id": "15-across"
-        }, 
+            },
+            "solution": "BRONCOS"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17, 25",
+            "clue": " 10 24 down's hip, a mouth and other organs (7,5)",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "17-across", 
+                "17-across",
                 "25-across"
-            ], 
-            "number": 17, 
-            "clue": " 10 24 down's hip, a mouth and other organs (7,5)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "17, 25", 
-            "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "CHICAGO", 
-            "id": "17-across"
-        }, 
+            },
+            "solution": "CHICAGO"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Coax ecstasy past first of guards, going through wearing mask (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Coax ecstasy past first of guards, going through wearing mask (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "INVEIGLE", 
-            "id": "20-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "INVEIGLE"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Tyrant making point about further perception (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Tyrant making point about further perception (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "DESPOT", 
-            "id": "22-across"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "DESPOT"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23, 8",
+            "clue": " 10 24 down's debatable answers kind about religion embracing godhead (10,8)",
+            "direction": "across",
+            "length": 10,
             "group": [
-                "23-across", 
+                "23-across",
                 "8-across"
-            ], 
-            "number": 23, 
-            "clue": " 10 24 down's debatable answers kind about religion embracing godhead (10,8)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     10
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "23, 8", 
-            "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "WASHINGTON", 
-            "id": "23-across"
-        }, 
+            },
+            "solution": "WASHINGTON"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Sculpture's gone to the wall (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Sculpture's gone to the wall (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 11
-            }, 
-            "solution": "BUST", 
-            "id": "24-across"
-        }, 
+                "x": 11,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "BUST"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "See 17",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "17-across", 
+                "17-across",
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "See 17", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 5, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 13, 
-                "x": 1
-            }, 
-            "solution": "BEARS", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "BEARS"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "See 11",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "11-across", 
+                "11-across",
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "See 11", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 8, 
-            "humanNumber": "26", 
-            "position": {
-                "y": 13, 
-                "x": 7
-            }, 
-            "solution": "STEELERS", 
-            "id": "26-across"
-        }, 
+            },
+            "solution": "STEELERS"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "My boss used up oxygen in brain, struggling to be charming (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "My boss used up oxygen in brain, struggling to be charming (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "DEBONAIR", 
-            "id": "1-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DEBONAIR"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Ship involved in exercises over here! (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Ship involved in exercises over here! (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "PSST", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PSST"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Breakfast in bed? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Breakfast in bed? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "KIPPER", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "KIPPER"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Elementary thing, the boast of a heavy drinker? (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Elementary thing, the boast of a heavy drinker? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "ISOTOPE", 
-            "id": "4-down"
-        }, 
+                "x": 7,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ISOTOPE"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "River bridges very old, in truth (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "River bridges very old, in truth (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "FORSOOTH", 
-            "id": "5-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "FORSOOTH"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Meaningless talk of point between rings penetrates so, after levitation (5-5)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Meaningless talk of point between rings penetrates so, after levitation (5-5)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "HOCUSPOCUS", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "HOCUSPOCUS"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Accent afoot? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Accent afoot? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "BROGUE", 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BROGUE"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "One's simple bed's ending \u2014 with pillow here? (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "One's simple bed's ending \u2014 with pillow here? (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 3
-            }, 
-            "solution": "DUNDERHEAD", 
-            "id": "13-down"
-        }, 
+                "x": 3,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "DUNDERHEAD"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "As region volatile, get map out (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "As region volatile, get map out (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "ORGANISE", 
-            "id": "16-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ORGANISE"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Glitter obscures death list (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Glitter obscures death list (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 13
-            }, 
-            "solution": "GLOSSARY", 
-            "id": "18-down"
-        }, 
+                "x": 13,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "GLOSSARY"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Red newt filling roll (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Red newt filling roll (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "LEFTIST", 
-            "id": "19-down"
-        }, 
+                "x": 7,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "LEFTIST"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Desire to hold underwear up close (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Desire to hold underwear up close (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 1
-            }, 
-            "solution": "NEARBY", 
-            "id": "21-down"
-        }, 
+                "x": 1,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "NEARBY"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22, 15",
+            "clue": " 10 24's got something to do, say, in corrupt business, company in dire straits for starters (6,7)",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "22-down", 
+                "22-down",
                 "15-across"
-            ], 
-            "number": 22, 
-            "clue": " 10 24's got something to do, say, in corrupt business, company in dire straits for starters (6,7)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "22, 15", 
-            "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "DENVER", 
-            "id": "22-down"
-        }, 
+            },
+            "solution": "DENVER"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "See 10",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "10-across", 
+                "10-across",
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "See 10", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 11
-            }, 
-            "solution": "BALL", 
-            "id": "24-down"
+                "x": 11,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "BALL"
         }
-    ], 
-    "date": 1275091200000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20100529.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/prize/25023", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1275692400000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "prize",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20100529.pdf",
+    "_gridType": "M46"
 }

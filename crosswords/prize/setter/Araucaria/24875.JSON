@@ -1,540 +1,542 @@
 {
-    "name": "Prize crossword No 24,875", 
+    "id": "crosswords/prize/24875",
+    "number": 24875,
+    "name": "Prize crossword No 24,875",
     "creator": {
-        "webUrl": "https://www.theguardian.com/profile/araucaria", 
-        "name": "Araucaria"
-    }, 
-    "dateSolutionAvailable": 1260576000000, 
-    "number": 24875, 
-    "crosswordType": "prize", 
+        "name": "Araucaria",
+        "webUrl": "https://www.theguardian.com/profile/araucaria"
+    },
+    "date": 1259971200000,
+    "webPublicationDate": 1259971200000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "4-across",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "See 25",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "25-across", 
+                "25-across",
                 "4-across"
-            ], 
-            "number": 4, 
-            "clue": "See 25", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
+                ",": [],
                 "-": [
                     2
-                ], 
-                ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "BOPEEP", 
-            "id": "4-across"
-        }, 
+                ]
+            },
+            "solution": "BOPEEP"
+        },
         {
-            "direction": "across", 
+            "id": "6-across",
+            "number": 6,
+            "humanNumber": "6, 10, 22, 10",
+            "clue": "Number making saint's detailed numbers include practical method for transport round curves  \u2026 (6,2,8,4,4,8)",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "6-across", 
-                "10-across", 
-                "22-across", 
+                "6-across",
+                "10-across",
+                "22-across",
                 "10-across"
-            ], 
-            "number": 6, 
-            "clue": "Number making saint's detailed numbers include practical method for transport round curves  \u2026 (6,2,8,4,4,8)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
-                    6, 
+                    6,
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "6, 10, 22, 10", 
-            "position": {
-                "y": 1, 
-                "x": 7
-            }, 
-            "solution": "THERESNO", 
-            "id": "6-across"
-        }, 
+            },
+            "solution": "THERESNO"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "\u2026  with capital responsible for it (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "\u2026  with capital responsible for it (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "BERLIN", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "BERLIN"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "See 6",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "6-across", 
-                "10-across", 
-                "22-across", 
+                "6-across",
+                "10-across",
+                "22-across",
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "See 6", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 3, 
-                "x": 7
-            }, 
-            "solution": "BUSINESS", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "BUSINESS"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Polish ring round \u2019ead and beak to be a showman (7,4)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Polish ring round \u2019ead and beak to be a showman (7,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "BUFFALOBILL", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "BUFFALOBILL"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15, 17, 24",
+            "clue": "Ingenuity missing in Guantanamo: watch out! Shooting doesn't work (3,4,3,1,3,4,1,3)",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "15-across", 
-                "17-across", 
+                "15-across",
+                "17-across",
                 "24-across"
-            ], 
-            "number": 15, 
-            "clue": "Ingenuity missing in Guantanamo: watch out! Shooting doesn't work (3,4,3,1,3,4,1,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "15, 17, 24", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "YOUCANT", 
-            "id": "15-across"
-        }, 
+            },
+            "solution": "YOUCANT"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "See 15",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "15-across", 
-                "17-across", 
+                "15-across",
+                "17-across",
                 "24-across"
-            ], 
-            "number": 17, 
-            "clue": "See 15", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
-                    4, 
+                    3,
+                    4,
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "GETAMAN", 
-            "id": "17-across"
-        }, 
+            },
+            "solution": "GETAMAN"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Stick with these gentleman-like pupils (5,6)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Stick with these gentleman-like pupils (5,6)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 9, 
-                "x": 4
-            }, 
-            "solution": "TOFFYAPPLES", 
-            "id": "18-across"
-        }, 
+            },
+            "solution": "TOFFYAPPLES"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "See 6",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "6-across", 
-                "10-across", 
-                "22-across", 
+                "6-across",
+                "10-across",
+                "22-across",
                 "10-across"
-            ], 
-            "number": 22, 
-            "clue": "See 6", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "LIKESHOW", 
-            "id": "22-across"
-        }, 
+            },
+            "solution": "LIKESHOW"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Playwright has gap without a model (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Playwright has gap without a model (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 9
-            }, 
-            "solution": "BRECHT", 
-            "id": "23-across"
-        }, 
+                "x": 9,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "BRECHT"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "See 15",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "15-across", 
-                "17-across", 
+                "15-across",
+                "17-across",
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "See 15", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "WITHAGUN", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "WITHAGUN"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25, 4",
+            "clue": "Shepherdess getting letters to be involved with Pole \u2014 and letter (6,2-4)",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "25-across", 
+                "25-across",
                 "4-across"
-            ], 
-            "number": 25, 
-            "clue": "Shepherdess getting letters to be involved with Pole \u2014 and letter (6,2-4)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 13
+            },
             "separatorLocations": {
-                "-": [], 
                 ",": [
                     6
-                ]
-            }, 
-            "length": 6, 
-            "humanNumber": "25, 4", 
-            "position": {
-                "y": 13, 
-                "x": 9
-            }, 
-            "solution": "LITTLE", 
-            "id": "25-across"
-        }, 
+                ],
+                "-": []
+            },
+            "solution": "LITTLE"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Idiot losing head gets one in the eye (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Idiot losing head gets one in the eye (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "RETINA", 
-            "id": "1-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "RETINA"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "With lots of pebbles around, striking in a loud aggressive way (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "With lots of pebbles around, striking in a loud aggressive way (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "SHOUTINGLY", 
-            "id": "2-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SHOUTINGLY"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Flutter I make with a bit of a blackberry, say (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Flutter I make with a bit of a blackberry, say (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "FRUITLET", 
-            "id": "3-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "FRUITLET"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Candidates for ASBO by and by? (4,4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Candidates for ASBO by and by? (4,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "BABYBOYS", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "BABYBOYS"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Standard round of journeys around French capital Henry VI didn't reach (4,4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Standard round of journeys around French capital Henry VI didn't reach (4,4)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 1, 
-                "x": 2
-            }, 
-            "solution": "PARTFOUR", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "PARTFOUR"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Look to do what a cat may? (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Look to do what a cat may? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 12
-            }, 
-            "solution": "SEEK", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "SEEK"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Fall into this and you'll be t___ (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Fall into this and you'll be t___ (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 14
-            }, 
-            "solution": "OAST", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "OAST"
+        },
         {
-            "direction": "down", 
+            "id": "12-down",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Blurred Oxford gent has nothing on coppers (3,2,5)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "12-down"
-            ], 
-            "number": 12, 
-            "clue": "Blurred Oxford gent has nothing on coppers (3,2,5)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 5, 
-                "x": 6
-            }, 
-            "solution": "OUTOFFOCUS", 
-            "id": "12-down"
-        }, 
+            },
+            "solution": "OUTOFFOCUS"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Single member allowed? It doesn't say (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Single member allowed? It doesn't say (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 12
-            }, 
-            "solution": "IMPLICIT", 
-            "id": "13-down"
-        }, 
+                "x": 12,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "IMPLICIT"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Drink for girl 24 and group, say (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Drink for girl 24 and group, say (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 14
-            }, 
-            "solution": "ANISETTE", 
-            "id": "14-down"
-        }, 
+                "x": 14,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "ANISETTE"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Topless sort of philosophy? Well! (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Topless sort of philosophy? Well! (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "ARTESIAN", 
-            "id": "16-down"
-        }, 
+                "x": 4,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ARTESIAN"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Leave car at home with cake (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Leave car at home with cake (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "PARKIN", 
-            "id": "19-down"
-        }, 
+                "x": 10,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "PARKIN"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Disappointment? Puff needed (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Disappointment? Puff needed (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "BLOW", 
-            "id": "20-down"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "BLOW"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Satirical presentation of St Christopher (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Satirical presentation of St Christopher (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 2
-            }, 
-            "solution": "SKIT", 
-            "id": "21-down"
+                "x": 2,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "SKIT"
         }
-    ], 
-    "date": 1259971200000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20091205.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/prize/24875", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1260576000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "prize",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20091205.pdf",
+    "_gridType": "M33"
 }

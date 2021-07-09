@@ -1,520 +1,522 @@
 {
-    "name": "Cryptic crossword No 24,956", 
+    "id": "crosswords/cryptic/24956",
+    "number": 24956,
+    "name": "Cryptic crossword No 24,956",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/araucaria", 
-        "name": "Araucaria"
-    }, 
-    "dateSolutionAvailable": 1268352000000, 
-    "number": 24956, 
-    "crosswordType": "cryptic", 
+        "name": "Araucaria",
+        "webUrl": "https://www.theguardian.com/profile/araucaria"
+    },
+    "date": 1268352000000,
+    "webPublicationDate": 1268352000000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Wear another hat \u2014 it's not his first ball (6,6 )",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Wear another hat \u2014 it's not his first ball (6,6 )", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "CHANGEBOWLER", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "CHANGEBOWLER"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Good girl, not the last of singing sisters, on a roll with notes (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Good girl, not the last of singing sisters, on a roll with notes (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "PIANOLA", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "PIANOLA"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "See 13",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "13-across", 
+                "13-across",
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "See 13", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 2, 
-                "x": 8
-            }, 
-            "solution": "DOEUVRE", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "DOEUVRE"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "13 10 (3,2,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "13 10 (3,2,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "OUTOFWORK", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "OUTOFWORK"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Board game can be played back (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Board game can be played back (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 10
-            }, 
-            "solution": "DARTS", 
-            "id": "12-across"
-        }, 
+                "x": 10,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "DARTS"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13, 10",
+            "clue": " Starter but one that doesn't get to the finish, awfully overdue (4,7)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "13-across", 
+                "13-across",
                 "10-across"
-            ], 
-            "number": 13, 
-            "clue": " Starter but one that doesn't get to the finish, awfully overdue (4,7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "13, 10", 
-            "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "HORS", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "HORS"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Old female bird's attempt at reef (6,4)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Old female bird's attempt at reef (6,4)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 5
-            }, 
-            "solution": "GRANNYKNOT", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "GRANNYKNOT"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Found by locator, men one of whom broke the bank (5,5)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Found by locator, men one of whom broke the bank (5,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "MONTECARLO", 
-            "id": "16-across"
-        }, 
+            },
+            "solution": "MONTECARLO"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Fuel said to be in 10 (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Fuel said to be in 10 (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 11
-            }, 
-            "solution": "DERV", 
-            "id": "19-across"
-        }, 
+                "x": 11,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "DERV"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Half the HP in Arthur's queen (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Half the HP in Arthur's queen (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "NEVER", 
-            "id": "20-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "NEVER"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Old shooter's position in crime that's my loss (3,6)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Old shooter's position in crime that's my loss (3,6)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 10, 
-                "x": 6
-            }, 
-            "solution": "BIGBERTHA", 
-            "id": "21-across"
-        }, 
+            },
+            "solution": "BIGBERTHA"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Row about stray dog (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Row about stray dog (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "TERRIER", 
-            "id": "23-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "TERRIER"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Former boat racer's topping yellow colour (3,4)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Former boat racer's topping yellow colour (3,4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 12, 
-                "x": 8
-            }, 
-            "solution": "OLDBLUE", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "OLDBLUE"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Fixed method for training (9,3)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Fixed method for training (9,3)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
                     9
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "PERMANENTWAY", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "PERMANENTWAY"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Canons in opposition retaining new authority (7,3,5)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Canons in opposition retaining new authority (7,3,5)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    7, 
+                    7,
                     10
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "CHAPTERANDVERSE", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "CHAPTERANDVERSE"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Reserved for a rising jester (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Reserved for a rising jester (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "ALOOF", 
-            "id": "2-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ALOOF"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Good French for the love of allure (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Good French for the love of allure (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "GLAMOUR", 
-            "id": "3-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "GLAMOUR"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Little creature first to go through big needle (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Little creature first to go through big needle (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "BODIKIN", 
-            "id": "4-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BODIKIN"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Tiny little advertisement Sky used five times (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Tiny little advertisement Sky used five times (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "WEEKDAYS", 
-            "id": "5-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "WEEKDAYS"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6, 8",
+            "clue": " Revive many internationals, else will damage what needs protection (15,9,4)",
+            "direction": "down",
+            "length": 15,
             "group": [
-                "6-down", 
+                "6-down",
                 "8-down"
-            ], 
-            "number": 6, 
-            "clue": " Revive many internationals, else will damage what needs protection (15,9,4)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     15
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "6, 8", 
-            "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "ENVIRONMENTALLY", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "ENVIRONMENTALLY"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "From the microscopic  \u2026  then to the ordin\u00adarily small, to be completely with it. (2,2,3,6)",
+            "direction": "down",
+            "length": 13,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "From the microscopic  \u2026  then to the ordin\u00adarily small, to be completely with it. (2,2,3,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
-                    4, 
+                    2,
+                    4,
                     7
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "UPTOTHEMINUTE", 
-            "id": "7-down"
-        }, 
+            },
+            "solution": "UPTOTHEMINUTE"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "See 6",
+            "direction": "down",
+            "length": 13,
             "group": [
-                "6-down", 
+                "6-down",
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "See 6", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     9
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 1, 
-                "x": 14
-            }, 
-            "solution": "SENSITIVEAREA", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "SENSITIVEAREA"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Border in which support is for case of Old Testament speak (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Border in which support is for case of Old Testament speak (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "HEBRAISM", 
-            "id": "15-down"
-        }, 
+                "x": 4,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "HEBRAISM"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Waugh's king with gold for starter (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Waugh's king with gold for starter (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 6
-            }, 
-            "solution": "AUBERON", 
-            "id": "17-down"
-        }, 
+                "x": 6,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "AUBERON"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Walker to cape in Italy (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Walker to cape in Italy (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 8
-            }, 
-            "solution": "LEGHORN", 
-            "id": "18-down"
-        }, 
+                "x": 8,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "LEGHORN"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Provide at last half what's due (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Provide at last half what's due (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 10
-            }, 
-            "solution": "ENDOW", 
-            "id": "22-down"
+                "x": 10,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "ENDOW"
         }
-    ], 
-    "date": 1268352000000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20100312.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/24956", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1268352000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20100312.pdf",
+    "_gridType": null
 }

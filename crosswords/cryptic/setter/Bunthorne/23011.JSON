@@ -1,529 +1,531 @@
 {
-    "name": "Cryptic crossword No 23,011", 
+    "id": "crosswords/cryptic/23011",
+    "number": 23011,
+    "name": "Cryptic crossword No 23,011",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/bunthorne", 
-        "name": "Bunthorne"
-    }, 
-    "dateSolutionAvailable": 1071100800000, 
-    "number": 23011, 
-    "crosswordType": "cryptic", 
+        "name": "Bunthorne",
+        "webUrl": "https://www.theguardian.com/profile/bunthorne"
+    },
+    "date": 1071100800000,
+    "webPublicationDate": 1071100800000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "See 8",
+            "direction": "across",
+            "length": 11,
             "group": [
-                "8-down", 
+                "8-down",
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "See 8", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "THEBOGEYMAN", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "THEBOGEYMAN"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Follow the 'ounds with compassion; is that wrong? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Follow the 'ounds with compassion; is that wrong? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "UNTRUTH", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "UNTRUTH"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "About time some Muslim backed American pressure on Japanese (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "About time some Muslim backed American pressure on Japanese (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 8
-            }, 
-            "solution": "SHIATSU", 
-            "id": "10-across"
-        }, 
+                "x": 8,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "SHIATSU"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "She hung, she swung, 'e went to pieces on the floor (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "She hung, she swung, 'e went to pieces on the floor (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "TESSELLAE", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "TESSELLAE"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "For a noted fair sight, they say, book that dame, Diana (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "For a noted fair sight, they say, book that dame, Diana (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 10
-            }, 
-            "solution": "BRIGG", 
-            "id": "12-across"
-        }, 
+                "x": 10,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "BRIGG"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "No order for unordered currency (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "No order for unordered currency (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "RAND", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "RAND"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "They measure the drops in, eg, a sugar solution (4,6)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "They measure the drops in, eg, a sugar solution (4,6)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 5
-            }, 
-            "solution": "RAINGAUGES", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "RAINGAUGES"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Dearth of French leaves French opera externalised in Wales (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Dearth of French leaves French opera externalised in Wales (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "CARMARTHEN", 
-            "id": "16-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "CARMARTHEN"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Lowers stock of the hoi polloi (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Lowers stock of the hoi polloi (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 11
-            }, 
-            "solution": "HERD", 
-            "id": "19-across"
-        }, 
+                "x": 11,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "HERD"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Heroine of Berlin and Vienna  not  very bothered (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Heroine of Berlin and Vienna  not  very bothered (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "ANNIE", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "ANNIE"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Speed unheard of in such waters? (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Speed unheard of in such waters? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 6
-            }, 
-            "solution": "UNCHARTED", 
-            "id": "22-across"
-        }, 
+                "x": 6,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "UNCHARTED"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Sol Campbell on the bench? Get away with you! (4,3)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Sol Campbell on the bench? Get away with you! (4,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "BACKOFF", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "BACKOFF"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "RIP, for example, bound to recall memory (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "RIP, for example, bound to recall memory (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 8
-            }, 
-            "solution": "TRIGRAM", 
-            "id": "25-across"
-        }, 
+                "x": 8,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "TRIGRAM"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "So the Germans might curse two of their 17 7s (11)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "So the Germans might curse two of their 17 7s (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 2
-            }, 
-            "solution": "SCHWEINHUND", 
-            "id": "26-across"
-        }, 
+                "x": 2,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "SCHWEINHUND"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Left first and third characters from \"Count Dracula's Sin\", failing as a play (5,10)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Left first and third characters from \"Count Dracula's Sin\", failing as a play (5,10)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "TITUSANDRONICUS", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "TITUSANDRONICUS"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Could be due from old sweat (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Could be due from old sweat (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "EXUDE", 
-            "id": "2-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EXUDE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "She drowned up river; he raised flag (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "She drowned up river; he raised flag (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "OPHELIA", 
-            "id": "3-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OPHELIA"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "But did he sculpt the Beatles? (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "But did he sculpt the Beatles? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "EPSTEIN", 
-            "id": "4-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EPSTEIN"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Vessel taking lettuce, they say, to and from Kos? (4,4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Vessel taking lettuce, they say, to and from Kos? (4,4)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "MAILBOAT", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "MAILBOAT"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Didn't speculate? Evidently, no div! Then get run out (7,8)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Didn't speculate? Evidently, no div! Then get run out (7,8)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "NOTHINGVENTURED", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "NOTHINGVENTURED"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Watch maintained by the Countryside Alliance? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Watch maintained by the Countryside Alliance? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "HUNTER", 
-            "id": "7-down"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "HUNTER"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "\"What gives me a funny turn outside Wolfson's concern? The loo!\" (12s) (6,3,8)",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "8-down", 
+                "8-down",
                 "1-across"
-            ], 
-            "number": 8, 
-            "clue": "\"What gives me a funny turn outside Wolfson's concern? The loo!\" (12s) (6,3,8)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 1, 
-                "x": 14
-            }, 
-            "solution": "FUNGUS", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "FUNGUS"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Choose one or the other? No! Tho' almost behave badly (4,4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Choose one or the other? No! Tho' almost behave badly (4,4)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "HAVEBOTH", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "HAVEBOTH"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Growling growler driver? That's about right! (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Growling growler driver? That's about right! (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "CRABBY", 
-            "id": "16-down"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "CRABBY"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "8's collar could be let out (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "8's collar could be let out (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 6
-            }, 
-            "solution": "TRUFFLE", 
-            "id": "17-down"
-        }, 
+                "x": 6,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "TRUFFLE"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Electron bound to arouse notice in Times? Quite the reverse (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Electron bound to arouse notice in Times? Quite the reverse (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 8
-            }, 
-            "solution": "EXCITON", 
-            "id": "18-down"
-        }, 
+                "x": 8,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "EXCITON"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Old bird of Mauritius with mother in Tanzania (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Old bird of Mauritius with mother in Tanzania (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 14
-            }, 
-            "solution": "DODOMA", 
-            "id": "20-down"
-        }, 
+                "x": 14,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "DODOMA"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Second farewell to the Spanish ladies (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Second farewell to the Spanish ladies (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 10
-            }, 
-            "solution": "ADIEU", 
-            "id": "23-down"
+                "x": 10,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "ADIEU"
         }
-    ], 
-    "date": 1071100800000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/23011", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1071100800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M35"
 }

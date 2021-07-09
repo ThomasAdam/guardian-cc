@@ -1,502 +1,504 @@
 {
-    "name": "Cryptic crossword No 22,885", 
+    "id": "crosswords/cryptic/22885",
+    "number": 22885,
+    "name": "Cryptic crossword No 22,885",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/logodaedalus", 
-        "name": "Logodaedalus"
-    }, 
-    "dateSolutionAvailable": 1058396400000, 
-    "number": 22885, 
-    "crosswordType": "cryptic", 
+        "name": "Logodaedalus",
+        "webUrl": "https://www.theguardian.com/profile/logodaedalus"
+    },
+    "date": 1058400000000,
+    "webPublicationDate": 1058396400000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Art - no solution for someone who's not beautiful (3,8)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Art - no solution for someone who's not beautiful (3,8)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "OILPAINTING", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "OILPAINTING"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Head of staff tucked into stew in trendy nightclub (3,4)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Head of staff tucked into stew in trendy nightclub (3,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "HOTSPOT", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "HOTSPOT"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Wax almost inoperative, so prepare for paint  perhaps (3,4)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Wax almost inoperative, so prepare for paint  perhaps (3,4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 2, 
-                "x": 8
-            }, 
-            "solution": "RUBDOWN", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "RUBDOWN"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "King in unfinished scrap is OK (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "King in unfinished scrap is OK (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "CLEARANCE", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "CLEARANCE"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Iron in the mouth turning muddy (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Iron in the mouth turning muddy (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 10
-            }, 
-            "solution": "BEFOG", 
-            "id": "12-across"
-        }, 
+                "x": 10,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "BEFOG"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Very enthusiastic, the opposite of a great female singer (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Very enthusiastic, the opposite of a great female singer (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "AVID", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "AVID"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Timber (a ton) hiding a garden plant (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Timber (a ton) hiding a garden plant (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 5
-            }, 
-            "solution": "MONTBRETIA", 
-            "id": "14-across"
-        }, 
+                "x": 5,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "MONTBRETIA"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Answer to Peron, born in Chile, is within reach (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Answer to Peron, born in Chile, is within reach (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "ACHIEVABLE", 
-            "id": "16-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ACHIEVABLE"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "How to address a princess? Any way you like! (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "How to address a princess? Any way you like! (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 11
-            }, 
-            "solution": "MAAM", 
-            "id": "19-across"
-        }, 
+                "x": 11,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "MAAM"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Slattern with no nurse around to get milky coffee (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Slattern with no nurse around to get milky coffee (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "LATTE", 
-            "id": "20-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "LATTE"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Object after getting churned up dairy product (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Object after getting churned up dairy product (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 6
-            }, 
-            "solution": "BUTTERFAT", 
-            "id": "21-across"
-        }, 
+                "x": 6,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "BUTTERFAT"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Musical sensitivity in the group is most convenient (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Musical sensitivity in the group is most convenient (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "NEAREST", 
-            "id": "23-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "NEAREST"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Demanding love binds Emperor to us (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Demanding love binds Emperor to us (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 8
-            }, 
-            "solution": "ONEROUS", 
-            "id": "24-across"
-        }, 
+                "x": 8,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "ONEROUS"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Tynan describes strong desire to drown in such a drama (7,4)",
+            "direction": "across",
+            "length": 11,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Tynan describes strong desire to drown in such a drama (7,4)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 11, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 14, 
-                "x": 2
-            }, 
-            "solution": "KITCHENSINK", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "KITCHENSINK"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "A Tory is following the correct line of enquiry (2,3,5,5)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "A Tory is following the correct line of enquiry (2,3,5,5)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
-                    5, 
+                    2,
+                    5,
                     10
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "ONTHERIGHTTRACK", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "ONTHERIGHTTRACK"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Simon, perhaps, laid into gentile persons (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Simon, perhaps, laid into gentile persons (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "LEPER", 
-            "id": "2-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LEPER"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Merchant of Venice affecting one at noon (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Merchant of Venice affecting one at noon (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "ANTONIO", 
-            "id": "3-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ANTONIO"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "No rest when disturbed by wife, so what's the point? (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "No rest when disturbed by wife, so what's the point? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "NORWEST", 
-            "id": "4-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "NORWEST"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "I'm taking corrupt bribes from boozers (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "I'm taking corrupt bribes from boozers (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "IMBIBERS", 
-            "id": "5-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "IMBIBERS"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Charlie, in need of big semi and mate, to start unprepared (2,3,2,4-4)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Charlie, in need of big semi and mate, to start unprepared (2,3,2,4-4)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 0
+            },
             "separatorLocations": {
+                ",": [
+                    2,
+                    5,
+                    7
+                ],
                 "-": [
                     11
-                ], 
-                ",": [
-                    2, 
-                    5, 
-                    7
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "GOOFFATHALFCOCK", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "GOOFFATHALFCOCK"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Stupid but friendly, like a suggestion to a king (5,2,1,5)",
+            "direction": "down",
+            "length": 13,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Stupid but friendly, like a suggestion to a king (5,2,1,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
-                    5, 
-                    7, 
+                    5,
+                    7,
                     8
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "THICKASAPLANK", 
-            "id": "7-down"
-        }, 
+            },
+            "solution": "THICKASAPLANK"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "One who sorts the letters (13)",
+            "direction": "down",
+            "length": 13,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "One who sorts the letters (13)", 
-            "separatorLocations": {}, 
-            "length": 13, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 14
-            }, 
-            "solution": "ANAGRAMMATIST", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "ANAGRAMMATIST"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Humble, being always in a hole (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Humble, being always in a hole (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "REVERENT", 
-            "id": "15-down"
-        }, 
+                "x": 4,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "REVERENT"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "African tree, initially burgeoning in a competition (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "African tree, initially burgeoning in a competition (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 6
-            }, 
-            "solution": "AMBATCH", 
-            "id": "17-down"
-        }, 
+                "x": 6,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "AMBATCH"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Town led astray, which is a disappointment (3-4)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Town led astray, which is a disappointment (3-4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 8
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 8, 
-                "x": 8
-            }, 
-            "solution": "LETDOWN", 
-            "id": "18-down"
-        }, 
+            },
+            "solution": "LETDOWN"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Sticky substance made from English lime (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Sticky substance made from English lime (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 10
-            }, 
-            "solution": "ELEMI", 
-            "id": "22-down"
+                "x": 10,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "ELEMI"
         }
-    ], 
-    "date": 1058400000000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/22885", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1058396400000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M52"
 }

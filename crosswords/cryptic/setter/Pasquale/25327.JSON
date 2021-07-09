@@ -1,599 +1,601 @@
 {
-    "name": "Cryptic crossword No 25,327", 
+    "id": "crosswords/cryptic/25327",
+    "number": 25327,
+    "name": "Cryptic crossword No 25,327",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/pasquale", 
-        "name": "Pasquale"
-    }, 
-    "dateSolutionAvailable": 1305846000000, 
-    "number": 25327, 
-    "crosswordType": "cryptic", 
+        "name": "Pasquale",
+        "webUrl": "https://www.theguardian.com/profile/pasquale"
+    },
+    "date": 1305849600000,
+    "webPublicationDate": 1305846000000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "7-across",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Drug that makes one live longer, reportedly (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "7-across"
-            ], 
-            "number": 7, 
-            "clue": "Drug that makes one live longer, reportedly (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "DILATOR", 
-            "id": "7-across"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "DILATOR"
+        },
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "A soak's ending? What, in summer month? Do this then! (4,3)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "A soak's ending? What, in summer month? Do this then! (4,3)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 1, 
-                "x": 8
-            }, 
-            "solution": "MAKEHAY", 
-            "id": "8-across"
-        }, 
+            },
+            "solution": "MAKEHAY"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Place reached by sea passage, we hear (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Place reached by sea passage, we hear (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "ISLE", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "ISLE"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Old chap eating lunch maybe, one to perk up (4,5)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Old chap eating lunch maybe, one to perk up (4,5)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 3, 
-                "x": 5
-            }, 
-            "solution": "COMEALIVE", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "COMEALIVE"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Little house with people not half dull (2-3)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Little house with people not half dull (2-3)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 5
+            },
             "separatorLocations": {
                 "-": [
                     2
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 5, 
-                "x": 1
-            }, 
-            "solution": "HOHUM", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "HOHUM"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Fish gone off course, one no good for catching (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Fish gone off course, one no good for catching (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 7
-            }, 
-            "solution": "STINGRAY", 
-            "id": "13-across"
-        }, 
+                "x": 7,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "STINGRAY"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15, 16, 17",
+            "clue": " No rebel, hard-working student said to be on the ball (4,5,4)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "15-across", 
-                "16-across", 
+                "15-across",
+                "16-across",
                 "17-across"
-            ], 
-            "number": 15, 
-            "clue": " No rebel, hard-working student said to be on the ball (4,5,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "15, 16, 17", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "KNOW", 
-            "id": "15-across"
-        }, 
+            },
+            "solution": "KNOW"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "See 15",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "15-across", 
-                "16-across", 
+                "15-across",
+                "16-across",
                 "17-across"
-            ], 
-            "number": 16, 
-            "clue": "See 15", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "WHATS", 
-            "id": "16-across"
-        }, 
+            },
+            "solution": "WHATS"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "See 15",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "15-across", 
-                "16-across", 
+                "15-across",
+                "16-across",
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "See 15", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "solution": "WHAT", 
-            "id": "17-across"
-        }, 
+            },
+            "solution": "WHAT"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Sixth sense employed to secure ring to be married (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Sixth sense employed to secure ring to be married (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "ESPOUSED", 
-            "id": "18-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ESPOUSED"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Lousiest material editor's chucked out (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Lousiest material editor's chucked out (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "WORST", 
-            "id": "20-across"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "WORST"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Splits from son, always being held in scorn (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Splits from son, always being held in scorn (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 1
-            }, 
-            "solution": "DISSEVERS", 
-            "id": "21-across"
-        }, 
+                "x": 1,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "DISSEVERS"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Characters enthralled by the beautiful goddess (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Characters enthralled by the beautiful goddess (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 11
-            }, 
-            "solution": "HEBE", 
-            "id": "22-across"
-        }, 
+                "x": 11,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "HEBE"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "African managed to seize rod of authority (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "African managed to seize rod of authority (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "RWANDAN", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "RWANDAN"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Be boisterous, turning bad in swaying motion (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Be boisterous, turning bad in swaying motion (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 8
-            }, 
-            "solution": "ROLLICK", 
-            "id": "25-across"
-        }, 
+                "x": 8,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "ROLLICK"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1, 12, 21",
+            "clue": " Achieves easy success, when not yielding to highwayman's request? (4,5,4)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "1-down", 
-                "12-down", 
+                "1-down",
+                "12-down",
                 "21-down"
-            ], 
-            "number": 1, 
-            "clue": " Achieves easy success, when not yielding to highwayman's request? (4,5,4)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "1, 12, 21", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "WINS", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "WINS"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Good old England wicketkeeper who worked for TV programme? (4,4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Good old England wicketkeeper who worked for TV programme? (4,4)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "GAMESHOW", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "GAMESHOW"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Sort of business catastrophe to get caught up in (3-3)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Sort of business catastrophe to get caught up in (3-3)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "DOTCOM", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "DOTCOM"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Stars joining jail birds (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Stars joining jail birds (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "CANARIES", 
-            "id": "4-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CANARIES"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Top gymnast in Eastern city once (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Top gymnast in Eastern city once (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "PEKING", 
-            "id": "5-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PEKING"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6, 14, 23",
+            "clue": " Got lucre quickly with fancy backed \u2014 a fat sum (4,1,4,4)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "6-down", 
-                "14-down", 
+                "6-down",
+                "14-down",
                 "23-down"
-            ], 
-            "number": 6, 
-            "clue": " Got lucre quickly with fancy backed \u2014 a fat sum (4,1,4,4)", 
+            ],
+            "position": {
+                "x": 13,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "6, 14, 23", 
-            "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "MADE", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "MADE"
+        },
         {
-            "direction": "down", 
+            "id": "11-down",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Go wrong dealing with pub drink \u2014 being taken short within walking distance? (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "11-down"
-            ], 
-            "number": 11, 
-            "clue": "Go wrong dealing with pub drink \u2014 being taken short within walking distance? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 7
-            }, 
-            "solution": "MISHANDLE", 
-            "id": "11-down"
-        }, 
+                "x": 7,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "MISHANDLE"
+        },
         {
-            "direction": "down", 
+            "id": "12-down",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "See 1",
+            "direction": "down",
+            "length": 5,
             "group": [
-                "1-down", 
-                "12-down", 
+                "1-down",
+                "12-down",
                 "21-down"
-            ], 
-            "number": 12, 
-            "clue": "See 1", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 5, 
-                "x": 1
-            }, 
-            "solution": "HANDS", 
-            "id": "12-down"
-        }, 
+            },
+            "solution": "HANDS"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "See 6",
+            "direction": "down",
+            "length": 5,
             "group": [
-                "6-down", 
-                "14-down", 
+                "6-down",
+                "14-down",
                 "23-down"
-            ], 
-            "number": 14, 
-            "clue": "See 6", 
+            ],
+            "position": {
+                "x": 13,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
-                    1, 
+                    1,
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 5, 
-                "x": 13
-            }, 
-            "solution": "AFAST", 
-            "id": "14-down"
-        }, 
+            },
+            "solution": "AFAST"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Like an old chapel in Wales Nye restored (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Like an old chapel in Wales Nye restored (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "WESLEYAN", 
-            "id": "16-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "WESLEYAN"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Underground passage undamaged with class heading off into it (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Underground passage undamaged with class heading off into it (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "solution": "WORMHOLE", 
-            "id": "17-down"
-        }, 
+                "x": 11,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "WORMHOLE"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Duke or count \u2014 he falls off gee-gee in middle of bog (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Duke or count \u2014 he falls off gee-gee in middle of bog (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 3
-            }, 
-            "solution": "ORSINO", 
-            "id": "19-down"
-        }, 
+                "x": 3,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ORSINO"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "\"Jammy\" ladies going to wicked city with a loss of love and common sense (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "\"Jammy\" ladies going to wicked city with a loss of love and common sense (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "WISDOM", 
-            "id": "20-down"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "WISDOM"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "See 1",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "1-down", 
-                "12-down", 
+                "1-down",
+                "12-down",
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "See 1", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 11, 
-                "x": 1
-            }, 
-            "solution": "DOWN", 
-            "id": "21-down"
-        }, 
+            },
+            "solution": "DOWN"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "See 6",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "6-down", 
-                "14-down", 
+                "6-down",
+                "14-down",
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "See 6", 
+            ],
+            "position": {
+                "x": 13,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "23", 
-            "position": {
-                "y": 11, 
-                "x": 13
-            }, 
-            "solution": "BUCK", 
-            "id": "23-down"
+            },
+            "solution": "BUCK"
         }
-    ], 
-    "date": 1305849600000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20110520.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25327", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1305846000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20110520.pdf",
+    "_gridType": "M58"
 }

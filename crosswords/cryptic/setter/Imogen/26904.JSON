@@ -1,568 +1,570 @@
 {
-    "name": "Cryptic crossword No 26,904", 
+    "id": "crosswords/cryptic/26904",
+    "number": 26904,
+    "name": "Cryptic crossword No 26,904",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/imogen", 
-        "name": "Imogen"
-    }, 
-    "dateSolutionAvailable": 1465254000000, 
-    "number": 26904, 
-    "crosswordType": "cryptic", 
+        "name": "Imogen",
+        "webUrl": "https://www.theguardian.com/profile/imogen"
+    },
+    "date": 1465257600000,
+    "webPublicationDate": 1465257607000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Back in school cafe finally, really fancied horse meat (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Back in school cafe finally, really fancied horse meat (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "ENTRECOTE", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "ENTRECOTE"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "One African country or another loses excellent backing (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "One African country or another loses excellent backing (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 10
-            }, 
-            "solution": "NIGER", 
-            "id": "10-across"
-        }, 
+                "x": 10,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "NIGER"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "See 3",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "3-down", 
+                "3-down",
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "See 3", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "WOOSTER", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "WOOSTER"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Slattern moves head along desk (4-3)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Slattern moves head along desk (4-3)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 3
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 3, 
-                "x": 8
-            }, 
-            "solution": "ROLLTOP", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "ROLLTOP"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Chuckle from man in shirt (2-3)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Chuckle from man in shirt (2-3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 5
+            },
             "separatorLocations": {
                 "-": [
                     2
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "TEHEE", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "TEHEE"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Yob, for one, supports Fritz (4,5)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Yob, for one, supports Fritz (4,5)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 5, 
-                "x": 6
-            }, 
-            "solution": "BACKSLANG", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "BACKSLANG"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Bars not essential in the theatre? (10,5)",
+            "direction": "across",
+            "length": 15,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Bars not essential in the theatre? (10,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     10
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "INCIDENTALMUSIC", 
-            "id": "16-across"
-        }, 
+            },
+            "solution": "INCIDENTALMUSIC"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19, 25",
+            "clue": " Originally meant to hang, free old highwayman (9,2,3,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "19-across", 
+                "19-across",
                 "25-across"
-            ], 
-            "number": 19, 
-            "clue": " Originally meant to hang, free old highwayman (9,2,3,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     9
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "19, 25", 
-            "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "GENTLEMAN", 
-            "id": "19-across"
-        }, 
+            },
+            "solution": "GENTLEMAN"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Endless delight, alcohol in a big bowl (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Endless delight, alcohol in a big bowl (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "JORUM", 
-            "id": "21-across"
-        }, 
+                "x": 10,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "JORUM"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Fine given by Recorder, who would prefer harsher punishment? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Fine given by Recorder, who would prefer harsher punishment? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "FLOGGER", 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "FLOGGER"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "From a kingdom of Anglo-Saxons, I moved to 6's land (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "From a kingdom of Anglo-Saxons, I moved to 6's land (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 8
-            }, 
-            "solution": "AMERICA", 
-            "id": "23-across"
-        }, 
+                "x": 8,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "AMERICA"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Fibre is new, only just spun (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Fibre is new, only just spun (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "NYLON", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "NYLON"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "See 19",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "19-across", 
+                "19-across",
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "See 19", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 13, 
-                "x": 6
-            }, 
-            "solution": "OFTHEROAD", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "OFTHEROAD"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Going asleep (3-7)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Going asleep (3-7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "BEDWETTING", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "BEDWETTING"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "\"Killing cat\", a disastrous sort of ode (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "\"Killing cat\", a disastrous sort of ode (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "STROPHIC", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "STROPHIC"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3, 11",
+            "clue": " Drone, as it were, released inside stage of rocket (6,7)",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "3-down", 
+                "3-down",
                 "11-across"
-            ], 
-            "number": 3, 
-            "clue": " Drone, as it were, released inside stage of rocket (6,7)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "3, 11", 
-            "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "BERTIE", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "BERTIE"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "See 8",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "8-down", 
+                "8-down",
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "See 8", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "DOOR", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DOOR"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Fairy liquid: pure, clean, capital for hands (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Fairy liquid: pure, clean, capital for hands (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "LEPRECHAUN", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LEPRECHAUN"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Typical statesman, one making advances to Cameron (5,3)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Typical statesman, one making advances to Cameron (5,3)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "UNCLESAM", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "UNCLESAM"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Sort of saga which almost was related to 3 11 (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Sort of saga which almost was related to 3 11 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "AGATHA", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "AGATHA"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8, 4",
+            "clue": " Crosspiece put over hole in floor (8)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "8-down", 
+                "8-down",
                 "4-down"
-            ], 
-            "number": 8, 
-            "clue": " Crosspiece put over hole in floor (8)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "8, 4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "TRAP", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TRAP"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "One in a billion, vegetable that produces blood cells (4,6)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "One in a billion, vegetable that produces blood cells (4,6)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 5, 
-                "x": 6
-            }, 
-            "solution": "BONEMARROW", 
-            "id": "14-down"
-        }, 
+            },
+            "solution": "BONEMARROW"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Order soldier to move unbriefed? (2,8)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Order soldier to move unbriefed? (2,8)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 5, 
-                "x": 14
-            }, 
-            "solution": "GOCOMMANDO", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "GOCOMMANDO"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Painstaking cover-up \u2014 it protects dope (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Painstaking cover-up \u2014 it protects dope (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "DILIGENT", 
-            "id": "17-down"
-        }, 
+                "x": 4,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "DILIGENT"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Oral exam headed by teacher one gets through (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Oral exam headed by teacher one gets through (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 12
-            }, 
-            "solution": "SURVIVOR", 
-            "id": "18-down"
-        }, 
+                "x": 12,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "SURVIVOR"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "One old tatty ribbon (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "One old tatty ribbon (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 2
-            }, 
-            "solution": "NOODLE", 
-            "id": "20-down"
-        }, 
+                "x": 2,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "NOODLE"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "3 11's 19's 19 (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "3 11's 19's 19 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "JEEVES", 
-            "id": "21-down"
-        }, 
+                "x": 10,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "JEEVES"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22, 23",
+            "clue": " In Jane's good books, offering sweets (8)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "22-down", 
+                "22-down",
                 "23-down"
-            ], 
-            "number": 22, 
-            "clue": " In Jane's good books, offering sweets (8)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "22, 23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "FOND", 
-            "id": "22-down"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "FOND"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "See 22",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "22-down", 
+                "22-down",
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "See 22", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 8
-            }, 
-            "solution": "ANTS", 
-            "id": "23-down"
+                "x": 8,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "ANTS"
         }
-    ], 
-    "date": 1465257600000, 
-    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20160607.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/26904", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1465254000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20160607.pdf",
+    "_gridType": "M08"
 }

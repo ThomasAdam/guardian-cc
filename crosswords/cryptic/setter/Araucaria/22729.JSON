@@ -1,554 +1,556 @@
 {
-    "name": "Cryptic crossword No 22,729", 
+    "id": "crosswords/cryptic/22729",
+    "number": 22729,
+    "name": "Cryptic crossword No 22,729",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/araucaria", 
-        "name": "Araucaria"
-    }, 
-    "dateSolutionAvailable": 1042675200000, 
-    "number": 22729, 
-    "crosswordType": "cryptic", 
+        "name": "Araucaria",
+        "webUrl": "https://www.theguardian.com/profile/araucaria"
+    },
+    "date": 1042675200000,
+    "webPublicationDate": 1042675200000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Missing articles - llamas confused with lamas - I've got plenty of tricks (5,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Missing articles - llamas confused with lamas - I've got plenty of tricks (5,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "SMALLSLAM", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "SMALLSLAM"
+        },
         {
-            "direction": "across", 
+            "id": "6-across",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Deity some see as a tyrant (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "6-across"
-            ], 
-            "number": 6, 
-            "clue": "Deity some see as a tyrant (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "SATYR", 
-            "id": "6-across"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SATYR"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Expressive books that needn't be read (8,7)",
+            "direction": "across",
+            "length": 15,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Expressive books that needn't be read (8,7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "SPEAKINGVOLUMES", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "SPEAKINGVOLUMES"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "27 17 exposed to drink (8)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "10-across", 
+                "10-across",
                 "21-across"
-            ], 
-            "number": 10, 
-            "clue": "27 17 exposed to drink (8)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "AIRE", 
-            "id": "10-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "AIRE"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Drink time (two days) put on as extra (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Drink time (two days) put on as extra (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 7
-            }, 
-            "solution": "SUPERADD", 
-            "id": "11-across"
-        }, 
+                "x": 7,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "SUPERADD"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Part of a 17, say, a beast of a weed (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Part of a 17, say, a beast of a weed (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "DANDELION", 
-            "id": "14-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "DANDELION"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "17 on high ground (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "17 on high ground (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 10
-            }, 
-            "solution": "CAIRN", 
-            "id": "15-across"
-        }, 
+                "x": 10,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "CAIRN"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Lana Turner's head turned at birth (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Lana Turner's head turned at birth (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "NATAL", 
-            "id": "16-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "NATAL"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Say about Tracey being embraced by tinker, it appears (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Say about Tracey being embraced by tinker, it appears (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 6
-            }, 
-            "solution": "SEEMINGLY", 
-            "id": "18-across"
-        }, 
+                "x": 6,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "SEEMINGLY"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "African currency comes in a little bit casually (2,6)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "African currency comes in a little bit casually (2,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "20", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "ATRANDOM", 
-            "id": "20-across"
-        }, 
+            },
+            "solution": "ATRANDOM"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "See 10",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "10-across", 
+                "10-across",
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "See 10", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 11
-            }, 
-            "solution": "DALE", 
-            "id": "21-across"
-        }, 
+                "x": 11,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "DALE"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "I'm at college: little work is required relative to how it's done (15)",
+            "direction": "across",
+            "length": 15,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "I'm at college: little work is required relative to how it's done (15)", 
-            "separatorLocations": {}, 
-            "length": 15, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "EPISTEMOLOGICAL", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "EPISTEMOLOGICAL"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Father's new hooter (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Father's new hooter (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "SIREN", 
-            "id": "26-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "SIREN"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "17 to shirk problem in former days (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "17 to shirk problem in former days (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 6
-            }, 
-            "solution": "YORKSHIRE", 
-            "id": "27-across"
-        }, 
+                "x": 6,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "YORKSHIRE"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Russian girl is ashamed to part (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Russian girl is ashamed to part (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "SASHA", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SASHA"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Vitamin B for Bevan (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Vitamin B for Bevan (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "ANEURIN", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ANEURIN"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "17 has left Kipling's grey wolf and doesn't start (8)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "3-down", 
+                "3-down",
                 "4-down"
-            ], 
-            "number": 3, 
-            "clue": "17 has left Kipling's grey wolf and doesn't start (8)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "LAKE", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LAKE"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "See 3",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "3-down", 
+                "3-down",
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "See 3", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "LAND", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LAND"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Roman venue arranged for me darlin' (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Roman venue arranged for me darlin' (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "MAVOURNEEN", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "MAVOURNEEN"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "For crossing palm with olive in Senior Common Room? (6,4)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "For crossing palm with olive in Senior Common Room? (6,4)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "SILVERCOIN", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "SILVERCOIN"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Boy's terror curtailed by drums (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Boy's terror curtailed by drums (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "TIMPANI", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TIMPANI"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Top job topped - it's a hospital job (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Top job topped - it's a hospital job (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "RESIDENCY", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "RESIDENCY"
+        },
         {
-            "direction": "down", 
+            "id": "12-down",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "17 part of garden where heather's not raised (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "12-down"
-            ], 
-            "number": 12, 
-            "clue": "17 part of garden where heather's not raised (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 4
-            }, 
-            "solution": "BEDLINGTON", 
-            "id": "12-down"
-        }, 
+                "x": 4,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "BEDLINGTON"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "M for a holiday? (5,2,3)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "M for a holiday? (5,2,3)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
-                    5, 
+                    5,
                     7
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 6
-            }, 
-            "solution": "FIRSTOFMAY", 
-            "id": "13-down"
-        }, 
+            },
+            "solution": "FIRSTOFMAY"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Wear for station abroad among the sandhills (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Wear for station abroad among the sandhills (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "DUNGAREES", 
-            "id": "14-down"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "DUNGAREES"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Row about slip up in the inventory (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Row about slip up in the inventory (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 2
-            }, 
-            "solution": "TERRIER", 
-            "id": "17-down"
-        }, 
+                "x": 2,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "TERRIER"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Roman brothers get fat keeping up numbered chariot (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Roman brothers get fat keeping up numbered chariot (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 12
-            }, 
-            "solution": "GRACCHI", 
-            "id": "19-down"
-        }, 
+                "x": 12,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "GRACCHI"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Little girl of the Spanish romance (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Little girl of the Spanish romance (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 14
-            }, 
-            "solution": "ELLIE", 
-            "id": "22-down"
-        }, 
+                "x": 14,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "ELLIE"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Group one can't make out (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Group one can't make out (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 8
-            }, 
-            "solution": "BLUR", 
-            "id": "23-down"
-        }, 
+                "x": 8,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "BLUR"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Sure things (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "Sure things (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 10
-            }, 
-            "solution": "EGGS", 
-            "id": "24-down"
+                "x": 10,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "EGGS"
         }
-    ], 
-    "date": 1042675200000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/22729", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1042675200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M37"
 }

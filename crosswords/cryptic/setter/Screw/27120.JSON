@@ -1,550 +1,552 @@
 {
-    "name": "Cryptic crossword No 27,120", 
+    "id": "crosswords/cryptic/27120",
+    "number": 27120,
+    "name": "Cryptic crossword No 27,120",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/screw", 
-        "name": "Screw"
-    }, 
-    "dateSolutionAvailable": 1487030400000, 
-    "number": 27120, 
-    "crosswordType": "cryptic", 
+        "name": "Screw",
+        "webUrl": "https://www.theguardian.com/profile/screw"
+    },
+    "date": 1487030400000,
+    "webPublicationDate": 1487030427000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Cheat's making cut, under par (3-3)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Cheat's making cut, under par (3-3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "RIPOFF", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "RIPOFF"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Forgetting those in loo, hustled workaholics into vehicle (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "Forgetting those in loo, hustled workaholics into vehicle (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "RICKSHAW", 
-            "id": "5-across"
-        }, 
+                "x": 7,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "RICKSHAW"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9, 16",
+            "clue": " Just union's deputy, perhaps, is very busy (8,4,4)",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "9-across", 
+                "9-across",
                 "16-across"
-            ], 
-            "number": 9, 
-            "clue": " Just union's deputy, perhaps, is very busy (8,4,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "9, 16", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "STANDING", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "STANDING"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Extras see you later (3-3)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Extras see you later (3-3)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 2
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 2, 
-                "x": 9
-            }, 
-            "solution": "BYEBYE", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "BYEBYE"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "It's never been found by certain odd ones out (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "It's never been found by certain odd ones out (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "YETI", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "YETI"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Diving, say, until I am so shattered (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Diving, say, until I am so shattered (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 5
-            }, 
-            "solution": "SIMULATION", 
-            "id": "12-across"
-        }, 
+                "x": 5,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "SIMULATION"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Stop breaking trophy's record (4,2)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Stop breaking trophy's record (4,2)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "CLOGUP", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "CLOGUP"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Able to do maths, working out true mean (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Able to do maths, working out true mean (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 7
-            }, 
-            "solution": "NUMERATE", 
-            "id": "14-across"
-        }, 
+                "x": 7,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "NUMERATE"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "See 9",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "9-across", 
+                "9-across",
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "See 9", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "ROOMONLY", 
-            "id": "16-across"
-        }, 
+            },
+            "solution": "ROOMONLY"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Strip of those playing for Rhode Island (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Strip of those playing for Rhode Island (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 9
-            }, 
-            "solution": "RIBAND", 
-            "id": "19-across"
-        }, 
+                "x": 9,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "RIBAND"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Run away with one friend to fair (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Run away with one friend to fair (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "LEGITIMATE", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "LEGITIMATE"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Pinch boobs (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Pinch boobs (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 11
-            }, 
-            "solution": "BUST", 
-            "id": "23-across"
-        }, 
+                "x": 11,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "BUST"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Pipe down building's in position (4,2)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Pipe down building's in position (4,2)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "SHUTIT", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "SHUTIT"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Andy Murray's choice sinks in (4,4)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Andy Murray's choice sinks in (4,4)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 12, 
-                "x": 7
-            }, 
-            "solution": "DROPSHOT", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "DROPSHOT"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Torn up, it's rubbish (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Torn up, it's rubbish (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "PRINTOUT", 
-            "id": "26-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "PRINTOUT"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Inter Milan's first on bet slips (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Inter Milan's first on bet slips (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 9
-            }, 
-            "solution": "ENTOMB", 
-            "id": "27-across"
-        }, 
+                "x": 9,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "ENTOMB"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Naked, I then hassled singer \u2014 what a diva! (2,3,10)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Naked, I then hassled singer \u2014 what a diva! (2,3,10)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     5
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "INTHEALTOGETHER", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "INTHEALTOGETHER"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Nothing in piece to suggest porker cries (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Nothing in piece to suggest porker cries (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "OINKING", 
-            "id": "3-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OINKING"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Reacts violently to blows, boxers revealed? (5,4)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Reacts violently to blows, boxers revealed? (5,4)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "FLIESOPEN", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "FLIESOPEN"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Large group's brief that sets out course (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Large group's brief that sets out course (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "REGIMEN", 
-            "id": "5-down"
-        }, 
+                "x": 7,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "REGIMEN"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Party leads to chaos after boozy antics listed (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Party leads to chaos after boozy antics listed (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "CABAL", 
-            "id": "6-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CABAL"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Covering lieutenant's rank being put up (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Covering lieutenant's rank being put up (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "SHELTER", 
-            "id": "7-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SHELTER"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Take whatever's offered \u2014 it could make you party on! (3,4,2,1,5)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Take whatever's offered \u2014 it could make you party on! (3,4,2,1,5)", 
+            ],
+            "position": {
+                "x": 13,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
-                    7, 
-                    9, 
+                    3,
+                    7,
+                    9,
                     10
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "ANYPORTINASTORM", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "ANYPORTINASTORM"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Dashing chap uses it in messages (5,4)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Dashing chap uses it in messages (5,4)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 6, 
-                "x": 9
-            }, 
-            "solution": "MORSECODE", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "MORSECODE"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Wet chamois tends to gather (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Wet chamois tends to gather (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 3
-            }, 
-            "solution": "MOISTEN", 
-            "id": "17-down"
-        }, 
+                "x": 3,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "MOISTEN"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Ready to burst ages ago (4,3)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Ready to burst ages ago (4,3)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "YEARDOT", 
-            "id": "18-down"
-        }, 
+            },
+            "solution": "YEARDOT"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Temporarily take issue by agreement (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Temporarily take issue by agreement (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 11
-            }, 
-            "solution": "BABYSIT", 
-            "id": "20-down"
-        }, 
+                "x": 11,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "BABYSIT"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Opening fortnightly shows up (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Opening fortnightly shows up (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 5
-            }, 
-            "solution": "INTRO", 
-            "id": "22-down"
+                "x": 5,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "INTRO"
         }
-    ], 
-    "date": 1487030400000, 
-    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20170214.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/27120", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1487030400000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20170214.pdf",
+    "_gridType": "M62"
 }

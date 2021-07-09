@@ -1,609 +1,611 @@
 {
-    "name": "Cryptic crossword No 26,314", 
+    "id": "crosswords/cryptic/26314",
+    "number": 26314,
+    "name": "Cryptic crossword No 26,314",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/boatman", 
-        "name": "Boatman"
-    }, 
-    "dateSolutionAvailable": 1405551600000, 
-    "number": 26314, 
-    "crosswordType": "cryptic", 
+        "name": "Boatman",
+        "webUrl": "https://www.theguardian.com/profile/boatman"
+    },
+    "date": 1405555200000,
+    "webPublicationDate": 1405551600000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Excessively fast bowler perhaps takes Surrey opener with closing volley? (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Excessively fast bowler perhaps takes Surrey opener with closing volley? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "HASTY", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "HASTY"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Infirmity deteriorating till cure inside hospital (3,6)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Infirmity deteriorating till cure inside hospital (3,6)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 1, 
-                "x": 6
-            }, 
-            "solution": "ILLHEALTH", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "ILLHEALTH"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Punch with energy and speed \u2014 perhaps you'll walk over this? (6,3)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Punch with energy and speed \u2014 perhaps you'll walk over this? (6,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "HOOKEDRUG", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "HOOKEDRUG"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Last words betray empty jealousy (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Last words betray empty jealousy (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 10
-            }, 
-            "solution": "ENVOY", 
-            "id": "12-across"
-        }, 
+                "x": 10,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "ENVOY"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Food for missing links and throwbacks? (4,3)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Food for missing links and throwbacks? (4,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "SPAGBOL", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "SPAGBOL"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Native solver is speaking in Zulu region (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Native solver is speaking in Zulu region (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 8
-            }, 
-            "solution": "NATURAL", 
-            "id": "15-across"
-        }, 
+                "x": 8,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "NATURAL"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Having got up fast, I ran to look inside (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Having got up fast, I ran to look inside (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "ASTIR", 
-            "id": "17-across"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ASTIR"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Bust of Edmund I, oddly effaced (3)",
+            "direction": "across",
+            "length": 3,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Bust of Edmund I, oddly effaced (3)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 6
-            }, 
-            "solution": "DUD", 
-            "id": "18-across"
-        }, 
+                "x": 6,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "DUD"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Endless show of warmth: hasten round to shelter from the cold (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Endless show of warmth: hasten round to shelter from the cold (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 10
-            }, 
-            "solution": "IGLOO", 
-            "id": "20-across"
-        }, 
+                "x": 10,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "IGLOO"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Slightly more than three francs taken in high peril (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Slightly more than three francs taken in high peril (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "PITFALL", 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "PITFALL"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Cheat to win golf in last round by one point (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Cheat to win golf in last round by one point (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 8
-            }, 
-            "solution": "FINAGLE", 
-            "id": "25-across"
-        }, 
+                "x": 8,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "FINAGLE"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Worker, really gutted, gets drunk (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Worker, really gutted, gets drunk (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "BEERY", 
-            "id": "26-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "BEERY"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Sickly sundae gobbled, devoured, made sick (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Sickly sundae gobbled, devoured, made sick (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 6
-            }, 
-            "solution": "NAUSEATED", 
-            "id": "27-across"
-        }, 
+                "x": 6,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "NAUSEATED"
+        },
         {
-            "direction": "across", 
+            "id": "30-across",
+            "number": 30,
+            "humanNumber": "30",
+            "clue": "Clue to gasp about: Boatman creates vintage surface treatment (4,5)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "30-across"
-            ], 
-            "number": 30, 
-            "clue": "Clue to gasp about: Boatman creates vintage surface treatment (4,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "30", 
-            "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "LEADPAINT", 
-            "id": "30-across"
-        }, 
+            },
+            "solution": "LEADPAINT"
+        },
         {
-            "direction": "across", 
+            "id": "31-across",
+            "number": 31,
+            "humanNumber": "31",
+            "clue": "Quicksand! Sense foot being caught (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "31-across"
-            ], 
-            "number": 31, 
-            "clue": "Quicksand! Sense foot being caught (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "31", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 10
-            }, 
-            "solution": "SWIFT", 
-            "id": "31-across"
-        }, 
+                "x": 10,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "SWIFT"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "A little radioactive matter in contact with the molecular constituents of water: whoops! (2-2)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "A little radioactive matter in contact with the molecular constituents of water: whoops! (2-2)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     2
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "UHOH", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "UHOH"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Kind of rhyming, as \"kid set on insect\" (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Kind of rhyming, as \"kid set on insect\" (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "ASSONANT", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ASSONANT"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "A kind face? (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "A kind face? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "TYPE", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TYPE"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Failed to manage dire slum reform (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Failed to manage dire slum reform (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "MISRULED", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "MISRULED"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Motto, not \"quick on the draw\", say? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Motto, not \"quick on the draw\", say? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "SLOGAN", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SLOGAN"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Train speed pathetically slow? (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Train speed pathetically slow? (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "PEDESTRIAN", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PEDESTRIAN"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Be quick to get into alternative musical (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Be quick to get into alternative musical (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "OLIVER", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OLIVER"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Boatman's way of hailing Araucaria: his leading place a towering old man here (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Boatman's way of hailing Araucaria: his leading place a towering old man here (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "AHOY", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "AHOY"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Quicksand of sorts? (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Quicksand of sorts? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "SHARP", 
-            "id": "13-down"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "SHARP"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Primate of Europe: \"Pray with Arab; be daring\" (7,3)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Primate of Europe: \"Pray with Arab; be daring\" (7,3)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 5, 
-                "x": 4
-            }, 
-            "solution": "BARBARYAPE", 
-            "id": "14-down"
-        }, 
+            },
+            "solution": "BARBARYAPE"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Fast, not fast (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Fast, not fast (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 14
-            }, 
-            "solution": "LOOSE", 
-            "id": "16-down"
-        }, 
+                "x": 14,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "LOOSE"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Runs away from deadly duel fast (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Runs away from deadly duel fast (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "DEFAULTS", 
-            "id": "19-down"
-        }, 
+                "x": 8,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "DEFAULTS"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Force one to falsify rent in report (5,3)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Force one to falsify rent in report (5,3)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 7, 
-                "x": 12
-            }, 
-            "solution": "LIGHTAIR", 
-            "id": "21-down"
-        }, 
+            },
+            "solution": "LIGHTAIR"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Boot option to raise speed (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Boot option to raise speed (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 2
-            }, 
-            "solution": "TOECAP", 
-            "id": "23-down"
-        }, 
+                "x": 2,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "TOECAP"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Almost sick after fast food for vegetarians (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "Almost sick after fast food for vegetarians (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 6
-            }, 
-            "solution": "LENTIL", 
-            "id": "24-down"
-        }, 
+                "x": 6,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "LENTIL"
+        },
         {
-            "direction": "down", 
+            "id": "26-down",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Speed zone (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "26-down"
-            ], 
-            "number": 26, 
-            "clue": "Speed zone (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "BELT", 
-            "id": "26-down"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "BELT"
+        },
         {
-            "direction": "down", 
+            "id": "28-down",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "Miss start in haste to get back to front in Asia (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "28-down"
-            ], 
-            "number": 28, 
-            "clue": "Miss start in haste to get back to front in Asia (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "28", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 10
-            }, 
-            "solution": "EAST", 
-            "id": "28-down"
-        }, 
+                "x": 10,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "EAST"
+        },
         {
-            "direction": "down", 
+            "id": "29-down",
+            "number": 29,
+            "humanNumber": "29",
+            "clue": "Could be 01/12, 02/03, 03/10, 04/11! (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "29-down"
-            ], 
-            "number": 29, 
-            "clue": "Could be 01/12, 02/03, 03/10, 04/11! (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "29", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 14
-            }, 
-            "solution": "DATE", 
-            "id": "29-down"
+                "x": 14,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "DATE"
         }
-    ], 
-    "date": 1405555200000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20140717.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/26314", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1405551600000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20140717.pdf",
+    "_gridType": "M54b"
 }

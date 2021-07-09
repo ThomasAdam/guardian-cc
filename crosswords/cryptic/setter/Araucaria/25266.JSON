@@ -1,571 +1,573 @@
 {
-    "name": "Cryptic crossword No 25,266", 
+    "id": "crosswords/cryptic/25266",
+    "number": 25266,
+    "name": "Cryptic crossword No 25,266",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/araucaria", 
-        "name": "Araucaria"
-    }, 
-    "dateSolutionAvailable": 1299715200000, 
-    "number": 25266, 
-    "crosswordType": "cryptic", 
+        "name": "Araucaria",
+        "webUrl": "https://www.theguardian.com/profile/araucaria"
+    },
+    "date": 1299715200000,
+    "webPublicationDate": 1299715200000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Revolutionary turns into little helper for suckers (3,5)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "Revolutionary turns into little helper for suckers (3,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "WETNURSE", 
-            "id": "8-across"
-        }, 
+            },
+            "solution": "WETNURSE"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "See 19",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "19-down", 
+                "19-down",
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "See 19", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 1, 
-                "x": 9
-            }, 
-            "solution": "VIOLET", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "VIOLET"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "See 24 down",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "24-down", 
+                "24-down",
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "See 24 down", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "PLAY", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "PLAY"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Cosmetic base for trust in the NHS (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Cosmetic base for trust in the NHS (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 5
-            }, 
-            "solution": "FOUNDATION", 
-            "id": "11-across"
-        }, 
+                "x": 5,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "FOUNDATION"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Uproar in the nave by American boy (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Uproar in the nave by American boy (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "HUBBUB", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "HUBBUB"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "16 shows result of search in cupboard for bone (4,4)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "16 shows result of search in cupboard for bone (4,4)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 5, 
-                "x": 7
-            }, 
-            "solution": "NONELEFT", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "NONELEFT"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Spooner's pet's entry to working-class symbol (4,3)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Spooner's pet's entry to working-class symbol (4,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "FLATCAP", 
-            "id": "15-across"
-        }, 
+            },
+            "solution": "FLATCAP"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17, 20, 25, 26",
+            "clue": " Hence came Dame Dench, a class act: forlorn hope tangling with that (7,6,2,6,3,5)",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "17-across", 
-                "20-across", 
-                "25-across", 
+                "17-across",
+                "20-across",
+                "25-across",
                 "26-across"
-            ], 
-            "number": 17, 
-            "clue": " Hence came Dame Dench, a class act: forlorn hope tangling with that (7,6,2,6,3,5)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "17, 20, 25, 26", 
-            "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "CENTRAL", 
-            "id": "17-across"
-        }, 
+            },
+            "solution": "CENTRAL"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "See 17",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "17-across", 
-                "20-across", 
-                "25-across", 
+                "17-across",
+                "20-across",
+                "25-across",
                 "26-across"
-            ], 
-            "number": 20, 
-            "clue": "See 17", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
-                    6, 
+                    6,
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "20", 
-            "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "SCHOOLOF", 
-            "id": "20-across"
-        }, 
+            },
+            "solution": "SCHOOLOF"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Seated uncomfortably but not inclined to move (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Seated uncomfortably but not inclined to move (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "SEDATE", 
-            "id": "22-across"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "SEDATE"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "From two inches in five it may be split (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "From two inches in five it may be split (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "INFINITIVE", 
-            "id": "23-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "INFINITIVE"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24, 2",
+            "clue": " Pale award for acting student included without restraint (8)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "24-across", 
+                "24-across",
                 "2-down"
-            ], 
-            "number": 24, 
-            "clue": " Pale award for acting student included without restraint (8)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "24, 2", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 11
-            }, 
-            "solution": "WANT", 
-            "id": "24-across"
-        }, 
+                "x": 11,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "WANT"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "See 17",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "17-across", 
-                "20-across", 
-                "25-across", 
+                "17-across",
+                "20-across",
+                "25-across",
                 "26-across"
-            ], 
-            "number": 25, 
-            "clue": "See 17", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "SPEECH", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "SPEECH"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "See 17",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "17-across", 
-                "20-across", 
-                "25-across", 
+                "17-across",
+                "20-across",
+                "25-across",
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "See 17", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "26", 
-            "position": {
-                "y": 13, 
-                "x": 7
-            }, 
-            "solution": "ANDDRAMA", 
-            "id": "26-across"
-        }, 
+            },
+            "solution": "ANDDRAMA"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Batsman with shot that manifests his calling (4,4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Batsman with shot that manifests his calling (4,4)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "BELLPULL", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "BELLPULL"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "See 24 across",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "24-across", 
+                "24-across",
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "See 24 across", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "ONLY", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ONLY"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Foreign metal in a roll raised iconic building (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Foreign metal in a roll raised iconic building (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "PREFAB", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PREFAB"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Queen Street characters coming one after another (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Queen Street characters coming one after another (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "SEQUENT", 
-            "id": "4-down"
-        }, 
+                "x": 7,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SEQUENT"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "In which it appears that Queen's may be turned (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "In which it appears that Queen's may be turned (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "EVIDENCE", 
-            "id": "5-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EVIDENCE"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Order to breeder coming round after time assumed (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Order to breeder coming round after time assumed (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "POSTULATED", 
-            "id": "6-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "POSTULATED"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Small boy embracing model to be acquitted (3,3)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Small boy embracing model to be acquitted (3,3)", 
+            ],
+            "position": {
+                "x": 13,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "GETOFF", 
-            "id": "7-down"
-        }, 
+            },
+            "solution": "GETOFF"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Flier gets increasingly religious eating very posh biscuit (4,6)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Flier gets increasingly religious eating very posh biscuit (4,6)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 3
-            }, 
-            "solution": "BATHOLIVER", 
-            "id": "13-down"
-        }, 
+            },
+            "solution": "BATHOLIVER"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "7 holding both sides? No problem (3,5)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "7 holding both sides? No problem (3,5)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "ALLRIGHT", 
-            "id": "16-down"
-        }, 
+            },
+            "solution": "ALLRIGHT"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Freedom encourages my aunt to keep ducks (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Freedom encourages my aunt to keep ducks (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 13
-            }, 
-            "solution": "AUTONOMY", 
-            "id": "18-down"
-        }, 
+                "x": 13,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "AUTONOMY"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19, 9",
+            "clue": " Demon gripping Clive on a bender with indoor plant (7,6)",
+            "direction": "down",
+            "length": 7,
             "group": [
-                "19-down", 
+                "19-down",
                 "9-across"
-            ], 
-            "number": 19, 
-            "clue": " Demon gripping Clive on a bender with indoor plant (7,6)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "19, 9", 
-            "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "AFRICAN", 
-            "id": "19-down"
-        }, 
+            },
+            "solution": "AFRICAN"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Snack has copyright? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Snack has copyright? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 1
-            }, 
-            "solution": "CANAPE", 
-            "id": "21-down"
-        }, 
+                "x": 1,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "CANAPE"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Go it to date \u2014 not so fast! (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Go it to date \u2014 not so fast! (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "STEADY", 
-            "id": "22-down"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "STEADY"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24, 10",
+            "clue": " Fencing topped by verbal trickery (4,4)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "24-down", 
+                "24-down",
                 "10-across"
-            ], 
-            "number": 24, 
-            "clue": " Fencing topped by verbal trickery (4,4)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "24, 10", 
-            "position": {
-                "y": 11, 
-                "x": 11
-            }, 
-            "solution": "WORD", 
-            "id": "24-down"
+            },
+            "solution": "WORD"
         }
-    ], 
-    "date": 1299715200000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20110310.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25266", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1299715200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20110310.pdf",
+    "_gridType": "M15"
 }

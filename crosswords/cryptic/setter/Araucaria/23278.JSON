@@ -1,535 +1,537 @@
 {
-    "name": "Cryptic crossword No 23,278", 
+    "id": "crosswords/cryptic/23278",
+    "number": 23278,
+    "name": "Cryptic crossword No 23,278",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/araucaria", 
-        "name": "Araucaria"
-    }, 
-    "dateSolutionAvailable": 1098226800000, 
-    "number": 23278, 
-    "crosswordType": "cryptic", 
+        "name": "Araucaria",
+        "webUrl": "https://www.theguardian.com/profile/araucaria"
+    },
+    "date": 1098230400000,
+    "webPublicationDate": 1098226800000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Get overhead protection by embracing revolution (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Get overhead protection by embracing revolution (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "BROLLY", 
-            "id": "1-across"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BROLLY"
+        },
         {
-            "direction": "across", 
+            "id": "4-across",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Reptile takes American bulb (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "4-across"
-            ], 
-            "number": 4, 
-            "clue": "Reptile takes American bulb (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "CROCUS", 
-            "id": "4-across"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CROCUS"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Lofty American style has entered eighth work with bottle (British), stealing round with housefly just half swallowed  ... (4,2,3,4,2,3,6,2,4)",
+            "direction": "across",
+            "length": 15,
             "group": [
-                "9-across", 
+                "9-across",
                 "24-across"
-            ], 
-            "number": 9, 
-            "clue": "Lofty American style has entered eighth work with bottle (British), stealing round with housefly just half swallowed  ... (4,2,3,4,2,3,6,2,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
-                    6, 
-                    9, 
-                    13, 
+                    4,
+                    6,
+                    9,
+                    13,
                     15
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "HIGHASTHEFLAGON", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "HIGHASTHEFLAGON"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "...  two little houses a little earlier, I assure you! (6,5)",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "10-across", 
+                "10-across",
                 "23-down"
-            ], 
-            "number": 10, 
-            "clue": "...  two little houses a little earlier, I assure you! (6,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "HONEST", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "HONEST"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Odds against posh cathedral town being on the back burner (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Odds against posh cathedral town being on the back burner (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 7
-            }, 
-            "solution": "UNLIKELY", 
-            "id": "11-across"
-        }, 
+                "x": 7,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "UNLIKELY"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Harold's success at Chelsea the way to early crossings (8,6)",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "12-across", 
+                "12-across",
                 "22-across"
-            ], 
-            "number": 12, 
-            "clue": "Harold's success at Chelsea the way to early crossings (8,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "STAMFORD", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "STAMFORD"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "A few keep partly bright, or not at all (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "A few keep partly bright, or not at all (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 9
-            }, 
-            "solution": "SOMBRE", 
-            "id": "14-across"
-        }, 
+                "x": 9,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "SOMBRE"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Singular science for Macbeth's dogs? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Singular science for Macbeth's dogs? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "PHYSIC", 
-            "id": "15-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "PHYSIC"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Car number of setter, usually less than the day of 24 (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Car number of setter, usually less than the day of 24 (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "AUTONOMY", 
-            "id": "18-across"
-        }, 
+                "x": 7,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "AUTONOMY"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Making for Berne like Americans after 24? (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Making for Berne like Americans after 24? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "FREEBORN", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "FREEBORN"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "See 12",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "12-across", 
+                "12-across",
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "See 12", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 10, 
-                "x": 9
-            }, 
-            "solution": "BRIDGE", 
-            "id": "22-across"
-        }, 
+            },
+            "solution": "BRIDGE"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "See 9",
+            "direction": "across",
+            "length": 15,
             "group": [
-                "9-across", 
+                "9-across",
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "See 9", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
-                    9, 
+                    3,
+                    9,
                     11
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "THEFOURTHOFJULY", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "THEFOURTHOFJULY"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Agricultural worker at back of boat? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Agricultural worker at back of boat? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "TILLER", 
-            "id": "25-across"
-        }, 
+                "x": 1,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "TILLER"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Fuss about wrongdoing with good looker (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Fuss about wrongdoing with good looker (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "ADONIS", 
-            "id": "26-across"
-        }, 
+                "x": 8,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "ADONIS"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Rescue from bilge? (4,3)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Rescue from bilge? (4,3)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "BAILOUT", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "BAILOUT"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Source of colour from Loch Resort (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Source of colour from Loch Resort (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "OCHRE", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OCHRE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Land of the French emperor (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Land of the French emperor (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "LESOTHO", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LESOTHO"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Draws Sir 12 for the amateur  ... (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Draws Sir 12 for the amateur  ... (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "RAFFLES", 
-            "id": "5-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "RAFFLES"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "...  joker that breaks in? (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "...  joker that breaks in? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "CRACKSMAN", 
-            "id": "6-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CRACKSMAN"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Nader the stabiliser - so peril's averted (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Nader the stabiliser - so peril's averted (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "SPOILER", 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SPOILER"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Ought to be quiet when dreadfully loud (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Ought to be quiet when dreadfully loud (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 7
-            }, 
-            "solution": "SHOULD", 
-            "id": "8-down"
-        }, 
+                "x": 7,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "SHOULD"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Imperious males involved with turf (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Imperious males involved with turf (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 3
-            }, 
-            "solution": "MASTERFUL", 
-            "id": "13-down"
-        }, 
+                "x": 3,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "MASTERFUL"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Stag holding out had requirement for building site (4,3)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Stag holding out had requirement for building site (4,3)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "HARDHAT", 
-            "id": "16-down"
-        }, 
+            },
+            "solution": "HARDHAT"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Finish with remedy for the Spanish invasion (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Finish with remedy for the Spanish invasion (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 5
-            }, 
-            "solution": "CLOSURE", 
-            "id": "17-down"
-        }, 
+                "x": 5,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "CLOSURE"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "A little insect's English relative (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "A little insect's English relative (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "AGNATE", 
-            "id": "18-down"
-        }, 
+                "x": 7,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "AGNATE"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Bad lot, I fancy, in the paper (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Bad lot, I fancy, in the paper (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 9
-            }, 
-            "solution": "TABLOID", 
-            "id": "19-down"
-        }, 
+                "x": 9,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "TABLOID"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Non-wizards reported horse among hybrids (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Non-wizards reported horse among hybrids (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 13
-            }, 
-            "solution": "MUGGLES", 
-            "id": "20-down"
-        }, 
+                "x": 13,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "MUGGLES"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "See 10",
+            "direction": "down",
+            "length": 5,
             "group": [
-                "10-across", 
+                "10-across",
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "See 10", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 5, 
-            "humanNumber": "23", 
-            "position": {
-                "y": 10, 
-                "x": 11
-            }, 
-            "solution": "INJUN", 
-            "id": "23-down"
+            },
+            "solution": "INJUN"
         }
-    ], 
-    "date": 1098230400000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/23278", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1098226800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M32"
 }

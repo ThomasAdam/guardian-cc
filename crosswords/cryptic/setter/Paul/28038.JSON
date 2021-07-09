@@ -1,581 +1,583 @@
 {
-    "name": "Cryptic crossword No 28,038", 
+    "id": "crosswords/cryptic/28038",
+    "number": 28038,
+    "name": "Cryptic crossword No 28,038",
     "creator": {
-        "webUrl": "https://www.theguardian.com/profile/paul", 
-        "name": "Paul"
-    }, 
-    "dateSolutionAvailable": 1579824000000, 
-    "number": 28038, 
-    "crosswordType": "cryptic", 
+        "name": "Paul",
+        "webUrl": "https://www.theguardian.com/profile/paul"
+    },
+    "date": 1579824000000,
+    "webPublicationDate": 1579824009000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9, 10",
+            "clue": " Seat: I offered support for member not returned PM (9,5)",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "9-across", 
+                "9-across",
                 "10-across"
-            ], 
-            "number": 9, 
-            "clue": " Seat: I offered support for member not returned PM (9,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     9
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "9, 10", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "ISLINGTON", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "ISLINGTON"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "See 9",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "9-across", 
+                "9-across",
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "See 9", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 5, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 1, 
-                "x": 10
-            }, 
-            "solution": "NORTH", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "NORTH"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "See 20",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "20-down", 
-                "11-across", 
+                "20-down",
+                "11-across",
                 "23-down"
-            ], 
-            "number": 11, 
-            "clue": "See 20", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "WINDING", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "WINDING"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "London borough cut back foreign money (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "London borough cut back foreign money (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 8
-            }, 
-            "solution": "HACKNEY", 
-            "id": "12-across"
-        }, 
+                "x": 8,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "HACKNEY"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Clifftop home creepy, we hear? (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Clifftop home creepy, we hear? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "EYRIE", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "EYRIE"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Endless suffering: Boris's heart consumed by power issue (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Endless suffering: Boris's heart consumed by power issue (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 6
-            }, 
-            "solution": "PERDITION", 
-            "id": "14-across"
-        }, 
+                "x": 6,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "PERDITION"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16, 22 down",
+            "clue": " Backtrack twice and workers lit up by party leader? I don't believe you! (4,4,5,2,4)",
+            "direction": "across",
+            "length": 15,
             "group": [
-                "16-across", 
+                "16-across",
                 "22-down"
-            ], 
-            "number": 16, 
-            "clue": " Backtrack twice and workers lit up by party leader? I don't believe you! (4,4,5,2,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
-                    8, 
-                    13, 
+                    4,
+                    8,
+                    13,
                     15
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "16, 22 down", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "LIARLIARPANTSON", 
-            "id": "16-across"
-        }, 
+            },
+            "solution": "LIARLIARPANTSON"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Are various small birds travelling west, after starling initially again takes over (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Are various small birds travelling west, after starling initially again takes over (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "REASSUMES", 
-            "id": "19-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "REASSUMES"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Radioactive element in preservative for good health (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Radioactive element in preservative for good health (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "SALUT", 
-            "id": "21-across"
-        }, 
+                "x": 10,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "SALUT"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Middle 2 from 4 (x 2) for shipment (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Middle 2 from 4 (x 2) for shipment (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "FREIGHT", 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "FREIGHT"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Was PM unprejudiced, where only the elite accommodated? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Was PM unprejudiced, where only the elite accommodated? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 8
-            }, 
-            "solution": "MAYFAIR", 
-            "id": "23-across"
-        }, 
+                "x": 8,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "MAYFAIR"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Discuss roads home (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Discuss roads home (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "ROOTS", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "ROOTS"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Back to basics here, as Conserv\u00adative taking drugs? (6,3)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Back to basics here, as Conserv\u00adative taking drugs? (6,3)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 13, 
-                "x": 6
-            }, 
-            "solution": "SQUAREONE", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "SQUAREONE"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Where lies circulating around famous Downing Street figure, might this have extra traction? (3-7)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Where lies circulating around famous Downing Street figure, might this have extra traction? (3-7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "SIXWHEELER", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "SIXWHEELER"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Mastermind tune for worms (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Mastermind tune for worms (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "PLANARIA", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PLANARIA"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Individual absorbed by course, virtually complete (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Individual absorbed by course, virtually complete (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "ENTIRE", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ENTIRE"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Guns raised for quarry in glen? (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Guns raised for quarry in glen? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "STAG", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "STAG"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "One sport he worked on, nearing defeat (2,3,5)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "One sport he worked on, nearing defeat (2,3,5)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "ONTHEROPES", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "ONTHEROPES"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Sloth near Ealing fed last of spaghetti (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Sloth near Ealing fed last of spaghetti (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "INACTION", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "INACTION"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "See 18",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "18-down", 
+                "18-down",
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "See 18", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "BRUNEI", 
-            "id": "7-down"
-        }, 
+            },
+            "solution": "BRUNEI"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Report scale and method as liquid strained (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Report scale and method as liquid strained (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "WHEY", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "WHEY"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Boris, penning newspaper material that's shabby, is for the practical approach (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Boris, penning newspaper material that's shabby, is for the practical approach (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 6
-            }, 
-            "solution": "PRAGMATISM", 
-            "id": "14-down"
-        }, 
+                "x": 6,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "PRAGMATISM"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Stallion's back on course \u2014 whereas this one isn't (3-7)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Stallion's back on course \u2014 whereas this one isn't (3-7)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 5
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 5, 
-                "x": 14
-            }, 
-            "solution": "NONSTARTER", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "NONSTARTER"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Final drink full of street talk (4-4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Final drink full of street talk (4-4)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 7
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "LASTGASP", 
-            "id": "17-down"
-        }, 
+            },
+            "solution": "LASTGASP"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18, 7",
+            "clue": " In fun, absolute ruler's beginning to splash out \u2014 he can certainly afford it! (6,2,6)",
+            "direction": "down",
+            "length": 8,
             "group": [
-                "18-down", 
+                "18-down",
                 "7-down"
-            ], 
-            "number": 18, 
-            "clue": " In fun, absolute ruler's beginning to splash out \u2014 he can certainly afford it! (6,2,6)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
-                    6, 
+                    6,
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "18, 7", 
-            "position": {
-                "y": 7, 
-                "x": 12
-            }, 
-            "solution": "SULTANOF", 
-            "id": "18-down"
-        }, 
+            },
+            "solution": "SULTANOF"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20, 11, 23 down",
+            "clue": " Question put to liquidator by business, seriously? (3,3,7,2,2)",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "20-down", 
-                "11-across", 
+                "20-down",
+                "11-across",
                 "23-down"
-            ], 
-            "number": 20, 
-            "clue": " Question put to liquidator by business, seriously? (3,3,7,2,2)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "20, 11, 23 down", 
-            "position": {
-                "y": 9, 
-                "x": 2
-            }, 
-            "solution": "AREYOU", 
-            "id": "20-down"
-        }, 
+            },
+            "solution": "AREYOU"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Those speaking for author (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Those speaking for author (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "SAYERS", 
-            "id": "21-down"
-        }, 
+                "x": 10,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "SAYERS"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "See 16",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "16-across", 
+                "16-across",
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "See 16", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "FIRE", 
-            "id": "22-down"
-        }, 
+            },
+            "solution": "FIRE"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "See 20",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "20-down", 
-                "11-across", 
+                "20-down",
+                "11-across",
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "See 20", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "23", 
-            "position": {
-                "y": 11, 
-                "x": 8
-            }, 
-            "solution": "MEUP", 
-            "id": "23-down"
+            },
+            "solution": "MEUP"
         }
-    ], 
-    "date": 1579824000000, 
-    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20200124.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/28038", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1579824000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20200124.pdf",
+    "_gridType": "M08"
 }

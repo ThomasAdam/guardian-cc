@@ -1,571 +1,573 @@
 {
-    "name": "Cryptic crossword No 26,368", 
+    "id": "crosswords/cryptic/26368",
+    "number": 26368,
+    "name": "Cryptic crossword No 26,368",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/brummie", 
-        "name": "Brummie"
-    }, 
-    "dateSolutionAvailable": 1410994800000, 
-    "number": 26368, 
-    "crosswordType": "cryptic", 
+        "name": "Brummie",
+        "webUrl": "https://www.theguardian.com/profile/brummie"
+    },
+    "date": 1410998400000,
+    "webPublicationDate": 1410994800000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Down with runners fitted with electronic part of 8 21 25 (4,5)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Down with runners fitted with electronic part of 8 21 25 (4,5)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "BLUESKIES", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "BLUESKIES"
+        },
         {
-            "direction": "across", 
+            "id": "6-across",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "See 16",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "16-across", 
+                "16-across",
                 "6-across"
-            ], 
-            "number": 6, 
-            "clue": "See 16", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "GOES", 
-            "id": "6-across"
-        }, 
+            },
+            "solution": "GOES"
+        },
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8, 21, 25",
+            "clue": " Possible allusion to Fitzgerald's work about dynasty: \"A major 20th-century contribution to culture\" (3,5,8,8)",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "8-across", 
-                "21-across", 
+                "8-across",
+                "21-across",
                 "25-across"
-            ], 
-            "number": 8, 
-            "clue": " Possible allusion to Fitzgerald's work about dynasty: \"A major 20th-century contribution to culture\" (3,5,8,8)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "8, 21, 25", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "THEGREAT", 
-            "id": "8-across"
-        }, 
+            },
+            "solution": "THEGREAT"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Timber-lined housing contributor to 8 21 25 (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Timber-lined housing contributor to 8 21 25 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 9
-            }, 
-            "solution": "BERLIN", 
-            "id": "9-across"
-        }, 
+                "x": 9,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "BERLIN"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Start a new paragraph: \"Accepted depression  ...\"? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Start a new paragraph: \"Accepted depression  ...\"? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "INDENT", 
-            "id": "10-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "INDENT"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Made upright again, so not officially recognised by the Stock Exchange? (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Made upright again, so not officially recognised by the Stock Exchange? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 7
-            }, 
-            "solution": "UNLISTED", 
-            "id": "11-across"
-        }, 
+                "x": 7,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "UNLISTED"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Religious choir leader causing prison uprising on Dartmoor, say (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Religious choir leader causing prison uprising on Dartmoor, say (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "CANTOR", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "CANTOR"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Fort put right inside specially constructed moat (3,5)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Fort put right inside specially constructed moat (3,5)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 6, 
-                "x": 7
-            }, 
-            "solution": "THEALAMO", 
-            "id": "15-across"
-        }, 
+            },
+            "solution": "THEALAMO"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16, 6",
+            "clue": " You name it, it's acceptable as part of 8 21 25 (8,4)",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "16-across", 
+                "16-across",
                 "6-across"
-            ], 
-            "number": 16, 
-            "clue": " You name it, it's acceptable as part of 8 21 25 (8,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "16, 6", 
-            "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "ANYTHING", 
-            "id": "16-across"
-        }, 
+            },
+            "solution": "ANYTHING"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Peelers' practice of immersing the underworld in biblical content, briefly (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Peelers' practice of immersing the underworld in biblical content, briefly (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 9
-            }, 
-            "solution": "NUDISM", 
-            "id": "19-across"
-        }, 
+                "x": 9,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "NUDISM"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "See 8",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "8-across", 
-                "21-across", 
+                "8-across",
+                "21-across",
                 "25-across"
-            ], 
-            "number": 21, 
-            "clue": "See 8", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "AMERICAN", 
-            "id": "21-across"
-        }, 
+            },
+            "solution": "AMERICAN"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Old drink, one much represented in 8 21 25 (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Old drink, one much represented in 8 21 25 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 9
-            }, 
-            "solution": "PORTER", 
-            "id": "22-across"
-        }, 
+                "x": 9,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "PORTER"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Violet almost lodging with love (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Violet almost lodging with love (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "INDIGO", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "INDIGO"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "See 8",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "8-across", 
-                "21-across", 
+                "8-across",
+                "21-across",
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "See 8", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 8, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 12, 
-                "x": 7
-            }, 
-            "solution": "SONGBOOK", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "SONGBOOK"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Great interpreter of 8 21 25 (but not the one mentioned therein) (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Great interpreter of 8 21 25 (but not the one mentioned therein) (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "ELLA", 
-            "id": "26-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "ELLA"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Record past, up to yesterday's ultimate revelation (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Record past, up to yesterday's ultimate revelation (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 5
-            }, 
-            "solution": "DISCOVERY", 
-            "id": "27-across"
-        }, 
+                "x": 5,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "DISCOVERY"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Playwright: \"I didn't get that in bar\" (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Playwright: \"I didn't get that in bar\" (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "BEHAN", 
-            "id": "1-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BEHAN"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Gunshot tune played as preparation (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Gunshot tune played as preparation (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "UNGUENT", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "UNGUENT"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Sensed salmon (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Sensed salmon (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "SMELT", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SMELT"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Battered tin (result of too much rain) being cared for (2,5)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Battered tin (result of too much rain) being cared for (2,5)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "INTRUST", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "INTRUST"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Officer getting vessel to change direction (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Officer getting vessel to change direction (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "SUBALTERN", 
-            "id": "5-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SUBALTERN"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Gloria's sporting fine opal (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Gloria's sporting fine opal (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "GIRASOL", 
-            "id": "6-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "GIRASOL"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Fancy rim is deep, which is not skin-deep (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Fancy rim is deep, which is not skin-deep (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "EPIDERMIS", 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EPIDERMIS"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "A word to the wise exemplifies such usage of a retuned mandolin (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "A word to the wise exemplifies such usage of a retuned mandolin (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 1
-            }, 
-            "solution": "ADNOMINAL", 
-            "id": "13-down"
-        }, 
+                "x": 1,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "ADNOMINAL"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Fixed, in-car, flashy water holder (4,5)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Fixed, in-car, flashy water holder (4,5)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 5
-            }, 
-            "solution": "RAINCLOUD", 
-            "id": "14-down"
-        }, 
+            },
+            "solution": "RAINCLOUD"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "\"Matron, I developed stomach pains\" (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "\"Matron, I developed stomach pains\" (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 3
-            }, 
-            "solution": "TORMINA", 
-            "id": "17-down"
-        }, 
+                "x": 3,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "TORMINA"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Kelly and relative forming group? (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Kelly and relative forming group? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "GENESIS", 
-            "id": "18-down"
-        }, 
+                "x": 7,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "GENESIS"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Persistent Egyptian god breaks twice as much, having no oxygen (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Persistent Egyptian god breaks twice as much, having no oxygen (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 11
-            }, 
-            "solution": "DURABLE", 
-            "id": "20-down"
-        }, 
+                "x": 11,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "DURABLE"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Lowbrow entertainment \u2014 god, turn over! (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Lowbrow entertainment \u2014 god, turn over! (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 9
-            }, 
-            "solution": "PANTO", 
-            "id": "22-down"
-        }, 
+                "x": 9,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "PANTO"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Perverse old you, catching a viral disease which is connected with resin (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Perverse old you, catching a viral disease which is connected with resin (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 13
-            }, 
-            "solution": "EPOXY", 
-            "id": "23-down"
+                "x": 13,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "EPOXY"
         }
-    ], 
-    "date": 1410998400000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20140918.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/26368", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1410994800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20140918.pdf",
+    "_gridType": null
 }

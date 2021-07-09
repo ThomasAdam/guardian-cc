@@ -1,504 +1,506 @@
 {
-    "name": "Cryptic crossword No 25,757", 
+    "id": "crosswords/cryptic/25757",
+    "number": 25757,
+    "name": "Cryptic crossword No 25,757",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/philistine", 
-        "name": "Philistine"
-    }, 
-    "dateSolutionAvailable": 1349218800000, 
-    "number": 25757, 
-    "crosswordType": "cryptic", 
+        "name": "Philistine",
+        "webUrl": "https://www.theguardian.com/profile/philistine"
+    },
+    "date": 1349222400000,
+    "webPublicationDate": 1349218800000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Ministry reversal of rule on not skating (7,6)",
+            "direction": "across",
+            "length": 13,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Ministry reversal of rule on not skating (7,6)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "FOREIGNOFFICE", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "FOREIGNOFFICE"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Sausage is beginning to cook, as far as one can see? Not quite (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Sausage is beginning to cook, as far as one can see? Not quite (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "CHORIZO", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "CHORIZO"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Kind of memory that returns to engulf a little fighter (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Kind of memory that returns to engulf a little fighter (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 8
-            }, 
-            "solution": "MATADOR", 
-            "id": "10-across"
-        }, 
+                "x": 8,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "MATADOR"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Copy topless constraint (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Copy topless constraint (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "IMITATION", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "IMITATION"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Spikes on shoes (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Spikes on shoes (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 10
-            }, 
-            "solution": "LACES", 
-            "id": "12-across"
-        }, 
+                "x": 10,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "LACES"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13, 19",
+            "clue": " Be patient and join me in serving diners (4,4)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "13-across", 
+                "13-across",
                 "19-across"
-            ], 
-            "number": 13, 
-            "clue": " Be patient and join me in serving diners (4,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "13, 19", 
-            "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "LETS", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "LETS"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Writer involved in a recent riot shows remorse (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Writer involved in a recent riot shows remorse (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 5
-            }, 
-            "solution": "REPENTANCE", 
-            "id": "14-across"
-        }, 
+                "x": 5,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "REPENTANCE"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "In reality time after time follows small preference for the last course (5,5)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "In reality time after time follows small preference for the last course (5,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "SWEETTOOTH", 
-            "id": "16-across"
-        }, 
+            },
+            "solution": "SWEETTOOTH"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "See 13",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "13-across", 
+                "13-across",
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "See 13", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "19", 
-            "position": {
-                "y": 8, 
-                "x": 11
-            }, 
-            "solution": "WAIT", 
-            "id": "19-across"
-        }, 
+            },
+            "solution": "WAIT"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Elizabeth I certainly demonstrates this principle (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Elizabeth I certainly demonstrates this principle (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "ETHIC", 
-            "id": "20-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "ETHIC"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Fancy bathing costume with broken thong missing came out of Merseyside (4,5)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Fancy bathing costume with broken thong missing came out of Merseyside (4,5)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 10, 
-                "x": 6
-            }, 
-            "solution": "BEATMUSIC", 
-            "id": "21-across"
-        }, 
+            },
+            "solution": "BEATMUSIC"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Abandon lease, having found a small tear, perhaps (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Abandon lease, having found a small tear, perhaps (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "DROPLET", 
-            "id": "23-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "DROPLET"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Acts of robbery cause delays (4-3)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Acts of robbery cause delays (4-3)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 12
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 12, 
-                "x": 8
-            }, 
-            "solution": "HOLDUPS", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "HOLDUPS"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "A tall nut \u2014 aren't nuts a gift? (7,6)",
+            "direction": "across",
+            "length": 13,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "A tall nut \u2014 aren't nuts a gift? (7,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "NATURALTALENT", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "NATURALTALENT"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Husky voice of  lover, when swallowed by Miss Piggy? (4,2,3,6)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Husky voice of  lover, when swallowed by Miss Piggy? (4,2,3,6)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
-                    6, 
+                    4,
+                    6,
                     9
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "FROGINTHETHROAT", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "FROGINTHETHROAT"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Yoghurt from Austria leaving us confused (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Yoghurt from Austria leaving us confused (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "RAITA", 
-            "id": "2-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "RAITA"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Love vow lies shattered (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Love vow lies shattered (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "IDOLISE", 
-            "id": "3-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "IDOLISE"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "I'm on an upwards course, born to be a candidate (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "I'm on an upwards course, born to be a candidate (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "NOMINEE", 
-            "id": "4-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "NOMINEE"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Pointlessness of fuse? (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Pointlessness of fuse? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "FUTILITY", 
-            "id": "5-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "FUTILITY"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Dine out on little money, since sailor reported crime (8,7)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Dine out on little money, since sailor reported crime (8,7)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "INDECENTASSAULT", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "INDECENTASSAULT"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "This perhaps occupies fully Mr Little Eng\u00adlander? (14)",
+            "direction": "down",
+            "length": 14,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "This perhaps occupies fully Mr Little Eng\u00adlander? (14)", 
-            "separatorLocations": {}, 
-            "length": 14, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "EUROSCEPTICISM", 
-            "id": "7-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EUROSCEPTICISM"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Sick in pain with East Enders, finish on weak spot (8,6)",
+            "direction": "down",
+            "length": 14,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Sick in pain with East Enders, finish on weak spot (8,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 14, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "ACHILLESTENDON", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "ACHILLESTENDON"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Pedant has left in the price tag (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Pedant has left in the price tag (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "STICKLER", 
-            "id": "15-down"
-        }, 
+                "x": 4,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "STICKLER"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Going round in circles, Tony Blair ignores the base of UN resolution (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Going round in circles, Tony Blair ignores the base of UN resolution (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 6
-            }, 
-            "solution": "ORBITAL", 
-            "id": "17-down"
-        }, 
+                "x": 6,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ORBITAL"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Put up paintings, accepting pain in the neck (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Put up paintings, accepting pain in the neck (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 8
-            }, 
-            "solution": "TRACHEA", 
-            "id": "18-down"
-        }, 
+                "x": 8,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "TRACHEA"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Give me shelter from the riot (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Give me shelter from the riot (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 10
-            }, 
-            "solution": "MELEE", 
-            "id": "22-down"
+                "x": 10,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "MELEE"
         }
-    ], 
-    "date": 1349222400000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20121003.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25757", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1349218800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20121003.pdf",
+    "_gridType": null
 }

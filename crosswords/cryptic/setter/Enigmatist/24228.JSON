@@ -1,607 +1,609 @@
 {
-    "name": "Cryptic crossword No 24,228", 
+    "id": "crosswords/cryptic/24228",
+    "number": 24228,
+    "name": "Cryptic crossword No 24,228",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/enigmatist", 
-        "name": "Enigmatist"
-    }, 
-    "dateSolutionAvailable": 1194393600000, 
-    "number": 24228, 
-    "crosswordType": "cryptic", 
+        "name": "Enigmatist",
+        "webUrl": "https://www.theguardian.com/profile/enigmatist"
+    },
+    "date": 1194393600000,
+    "webPublicationDate": 1194393600000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "7-across",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "See 28",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "28-across", 
+                "28-across",
                 "7-across"
-            ], 
-            "number": 7, 
-            "clue": "See 28", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "ANDHORSES", 
-            "id": "7-across"
-        }, 
+            },
+            "solution": "ANDHORSES"
+        },
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Reliant, as 26 is on this bird? (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "Reliant, as 26 is on this bird? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 10
-            }, 
-            "solution": "ROBIN", 
-            "id": "8-across"
-        }, 
+                "x": 10,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "ROBIN"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "One in 28 7 is grossly stupid, and one with no right until much later (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "One in 28 7 is grossly stupid, and one with no right until much later (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "CASSANDRA", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "CASSANDRA"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "One in 28 7 is one lending watch chain (5,6)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "10-across", 
+                "10-across",
                 "23-down"
-            ], 
-            "number": 10, 
-            "clue": "One in 28 7 is one lending watch chain (5,6)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 3, 
-                "x": 10
-            }, 
-            "solution": "UNCLE", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "UNCLE"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "One in 28 7, cubist left without head (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "One in 28 7, cubist left without head (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "RAQUEL", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "RAQUEL"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Copper shot by patient chap for a sinecure (5,3)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Copper shot by patient chap for a sinecure (5,3)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 7
-            }, 
-            "solution": "CUSHYJOB", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "CUSHYJOB"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "One in 28 7 finding Di's getting force in 4 (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "One in 28 7 finding Di's getting force in 4 (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "MARLENE", 
-            "id": "16-across"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "MARLENE"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Start off one in 28 7 (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Start off one in 28 7 (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "TRIGGER", 
-            "id": "19-across"
-        }, 
+                "x": 8,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "TRIGGER"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "One getting on with book and binder (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "One getting on with book and binder (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "BANDAGER", 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "BANDAGER"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Happen to gamble on fish (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Happen to gamble on fish (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "BETIDE", 
-            "id": "25-across"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "BETIDE"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Destructive device taken over in club mob-handed (1-4)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Destructive device taken over in club mob-handed (1-4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 11
+            },
             "separatorLocations": {
                 "-": [
                     1
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "27", 
-            "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "HBOMB", 
-            "id": "27-across"
-        }, 
+            },
+            "solution": "HBOMB"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "\"Hooky\" Londoners also shy of working? (4,5,3,6)",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "28-across", 
+                "28-across",
                 "7-across"
-            ], 
-            "number": 28, 
-            "clue": "\"Hooky\" Londoners also shy of working? (4,5,3,6)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     9
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "28", 
-            "position": {
-                "y": 11, 
-                "x": 6
-            }, 
-            "solution": "ONLYFOOLS", 
-            "id": "28-across"
-        }, 
+            },
+            "solution": "ONLYFOOLS"
+        },
         {
-            "direction": "across", 
+            "id": "29-across",
+            "number": 29,
+            "humanNumber": "29",
+            "clue": "Out of which things don't operate sequence (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "29-across"
-            ], 
-            "number": 29, 
-            "clue": "Out of which things don't operate sequence (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "29", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "ORDER", 
-            "id": "29-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "ORDER"
+        },
         {
-            "direction": "across", 
+            "id": "30-across",
+            "number": 30,
+            "humanNumber": "30",
+            "clue": "One putting jacket on corrupt beast from the East (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "30-across"
-            ], 
-            "number": 30, 
-            "clue": "One putting jacket on corrupt beast from the East (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "30", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 6
-            }, 
-            "solution": "LAMINATOR", 
-            "id": "30-across"
-        }, 
+                "x": 6,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "LAMINATOR"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Capital Radio's set down area (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Capital Radio's set down area (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "ANKARA", 
-            "id": "1-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ANKARA"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Brainbox Jethro - he's got king into it (3,5)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Brainbox Jethro - he's got king into it (3,5)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "THESKULL", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "THESKULL"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Some intensity enshrouds 17 University (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Some intensity enshrouds 17 University (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "BRUNEL", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BRUNEL"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "The Force knocked thrice - as would 5 and 26 (3,4)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "The Force knocked thrice - as would 5 and 26 (3,4)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "GETRICH", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "GETRICH"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Staff, long stuck-up one in 28 7 (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Staff, long stuck-up one in 28 7 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "RODNEY", 
-            "id": "5-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "RODNEY"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Vigorously sick in unlicensed premises? (5-1)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Vigorously sick in unlicensed premises? (5-1)", 
+            ],
+            "position": {
+                "x": 13,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     5
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "BILLYO", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "BILLYO"
+        },
         {
-            "direction": "down", 
+            "id": "11-down",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Addict for whom escort lost heart (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "11-down"
-            ], 
-            "number": 11, 
-            "clue": "Addict for whom escort lost heart (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 9
-            }, 
-            "solution": "USER", 
-            "id": "11-down"
-        }, 
+                "x": 9,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "USER"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "17 the first steps to the most northerly mainland point? (3)",
+            "direction": "down",
+            "length": 3,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "17 the first steps to the most northerly mainland point? (3)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 12
-            }, 
-            "solution": "JOG", 
-            "id": "14-down"
-        }, 
+                "x": 12,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "JOG"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Some pressure to exclude Rod (3)",
+            "direction": "down",
+            "length": 3,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Some pressure to exclude Rod (3)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 14
-            }, 
-            "solution": "BAR", 
-            "id": "15-down"
-        }, 
+                "x": 14,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "BAR"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Muffle the head of the rabble (3)",
+            "direction": "down",
+            "length": 3,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Muffle the head of the rabble (3)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "MOB", 
-            "id": "16-down"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "MOB"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "A single series (3)",
+            "direction": "down",
+            "length": 3,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "A single series (3)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "RUN", 
-            "id": "17-down"
-        }, 
+                "x": 2,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "RUN"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Head of 28 7 - whose regulars serve in barges (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Head of 28 7 - whose regulars serve in barges (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "NAGS", 
-            "id": "18-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "NAGS"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Lecher afoot, ogling skirts, getting up to overstep the mark (2,3,3)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Lecher afoot, ogling skirts, getting up to overstep the mark (2,3,3)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "20", 
-            "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "solution": "GOTOOFAR", 
-            "id": "20-down"
-        }, 
+            },
+            "solution": "GOTOOFAR"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Imposing notice for one in 28 7 (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Imposing notice for one in 28 7 (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "GRANDAD", 
-            "id": "21-down"
-        }, 
+                "x": 7,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "GRANDAD"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "See 10 across",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "10-across", 
+                "10-across",
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "See 10 across", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "23", 
-            "position": {
-                "y": 9, 
-                "x": 1
-            }, 
-            "solution": "ALBERT", 
-            "id": "23-down"
-        }, 
+            },
+            "solution": "ALBERT"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Interrupting study, is Enigmatist one in 28 7? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "Interrupting study, is Enigmatist one in 28 7? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 3
-            }, 
-            "solution": "DAMIEN", 
-            "id": "24-down"
-        }, 
+                "x": 3,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "DAMIEN"
+        },
         {
-            "direction": "down", 
+            "id": "25-down",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Love, very cold when climbing, beset by live one in 28 7 (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "25-down"
-            ], 
-            "number": 25, 
-            "clue": "Love, very cold when climbing, beset by live one in 28 7 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "BOYCIE", 
-            "id": "25-down"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "BOYCIE"
+        },
         {
-            "direction": "down", 
+            "id": "26-down",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Unfinished 14 breaking 500-year one in 28 7 (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "26-down"
-            ], 
-            "number": 26, 
-            "clue": "Unfinished 14 breaking 500-year one in 28 7 (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 13
-            }, 
-            "solution": "DELBOY", 
-            "id": "26-down"
+                "x": 13,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "DELBOY"
         }
-    ], 
-    "date": 1194393600000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/24228", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1194393600000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": null
 }

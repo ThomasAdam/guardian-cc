@@ -1,517 +1,519 @@
 {
-    "name": "Cryptic crossword No 25,960", 
+    "id": "crosswords/cryptic/25960",
+    "number": 25960,
+    "name": "Cryptic crossword No 25,960",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/paul", 
-        "name": "Paul"
-    }, 
-    "dateSolutionAvailable": 1369782000000, 
-    "number": 25960, 
-    "crosswordType": "cryptic", 
+        "name": "Paul",
+        "webUrl": "https://www.theguardian.com/profile/paul"
+    },
+    "date": 1369785600000,
+    "webPublicationDate": 1369782000000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Grub knocked back, American fool (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Grub knocked back, American fool (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "DOOFUS", 
-            "id": "1-across"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DOOFUS"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Keen perception in place of old stories? (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "Keen perception in place of old stories? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "SAGACITY", 
-            "id": "5-across"
-        }, 
+                "x": 7,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SAGACITY"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Grain was short in promotion, creating competition among retailers (5,3)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Grain was short in promotion, creating competition among retailers (5,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "PRICEWAR", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "PRICEWAR"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Pronounced as \"venson\"? I haven't a clue! (2,4)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Pronounced as \"venson\"? I haven't a clue! (2,4)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 2, 
-                "x": 9
-            }, 
-            "solution": "NOIDEA", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "NOIDEA"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Jolly good to punch Hitler, hated terribly (5-7)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Jolly good to punch Hitler, hated terribly (5-7)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 4
+            },
             "separatorLocations": {
                 "-": [
                     5
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 4, 
-                "x": 3
-            }, 
-            "solution": "LIGHTHEARTED", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "LIGHTHEARTED"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Sport to sell, as a rugby ball's passed? (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Sport to sell, as a rugby ball's passed? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "GOLF", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "GOLF"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Recklessly determined man, fast pocketing pound (4-4)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Recklessly determined man, fast pocketing pound (4-4)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 6
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 7
-            }, 
-            "solution": "HELLBENT", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "HELLBENT"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Ten was poorly invested in money for boater (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Ten was poorly invested in money for boater (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "COXSWAIN", 
-            "id": "17-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "COXSWAIN"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Some news, a bit of excitement (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Some news, a bit of excitement (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 11
-            }, 
-            "solution": "ITEM", 
-            "id": "18-across"
-        }, 
+                "x": 11,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ITEM"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Reproduce artist, say, for the royal issue (8,4)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Reproduce artist, say, for the royal issue (8,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "20", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "PRINCESSANNE", 
-            "id": "20-across"
-        }, 
+            },
+            "solution": "PRINCESSANNE"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Determined to get female eating horse, then surprised ultimately (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Determined to get female eating horse, then surprised ultimately (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "DOGGED", 
-            "id": "23-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "DOGGED"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Wear thin pants, exposing one's private parts (2,3,3)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Wear thin pants, exposing one's private parts (2,3,3)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 12, 
-                "x": 7
-            }, 
-            "solution": "INTHERAW", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "INTHERAW"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Face ship holding an inferno back (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Face ship holding an inferno back (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "SANSERIF", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "SANSERIF"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Intent to try returning dairy product (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Intent to try returning dairy product (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 9
-            }, 
-            "solution": "YOGURT", 
-            "id": "26-across"
-        }, 
+                "x": 9,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "YOGURT"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Vegetable fine with radish, wanting plate (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Vegetable fine with radish, wanting plate (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "OKRA", 
-            "id": "2-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OKRA"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Information including dossier written up for surgical operations (4-5)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Information including dossier written up for surgical operations (4-5)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "FACELIFTS", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "FACELIFTS"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Amount of money earned in the City? That stinks! (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Amount of money earned in the City? That stinks! (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "SEWAGE", 
-            "id": "4-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SEWAGE"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Namely lab animal caught, having paws to smell as scent tested (7-3-5)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Namely lab animal caught, having paws to smell as scent tested (7-3-5)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
-                    7, 
+                    7,
                     10
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "SCRATCHANDSNIFF", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "SCRATCHANDSNIFF"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Taking great care, trap left for man in the country (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Taking great care, trap left for man in the country (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "GINGERLY", 
-            "id": "6-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "GINGERLY"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Person yelling \"Score!\" in ear, off and on (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Person yelling \"Score!\" in ear, off and on (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "CRIER", 
-            "id": "7-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CRIER"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "The display involving uranium is beneath that (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "The display involving uranium is beneath that (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "THEREUNDER", 
-            "id": "8-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "THEREUNDER"
+        },
         {
-            "direction": "down", 
+            "id": "12-down",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Clap hands initially on ogre, or a deviant (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "12-down"
-            ], 
-            "number": 12, 
-            "clue": "Clap hands initially on ogre, or a deviant (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 1
-            }, 
-            "solution": "GONORRHOEA", 
-            "id": "12-down"
-        }, 
+                "x": 1,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "GONORRHOEA"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Breakfast item that can't be beaten? (6,3)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Breakfast item that can't be beaten? (6,3)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 6, 
-                "x": 11
-            }, 
-            "solution": "BOILEDEGG", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "BOILEDEGG"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "One's days are numbered (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "One's days are numbered (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "CALENDAR", 
-            "id": "16-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "CALENDAR"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Conceited, not living with pigs? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Conceited, not living with pigs? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "SNOTTY", 
-            "id": "19-down"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "SNOTTY"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Spiced drink, say, drunk by setter, not going down (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Spiced drink, say, drunk by setter, not going down (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 3
-            }, 
-            "solution": "NEGUS", 
-            "id": "21-down"
-        }, 
+                "x": 3,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "NEGUS"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Fish surviving wife? (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Fish surviving wife? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 13
-            }, 
-            "solution": "PARR", 
-            "id": "22-down"
+                "x": 13,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "PARR"
         }
-    ], 
-    "date": 1369785600000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20130529.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25960", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1369782000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20130529.pdf",
+    "_gridType": "M19"
 }

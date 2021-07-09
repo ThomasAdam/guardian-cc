@@ -1,518 +1,520 @@
 {
-    "name": "Cryptic crossword No 22,379", 
+    "id": "crosswords/cryptic/22379",
+    "number": 22379,
+    "name": "Cryptic crossword No 22,379",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/shed", 
-        "name": "Shed"
-    }, 
-    "dateSolutionAvailable": 1006992000000, 
-    "number": 22379, 
-    "crosswordType": "cryptic", 
+        "name": "Shed",
+        "webUrl": "https://www.theguardian.com/profile/shed"
+    },
+    "date": 1006992000000,
+    "webPublicationDate": 1006992000000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Get both sides all out, producing a no-win situation? (5,6-3)",
+            "direction": "across",
+            "length": 14,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Get both sides all out, producing a no-win situation? (5,6-3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
-                "-": [
-                    11
-                ], 
                 ",": [
                     5
+                ],
+                "-": [
+                    11
                 ]
-            }, 
-            "length": 14, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "CATCHTWENTYTWO", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "CATCHTWENTYTWO"
+        },
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "The shape of decay (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "The shape of decay (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "MOULD", 
-            "id": "8-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "MOULD"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Pause for popular pest cut short (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Pause for popular pest cut short (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 6
-            }, 
-            "solution": "INTERMIT", 
-            "id": "9-across"
-        }, 
+                "x": 6,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "INTERMIT"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Away support in the wilds (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Away support in the wilds (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "OUTBACK", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "OUTBACK"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Forgive poet admitting backward look to verse (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Forgive poet admitting backward look to verse (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 8
-            }, 
-            "solution": "ABSOLVE", 
-            "id": "12-across"
-        }, 
+                "x": 8,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "ABSOLVE"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Giant periodical covering game (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Giant periodical covering game (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "MAGOG", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "MAGOG"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Small plant may look lively (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Small plant may look lively (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 6
-            }, 
-            "solution": "EYEBRIGHT", 
-            "id": "15-across"
-        }, 
+                "x": 6,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "EYEBRIGHT"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "It's unique, on average, in man (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "It's unique, on average, in man (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "NONPAREIL", 
-            "id": "17-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "NONPAREIL"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Take the fizz out of the painter (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Take the fizz out of the painter (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 10
-            }, 
-            "solution": "DEGAS", 
-            "id": "20-across"
-        }, 
+                "x": 10,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "DEGAS"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Identify one god and goddess (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Identify one god and goddess (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "ISOLATE", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "ISOLATE"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Drink returned amid expression of contempt for perk (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Drink returned amid expression of contempt for perk (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 8
-            }, 
-            "solution": "FREEBIE", 
-            "id": "23-across"
-        }, 
+                "x": 8,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "FREEBIE"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Mean to crack the number of the games console (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Mean to crack the number of the games console (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 1
-            }, 
-            "solution": "NINTENDO", 
-            "id": "25-across"
-        }, 
+                "x": 1,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "NINTENDO"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Some of its sculptors obviously can't do heads (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Some of its sculptors obviously can't do heads (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 10
-            }, 
-            "solution": "TORSO", 
-            "id": "26-across"
-        }, 
+                "x": 10,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "TORSO"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Tetchy allusion common in academic writing (5-9)",
+            "direction": "across",
+            "length": 14,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Tetchy allusion common in academic writing (5-9)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 14
+            },
             "separatorLocations": {
                 "-": [
                     5
                 ]
-            }, 
-            "length": 14, 
-            "humanNumber": "27", 
-            "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "CROSSREFERENCE", 
-            "id": "27-across"
-        }, 
+            },
+            "solution": "CROSSREFERENCE"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Covering people with dung is reasonable (6,6)",
+            "direction": "down",
+            "length": 12,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Covering people with dung is reasonable (6,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "COMPOSMENTIS", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "COMPOSMENTIS"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Financial arrangement reportedly held in bond (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Financial arrangement reportedly held in bond (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "TRUST", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TRUST"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Bloom's monster swallowing rage, almost (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Bloom's monster swallowing rage, almost (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "HYDRANGEA", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "HYDRANGEA"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Ruse for getting the last bit of vinegar into the seafood (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Ruse for getting the last bit of vinegar into the seafood (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "WRINKLE", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "WRINKLE"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Two sorts of vermin gaining energy from fertiliser (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Two sorts of vermin gaining energy from fertiliser (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "NITRATE", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "NITRATE"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Tales of heartless sunbeam in the ascendant (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Tales of heartless sunbeam in the ascendant (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "YARNS", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "YARNS"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "One girl crashed into former Liberal at the roundabout (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "One girl crashed into former Liberal at the roundabout (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "WHIRLIGIG", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "WHIRLIGIG"
+        },
         {
-            "direction": "down", 
+            "id": "10-down",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Examiner, one holding up drunk male driver (12)",
+            "direction": "down",
+            "length": 12,
             "group": [
                 "10-down"
-            ], 
-            "number": 10, 
-            "clue": "Examiner, one holding up drunk male driver (12)", 
-            "separatorLocations": {}, 
-            "length": 12, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 14
-            }, 
-            "solution": "TESTOSTERONE", 
-            "id": "10-down"
-        }, 
+                "x": 14,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "TESTOSTERONE"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Old region revisited by boatman (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Old region revisited by boatman (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 2
-            }, 
-            "solution": "GONDOLIER", 
-            "id": "14-down"
-        }, 
+                "x": 2,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "GONDOLIER"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Dog inducing shepherd's delight? (3,6)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Dog inducing shepherd's delight? (3,6)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "16", 
-            "position": {
-                "y": 6, 
-                "x": 10
-            }, 
-            "solution": "REDSETTER", 
-            "id": "16-down"
-        }, 
+            },
+            "solution": "REDSETTER"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Spain's slender golden girl (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Spain's slender golden girl (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 6
-            }, 
-            "solution": "ELEANOR", 
-            "id": "18-down"
-        }, 
+                "x": 6,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ELEANOR"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Free ride cancelled at outset of long journey (4-3)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Free ride cancelled at outset of long journey (4-3)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 8
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "19", 
-            "position": {
-                "y": 8, 
-                "x": 8
-            }, 
-            "solution": "LIFTOFF", 
-            "id": "19-down"
-        }, 
+            },
+            "solution": "LIFTOFF"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Singers bound head to foot (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Singers bound head to foot (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 4
-            }, 
-            "solution": "ALTOS", 
-            "id": "22-down"
-        }, 
+                "x": 4,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "ALTOS"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Unproductive-sounding title (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "Unproductive-sounding title (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 12
-            }, 
-            "solution": "BARON", 
-            "id": "24-down"
+                "x": 12,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "BARON"
         }
-    ], 
-    "date": 1006992000000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/22379", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1006992000000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M01"
 }

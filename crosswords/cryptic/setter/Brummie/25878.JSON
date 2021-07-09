@@ -1,606 +1,608 @@
 {
-    "name": "Cryptic crossword No 25,878", 
+    "id": "crosswords/cryptic/25878",
+    "number": 25878,
+    "name": "Cryptic crossword No 25,878",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/brummie", 
-        "name": "Brummie"
-    }, 
-    "dateSolutionAvailable": 1361491200000, 
-    "number": 25878, 
-    "crosswordType": "cryptic", 
+        "name": "Brummie",
+        "webUrl": "https://www.theguardian.com/profile/brummie"
+    },
+    "date": 1361491200000,
+    "webPublicationDate": 1361491200000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "7-across",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "See 12",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "12-across", 
+                "12-across",
                 "7-across"
-            ], 
-            "number": 7, 
-            "clue": "See 12", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "COTTAGE", 
-            "id": "7-across"
-        }, 
+            },
+            "solution": "COTTAGE"
+        },
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Dicky Hunt holding firm, with leader of union touching base (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "Dicky Hunt holding firm, with leader of union touching base (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 8
-            }, 
-            "solution": "UNCOUTH", 
-            "id": "8-across"
-        }, 
+                "x": 8,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "UNCOUTH"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Speak without distinction, reversing laws lacking energy (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Speak without distinction, reversing laws lacking energy (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "SLUR", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "SLUR"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Oil blended in French wine: Bob Kennedy's performing aid (6,3)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Oil blended in French wine: Bob Kennedy's performing aid (6,3)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 3, 
-                "x": 5
-            }, 
-            "solution": "VIOLINBOW", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "VIOLINBOW"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12, 7",
+            "clue": " Capital place supplying two sorts of cheese (5,7)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "12-across", 
+                "12-across",
                 "7-across"
-            ], 
-            "number": 12, 
-            "clue": " Capital place supplying two sorts of cheese (5,7)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "12, 7", 
-            "position": {
-                "y": 5, 
-                "x": 1
-            }, 
-            "solution": "SWISS", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "SWISS"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Nearby row surrounded on all sides (6,2)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Nearby row surrounded on all sides (6,2)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 7
-            }, 
-            "solution": "CLOSEDIN", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "CLOSEDIN"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "See 24",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "24-across", 
+                "24-across",
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "See 24", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "BATH", 
-            "id": "15-across"
-        }, 
+            },
+            "solution": "BATH"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16, 22",
+            "clue": " Fig tree possibly restricts weight reduction: beware of such an offering (5,4)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "16-across", 
+                "16-across",
                 "22-across"
-            ], 
-            "number": 16, 
-            "clue": " Fig tree possibly restricts weight reduction: beware of such an offering (5,4)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "16, 22", 
-            "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "GREEK", 
-            "id": "16-across"
-        }, 
+            },
+            "solution": "GREEK"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "See 5",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "5-down", 
+                "5-down",
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "See 5", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "solution": "CHIN", 
-            "id": "17-across"
-        }, 
+            },
+            "solution": "CHIN"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Acted like one who doesn't go in for conventional bedtime activity? (5,3)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Acted like one who doesn't go in for conventional bedtime activity? (5,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "18", 
-            "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "SLEPTOUT", 
-            "id": "18-across"
-        }, 
+            },
+            "solution": "SLEPTOUT"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20, 25",
+            "clue": " Missus, having 100 years of the Guardian, displays spirited confidence? (5,7)",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "20-across", 
+                "20-across",
                 "25-across"
-            ], 
-            "number": 20, 
-            "clue": " Missus, having 100 years of the Guardian, displays spirited confidence? (5,7)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "20, 25", 
-            "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "DUTCH", 
-            "id": "20-across"
-        }, 
+            },
+            "solution": "DUTCH"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Eg Laurel and Hardy's \"dodo\" (6,3)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Eg Laurel and Hardy's \"dodo\" (6,3)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 11, 
-                "x": 1
-            }, 
-            "solution": "DOUBLEACT", 
-            "id": "21-across"
-        }, 
+            },
+            "solution": "DOUBLEACT"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "See 16",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "16-across", 
+                "16-across",
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "See 16", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 11, 
-                "x": 11
-            }, 
-            "solution": "GIFT", 
-            "id": "22-across"
-        }, 
+            },
+            "solution": "GIFT"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24, 15",
+            "clue": " Fancy UK T-shirt? Bah! \u2014 you'll sweat in it (7,4)",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "24-across", 
+                "24-across",
                 "15-across"
-            ], 
-            "number": 24, 
-            "clue": " Fancy UK T-shirt? Bah! \u2014 you'll sweat in it (7,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "24, 15", 
-            "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "TURKISH", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "TURKISH"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "See 20",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "20-across", 
+                "20-across",
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "See 20", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 13
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 13, 
-                "x": 8
-            }, 
-            "solution": "COURAGE", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "COURAGE"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "See 21",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "21-down", 
+                "21-down",
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "See 21", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "ROLL", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "ROLL"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Fir moved into store that has several arms, mainly (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Fir moved into store that has several arms, mainly (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "STARFISH", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "STARFISH"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Very long time holding up Virginia's plants (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Very long time holding up Virginia's plants (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "AGAVES", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "AGAVES"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "As might be brakes of tank with coil rotation (4-4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "As might be brakes of tank with coil rotation (4-4)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "ANTILOCK", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "ANTILOCK"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5, 17 across",
+            "clue": " Not a single feature that would make old-style toast (6,4)",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "5-down", 
+                "5-down",
                 "17-across"
-            ], 
-            "number": 5, 
-            "clue": " Not a single feature that would make old-style toast (6,4)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "5, 17 across", 
-            "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "DOUBLE", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "DOUBLE"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "See 14",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "14-down", 
+                "14-down",
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "See 14", 
+            ],
+            "position": {
+                "x": 13,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "STEW", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "STEW"
+        },
         {
-            "direction": "down", 
+            "id": "11-down",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Group of players or front running athletic starters (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "11-down"
-            ], 
-            "number": 11, 
-            "clue": "Group of players or front running athletic starters (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 7
-            }, 
-            "solution": "ORCHESTRA", 
-            "id": "11-down"
-        }, 
+                "x": 7,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "ORCHESTRA"
+        },
         {
-            "direction": "down", 
+            "id": "12-down",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Quiet boring thing's clothing item? (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "12-down"
-            ], 
-            "number": 12, 
-            "clue": "Quiet boring thing's clothing item? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 1
-            }, 
-            "solution": "SHAWL", 
-            "id": "12-down"
-        }, 
+                "x": 1,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "SHAWL"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14, 6",
+            "clue": " Perhaps Murdoch wants the SW broadcast dish (5,4)",
+            "direction": "down",
+            "length": 5,
             "group": [
-                "14-down", 
+                "14-down",
                 "6-down"
-            ], 
-            "number": 14, 
-            "clue": " Perhaps Murdoch wants the SW broadcast dish (5,4)", 
+            ],
+            "position": {
+                "x": 13,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "14, 6", 
-            "position": {
-                "y": 5, 
-                "x": 13
-            }, 
-            "solution": "IRISH", 
-            "id": "14-down"
-        }, 
+            },
+            "solution": "IRISH"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Irish lough without its source river turned unwholesome (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Irish lough without its source river turned unwholesome (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "GHOULISH", 
-            "id": "16-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "GHOULISH"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Familiar female film star, bloody sort (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Familiar female film star, bloody sort (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "solution": "CATEGORY", 
-            "id": "17-down"
-        }, 
+                "x": 11,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "CATEGORY"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Brave as a rose picker? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Brave as a rose picker? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 3
-            }, 
-            "solution": "PLUCKY", 
-            "id": "19-down"
-        }, 
+                "x": 3,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "PLUCKY"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Electronic concern when reverse circuit terminals in ruin (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Electronic concern when reverse circuit terminals in ruin (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "DOTCOM", 
-            "id": "20-down"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "DOTCOM"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21, 1",
+            "clue": " Beats introducing performer's speciality act? (4,4)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "21-down", 
+                "21-down",
                 "1-down"
-            ], 
-            "number": 21, 
-            "clue": " Beats introducing performer's speciality act? (4,4)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "21, 1", 
-            "position": {
-                "y": 11, 
-                "x": 1
-            }, 
-            "solution": "DRUM", 
-            "id": "21-down"
-        }, 
+            },
+            "solution": "DRUM"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Fruits singularly not given by uncaring types (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Fruits singularly not given by uncaring types (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 13
-            }, 
-            "solution": "FIGS", 
-            "id": "23-down"
+                "x": 13,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "FIGS"
         }
-    ], 
-    "date": 1361491200000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20130222.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25878", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1361491200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20130222.pdf",
+    "_gridType": "M58"
 }

@@ -1,558 +1,560 @@
 {
-    "name": "Cryptic crossword No 27,321", 
+    "id": "crosswords/cryptic/27321",
+    "number": 27321,
+    "name": "Cryptic crossword No 27,321",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/bogus", 
-        "name": "Bogus"
-    }, 
-    "dateSolutionAvailable": 1507244400000, 
-    "number": 27321, 
-    "crosswordType": "cryptic", 
+        "name": "Bogus",
+        "webUrl": "https://www.theguardian.com/profile/bogus"
+    },
+    "date": 1507248000000,
+    "webPublicationDate": 1507244436000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "See 27",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "27-across", 
+                "27-across",
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "See 27", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "SMILEY", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "SMILEY"
+        },
         {
-            "direction": "across", 
+            "id": "4-across",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Engineer cannily takes women's perspective (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "4-across"
-            ], 
-            "number": 4, 
-            "clue": "Engineer cannily takes women's perspective (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "WANGLE", 
-            "id": "4-across"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "WANGLE"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9, 15",
+            "clue": "Gibbons show teeth and tongue, skipping closer (8)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "9-across", 
+                "9-across",
                 "15-across"
-            ], 
-            "number": 9, 
-            "clue": "Gibbons show teeth and tongue, skipping closer (8)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "9, 15", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "GRIN", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "GRIN"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Crystallised forms of cocaine? Bogus setter's first to ingest line (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Crystallised forms of cocaine? Bogus setter's first to ingest line (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 5
-            }, 
-            "solution": "SNOWFLAKES", 
-            "id": "10-across"
-        }, 
+                "x": 5,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "SNOWFLAKES"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Story about extremely truculent rabbit (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Story about extremely truculent rabbit (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "TATTLE", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "TATTLE"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Hiding case of luxury gin? Silly moo! (5,3)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Hiding case of luxury gin? Silly moo! (5,3)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 4, 
-                "x": 7
-            }, 
-            "solution": "LYINGLOW", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "LYINGLOW"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "See 1 down",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "1-down", 
-                "20-down", 
+                "1-down",
+                "20-down",
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "See 1 down", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 9, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "HAPPINESS", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "HAPPINESS"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "See 9",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "9-across", 
+                "9-across",
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "See 9", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 10
-            }, 
-            "solution": "LING", 
-            "id": "15-across"
-        }, 
+                "x": 10,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "LING"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Regularly fall ill after bachelor party (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Regularly fall ill after bachelor party (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "BALL", 
-            "id": "16-across"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "BALL"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Current state of two ponies? Ruth blows top about one (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Current state of two ponies? Ruth blows top about one (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 6
-            }, 
-            "solution": "LIQUIDITY", 
-            "id": "17-across"
-        }, 
+                "x": 6,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "LIQUIDITY"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "SAS perhaps on brink of triumph and verge of shock (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "SAS perhaps on brink of triumph and verge of shock (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "HAIRLINE", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "HAIRLINE"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "You heard Pharrell's number one hit, Happy (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "You heard Pharrell's number one hit, Happy (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 9
-            }, 
-            "solution": "UPBEAT", 
-            "id": "22-across"
-        }, 
+                "x": 9,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "UPBEAT"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Graduate's recent entertaining time amid old tribesmen (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Graduate's recent entertaining time amid old tribesmen (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "LICENTIATE", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "LICENTIATE"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Confront female, one outranking king (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Confront female, one outranking king (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 11
-            }, 
-            "solution": "FACE", 
-            "id": "25-across"
-        }, 
+                "x": 11,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "FACE"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Rabbit, one with long ears eating very last bit of celery (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Rabbit, one with long ears eating very last bit of celery (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 1
-            }, 
-            "solution": "HARVEY", 
-            "id": "26-across"
-        }, 
+                "x": 1,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "HARVEY"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27, 1",
+            "clue": "Agent offering Hobson's choice of guide on vacation, with a 9 (6,6)",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "27-across", 
+                "27-across",
                 "1-across"
-            ], 
-            "number": 27, 
-            "clue": "Agent offering Hobson's choice of guide on vacation, with a 9 (6,6)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "27, 1", 
-            "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "GEORGE", 
-            "id": "27-across"
-        }, 
+            },
+            "solution": "GEORGE"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1, 20, 13",
+            "clue": " Let apple Danish pastries be distributed in great number for today (6,1,6,9)",
+            "direction": "down",
+            "length": 7,
             "group": [
-                "1-down", 
-                "20-down", 
+                "1-down",
+                "20-down",
                 "13-across"
-            ], 
-            "number": 1, 
-            "clue": " Let apple Danish pastries be distributed in great number for today (6,1,6,9)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    6, 
+                    6,
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "1, 20, 13", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "SPREADA", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "SPREADA"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Isn't it commonly where you get booze and sex? (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Isn't it commonly where you get booze and sex? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "INNIT", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "INNIT"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Mid-September before a sailor's back from Asia, perhaps (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Mid-September before a sailor's back from Asia, perhaps (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "EASTERN", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EASTERN"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Event is a fine opportunity to have fun (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Event is a fine opportunity to have fun (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "AFFAIR", 
-            "id": "5-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "AFFAIR"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Dickensian character of rag playing at close of 8 (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Dickensian character of rag playing at close of 8 (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "GRADGRIND", 
-            "id": "6-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "GRADGRIND"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Atmosphere Longfellow captures in no time, poetically (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Atmosphere Longfellow captures in no time, poetically (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "ERELONG", 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ERELONG"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Damsel rowdily revelling for 24 life-enhancing hours (5,5,3)",
+            "direction": "down",
+            "length": 13,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Damsel rowdily revelling for 24 life-enhancing hours (5,5,3)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
-                    5, 
+                    5,
                     10
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 1, 
-                "x": 7
-            }, 
-            "solution": "WORLDSMILEDAY", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "WORLDSMILEDAY"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Park's first wild arboreal mammal (5,4)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Park's first wild arboreal mammal (5,4)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 3
-            }, 
-            "solution": "POLARBEAR", 
-            "id": "14-down"
-        }, 
+            },
+            "solution": "POLARBEAR"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Maintain Anabaptist principles, with a big 9? (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Maintain Anabaptist principles, with a big 9? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "BEAMISH", 
-            "id": "16-down"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "BEAMISH"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Cult celeb wanting outsiders to support British music-maker (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Cult celeb wanting outsiders to support British music-maker (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 9
-            }, 
-            "solution": "UKULELE", 
-            "id": "18-down"
-        }, 
+                "x": 9,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "UKULELE"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Cut the crap! Rearrange that number for piano (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Cut the crap! Rearrange that number for piano (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 13
-            }, 
-            "solution": "TRANCHE", 
-            "id": "19-down"
-        }, 
+                "x": 13,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "TRANCHE"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "See 1",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "1-down", 
-                "20-down", 
+                "1-down",
+                "20-down",
                 "13-across"
-            ], 
-            "number": 20, 
-            "clue": "See 1", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "20", 
-            "position": {
-                "y": 9, 
-                "x": 5
-            }, 
-            "solution": "LITTLE", 
-            "id": "20-down"
-        }, 
+            },
+            "solution": "LITTLE"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Discontented fairy keels over in pub, leaving the rest standing (2,3)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Discontented fairy keels over in pub, leaving the rest standing (2,3)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "23", 
-            "position": {
-                "y": 10, 
-                "x": 11
-            }, 
-            "solution": "BYFAR", 
-            "id": "23-down"
+            },
+            "solution": "BYFAR"
         }
-    ], 
-    "date": 1507248000000, 
-    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20171006.pdf", 
-    "instructions": "A tribute on 8 to 26 16 across, who gave us the 1 across 25", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/27321", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1507244400000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20171006.pdf",
+    "instructions": "A tribute on 8 to 26 16 across, who gave us the 1 across 25",
+    "_gridType": "M28"
 }

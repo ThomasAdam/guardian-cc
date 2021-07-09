@@ -1,621 +1,623 @@
 {
-    "name": "Cryptic crossword No 24,468", 
+    "id": "crosswords/cryptic/24468",
+    "number": 24468,
+    "name": "Cryptic crossword No 24,468",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/brendan", 
-        "name": "Brendan"
-    }, 
-    "dateSolutionAvailable": 1218754800000, 
-    "number": 24468, 
-    "crosswordType": "cryptic", 
+        "name": "Brendan",
+        "webUrl": "https://www.theguardian.com/profile/brendan"
+    },
+    "date": 1218758400000,
+    "webPublicationDate": 1218754800000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Partner found where the opposing team lines up (5,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Partner found where the opposing team lines up (5,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "OTHERHALF", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "OTHERHALF"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Source of poetic inspiration among liberators (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Source of poetic inspiration among liberators (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 10
-            }, 
-            "solution": "ERATO", 
-            "id": "10-across"
-        }, 
+                "x": 10,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "ERATO"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Simpleton without penny, a hindrance for him (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Simpleton without penny, a hindrance for him (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "SIMON", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "SIMON"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Biblical plant providing title for 17 21 7 (6,3)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Biblical plant providing title for 17 21 7 (6,3)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "12", 
-            "position": {
-                "y": 3, 
-                "x": 6
-            }, 
-            "solution": "AARONSROD", 
-            "id": "12-across"
-        }, 
+            },
+            "solution": "AARONSROD"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Prodigal son Walter excitedly embraces (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Prodigal son Walter excitedly embraces (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "WASTREL", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "WASTREL"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Philosopher-king is such a pig (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Philosopher-king is such a pig (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 8
-            }, 
-            "solution": "BACONER", 
-            "id": "14-across"
-        }, 
+                "x": 8,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "BACONER"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "French artist a saint? Not from what we hear (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "French artist a saint? Not from what we hear (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "DAVID", 
-            "id": "17-across"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "DAVID"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "One end of parsnip, say, or other vegetable (3)",
+            "direction": "across",
+            "length": 3,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "One end of parsnip, say, or other vegetable (3)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 6
-            }, 
-            "solution": "PEA", 
-            "id": "19-across"
-        }, 
+                "x": 6,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "PEA"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "A private room I provided for Arab citizen (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "A private room I provided for Arab citizen (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 10
-            }, 
-            "solution": "ADENI", 
-            "id": "20-across"
-        }, 
+                "x": 10,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ADENI"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Metaphysical poet queen included in her speculation (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Metaphysical poet queen included in her speculation (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "HERBERT", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "HERBERT"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "See it among bridge players one finally doubled (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "See it among bridge players one finally doubled (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 8
-            }, 
-            "solution": "WITNESS", 
-            "id": "22-across"
-        }, 
+                "x": 8,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "WITNESS"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "See 1",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "1-down", 
+                "1-down",
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "See 1", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "ANDLOVERS", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "ANDLOVERS"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "A bit of a spur some hero welcomes (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "A bit of a spur some hero welcomes (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 10
-            }, 
-            "solution": "ROWEL", 
-            "id": "26-across"
-        }, 
+                "x": 10,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "ROWEL"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "Old person one identified as Arab national (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "28-across"
-            ], 
-            "number": 28, 
-            "clue": "Old person one identified as Arab national (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "28", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "OMANI", 
-            "id": "28-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "OMANI"
+        },
         {
-            "direction": "across", 
+            "id": "29-across",
+            "number": 29,
+            "humanNumber": "29",
+            "clue": "Felt concern about painter, say, like Van Gogh? (4-5)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "29-across"
-            ], 
-            "number": 29, 
-            "clue": "Felt concern about painter, say, like Van Gogh? (4-5)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 13
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "29", 
-            "position": {
-                "y": 13, 
-                "x": 6
-            }, 
-            "solution": "CROPEARED", 
-            "id": "29-across"
-        }, 
+            },
+            "solution": "CROPEARED"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Solvers slightly confused about working author producing novel (4,3,6)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "1-down", 
+                "1-down",
                 "24-across"
-            ], 
-            "number": 1, 
-            "clue": "Solvers slightly confused about working author producing novel (4,3,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "SONS", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "SONS"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Modern poet with doubtful reputation (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Modern poet with doubtful reputation (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "THOMAS", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "THOMAS"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Club game in historic Shropshire village (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Club game in historic Shropshire village (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "IRONBRIDGE", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "IRONBRIDGE"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Bachelor getting a ring for movie actress (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Bachelor getting a ring for movie actress (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "BACALL", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BACALL"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "See 7",
+            "direction": "down",
+            "length": 8,
             "group": [
-                "7-down", 
+                "7-down",
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "See 7", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "OFARABIA", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "OFARABIA"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Unproductive inclination (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Unproductive inclination (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "LEAN", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LEAN"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "A celeb in a war for a moving picture shot by 17 6 (8,2,6)",
+            "direction": "down",
+            "length": 8,
             "group": [
-                "7-down", 
+                "7-down",
                 "5-down"
-            ], 
-            "number": 7, 
-            "clue": "A celeb in a war for a moving picture shot by 17 6 (8,2,6)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "LAWRENCE", 
-            "id": "7-down"
-        }, 
+            },
+            "solution": "LAWRENCE"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Driver and conductor (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Driver and conductor (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "WOOD", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "WOOD"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Having diameter internally as measure of distance (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Having diameter internally as measure of distance (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "WIDTH", 
-            "id": "13-down"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "WIDTH"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "See 27",
+            "direction": "down",
+            "length": 10,
             "group": [
-                "27-down", 
+                "27-down",
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "See 27", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 10, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 5, 
-                "x": 10
-            }, 
-            "solution": "CHATTERLEY", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "CHATTERLEY"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Manages to protect one in financial collapses (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Manages to protect one in financial collapses (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 14
-            }, 
-            "solution": "RUINS", 
-            "id": "16-down"
-        }, 
+                "x": 14,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "RUINS"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Pigment - one imported by long-lasting ruler over unsettled India (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Pigment - one imported by long-lasting ruler over unsettled India (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "VIRIDIAN", 
-            "id": "18-down"
-        }, 
+                "x": 2,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "VIRIDIAN"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Light musical work only one person can play (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Light musical work only one person can play (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 6
-            }, 
-            "solution": "PATIENCE", 
-            "id": "19-down"
-        }, 
+                "x": 6,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "PATIENCE"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "In writing 2 23 7, the last word for intelligence (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "In writing 2 23 7, the last word for intelligence (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 8
-            }, 
-            "solution": "WISDOM", 
-            "id": "22-down"
-        }, 
+                "x": 8,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "WISDOM"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "King Lear, for example (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "King Lear, for example (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 12
-            }, 
-            "solution": "EDWARD", 
-            "id": "23-down"
-        }, 
+                "x": 12,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "EDWARD"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Prophetic writing in regular letters from farmhouse (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "Prophetic writing in regular letters from farmhouse (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "AMOS", 
-            "id": "24-down"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "AMOS"
+        },
         {
-            "direction": "down", 
+            "id": "25-down",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Drop out of old US university (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "25-down"
-            ], 
-            "number": 25, 
-            "clue": "Drop out of old US university (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 4
-            }, 
-            "solution": "OMIT", 
-            "id": "25-down"
-        }, 
+                "x": 4,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "OMIT"
+        },
         {
-            "direction": "down", 
+            "id": "27-down",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "One who notoriously tangled with keeper and got booked (4,10)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "27-down", 
+                "27-down",
                 "15-down"
-            ], 
-            "number": 27, 
-            "clue": "One who notoriously tangled with keeper and got booked (4,10)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "27", 
-            "position": {
-                "y": 11, 
-                "x": 14
-            }, 
-            "solution": "LADY", 
-            "id": "27-down"
+            },
+            "solution": "LADY"
         }
-    ], 
-    "date": 1218758400000, 
-    "instructions": "For a printable version of this crossword, click <a href=\"http://image.guardian.co.uk/sys-files/Guardian/documents/2008/08/12/xwMain1508_24468.pdf\">here</a>.", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/24468", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1218754800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "instructions": "For a printable version of this crossword, click <a href=\"http://image.guardian.co.uk/sys-files/Guardian/documents/2008/08/12/xwMain1508_24468.pdf\">here</a>.",
+    "_gridType": "M54a"
 }

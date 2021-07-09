@@ -1,527 +1,529 @@
 {
-    "name": "Cryptic crossword No 23,826", 
+    "id": "crosswords/cryptic/23826",
+    "number": 23826,
+    "name": "Cryptic crossword No 23,826",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/logodaedalus", 
-        "name": "Logodaedalus"
-    }, 
-    "dateSolutionAvailable": 1153695600000, 
-    "number": 23826, 
-    "crosswordType": "cryptic", 
+        "name": "Logodaedalus",
+        "webUrl": "https://www.theguardian.com/profile/logodaedalus"
+    },
+    "date": 1153699200000,
+    "webPublicationDate": 1153695600000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Look! Some cheap pearls! (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Look! Some cheap pearls! (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "APPEAR", 
-            "id": "1-across"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "APPEAR"
+        },
         {
-            "direction": "across", 
+            "id": "4-across",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "She was patient, awfully glad when about to get up (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "4-across"
-            ], 
-            "number": 4, 
-            "clue": "She was patient, awfully glad when about to get up (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "GRISELDA", 
-            "id": "4-across"
-        }, 
+                "x": 7,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "GRISELDA"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Semi-cryptic keeps a newspaper subtle (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Semi-cryptic keeps a newspaper subtle (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "CRAFTY", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "CRAFTY"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Declaring a little way to keep doing wrong (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Declaring a little way to keep doing wrong (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 7
-            }, 
-            "solution": "AVERRING", 
-            "id": "10-across"
-        }, 
+                "x": 7,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "AVERRING"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Unwanted singleton holds nitwit to be sweet (10,4)",
+            "direction": "across",
+            "length": 14,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Unwanted singleton holds nitwit to be sweet (10,4)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
                     10
                 ]
-            }, 
-            "length": 14, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 4, 
-                "x": 1
-            }, 
-            "solution": "GOOSEBERRYFOOL", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "GOOSEBERRYFOOL"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Delivery of the Guardian, perhaps, with circular (5,5)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Delivery of the Guardian, perhaps, with circular (5,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "PAPERROUND", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "PAPERROUND"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Italian mother in old radio comedy (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Italian mother in old radio comedy (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 11
-            }, 
-            "solution": "ITMA", 
-            "id": "14-across"
-        }, 
+                "x": 11,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "ITMA"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "They transport 100 seamen (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "They transport 100 seamen (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "CABS", 
-            "id": "16-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "CABS"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Well-spoken \"dirty rat\" with one copper behind (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Well-spoken \"dirty rat\" with one copper behind (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 5
-            }, 
-            "solution": "ARTICULATE", 
-            "id": "18-across"
-        }, 
+                "x": 5,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ARTICULATE"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Governing bodies holding Sicilian item up (14)",
+            "direction": "across",
+            "length": 14,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Governing bodies holding Sicilian item up (14)", 
-            "separatorLocations": {}, 
-            "length": 14, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "MUNICIPALITIES", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "MUNICIPALITIES"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "No big deal at Lord's in star match (4,4)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "No big deal at Lord's in star match (4,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "23", 
-            "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "KINGPAIR", 
-            "id": "23-across"
-        }, 
+            },
+            "solution": "KINGPAIR"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Ingratiating when interrupting 19th century PM (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Ingratiating when interrupting 19th century PM (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 9
-            }, 
-            "solution": "GREASY", 
-            "id": "24-across"
-        }, 
+                "x": 9,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "GREASY"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "McCoy's quality, having a cape of authority (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "McCoy's quality, having a cape of authority (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "REALNESS", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "REALNESS"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Each expert pilot must swallow some pastry (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Each expert pilot must swallow some pastry (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 9
-            }, 
-            "solution": "APIECE", 
-            "id": "26-across"
-        }, 
+                "x": 9,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "APIECE"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Roguish but formal when put in the pig pen (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Roguish but formal when put in the pig pen (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "ARCH", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ARCH"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Investment scheme keeps a small sum of money in liquid food (3,4)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Investment scheme keeps a small sum of money in liquid food (3,4)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "PEASOUP", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "PEASOUP"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Go below broken stair to show style (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Go below broken stair to show style (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "ARTISTRY", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ARTISTRY"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Pious Paul ain't amazingly large (11)",
+            "direction": "down",
+            "length": 11,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Pious Paul ain't amazingly large (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "REVERENTIAL", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "REVERENTIAL"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "The queen in an old corset wanders off (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "The queen in an old corset wanders off (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "STRAYS", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "STRAYS"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Help ruffian to come round if knocked down (4,3)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Help ruffian to come round if knocked down (4,3)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "LAIDOUT", 
-            "id": "7-down"
-        }, 
+            },
+            "solution": "LAIDOUT"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Financial backer meets an old fool for tea (5,4)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Financial backer meets an old fool for tea (5,4)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "ANGELCAKE", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "ANGELCAKE"
+        },
         {
-            "direction": "down", 
+            "id": "12-down",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Lives in a bookshop! (11)",
+            "direction": "down",
+            "length": 11,
             "group": [
                 "12-down"
-            ], 
-            "number": 12, 
-            "clue": "Lives in a bookshop! (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 6
-            }, 
-            "solution": "BIOGRAPHIES", 
-            "id": "12-down"
-        }, 
+                "x": 6,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "BIOGRAPHIES"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "The leader unfolds map with a creek to be seen (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "The leader unfolds map with a creek to be seen (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "PACEMAKER", 
-            "id": "13-down"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "PACEMAKER"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Say nice things about fat rising (6,2)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Say nice things about fat rising (6,2)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 7, 
-                "x": 10
-            }, 
-            "solution": "BUTTERUP", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "BUTTERUP"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Good French motorists touring New Zealand finding sudden wealth (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Good French motorists touring New Zealand finding sudden wealth (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 2
-            }, 
-            "solution": "BONANZA", 
-            "id": "17-down"
-        }, 
+                "x": 2,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "BONANZA"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Mean girl gets squeezed in time (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Mean girl gets squeezed in time (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 12
-            }, 
-            "solution": "AVERAGE", 
-            "id": "19-down"
-        }, 
+                "x": 12,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "AVERAGE"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Floater, one joining church to criticise (3,3)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Floater, one joining church to criticise (3,3)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "20", 
-            "position": {
-                "y": 9, 
-                "x": 4
-            }, 
-            "solution": "ICEPAN", 
-            "id": "20-down"
-        }, 
+            },
+            "solution": "ICEPAN"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "It's a strain to work in an office (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "It's a strain to work in an office (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 14
-            }, 
-            "solution": "TYPE", 
-            "id": "22-down"
+                "x": 14,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "TYPE"
         }
-    ], 
-    "date": 1153699200000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/23826", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1153695600000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M41"
 }

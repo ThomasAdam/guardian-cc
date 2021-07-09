@@ -1,567 +1,569 @@
 {
-    "name": "Cryptic crossword No 25,270", 
+    "id": "crosswords/cryptic/25270",
+    "number": 25270,
+    "name": "Cryptic crossword No 25,270",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/paul", 
-        "name": "Paul"
-    }, 
-    "dateSolutionAvailable": 1300147200000, 
-    "number": 25270, 
-    "crosswordType": "cryptic", 
+        "name": "Paul",
+        "webUrl": "https://www.theguardian.com/profile/paul"
+    },
+    "date": 1300147200000,
+    "webPublicationDate": 1300147200000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Novel cut to cover fine, quick story (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Novel cut to cover fine, quick story (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "NEWSFLASH", 
-            "id": "1-across"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "NEWSFLASH"
+        },
         {
-            "direction": "across", 
+            "id": "6-across",
+            "number": 6,
+            "humanNumber": "6, 2, 21",
+            "clue": " Heavy rain, perfect bowling conditions? (4,7,3,5)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "6-across", 
-                "2-down", 
+                "6-across",
+                "2-down",
                 "21-across"
-            ], 
-            "number": 6, 
-            "clue": " Heavy rain, perfect bowling conditions? (4,7,3,5)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "6, 2, 21", 
-            "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "NICE", 
-            "id": "6-across"
-        }, 
+            },
+            "solution": "NICE"
+        },
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Generous sperm donor \u2019as preserved eggs (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "Generous sperm donor \u2019as preserved eggs (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "CASANOVA", 
-            "id": "8-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "CASANOVA"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Open bottle, a Gallic port (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Open bottle, a Gallic port (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 9
-            }, 
-            "solution": "UNCORK", 
-            "id": "9-across"
-        }, 
+                "x": 9,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "UNCORK"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Day taken to pack red bag (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Day taken to pack red bag (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "SACHET", 
-            "id": "10-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "SACHET"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "See 17",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "17-down", 
+                "17-down",
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "See 17", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 4, 
-                "x": 7
-            }, 
-            "solution": "MIGHTFLY", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "MIGHTFLY"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Boy, there are many rabbits! (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Boy, there are many rabbits! (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "WARREN", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "WARREN"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Learned not to be considered (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Learned not to be considered (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 7
-            }, 
-            "solution": "ACADEMIC", 
-            "id": "15-across"
-        }, 
+                "x": 7,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "ACADEMIC"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "A place in Thailand once back to front, somewhere further south? (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "A place in Thailand once back to front, somewhere further south? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "MALAYSIA", 
-            "id": "16-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "MALAYSIA"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Dessert like jelly seen around the globe (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Dessert like jelly seen around the globe (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 9
-            }, 
-            "solution": "SORBET", 
-            "id": "19-across"
-        }, 
+                "x": 9,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "SORBET"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "See 6",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "6-across", 
-                "2-down", 
+                "6-across",
+                "2-down",
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "See 6", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "FORDUCKS", 
-            "id": "21-across"
-        }, 
+            },
+            "solution": "FORDUCKS"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Tool pieced together? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Tool pieced together? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 9
-            }, 
-            "solution": "JIGSAW", 
-            "id": "22-across"
-        }, 
+                "x": 9,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "JIGSAW"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Man is one that's evolved (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Man is one that's evolved (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "SIMIAN", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "SIMIAN"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "17 11? Sounds like they did, as this has arrived (5,3)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "17 11? Sounds like they did, as this has arrived (5,3)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "25", 
-            "position": {
-                "y": 12, 
-                "x": 7
-            }, 
-            "solution": "SWINEFLU", 
-            "id": "25-across"
-        }, 
+            },
+            "solution": "SWINEFLU"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Responsibility of crossword setters? (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Responsibility of crossword setters? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "ONUS", 
-            "id": "26-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "ONUS"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Song that's gone, but probably not forgotten? (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Song that's gone, but probably not forgotten? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 5
-            }, 
-            "solution": "YESTERDAY", 
-            "id": "27-across"
-        }, 
+                "x": 5,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "YESTERDAY"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Somewhat scrawny, a lanky antelope (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Somewhat scrawny, a lanky antelope (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "NYALA", 
-            "id": "1-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "NYALA"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "See 6 across",
+            "direction": "down",
+            "length": 7,
             "group": [
-                "6-across", 
-                "2-down", 
+                "6-across",
+                "2-down",
                 "21-across"
-            ], 
-            "number": 2, 
-            "clue": "See 6 across", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "WEATHER", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "WEATHER"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Money put aside for parade vehicle (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Money put aside for parade vehicle (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "FLOAT", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "FLOAT"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Among similar blood types I suggest turning up to see the bloody problem (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Among similar blood types I suggest turning up to see the bloody problem (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "ANAEMIA", 
-            "id": "4-down"
-        }, 
+                "x": 7,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ANAEMIA"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Porker scoffing curry regularly, girl with such a timely figure? (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Porker scoffing curry regularly, girl with such a timely figure? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "HOURGLASS", 
-            "id": "5-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "HOURGLASS"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Make out match for formal wear (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Make out match for formal wear (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "NECKTIE", 
-            "id": "6-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "NECKTIE"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Pinky knackered in the middle (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Pinky knackered in the middle (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "CORALLINE", 
-            "id": "7-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CORALLINE"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "A passion about weightlifting ending in mutation of fierce women (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "A passion about weightlifting ending in mutation of fierce women (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 1
-            }, 
-            "solution": "AMAZONIAN", 
-            "id": "13-down"
-        }, 
+                "x": 1,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "AMAZONIAN"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "High any second, given cocaine (4,5)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "High any second, given cocaine (4,5)", 
+            ],
+            "position": {
+                "x": 5,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 5
-            }, 
-            "solution": "NOSECANDY", 
-            "id": "14-down"
-        }, 
+            },
+            "solution": "NOSECANDY"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17, 11",
+            "clue": " Unlikely strength seen in dying, flaps about (3,4,5,3)",
+            "direction": "down",
+            "length": 7,
             "group": [
-                "17-down", 
+                "17-down",
                 "11-across"
-            ], 
-            "number": 17, 
-            "clue": " Unlikely strength seen in dying, flaps about (3,4,5,3)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "17, 11", 
-            "position": {
-                "y": 8, 
-                "x": 3
-            }, 
-            "solution": "ANDPIGS", 
-            "id": "17-down"
-        }, 
+            },
+            "solution": "ANDPIGS"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Seconds where intro missed by guitarists (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Seconds where intro missed by guitarists (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "ASSISTS", 
-            "id": "18-down"
-        }, 
+                "x": 7,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ASSISTS"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Plant flower, fighting to come up round front of greenhouse (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Plant flower, fighting to come up round front of greenhouse (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 11
-            }, 
-            "solution": "RAGWEED", 
-            "id": "20-down"
-        }, 
+                "x": 11,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "RAGWEED"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Extract something reasonable? No way! (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Extract something reasonable? No way! (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 9
-            }, 
-            "solution": "JUICE", 
-            "id": "22-down"
-        }, 
+                "x": 9,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "JUICE"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Combine to restrain a temper (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Combine to restrain a temper (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 13
-            }, 
-            "solution": "ALLAY", 
-            "id": "23-down"
+                "x": 13,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "ALLAY"
         }
-    ], 
-    "date": 1300147200000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20110315.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25270", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1300147200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20110315.pdf",
+    "_gridType": null
 }

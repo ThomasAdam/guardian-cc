@@ -1,529 +1,531 @@
 {
-    "name": "Prize crossword No 23,777", 
+    "id": "crosswords/prize/23777",
+    "number": 23777,
+    "name": "Prize crossword No 23,777",
     "creator": {
-        "webUrl": "https://www.theguardian.com/profile/araucaria", 
-        "name": "Araucaria"
-    }, 
-    "dateSolutionAvailable": 1149289200000, 
-    "number": 23777, 
-    "crosswordType": "prize", 
+        "name": "Araucaria",
+        "webUrl": "https://www.theguardian.com/profile/araucaria"
+    },
+    "date": 1148688000000,
+    "webPublicationDate": 1148684400000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Poem about shop girl, third class, say (7-5)",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "1-across", 
+                "1-across",
                 "9-across"
-            ], 
-            "number": 1, 
-            "clue": "Poem about shop girl, third class, say (7-5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "SCHOLAR", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "SCHOLAR"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Old club gets a lot of support (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "Old club gets a lot of support (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "BRASSIE", 
-            "id": "5-across"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BRASSIE"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "See 1",
+            "direction": "across",
+            "length": 5,
             "group": [
-                "1-across", 
+                "1-across",
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "See 1", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 "-": []
-            }, 
-            "length": 5, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "GIPSY", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "GIPSY"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Queen in leaderless municipality takes possession (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Queen in leaderless municipality takes possession (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 6
-            }, 
-            "solution": "OWNERSHIP", 
-            "id": "10-across"
-        }, 
+                "x": 6,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "OWNERSHIP"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Spotted climber reprising cup role, a doddle (7,7)",
+            "direction": "across",
+            "length": 14,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Spotted climber reprising cup role, a doddle (7,7)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 14, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 4, 
-                "x": 1
-            }, 
-            "solution": "CLOUDEDLEOPARD", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "CLOUDEDLEOPARD"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Poems' author dropping would flower in Italy (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Poems' author dropping would flower in Italy (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "ARNO", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "ARNO"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Street fighter from down under captures one like 1 9 or 25 rather than 7 or 19 22 (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Street fighter from down under captures one like 1 9 or 25 rather than 7 or 19 22 (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 7
-            }, 
-            "solution": "STANZAIC", 
-            "id": "14-across"
-        }, 
+                "x": 7,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "STANZAIC"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Sleuth with refresher on a plate (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Sleuth with refresher on a plate (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "TECTONIC", 
-            "id": "17-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "TECTONIC"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "The advantageous side (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "The advantageous side (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 11
-            }, 
-            "solution": "EDGE", 
-            "id": "18-across"
-        }, 
+                "x": 11,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "EDGE"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Service time followed by old talker, say: there's the rub (7,7)",
+            "direction": "across",
+            "length": 14,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Service time followed by old talker, say: there's the rub (7,7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 14, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "MASSAGEPARLOUR", 
-            "id": "21-across"
-        }, 
+            },
+            "solution": "MASSAGEPARLOUR"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Nude's ruin (ruined because not covered) (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Nude's ruin (ruined because not covered) (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "UNINSURED", 
-            "id": "23-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "UNINSURED"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Joint head of church comes under it (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Joint head of church comes under it (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 10
-            }, 
-            "solution": "MITRE", 
-            "id": "24-across"
-        }, 
+                "x": 10,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "MITRE"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Poem is on solver's rights (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Poem is on solver's rights (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "THYRSIS", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "THYRSIS"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Started again having grass about half the season (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Started again having grass about half the season (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "RESUMED", 
-            "id": "26-across"
-        }, 
+                "x": 8,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "RESUMED"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Herb sap.? (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Herb sap.? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "SAGE", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SAGE"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Hands apology (sic) over to Western hero (8,7)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Hands apology (sic) over to Western hero (8,7)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "HOPALONGCASSIDY", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "HOPALONGCASSIDY"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Format relating to the 22? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Format relating to the 22? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "LAYOUT", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LAYOUT"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Island ways as reported (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Island ways as reported (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "RHODES", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "RHODES"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Commonplace quality got by including gossip with literature (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Commonplace quality got by including gossip with literature (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "BANALITY", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BANALITY"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Flying first into tree on Tyneside (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Flying first into tree on Tyneside (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "AIRBORNE", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "AIRBORNE"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Poem all about zero hour for a group with effect of disuse (6,3,6)",
+            "direction": "down",
+            "length": 15,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Poem all about zero hour for a group with effect of disuse (6,3,6)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    6, 
+                    6,
                     9
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "SOHRABANDRUSTUM", 
-            "id": "7-down"
-        }, 
+            },
+            "solution": "SOHRABANDRUSTUM"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Poem edited to suit Long John recited on a volcano (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Poem edited to suit Long John recited on a volcano (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "EMPEDOCLES", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EMPEDOCLES"
+        },
         {
-            "direction": "down", 
+            "id": "12-down",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Virtually the same horse after reindeer man's following leader (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "12-down"
-            ], 
-            "number": 12, 
-            "clue": "Virtually the same horse after reindeer man's following leader (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "TANTAMOUNT", 
-            "id": "12-down"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "TANTAMOUNT"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "It's sweet and slow time for girls (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "It's sweet and slow time for girls (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "MOLASSES", 
-            "id": "15-down"
-        }, 
+                "x": 4,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "MOLASSES"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Guns providing back-to-back text (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Guns providing back-to-back text (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 6
-            }, 
-            "solution": "FIREARMS", 
-            "id": "16-down"
-        }, 
+                "x": 6,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "FIREARMS"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Poem, not good, about tree and some deities (6,4)",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "19-down", 
+                "19-down",
                 "22-down"
-            ], 
-            "number": 19, 
-            "clue": "Poem, not good, about tree and some deities (6,4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "19", 
-            "position": {
-                "y": 9, 
-                "x": 8
-            }, 
-            "solution": "BALDER", 
-            "id": "19-down"
-        }, 
+            },
+            "solution": "BALDER"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "A little bit of Wales is where the Queen Mother was (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "A little bit of Wales is where the Queen Mother was (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "GLAMIS", 
-            "id": "20-down"
-        }, 
+                "x": 10,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "GLAMIS"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "See 19",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "19-down", 
+                "19-down",
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "See 19", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 11, 
-                "x": 14
-            }, 
-            "solution": "DEAD", 
-            "id": "22-down"
+            },
+            "solution": "DEAD"
         }
-    ], 
-    "date": 1148688000000, 
-    "instructions": "<a href=\"http://www.guardian.co.uk/crossword/page/0,,1789240,00.html\">Click here</a> for an annotated explanation of the solutions.", 
-    "solutionAvailable": true, 
-    "id": "crosswords/prize/23777", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1149289200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "prize",
+    "instructions": "<a href=\"http://www.guardian.co.uk/crossword/page/0,,1789240,00.html\">Click here</a> for an annotated explanation of the solutions.",
+    "_gridType": "M44"
 }

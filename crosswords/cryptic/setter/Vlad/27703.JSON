@@ -1,585 +1,587 @@
 {
-    "name": "Cryptic crossword No 27,703", 
+    "id": "crosswords/cryptic/27703",
+    "number": 27703,
+    "name": "Cryptic crossword No 27,703",
     "creator": {
-        "webUrl": "https://www.theguardian.com/profile/vlad", 
-        "name": "Vlad"
-    }, 
-    "dateSolutionAvailable": 1545955200000, 
-    "number": 27703, 
-    "crosswordType": "cryptic", 
+        "name": "Vlad",
+        "webUrl": "https://www.theguardian.com/profile/vlad"
+    },
+    "date": 1545955200000,
+    "webPublicationDate": 1545955208000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1, 29",
+            "clue": " Got near the solution to this, but not overly impressive (2,5,6)",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "1-across", 
+                "1-across",
                 "29-across"
-            ], 
-            "number": 1, 
-            "clue": " Got near the solution to this, but not overly impressive (2,5,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "1, 29", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "NOGREAT", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "NOGREAT"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Seductresses help removing our uniform \u2014 twice (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "Seductresses help removing our uniform \u2014 twice (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "SUCCUBI", 
-            "id": "5-across"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SUCCUBI"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Engaged Asian picked up at party (4,2)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Engaged Asian picked up at party (4,2)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "TIEDUP", 
-            "id": "10-across"
-        }, 
+            },
+            "solution": "TIEDUP"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Prints articles initially in the City (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Prints articles initially in the City (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 7
-            }, 
-            "solution": "ETCHINGS", 
-            "id": "11-across"
-        }, 
+                "x": 7,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "ETCHINGS"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Priest's among non-believers (3)",
+            "direction": "across",
+            "length": 3,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Priest's among non-believers (3)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 5
-            }, 
-            "solution": "ELI", 
-            "id": "12-across"
-        }, 
+                "x": 5,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "ELI"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Invest in road building (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Invest in road building (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "ORDAIN", 
-            "id": "13-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "ORDAIN"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14, 30",
+            "clue": " New guy starts to renegotiate cheap fee for each writer (8,7)",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "14-across", 
+                "14-across",
                 "30-across"
-            ], 
-            "number": 14, 
-            "clue": " New guy starts to renegotiate cheap fee for each writer (8,7)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "14, 30", 
-            "position": {
-                "y": 4, 
-                "x": 7
-            }, 
-            "solution": "GEOFFREY", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "GEOFFREY"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Bungling Italy on three points (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Bungling Italy on three points (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "INEPT", 
-            "id": "15-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "INEPT"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Choice woman's finally made to leave? Hear it's fallacious (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Choice woman's finally made to leave? Hear it's fallacious (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 6
-            }, 
-            "solution": "SOPHISTRY", 
-            "id": "16-across"
-        }, 
+                "x": 6,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "SOPHISTRY"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Close to broke in most of country \u2014 no alternative to Tory policy? (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Close to broke in most of country \u2014 no alternative to Tory policy? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "AUSTERITY", 
-            "id": "19-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "AUSTERITY"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Tea next to instant coffee (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Tea next to instant coffee (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 10
-            }, 
-            "solution": "MOCHA", 
-            "id": "21-across"
-        }, 
+                "x": 10,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "MOCHA"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "One piece of writing in leaflet is less convincing (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "One piece of writing in leaflet is less convincing (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "FLIMSIER", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "FLIMSIER"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Doris's entertaining fellow when things go wrong (3-3)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Doris's entertaining fellow when things go wrong (3-3)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 10
+            },
             "separatorLocations": {
                 "-": [
                     3
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "26", 
-            "position": {
-                "y": 10, 
-                "x": 9
-            }, 
-            "solution": "OFFDAY", 
-            "id": "26-across"
-        }, 
+            },
+            "solution": "OFFDAY"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Matter of disrespect (3)",
+            "direction": "across",
+            "length": 3,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Matter of disrespect (3)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 7
-            }, 
-            "solution": "RES", 
-            "id": "27-across"
-        }, 
+                "x": 7,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "RES"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "Hearts lost twice \u2014 that coach's messed up direction to players (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "28-across"
-            ], 
-            "number": 28, 
-            "clue": "Hearts lost twice \u2014 that coach's messed up direction to players (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "28", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "STACCATO", 
-            "id": "28-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "STACCATO"
+        },
         {
-            "direction": "across", 
+            "id": "29-across",
+            "number": 29,
+            "humanNumber": "29",
+            "clue": "See 1",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "1-across", 
+                "1-across",
                 "29-across"
-            ], 
-            "number": 29, 
-            "clue": "See 1", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 6, 
-            "humanNumber": "29", 
-            "position": {
-                "y": 12, 
-                "x": 9
-            }, 
-            "solution": "SHAKES", 
-            "id": "29-across"
-        }, 
+            },
+            "solution": "SHAKES"
+        },
         {
-            "direction": "across", 
+            "id": "30-across",
+            "number": 30,
+            "humanNumber": "30",
+            "clue": "See 14",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "14-across", 
+                "14-across",
                 "30-across"
-            ], 
-            "number": 30, 
-            "clue": "See 14", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 14
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "30", 
-            "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "CHAUCER", 
-            "id": "30-across"
-        }, 
+            },
+            "solution": "CHAUCER"
+        },
         {
-            "direction": "across", 
+            "id": "31-across",
+            "number": 31,
+            "humanNumber": "31",
+            "clue": "Son went on Big Dipper in these? (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "31-across"
-            ], 
-            "number": 31, 
-            "clue": "Son went on Big Dipper in these? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "31", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 8
-            }, 
-            "solution": "SPEEDOS", 
-            "id": "31-across"
-        }, 
+                "x": 8,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "SPEEDOS"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Mike's a different bloke after love letter (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Mike's a different bloke after love letter (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "OMICRON", 
-            "id": "2-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OMICRON"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Course favourite gets special welcome (3,6)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Course favourite gets special welcome (3,6)", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "REDCARPET", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "REDCARPET"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Join in with degree course, initially (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Join in with degree course, initially (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "APPEND", 
-            "id": "4-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "APPEND"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Nancy's a fool getting man to strip (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Nancy's a fool getting man to strip (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "UNCLOTHE", 
-            "id": "6-down"
-        }, 
+                "x": 9,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "UNCLOTHE"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Bluff a national treasure? (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Bluff a national treasure? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "CLIFF", 
-            "id": "7-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CLIFF"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Tap on counter \u2014 a quarter admitted it's annoying (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Tap on counter \u2014 a quarter admitted it's annoying (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "BUGBEAR", 
-            "id": "8-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BUGBEAR"
+        },
         {
-            "direction": "down", 
+            "id": "9-down",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Order given to ignore boner under newspaper \u2014 a dreadful rule! (5,2,6)",
+            "direction": "down",
+            "length": 13,
             "group": [
                 "9-down"
-            ], 
-            "number": 9, 
-            "clue": "Order given to ignore boner under newspaper \u2014 a dreadful rule! (5,2,6)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
-                    5, 
+                    5,
                     7
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 1, 
-                "x": 7
-            }, 
-            "solution": "REIGNOFTERROR", 
-            "id": "9-down"
-        }, 
+            },
+            "solution": "REIGNOFTERROR"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "\u2019E's upset about current criticism (one of a generation that's easily offended) (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "\u2019E's upset about current criticism (one of a generation that's easily offended) (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 11
-            }, 
-            "solution": "SNOWFLAKE", 
-            "id": "17-down"
-        }, 
+                "x": 11,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "SNOWFLAKE"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Water right for fellow in one ship (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Water right for fellow in one ship (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "IRRIGATE", 
-            "id": "18-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "IRRIGATE"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Open jar at lunch (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Open jar at lunch (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 1
-            }, 
-            "solution": "UNLATCH", 
-            "id": "20-down"
-        }, 
+                "x": 1,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "UNLATCH"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Carrying drugs, must stop boat (5,2)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Carrying drugs, must stop boat (5,2)", 
+            ],
+            "position": {
+                "x": 13,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 8, 
-                "x": 13
-            }, 
-            "solution": "HEAVETO", 
-            "id": "22-down"
-        }, 
+            },
+            "solution": "HEAVETO"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Energy drink a bit special is inside talk (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Energy drink a bit special is inside talk (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "GOSSIP", 
-            "id": "23-down"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "GOSSIP"
+        },
         {
-            "direction": "down", 
+            "id": "25-down",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Historian set out for Chinese region (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "25-down"
-            ], 
-            "number": 25, 
-            "clue": "Historian set out for Chinese region (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 3
-            }, 
-            "solution": "MACAU", 
-            "id": "25-down"
+                "x": 3,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "MACAU"
         }
-    ], 
-    "date": 1545955200000, 
-    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20181228.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/27703", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1545955200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20181228.pdf",
+    "_gridType": "M68"
 }

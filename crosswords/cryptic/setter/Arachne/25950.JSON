@@ -1,584 +1,586 @@
 {
-    "name": "Cryptic crossword No 25,950", 
+    "id": "crosswords/cryptic/25950",
+    "number": 25950,
+    "name": "Cryptic crossword No 25,950",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/arachne", 
-        "name": "Arachne"
-    }, 
-    "dateSolutionAvailable": 1368745200000, 
-    "number": 25950, 
-    "crosswordType": "cryptic", 
+        "name": "Arachne",
+        "webUrl": "https://www.theguardian.com/profile/arachne"
+    },
+    "date": 1368748800000,
+    "webPublicationDate": 1368745200000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "7-across",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Skeleton of English doctor found on far side of watering hole (4,5)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "7-across"
-            ], 
-            "number": 7, 
-            "clue": "Skeleton of English doctor found on far side of watering hole (4,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "BAREBONES", 
-            "id": "7-across"
-        }, 
+            },
+            "solution": "BAREBONES"
+        },
         {
-            "direction": "across", 
+            "id": "8-across",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Thick, like George? (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "8-across"
-            ], 
-            "number": 8, 
-            "clue": "Thick, like George? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 10
-            }, 
-            "solution": "BUSHY", 
-            "id": "8-across"
-        }, 
+                "x": 10,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "BUSHY"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Dangerous allure of wailing German (5,4)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Dangerous allure of wailing German (5,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 3
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "SIRENSONG", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "SIRENSONG"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Crumbling as one ages (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Crumbling as one ages (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 10
-            }, 
-            "solution": "AEONS", 
-            "id": "10-across"
-        }, 
+                "x": 10,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "AEONS"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Many miss working on farm, lacking support in retirement (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Many miss working on farm, lacking support in retirement (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "MYRIAD", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "MYRIAD"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "One warm kiss leads to discharge, almost a disaster (4,4)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "One warm kiss leads to discharge, almost a disaster (4,4)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 7
-            }, 
-            "solution": "NEARMISS", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "NEARMISS"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Idiotic change of heart for woman giving evidence (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Idiotic change of heart for woman giving evidence (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "WITNESS", 
-            "id": "16-across"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "WITNESS"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Disgusting smell, revolting sight (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Disgusting smell, revolting sight (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 8
-            }, 
-            "solution": "OBSCENE", 
-            "id": "19-across"
-        }, 
+                "x": 8,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "OBSCENE"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "For example, H. Mantel on Reformation? (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "For example, H. Mantel on Reformation? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "NONMETAL", 
-            "id": "22-across"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "NONMETAL"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Rush to indict Bill (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Rush to indict Bill (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "CHARGE", 
-            "id": "25-across"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "CHARGE"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Reportedly waited around grave (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Reportedly waited around grave (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "STAID", 
-            "id": "27-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "STAID"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "Split personality? (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "28-across"
-            ], 
-            "number": 28, 
-            "clue": "Split personality? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "28", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 6
-            }, 
-            "solution": "DALMATIAN", 
-            "id": "28-across"
-        }, 
+                "x": 6,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "DALMATIAN"
+        },
         {
-            "direction": "across", 
+            "id": "29-across",
+            "number": 29,
+            "humanNumber": "29",
+            "clue": "America's wholesale decline (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "29-across"
-            ], 
-            "number": 29, 
-            "clue": "America's wholesale decline (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "29", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "BAULK", 
-            "id": "29-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "BAULK"
+        },
         {
-            "direction": "across", 
+            "id": "30-across",
+            "number": 30,
+            "humanNumber": "30",
+            "clue": "Fix Cartesian coordinates wrongly (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "30-across"
-            ], 
-            "number": 30, 
-            "clue": "Fix Cartesian coordinates wrongly (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "30", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 6
-            }, 
-            "solution": "ASCERTAIN", 
-            "id": "30-across"
-        }, 
+                "x": 6,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "ASCERTAIN"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Guinea pig cages with limitless space (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Guinea pig cages with limitless space (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "CAVITY", 
-            "id": "1-down"
-        }, 
+                "x": 1,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "CAVITY"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Girl, left out, needs makeover (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Girl, left out, needs makeover (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "REDESIGN", 
-            "id": "2-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "REDESIGN"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Proceeded carefully, keeping head of organisation in the loop (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Proceeded carefully, keeping head of organisation in the loop (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "NOOSED", 
-            "id": "3-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "NOOSED"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Ruling king's son leaves with child (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Ruling king's son leaves with child (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "REGNANT", 
-            "id": "4-down"
-        }, 
+                "x": 7,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "REGNANT"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "The British, perhaps, ponder limits to unilateralism (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "The British, perhaps, ponder limits to unilateralism (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "MUSEUM", 
-            "id": "5-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "MUSEUM"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Calls doctor on the spot after tot's scratched (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Calls doctor on the spot after tot's scratched (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "PHONES", 
-            "id": "6-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PHONES"
+        },
         {
-            "direction": "down", 
+            "id": "11-down",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Leading members of judiciary are merciless, but upright (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "11-down"
-            ], 
-            "number": 11, 
-            "clue": "Leading members of judiciary are merciless, but upright (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 9
-            }, 
-            "solution": "JAMB", 
-            "id": "11-down"
-        }, 
+                "x": 9,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "JAMB"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Blowing top in burning fury (3)",
+            "direction": "down",
+            "length": 3,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Blowing top in burning fury (3)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 12
-            }, 
-            "solution": "IRE", 
-            "id": "14-down"
-        }, 
+                "x": 12,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "IRE"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Take action against Twycross, perhaps, after loss of larynx (3)",
+            "direction": "down",
+            "length": 3,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Take action against Twycross, perhaps, after loss of larynx (3)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 14
-            }, 
-            "solution": "SUE", 
-            "id": "15-down"
-        }, 
+                "x": 14,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "SUE"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16, 17",
+            "clue": " Later, perhaps, served up dumpling (3,3)",
+            "direction": "down",
+            "length": 3,
             "group": [
-                "16-down", 
+                "16-down",
                 "17-down"
-            ], 
-            "number": 16, 
-            "clue": " Later, perhaps, served up dumpling (3,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 3, 
-            "humanNumber": "16, 17", 
-            "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "WON", 
-            "id": "16-down"
-        }, 
+            },
+            "solution": "WON"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "See 16",
+            "direction": "down",
+            "length": 3,
             "group": [
-                "16-down", 
+                "16-down",
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "See 16", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 3, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "TON", 
-            "id": "17-down"
-        }, 
+            },
+            "solution": "TON"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "In disguise, the Fourth Man (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "In disguise, the Fourth Man (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "SETH", 
-            "id": "18-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "SETH"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Reduced speed in Washington DC, perhaps steering clear of Congress (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Reduced speed in Washington DC, perhaps steering clear of Congress (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 11
-            }, 
-            "solution": "CHASTITY", 
-            "id": "20-down"
-        }, 
+                "x": 11,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "CHASTITY"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Church accepts favours to provide absolution (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "Church accepts favours to provide absolution (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 7
-            }, 
-            "solution": "CLEANSE", 
-            "id": "21-down"
-        }, 
+                "x": 7,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "CLEANSE"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Where anyone can study review of Disney's Robin Hood? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Where anyone can study review of Disney's Robin Hood? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 1
-            }, 
-            "solution": "OUTLAW", 
-            "id": "23-down"
-        }, 
+                "x": 1,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "OUTLAW"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "As a rule, alimony's handled badly and lovelessly (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "As a rule, alimony's handled badly and lovelessly (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 3
-            }, 
-            "solution": "MAINLY", 
-            "id": "24-down"
-        }, 
+                "x": 3,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "MAINLY"
+        },
         {
-            "direction": "down", 
+            "id": "25-down",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Curve in road about to get warning sign (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "25-down"
-            ], 
-            "number": 25, 
-            "clue": "Curve in road about to get warning sign (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "CAMBER", 
-            "id": "25-down"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "CAMBER"
+        },
         {
-            "direction": "down", 
+            "id": "26-down",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Banks, for instance, operate on the basis of a deception (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "26-down"
-            ], 
-            "number": 26, 
-            "clue": "Banks, for instance, operate on the basis of a deception (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 13
-            }, 
-            "solution": "GOALIE", 
-            "id": "26-down"
+                "x": 13,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "GOALIE"
         }
-    ], 
-    "date": 1368748800000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20130517.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25950", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1368745200000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20130517.pdf",
+    "_gridType": null
 }

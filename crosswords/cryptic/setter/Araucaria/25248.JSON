@@ -1,532 +1,534 @@
 {
-    "name": "Cryptic crossword No 25,248", 
+    "id": "crosswords/cryptic/25248",
+    "number": 25248,
+    "name": "Cryptic crossword No 25,248",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/araucaria", 
-        "name": "Araucaria"
-    }, 
-    "dateSolutionAvailable": 1297900800000, 
-    "number": 25248, 
-    "crosswordType": "cryptic", 
+        "name": "Araucaria",
+        "webUrl": "https://www.theguardian.com/profile/araucaria"
+    },
+    "date": 1297900800000,
+    "webPublicationDate": 1297900800000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Invent cosmetics? (4,2)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Invent cosmetics? (4,2)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "MAKEUP", 
-            "id": "1-across"
-        }, 
+            },
+            "solution": "MAKEUP"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Woodcock willing to go to prison? (4,4)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "5-across"
-            ], 
-            "number": 5, 
-            "clue": "Woodcock willing to go to prison? (4,4)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "GAMEBIRD", 
-            "id": "5-across"
-        }, 
+            },
+            "solution": "GAMEBIRD"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "See 13",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "13-across", 
+                "13-across",
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "See 13", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "SAISQUOI", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "SAISQUOI"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Repeat summons to speak in public (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Repeat summons to speak in public (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 9
-            }, 
-            "solution": "RECITE", 
-            "id": "10-across"
-        }, 
+                "x": 9,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "RECITE"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Staircase on board in style of value in 6? (12)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Staircase on board in style of value in 6? (12)", 
-            "separatorLocations": {}, 
-            "length": 12, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 3
-            }, 
-            "solution": "COMPANIONWAY", 
-            "id": "11-across"
-        }, 
+                "x": 3,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "COMPANIONWAY"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13, 9",
+            "clue": " A certain something from Jaques \u2014 1 is one (2,2,4,4)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "13-across", 
+                "13-across",
                 "9-across"
-            ], 
-            "number": 13, 
-            "clue": " A certain something from Jaques \u2014 1 is one (2,2,4,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "13, 9", 
-            "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "JENE", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "JENE"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Think of a tooth: it took food (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "Think of a tooth: it took food (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 7
-            }, 
-            "solution": "COGITATE", 
-            "id": "14-across"
-        }, 
+                "x": 7,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "COGITATE"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Latino in fear of Latino? (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Latino in fear of Latino? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "HISPANIC", 
-            "id": "17-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "HISPANIC"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18, 21",
+            "clue": " A lot of white against one in colour has a certain cachet (4,5)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "18-across", 
+                "18-across",
                 "21-down"
-            ], 
-            "number": 18, 
-            "clue": " A lot of white against one in colour has a certain cachet (4,5)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "18, 21", 
-            "position": {
-                "y": 8, 
-                "x": 11
-            }, 
-            "solution": "SNOB", 
-            "id": "18-across"
-        }, 
+            },
+            "solution": "SNOB"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Magical remedy for somewhat sick part of speech from the right \u2014 let us know about it (6,6)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Magical remedy for somewhat sick part of speech from the right \u2014 let us know about it (6,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "20", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "SILVERBULLET", 
-            "id": "20-across"
-        }, 
+            },
+            "solution": "SILVERBULLET"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Mural piece to beat (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Mural piece to beat (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "WALLOP", 
-            "id": "23-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "WALLOP"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Pipe of wine retaining its heart (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Pipe of wine retaining its heart (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 7
-            }, 
-            "solution": "CLARINET", 
-            "id": "24-across"
-        }, 
+                "x": 7,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "CLARINET"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Ring round a lot of lots to get place of honour (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Ring round a lot of lots to get place of honour (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "PEDESTAL", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "PEDESTAL"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Give an account about the deceased? (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Give an account about the deceased? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 9
-            }, 
-            "solution": "RELATE", 
-            "id": "26-across"
-        }, 
+                "x": 9,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "RELATE"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "See 22",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "22-down", 
+                "22-down",
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "See 22", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 1
-            }, 
-            "solution": "AWAY", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "AWAY"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "West dear to Boar's Head district? (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "West dear to Boar's Head district? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 3
-            }, 
-            "solution": "EASTCHEAP", 
-            "id": "3-down"
-        }, 
+                "x": 3,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EASTCHEAP"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Quietly spoken cockney exclamation sounding aristocratic? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Quietly spoken cockney exclamation sounding aristocratic? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 5
-            }, 
-            "solution": "PLUMMY", 
-            "id": "4-down"
-        }, 
+                "x": 5,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PLUMMY"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "See 6",
+            "direction": "down",
+            "length": 15,
             "group": [
-                "6-down", 
+                "6-down",
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "See 6", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 15, 
-            "humanNumber": "5", 
-            "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "GUIDANCECOUNCIL", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "GUIDANCECOUNCIL"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6, 5",
+            "clue": " Union movement infiltrated by noisy fellow with audible advice, now  26 (8,8,7)",
+            "direction": "down",
+            "length": 8,
             "group": [
-                "6-down", 
+                "6-down",
                 "5-down"
-            ], 
-            "number": 6, 
-            "clue": " Union movement infiltrated by noisy fellow with audible advice, now  26 (8,8,7)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     8
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "6, 5", 
-            "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "MARRIAGE", 
-            "id": "6-down"
-        }, 
+            },
+            "solution": "MARRIAGE"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Painter essayist successfully brought home? (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Painter essayist successfully brought home? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "BACON", 
-            "id": "7-down"
-        }, 
+                "x": 11,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BACON"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Withdrawal in case of pull (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Withdrawal in case of pull (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 13
-            }, 
-            "solution": "RETRACTION", 
-            "id": "8-down"
-        }, 
+                "x": 13,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "RETRACTION"
+        },
         {
-            "direction": "down", 
+            "id": "12-down",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Express congratulations permitted in performance with energy (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "12-down"
-            ], 
-            "number": 12, 
-            "clue": "Express congratulations permitted in performance with energy (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 1
-            }, 
-            "solution": "FELICITATE", 
-            "id": "12-down"
-        }, 
+                "x": 1,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "FELICITATE"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Temptations to guide for international (4,5)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Temptations to guide for international (4,5)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 6, 
-                "x": 11
-            }, 
-            "solution": "TESTTRIAL", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "TESTTRIAL"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Potterne building used as warehouse (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Potterne building used as warehouse (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 5
-            }, 
-            "solution": "ENTREPOT", 
-            "id": "16-down"
-        }, 
+                "x": 5,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ENTREPOT"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Star of the upper atmosphere? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Star of the upper atmosphere? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 9
-            }, 
-            "solution": "ALTAIR", 
-            "id": "19-down"
-        }, 
+                "x": 9,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "ALTAIR"
+        },
         {
-            "direction": "down", 
+            "id": "21-down",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "See 18",
+            "direction": "down",
+            "length": 5,
             "group": [
-                "18-across", 
+                "18-across",
                 "21-down"
-            ], 
-            "number": 21, 
-            "clue": "See 18", 
+            ],
+            "position": {
+                "x": 3,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 5, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 10, 
-                "x": 3
-            }, 
-            "solution": "VALUE", 
-            "id": "21-down"
-        }, 
+            },
+            "solution": "VALUE"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22, 2",
+            "clue": " Left London for Washington in flower (4,4)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "22-down", 
+                "22-down",
                 "2-down"
-            ], 
-            "number": 22, 
-            "clue": " Left London for Washington in flower (4,4)", 
+            ],
+            "position": {
+                "x": 13,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "22, 2", 
-            "position": {
-                "y": 11, 
-                "x": 13
-            }, 
-            "solution": "WENT", 
-            "id": "22-down"
+            },
+            "solution": "WENT"
         }
-    ], 
-    "date": 1297900800000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20110217.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25248", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1297900800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20110217.pdf",
+    "_gridType": "M19"
 }

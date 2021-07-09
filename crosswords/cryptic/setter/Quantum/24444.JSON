@@ -1,597 +1,599 @@
 {
-    "name": "Cryptic crossword No 24,444", 
+    "id": "crosswords/cryptic/24444",
+    "number": 24444,
+    "name": "Cryptic crossword No 24,444",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/quantum", 
-        "name": "Quantum"
-    }, 
-    "dateSolutionAvailable": 1216335600000, 
-    "number": 24444, 
-    "crosswordType": "cryptic", 
+        "name": "Quantum",
+        "webUrl": "https://www.theguardian.com/profile/quantum"
+    },
+    "date": 1216339200000,
+    "webPublicationDate": 1216335600000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Wheeler-dealer who makes statements on the record? (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Wheeler-dealer who makes statements on the record? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 0
-            }, 
-            "solution": "SPOKESMAN", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "SPOKESMAN"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Poetry division with inclination towards love (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "Poetry division with inclination towards love (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 1, 
-                "x": 10
-            }, 
-            "solution": "CANTO", 
-            "id": "10-across"
-        }, 
+                "x": 10,
+                "y": 1
+            },
+            "separatorLocations": {},
+            "solution": "CANTO"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Cautionary sign: room has no central heating (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Cautionary sign: room has no central heating (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 0
-            }, 
-            "solution": "AMBER", 
-            "id": "11-across"
-        }, 
+                "x": 0,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "AMBER"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "A bees' nest disturbed by non-attentive people? (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "A bees' nest disturbed by non-attentive people? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 3, 
-                "x": 6
-            }, 
-            "solution": "ABSENTEES", 
-            "id": "12-across"
-        }, 
+                "x": 6,
+                "y": 3
+            },
+            "separatorLocations": {},
+            "solution": "ABSENTEES"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Where Patrick and I got war novel, \"A Point of Departure\" (7,7)",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "13-across", 
+                "13-across",
                 "14-across"
-            ], 
-            "number": 13, 
-            "clue": "Where Patrick and I got war novel, \"A Point of Departure\" (7,7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "GATWICK", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "GATWICK"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "See 13",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "13-across", 
+                "13-across",
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "See 13", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 5, 
-                "x": 8
-            }, 
-            "solution": "AIRPORT", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "AIRPORT"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Account mostly sent back in first-class defence (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Account mostly sent back in first-class defence (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 0
-            }, 
-            "solution": "ALIBI", 
-            "id": "17-across"
-        }, 
+                "x": 0,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ALIBI"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Hat worn in the ceilidh? (3)",
+            "direction": "across",
+            "length": 3,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "Hat worn in the ceilidh? (3)", 
-            "separatorLocations": {}, 
-            "length": 3, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 6
-            }, 
-            "solution": "LID", 
-            "id": "19-across"
-        }, 
+                "x": 6,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "LID"
+        },
         {
-            "direction": "across", 
+            "id": "20-across",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Mark of the butterfly (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "20-across"
-            ], 
-            "number": 20, 
-            "clue": "Mark of the butterfly (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 10
-            }, 
-            "solution": "COMMA", 
-            "id": "20-across"
-        }, 
+                "x": 10,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "COMMA"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Perceiving what's in mind, yet plodding (7,7)",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "21-across", 
+                "21-across",
                 "22-across"
-            ], 
-            "number": 21, 
-            "clue": "Perceiving what's in mind, yet plodding (7,7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "THOUGHT", 
-            "id": "21-across"
-        }, 
+            },
+            "solution": "THOUGHT"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "See 21",
+            "direction": "across",
+            "length": 7,
             "group": [
-                "21-across", 
+                "21-across",
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "See 21", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 7, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 9, 
-                "x": 8
-            }, 
-            "solution": "READING", 
-            "id": "22-across"
-        }, 
+            },
+            "solution": "READING"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Intoxicated, but also up the wall (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Intoxicated, but also up the wall (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "PLASTERED", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "PLASTERED"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Urge on simple change, ignoring society (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Urge on simple change, ignoring society (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 10
-            }, 
-            "solution": "IMPEL", 
-            "id": "26-across"
-        }, 
+                "x": 10,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "IMPEL"
+        },
         {
-            "direction": "across", 
+            "id": "28-across",
+            "number": 28,
+            "humanNumber": "28",
+            "clue": "He's in the Civil Service game (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "28-across"
-            ], 
-            "number": 28, 
-            "clue": "He's in the Civil Service game (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "28", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 0
-            }, 
-            "solution": "CHESS", 
-            "id": "28-across"
-        }, 
+                "x": 0,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "CHESS"
+        },
         {
-            "direction": "across", 
+            "id": "29-across",
+            "number": 29,
+            "humanNumber": "29",
+            "clue": "Possibly last course available for Persian king with a good deal, say (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "29-across"
-            ], 
-            "number": 29, 
-            "clue": "Possibly last course available for Persian king with a good deal, say (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "29", 
+            ],
             "position": {
-                "y": 13, 
-                "x": 6
-            }, 
-            "solution": "CHARLOTTE", 
-            "id": "29-across"
-        }, 
+                "x": 6,
+                "y": 13
+            },
+            "separatorLocations": {},
+            "solution": "CHARLOTTE"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Bones in very large sack, only half used (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Bones in very large sack, only half used (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "OSSA", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OSSA"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Sort of ice found to exist in nature (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Sort of ice found to exist in nature (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "SORBET", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SORBET"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Right in holding back when preparing for a new kind of job? (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Right in holding back when preparing for a new kind of job? (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "RETRAINING", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "RETRAINING"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Begin on board (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Begin on board (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "EMBARK", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EMBARK"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Writer's material could be based here (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Writer's material could be based here (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "INKSTAND", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "INKSTAND"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Almost insufficient scrutiny (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Almost insufficient scrutiny (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "SCAN", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "SCAN"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "No more at work? Could be in a mess (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "No more at work? Could be in a mess (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "ANTEROOM", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ANTEROOM"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Outstanding head? (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Outstanding head? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "BOSS", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "BOSS"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Hard work required in high-performance car service (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Hard work required in high-performance car service (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "GRAFT", 
-            "id": "13-down"
-        }, 
+                "x": 0,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "GRAFT"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Popular music one can follow after hard stuff? (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Popular music one can follow after hard stuff? (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 10
-            }, 
-            "solution": "ROCKABILLY", 
-            "id": "15-down"
-        }, 
+                "x": 10,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "ROCKABILLY"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "To make this requires pluck! (5)",
+            "direction": "down",
+            "length": 5,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "To make this requires pluck! (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 14
-            }, 
-            "solution": "TWANG", 
-            "id": "16-down"
-        }, 
+                "x": 14,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "TWANG"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Consolidate without study, somehow apart (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Consolidate without study, somehow apart (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 2
-            }, 
-            "solution": "ISOLATED", 
-            "id": "18-down"
-        }, 
+                "x": 2,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "ISOLATED"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Cater, possibly, for student in flower culture (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Cater, possibly, for student in flower culture (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 6
-            }, 
-            "solution": "LITERACY", 
-            "id": "19-down"
-        }, 
+                "x": 6,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "LITERACY"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "MP studied, we hear, on top (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "MP studied, we hear, on top (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 8
-            }, 
-            "solution": "REDCAP", 
-            "id": "22-down"
-        }, 
+                "x": 8,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "REDCAP"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Attribute one set found in setter (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "Attribute one set found in setter (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 12
-            }, 
-            "solution": "IMPUTE", 
-            "id": "23-down"
-        }, 
+                "x": 12,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "IMPUTE"
+        },
         {
-            "direction": "down", 
+            "id": "24-down",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "International player brought up the first agreement (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "24-down"
-            ], 
-            "number": 24, 
-            "clue": "International player brought up the first agreement (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 0
-            }, 
-            "solution": "PACT", 
-            "id": "24-down"
-        }, 
+                "x": 0,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "PACT"
+        },
         {
-            "direction": "down", 
+            "id": "25-down",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Some perfect a skill in work (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "25-down"
-            ], 
-            "number": 25, 
-            "clue": "Some perfect a skill in work (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 4
-            }, 
-            "solution": "TASK", 
-            "id": "25-down"
-        }, 
+                "x": 4,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "TASK"
+        },
         {
-            "direction": "down", 
+            "id": "27-down",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Romantic song conveyed a false impression (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "27-down"
-            ], 
-            "number": 27, 
-            "clue": "Romantic song conveyed a false impression (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 14
-            }, 
-            "solution": "LIED", 
-            "id": "27-down"
+                "x": 14,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "LIED"
         }
-    ], 
-    "date": 1216339200000, 
-    "instructions": "Click <a href=\"http://image.guardian.co.uk/sys-files/Guardian/documents/2008/07/15/xwMain1807_24444.indd.pdf\">here</a> for a printable version of this crossword.", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/24444", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1216335600000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "instructions": "Click <a href=\"http://image.guardian.co.uk/sys-files/Guardian/documents/2008/07/15/xwMain1807_24444.indd.pdf\">here</a> for a printable version of this crossword.",
+    "_gridType": "M54a"
 }

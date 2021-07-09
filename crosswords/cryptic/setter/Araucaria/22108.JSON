@@ -1,548 +1,550 @@
 {
-    "name": "Cryptic crossword No 22,108", 
+    "id": "crosswords/cryptic/22108",
+    "number": 22108,
+    "name": "Cryptic crossword No 22,108",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/araucaria", 
-        "name": "Araucaria"
-    }, 
-    "dateSolutionAvailable": 979689600000, 
-    "number": 22108, 
-    "crosswordType": "cryptic", 
+        "name": "Araucaria",
+        "webUrl": "https://www.theguardian.com/profile/araucaria"
+    },
+    "date": 979689600000,
+    "webPublicationDate": 979689600000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Stop press news: half-century at a cricket match (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Stop press news: half-century at a cricket match (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "LATEST", 
-            "id": "1-across"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "LATEST"
+        },
         {
-            "direction": "across", 
+            "id": "4-across",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Unemployed having lots of money (4,4)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "4-across"
-            ], 
-            "number": 4, 
-            "clue": "Unemployed having lots of money (4,4)", 
+            ],
+            "position": {
+                "x": 7,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 7
-            }, 
-            "solution": "IDLERICH", 
-            "id": "4-across"
-        }, 
+            },
+            "solution": "IDLERICH"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Quote compiler the wrong way - it makes one sick (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "Quote compiler the wrong way - it makes one sick (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "9", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "EMETIC", 
-            "id": "9-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "EMETIC"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "See 20 (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
-                "20-down", 
+                "20-down",
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "See 20 (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 7
-            }, 
-            "solution": "ASDRIVEN", 
-            "id": "10-across"
-        }, 
+                "x": 7,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "ASDRIVEN"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Little one for the upper house? Tory fell around convulsed (4,10)",
+            "direction": "across",
+            "length": 14,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Little one for the upper house? Tory fell around convulsed (4,10)", 
+            ],
+            "position": {
+                "x": 1,
+                "y": 4
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 14, 
-            "humanNumber": "11", 
-            "position": {
-                "y": 4, 
-                "x": 1
-            }, 
-            "solution": "LORDFAUNTLEROY", 
-            "id": "11-across"
-        }, 
+            },
+            "solution": "LORDFAUNTLEROY"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Make love at opening of door in cave (6,4)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Make love at opening of door in cave (6,4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     6
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "WOOKEYHOLE", 
-            "id": "13-across"
-        }, 
+            },
+            "solution": "WOOKEYHOLE"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "\"He trusts\" is written on his grave (4,4)",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "14-across", 
+                "14-across",
                 "1-down"
-            ], 
-            "number": 14, 
-            "clue": "\"He trusts\" is written on his grave (4,4)", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 11
-            }, 
-            "solution": "HERE", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "HERE"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "People move fast (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "People move fast (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "RACE", 
-            "id": "16-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "RACE"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Vulgar parlance? The same, with gap left out (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Vulgar parlance? The same, with gap left out (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 5
-            }, 
-            "solution": "VERNACULAR", 
-            "id": "18-across"
-        }, 
+                "x": 5,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "VERNACULAR"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Mystical Pole in ecstasy has indefinite number of teeth (14)",
+            "direction": "across",
+            "length": 14,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Mystical Pole in ecstasy has indefinite number of teeth (14)", 
-            "separatorLocations": {}, 
-            "length": 14, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "TRANSCENDENTAL", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "TRANSCENDENTAL"
+        },
         {
-            "direction": "across", 
+            "id": "23-across",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "Everyone on leave, without energy, on the Western front? (3,5)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "23-across"
-            ], 
-            "number": 23, 
-            "clue": "Everyone on leave, without energy, on the Western front? (3,5)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "23", 
-            "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "ALLQUIET", 
-            "id": "23-across"
-        }, 
+            },
+            "solution": "ALLQUIET"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "Deprived person or phantom cat gone missing (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "Deprived person or phantom cat gone missing (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 9
-            }, 
-            "solution": "ORPHAN", 
-            "id": "24-across"
-        }, 
+                "x": 9,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "ORPHAN"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Request for opposing bridge players to find agreement (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Request for opposing bridge players to find agreement (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "ENTREATY", 
-            "id": "25-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "ENTREATY"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Don't buy his books! (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Don't buy his books! (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 9
-            }, 
-            "solution": "BORROW", 
-            "id": "26-across"
-        }, 
+                "x": 9,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "BORROW"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "See 14 (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "14-across", 
+                "14-across",
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "See 14 (4)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "LIES", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "LIES"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Artist to draw explorer (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Artist to draw explorer (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "TIEPOLO", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "TIEPOLO"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Superficial variety embraced by diocesan president (4-4)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Superficial variety embraced by diocesan president (4-4)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "SKINDEEP", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "SKINDEEP"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5",
+            "clue": "Hell bent? Far from it! (11)",
+            "direction": "down",
+            "length": 11,
             "group": [
                 "5-down"
-            ], 
-            "number": 5, 
-            "clue": "Hell bent? Far from it! (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "5", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "DISINCLINED", 
-            "id": "5-down"
-        }, 
+                "x": 8,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DISINCLINED"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "End of life for Riley, in a weird sort of way (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "End of life for Riley, in a weird sort of way (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "EERILY", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EERILY"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "The other way for most of Shakespeare? (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "The other way for most of Shakespeare? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "INVERSE", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "INVERSE"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "The kinkajou has to sharpen its hearing by climbing in (5-4)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "The kinkajou has to sharpen its hearing by climbing in (5-4)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 0
+            },
             "separatorLocations": {
                 "-": [
                     5
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "HONEYBEAR", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "HONEYBEAR"
+        },
         {
-            "direction": "down", 
+            "id": "12-down",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Performance by First Lady in a ring, not shortened (11)",
+            "direction": "down",
+            "length": 11,
             "group": [
                 "12-down"
-            ], 
-            "number": 12, 
-            "clue": "Performance by First Lady in a ring, not shortened (11)", 
-            "separatorLocations": {}, 
-            "length": 11, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 6
-            }, 
-            "solution": "ACHIEVEMENT", 
-            "id": "12-down"
-        }, 
+                "x": 6,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "ACHIEVEMENT"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Two rare accessions form the bottom line, as it were (5,4,8)",
+            "direction": "down",
+            "length": 9,
             "group": [
-                "13-down", 
+                "13-down",
                 "15-down"
-            ], 
-            "number": 13, 
-            "clue": "Two rare accessions form the bottom line, as it were (5,4,8)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
-                    5, 
+                    5,
                     9
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "WORSTCASE", 
-            "id": "13-down"
-        }, 
+            },
+            "solution": "WORSTCASE"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "See 13 (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
-                "13-down", 
+                "13-down",
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "See 13 (8)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 7
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 8, 
-            "humanNumber": "15", 
-            "position": {
-                "y": 7, 
-                "x": 10
-            }, 
-            "solution": "SCENARIO", 
-            "id": "15-down"
-        }, 
+            },
+            "solution": "SCENARIO"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Wreath for the little man? (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Wreath for the little man? (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 2
-            }, 
-            "solution": "CHAPLET", 
-            "id": "17-down"
-        }, 
+                "x": 2,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "CHAPLET"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Hide the king outside (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Hide the king outside (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 12
-            }, 
-            "solution": "LEATHER", 
-            "id": "19-down"
-        }, 
+                "x": 12,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "LEATHER"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Very white snake with excretions died a split second before this moment (2,4,2,6,4)",
+            "direction": "down",
+            "length": 6,
             "group": [
-                "20-down", 
+                "20-down",
                 "22-down"
-            ], 
-            "number": 20, 
-            "clue": "Very white snake with excretions died a split second before this moment (2,4,2,6,4)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 9
+            },
             "separatorLocations": {
                 ",": [
-                    2, 
+                    2,
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "20", 
-            "position": {
-                "y": 9, 
-                "x": 4
-            }, 
-            "solution": "ASPURE", 
-            "id": "20-down"
-        }, 
+            },
+            "solution": "ASPURE"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "See 20 (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
-                "20-down", 
+                "20-down",
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "See 20 (4)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 11
+            },
             "separatorLocations": {
                 ",": [
                     2
                 ]
-            }, 
-            "length": 4, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 11, 
-                "x": 14
-            }, 
-            "solution": "SNOW", 
-            "id": "22-down"
+            },
+            "solution": "SNOW"
         }
-    ], 
-    "date": 979689600000, 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/22108", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 979689600000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "_gridType": "M41"
 }

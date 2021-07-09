@@ -1,556 +1,558 @@
 {
-    "name": "Cryptic crossword No 25,350", 
+    "id": "crosswords/cryptic/25350",
+    "number": 25350,
+    "name": "Cryptic crossword No 25,350",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/araucaria", 
-        "name": "Araucaria"
-    }, 
-    "dateSolutionAvailable": 1308178800000, 
-    "number": 25350, 
-    "crosswordType": "cryptic", 
+        "name": "Araucaria",
+        "webUrl": "https://www.theguardian.com/profile/araucaria"
+    },
+    "date": 1308182400000,
+    "webPublicationDate": 1308178800000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Prepares to shoot at 26 battle for crest (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Prepares to shoot at 26 battle for crest (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "COCKSCOMB", 
-            "id": "1-across"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "COCKSCOMB"
+        },
         {
-            "direction": "across", 
+            "id": "6-across",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "See 5",
+            "direction": "across",
+            "length": 4,
             "group": [
-                "5-down", 
-                "2-down", 
+                "5-down",
+                "2-down",
                 "6-across"
-            ], 
-            "number": 6, 
-            "clue": "See 5", 
+            ],
+            "position": {
+                "x": 11,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 4, 
-            "humanNumber": "6", 
-            "position": {
-                "y": 0, 
-                "x": 11
-            }, 
-            "solution": "SHOP", 
-            "id": "6-across"
-        }, 
+            },
+            "solution": "SHOP"
+        },
         {
-            "direction": "across", 
+            "id": "10-across",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "I'll have a go at being part-commander of old Greek ship (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "10-across"
-            ], 
-            "number": 10, 
-            "clue": "I'll have a go at being part-commander of old Greek ship (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "10", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "TRIER", 
-            "id": "10-across"
-        }, 
+                "x": 0,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "TRIER"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Miserably niggly about everything so as to cause irritation (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Miserably niggly about everything so as to cause irritation (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 6
-            }, 
-            "solution": "GALLINGLY", 
-            "id": "11-across"
-        }, 
+                "x": 6,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "GALLINGLY"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Neighbours are in a home (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Neighbours are in a home (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 0
-            }, 
-            "solution": "NEAREST", 
-            "id": "12-across"
-        }, 
+                "x": 0,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "NEAREST"
+        },
         {
-            "direction": "across", 
+            "id": "13-across",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Outlaw is king when field's reversed (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "13-across"
-            ], 
-            "number": 13, 
-            "clue": "Outlaw is king when field's reversed (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "13", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 8
-            }, 
-            "solution": "ISHMAEL", 
-            "id": "13-across"
-        }, 
+                "x": 8,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "ISHMAEL"
+        },
         {
-            "direction": "across", 
+            "id": "14-across",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "First increase height, absorbing nitrogen, which is misplaced like the creatures in the puzzle (7,6)",
+            "direction": "across",
+            "length": 13,
             "group": [
                 "14-across"
-            ], 
-            "number": 14, 
-            "clue": "First increase height, absorbing nitrogen, which is misplaced like the creatures in the puzzle (7,6)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 6
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "14", 
-            "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "AGAINSTNATURE", 
-            "id": "14-across"
-        }, 
+            },
+            "solution": "AGAINSTNATURE"
+        },
         {
-            "direction": "across", 
+            "id": "17-across",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Do begin with change in condition \u2014 but breast is better (7,6)",
+            "direction": "across",
+            "length": 13,
             "group": [
                 "17-across"
-            ], 
-            "number": 17, 
-            "clue": "Do begin with change in condition \u2014 but breast is better (7,6)", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 8
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "17", 
-            "position": {
-                "y": 8, 
-                "x": 2
-            }, 
-            "solution": "FEEDINGBOTTLE", 
-            "id": "17-across"
-        }, 
+            },
+            "solution": "FEEDINGBOTTLE"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Sound of river diversion in old Portuguese money (7)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Sound of river diversion in old Portuguese money (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "21", 
+            ],
             "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "MILREIS", 
-            "id": "21-across"
-        }, 
+                "x": 0,
+                "y": 10
+            },
+            "separatorLocations": {},
+            "solution": "MILREIS"
+        },
         {
-            "direction": "across", 
+            "id": "22-across",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Brainwave helps to make one wide awake (3,4)",
+            "direction": "across",
+            "length": 7,
             "group": [
                 "22-across"
-            ], 
-            "number": 22, 
-            "clue": "Brainwave helps to make one wide awake (3,4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "22", 
-            "position": {
-                "y": 10, 
-                "x": 8
-            }, 
-            "solution": "NEWIDEA", 
-            "id": "22-across"
-        }, 
+            },
+            "solution": "NEWIDEA"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "See 23",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "23-down", 
+                "23-down",
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "See 23", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 12
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "24", 
-            "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "THEMANGER", 
-            "id": "24-across"
-        }, 
+            },
+            "solution": "THEMANGER"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Too spirited to be miserly? (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Too spirited to be miserly? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 10
-            }, 
-            "solution": "TIGHT", 
-            "id": "25-across"
-        }, 
+                "x": 10,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "TIGHT"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "See good guy in hell? (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "See good guy in hell? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "LOST", 
-            "id": "26-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "LOST"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Limits of liberalism? (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Limits of liberalism? (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 6
-            }, 
-            "solution": "TOLERANCE", 
-            "id": "27-across"
-        }, 
+                "x": 6,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "TOLERANCE"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "California alley turned when changing sides, like the Vicar of Bray (3,2,3)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "California alley turned when changing sides, like the Vicar of Bray (3,2,3)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     5
                 ]
-            }, 
-            "length": 8, 
-            "humanNumber": "1", 
-            "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "CATINPAN", 
-            "id": "1-down"
-        }, 
+            },
+            "solution": "CATINPAN"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "See 5",
+            "direction": "down",
+            "length": 5,
             "group": [
-                "5-down", 
-                "2-down", 
+                "5-down",
+                "2-down",
                 "6-across"
-            ], 
-            "number": 2, 
-            "clue": "See 5", 
+            ],
+            "position": {
+                "x": 2,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "2", 
-            "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "CHINA", 
-            "id": "2-down"
-        }, 
+            },
+            "solution": "CHINA"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Sudden increase, said about new piece of DNA by top operator (7,7)",
+            "direction": "down",
+            "length": 14,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Sudden increase, said about new piece of DNA by top operator (7,7)", 
+            ],
+            "position": {
+                "x": 4,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     7
                 ]
-            }, 
-            "length": 14, 
-            "humanNumber": "3", 
-            "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "SURGEONGENERAL", 
-            "id": "3-down"
-        }, 
+            },
+            "solution": "SURGEONGENERAL"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Had no business to remove top of branch with explosive (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Had no business to remove top of branch with explosive (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "4", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "OUGHTNT", 
-            "id": "4-down"
-        }, 
+                "x": 6,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OUGHTNT"
+        },
         {
-            "direction": "down", 
+            "id": "5-down",
+            "number": 5,
+            "humanNumber": "5, 2, 6",
+            "clue": " Phallic bunion has enabled one to have a smashing time (4,2,1,5,4)",
+            "direction": "down",
+            "length": 7,
             "group": [
-                "5-down", 
-                "2-down", 
+                "5-down",
+                "2-down",
                 "6-across"
-            ], 
-            "number": 5, 
-            "clue": " Phallic bunion has enabled one to have a smashing time (4,2,1,5,4)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
-                    6, 
+                    4,
+                    6,
                     7
                 ]
-            }, 
-            "length": 7, 
-            "humanNumber": "5, 2, 6", 
-            "position": {
-                "y": 0, 
-                "x": 8
-            }, 
-            "solution": "BULLINA", 
-            "id": "5-down"
-        }, 
+            },
+            "solution": "BULLINA"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Maximum awareness required when the H. Grail is exposed (4,5)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Maximum awareness required when the H. Grail is exposed (4,5)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     4
                 ]
-            }, 
-            "length": 9, 
-            "humanNumber": "7", 
-            "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "HIGHALERT", 
-            "id": "7-down"
-        }, 
+            },
+            "solution": "HIGHALERT"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Bribery sees Italian girl encompassing end of Italy (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Bribery sees Italian girl encompassing end of Italy (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "8", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "PAYOLA", 
-            "id": "8-down"
-        }, 
+                "x": 14,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "PAYOLA"
+        },
         {
-            "direction": "down", 
+            "id": "9-down",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "Infer one has to cry to utility regulator being unable to breathe (4,3,2,5)",
+            "direction": "down",
+            "length": 14,
             "group": [
                 "9-down"
-            ], 
-            "number": 9, 
-            "clue": "Infer one has to cry to utility regulator being unable to breathe (4,3,2,5)", 
+            ],
+            "position": {
+                "x": 10,
+                "y": 1
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
-                    7, 
+                    4,
+                    7,
                     9
                 ]
-            }, 
-            "length": 14, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 1, 
-                "x": 10
-            }, 
-            "solution": "FISHOUTOFWATER", 
-            "id": "9-down"
-        }, 
+            },
+            "solution": "FISHOUTOFWATER"
+        },
         {
-            "direction": "down", 
+            "id": "15-down",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Flew unperturbed when fool went around in a terrible state (9)",
+            "direction": "down",
+            "length": 9,
             "group": [
                 "15-down"
-            ], 
-            "number": 15, 
-            "clue": "Flew unperturbed when fool went around in a terrible state (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 2
-            }, 
-            "solution": "AWFULNESS", 
-            "id": "15-down"
-        }, 
+                "x": 2,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "AWFULNESS"
+        },
         {
-            "direction": "down", 
+            "id": "16-down",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Skill in right weapon gets quick answer (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "16-down"
-            ], 
-            "number": 16, 
-            "clue": "Skill in right weapon gets quick answer (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 14
-            }, 
-            "solution": "REPARTEE", 
-            "id": "16-down"
-        }, 
+                "x": 14,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "REPARTEE"
+        },
         {
-            "direction": "down", 
+            "id": "18-down",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Understanding isn't over the horizon (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "18-down"
-            ], 
-            "number": 18, 
-            "clue": "Understanding isn't over the horizon (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 6
-            }, 
-            "solution": "INSIGHT", 
-            "id": "18-down"
-        }, 
+                "x": 6,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "INSIGHT"
+        },
         {
-            "direction": "down", 
+            "id": "19-down",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "Duchess of Cornwall's sister, one who died taking Camilla's part (7)",
+            "direction": "down",
+            "length": 7,
             "group": [
                 "19-down"
-            ], 
-            "number": 19, 
-            "clue": "Duchess of Cornwall's sister, one who died taking Camilla's part (7)", 
-            "separatorLocations": {}, 
-            "length": 7, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 8
-            }, 
-            "solution": "GONERIL", 
-            "id": "19-down"
-        }, 
+                "x": 8,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "GONERIL"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "Steamy talk requires a sedative (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "Steamy talk requires a sedative (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 0
-            }, 
-            "solution": "AMYTAL", 
-            "id": "20-down"
-        }, 
+                "x": 0,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "AMYTAL"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23, 24",
+            "clue": " Love to trap other people in peril, showing selfish character (3,2,3,6)",
+            "direction": "down",
+            "length": 5,
             "group": [
-                "23-down", 
+                "23-down",
                 "24-across"
-            ], 
-            "number": 23, 
-            "clue": " Love to trap other people in peril, showing selfish character (3,2,3,6)", 
+            ],
+            "position": {
+                "x": 12,
+                "y": 10
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     5
                 ]
-            }, 
-            "length": 5, 
-            "humanNumber": "23, 24", 
-            "position": {
-                "y": 10, 
-                "x": 12
-            }, 
-            "solution": "DOGIN", 
-            "id": "23-down"
+            },
+            "solution": "DOGIN"
         }
-    ], 
-    "date": 1308182400000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20110616.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25350", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1308178800000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20110616.pdf",
+    "_gridType": "M39"
 }

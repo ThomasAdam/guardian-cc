@@ -1,526 +1,528 @@
 {
-    "name": "Cryptic crossword No 25,853", 
+    "id": "crosswords/cryptic/25853",
+    "number": 25853,
+    "name": "Cryptic crossword No 25,853",
     "creator": {
-        "webUrl": "http://www.theguardian.com/profile/araucaria", 
-        "name": "Araucaria"
-    }, 
-    "dateSolutionAvailable": 1358985600000, 
-    "number": 25853, 
-    "crosswordType": "cryptic", 
+        "name": "Araucaria",
+        "webUrl": "https://www.theguardian.com/profile/araucaria"
+    },
+    "date": 1358985600000,
+    "webPublicationDate": 1358985600000,
     "entries": [
         {
-            "direction": "across", 
+            "id": "1-across",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Lodging for friend in disgrace? (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "1-across"
-            ], 
-            "number": 1, 
-            "clue": "Lodging for friend in disgrace? (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "DOGHOUSE", 
-            "id": "1-across"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DOGHOUSE"
+        },
         {
-            "direction": "across", 
+            "id": "5-across",
+            "number": 5,
+            "humanNumber": "5, 9",
+            "clue": " Accommodation for journalist among musicians to get quick divorce (3,3,9)",
+            "direction": "across",
+            "length": 6,
             "group": [
-                "5-across", 
+                "5-across",
                 "9-across"
-            ], 
-            "number": 5, 
-            "clue": " Accommodation for journalist among musicians to get quick divorce (3,3,9)", 
+            ],
+            "position": {
+                "x": 9,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    3, 
+                    3,
                     6
                 ]
-            }, 
-            "length": 6, 
-            "humanNumber": "5, 9", 
-            "position": {
-                "y": 0, 
-                "x": 9
-            }, 
-            "solution": "BEDAND", 
-            "id": "5-across"
-        }, 
+            },
+            "solution": "BEDAND"
+        },
         {
-            "direction": "across", 
+            "id": "9-across",
+            "number": 9,
+            "humanNumber": "9",
+            "clue": "See 5",
+            "direction": "across",
+            "length": 9,
             "group": [
-                "5-across", 
+                "5-across",
                 "9-across"
-            ], 
-            "number": 9, 
-            "clue": "See 5", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": []
-            }, 
-            "length": 9, 
-            "humanNumber": "9", 
-            "position": {
-                "y": 2, 
-                "x": 0
-            }, 
-            "solution": "BREAKFAST", 
-            "id": "9-across"
-        }, 
+            },
+            "solution": "BREAKFAST"
+        },
         {
-            "direction": "across", 
+            "id": "11-across",
+            "number": 11,
+            "humanNumber": "11",
+            "clue": "Accommodation in summer on railway? (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "11-across"
-            ], 
-            "number": 11, 
-            "clue": "Accommodation in summer on railway? (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "11", 
+            ],
             "position": {
-                "y": 2, 
-                "x": 10
-            }, 
-            "solution": "HOTEL", 
-            "id": "11-across"
-        }, 
+                "x": 10,
+                "y": 2
+            },
+            "separatorLocations": {},
+            "solution": "HOTEL"
+        },
         {
-            "direction": "across", 
+            "id": "12-across",
+            "number": 12,
+            "humanNumber": "12",
+            "clue": "Accommodation for a vicar, near as possible (12)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "12-across"
-            ], 
-            "number": 12, 
-            "clue": "Accommodation for a vicar, near as possible (12)", 
-            "separatorLocations": {}, 
-            "length": 12, 
-            "humanNumber": "12", 
+            ],
             "position": {
-                "y": 4, 
-                "x": 3
-            }, 
-            "solution": "CARAVANSERAI", 
-            "id": "12-across"
-        }, 
+                "x": 3,
+                "y": 4
+            },
+            "separatorLocations": {},
+            "solution": "CARAVANSERAI"
+        },
         {
-            "direction": "across", 
+            "id": "15-across",
+            "number": 15,
+            "humanNumber": "15",
+            "clue": "Accommodation for fool (English) (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "15-across"
-            ], 
-            "number": 15, 
-            "clue": "Accommodation for fool (English) (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "15", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 0
-            }, 
-            "solution": "GITE", 
-            "id": "15-across"
-        }, 
+                "x": 0,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "GITE"
+        },
         {
-            "direction": "across", 
+            "id": "16-across",
+            "number": 16,
+            "humanNumber": "16",
+            "clue": "Stimulator of ideal Queen Anne building (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "16-across"
-            ], 
-            "number": 16, 
-            "clue": "Stimulator of ideal Queen Anne building (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "16", 
+            ],
             "position": {
-                "y": 6, 
-                "x": 5
-            }, 
-            "solution": "ADRENALINE", 
-            "id": "16-across"
-        }, 
+                "x": 5,
+                "y": 6
+            },
+            "separatorLocations": {},
+            "solution": "ADRENALINE"
+        },
         {
-            "direction": "across", 
+            "id": "18-across",
+            "number": 18,
+            "humanNumber": "18",
+            "clue": "Dot's sequel to bible story, like (10)",
+            "direction": "across",
+            "length": 10,
             "group": [
                 "18-across"
-            ], 
-            "number": 18, 
-            "clue": "Dot's sequel to bible story, like (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "18", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 0
-            }, 
-            "solution": "COMPARABLE", 
-            "id": "18-across"
-        }, 
+                "x": 0,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "COMPARABLE"
+        },
         {
-            "direction": "across", 
+            "id": "19-across",
+            "number": 19,
+            "humanNumber": "19",
+            "clue": "A pass at bridge? (4)",
+            "direction": "across",
+            "length": 4,
             "group": [
                 "19-across"
-            ], 
-            "number": 19, 
-            "clue": "A pass at bridge? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "19", 
+            ],
             "position": {
-                "y": 8, 
-                "x": 11
-            }, 
-            "solution": "ACOL", 
-            "id": "19-across"
-        }, 
+                "x": 11,
+                "y": 8
+            },
+            "separatorLocations": {},
+            "solution": "ACOL"
+        },
         {
-            "direction": "across", 
+            "id": "21-across",
+            "number": 21,
+            "humanNumber": "21",
+            "clue": "Fairy with pet kept by finch has good accommodation (4-8)",
+            "direction": "across",
+            "length": 12,
             "group": [
                 "21-across"
-            ], 
-            "number": 21, 
-            "clue": "Fairy with pet kept by finch has good accommodation (4-8)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 10
+            },
             "separatorLocations": {
                 "-": [
                     4
                 ]
-            }, 
-            "length": 12, 
-            "humanNumber": "21", 
-            "position": {
-                "y": 10, 
-                "x": 0
-            }, 
-            "solution": "SELFCATERING", 
-            "id": "21-across"
-        }, 
+            },
+            "solution": "SELFCATERING"
+        },
         {
-            "direction": "across", 
+            "id": "24-across",
+            "number": 24,
+            "humanNumber": "24",
+            "clue": "A student veto on being martyred (5)",
+            "direction": "across",
+            "length": 5,
             "group": [
                 "24-across"
-            ], 
-            "number": 24, 
-            "clue": "A student veto on being martyred (5)", 
-            "separatorLocations": {}, 
-            "length": 5, 
-            "humanNumber": "24", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 0
-            }, 
-            "solution": "ALBAN", 
-            "id": "24-across"
-        }, 
+                "x": 0,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "ALBAN"
+        },
         {
-            "direction": "across", 
+            "id": "25-across",
+            "number": 25,
+            "humanNumber": "25",
+            "clue": "Answer of sweetheart among most of the sledge-pullers (9)",
+            "direction": "across",
+            "length": 9,
             "group": [
                 "25-across"
-            ], 
-            "number": 25, 
-            "clue": "Answer of sweetheart among most of the sledge-pullers (9)", 
-            "separatorLocations": {}, 
-            "length": 9, 
-            "humanNumber": "25", 
+            ],
             "position": {
-                "y": 12, 
-                "x": 6
-            }, 
-            "solution": "REJOINDER", 
-            "id": "25-across"
-        }, 
+                "x": 6,
+                "y": 12
+            },
+            "separatorLocations": {},
+            "solution": "REJOINDER"
+        },
         {
-            "direction": "across", 
+            "id": "26-across",
+            "number": 26,
+            "humanNumber": "26",
+            "clue": "Relegate from entry to river Test (6)",
+            "direction": "across",
+            "length": 6,
             "group": [
                 "26-across"
-            ], 
-            "number": 26, 
-            "clue": "Relegate from entry to river Test (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "26", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 0
-            }, 
-            "solution": "DEMOTE", 
-            "id": "26-across"
-        }, 
+                "x": 0,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "DEMOTE"
+        },
         {
-            "direction": "across", 
+            "id": "27-across",
+            "number": 27,
+            "humanNumber": "27",
+            "clue": "Mountain dweller spends a penny drinking supertonic (8)",
+            "direction": "across",
+            "length": 8,
             "group": [
                 "27-across"
-            ], 
-            "number": 27, 
-            "clue": "Mountain dweller spends a penny drinking supertonic (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "27", 
+            ],
             "position": {
-                "y": 14, 
-                "x": 7
-            }, 
-            "solution": "PYRENEAN", 
-            "id": "27-across"
-        }, 
+                "x": 7,
+                "y": 14
+            },
+            "separatorLocations": {},
+            "solution": "PYRENEAN"
+        },
         {
-            "direction": "down", 
+            "id": "1-down",
+            "number": 1,
+            "humanNumber": "1",
+            "clue": "Emergent model in red? (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "1-down"
-            ], 
-            "number": 1, 
-            "clue": "Emergent model in red? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "1", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 0
-            }, 
-            "solution": "DEBT", 
-            "id": "1-down"
-        }, 
+                "x": 0,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "DEBT"
+        },
         {
-            "direction": "down", 
+            "id": "2-down",
+            "number": 2,
+            "humanNumber": "2",
+            "clue": "Happiness with parts (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "2-down"
-            ], 
-            "number": 2, 
-            "clue": "Happiness with parts (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "2", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 2
-            }, 
-            "solution": "GLEE", 
-            "id": "2-down"
-        }, 
+                "x": 2,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "GLEE"
+        },
         {
-            "direction": "down", 
+            "id": "3-down",
+            "number": 3,
+            "humanNumber": "3",
+            "clue": "Old rope's sound gives little county town (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "3-down"
-            ], 
-            "number": 3, 
-            "clue": "Old rope's sound gives little county town (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "3", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 4
-            }, 
-            "solution": "OAKHAM", 
-            "id": "3-down"
-        }, 
+                "x": 4,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "OAKHAM"
+        },
         {
-            "direction": "down", 
+            "id": "4-down",
+            "number": 4,
+            "humanNumber": "4",
+            "clue": "Honours for pub with coin (silver) turning up in the soup. maybe (4,3,6)",
+            "direction": "down",
+            "length": 13,
             "group": [
                 "4-down"
-            ], 
-            "number": 4, 
-            "clue": "Honours for pub with coin (silver) turning up in the soup. maybe (4,3,6)", 
+            ],
+            "position": {
+                "x": 6,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
-                    4, 
+                    4,
                     7
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "4", 
-            "position": {
-                "y": 0, 
-                "x": 6
-            }, 
-            "solution": "STARANDGARTER", 
-            "id": "4-down"
-        }, 
+            },
+            "solution": "STARANDGARTER"
+        },
         {
-            "direction": "down", 
+            "id": "6-down",
+            "number": 6,
+            "humanNumber": "6",
+            "clue": "Men held by ape in form of ancient Greek (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "6-down"
-            ], 
-            "number": 6, 
-            "clue": "Men held by ape in form of ancient Greek (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "6", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 10
-            }, 
-            "solution": "EPHESIAN", 
-            "id": "6-down"
-        }, 
+                "x": 10,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "EPHESIAN"
+        },
         {
-            "direction": "down", 
+            "id": "7-down",
+            "number": 7,
+            "humanNumber": "7",
+            "clue": "Change and rest for audience from artwork in church (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "7-down"
-            ], 
-            "number": 7, 
-            "clue": "Change and rest for audience from artwork in church (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "7", 
+            ],
             "position": {
-                "y": 0, 
-                "x": 12
-            }, 
-            "solution": "ALTARPIECE", 
-            "id": "7-down"
-        }, 
+                "x": 12,
+                "y": 0
+            },
+            "separatorLocations": {},
+            "solution": "ALTARPIECE"
+        },
         {
-            "direction": "down", 
+            "id": "8-down",
+            "number": 8,
+            "humanNumber": "8",
+            "clue": "Rhyme causing some inconvenience? (5,5)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "8-down"
-            ], 
-            "number": 8, 
-            "clue": "Rhyme causing some inconvenience? (5,5)", 
+            ],
+            "position": {
+                "x": 14,
+                "y": 0
+            },
             "separatorLocations": {
                 ",": [
                     5
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "8", 
-            "position": {
-                "y": 0, 
-                "x": 14
-            }, 
-            "solution": "DELHIBELLY", 
-            "id": "8-down"
-        }, 
+            },
+            "solution": "DELHIBELLY"
+        },
         {
-            "direction": "down", 
+            "id": "10-down",
+            "number": 10,
+            "humanNumber": "10",
+            "clue": "Jostler jostled at end of day round composer with old man's beard (10,3)",
+            "direction": "down",
+            "length": 13,
             "group": [
                 "10-down"
-            ], 
-            "number": 10, 
-            "clue": "Jostler jostled at end of day round composer with old man's beard (10,3)", 
+            ],
+            "position": {
+                "x": 8,
+                "y": 2
+            },
             "separatorLocations": {
                 ",": [
                     10
                 ]
-            }, 
-            "length": 13, 
-            "humanNumber": "10", 
-            "position": {
-                "y": 2, 
-                "x": 8
-            }, 
-            "solution": "TRAVELLERSJOY", 
-            "id": "10-down"
-        }, 
+            },
+            "solution": "TRAVELLERSJOY"
+        },
         {
-            "direction": "down", 
+            "id": "13-down",
+            "number": 13,
+            "humanNumber": "13",
+            "clue": "Say copper on street in drag turned up for food? (3,7)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "13-down"
-            ], 
-            "number": 13, 
-            "clue": "Say copper on street in drag turned up for food? (3,7)", 
+            ],
+            "position": {
+                "x": 0,
+                "y": 5
+            },
             "separatorLocations": {
                 ",": [
                     3
                 ]
-            }, 
-            "length": 10, 
-            "humanNumber": "13", 
-            "position": {
-                "y": 5, 
-                "x": 0
-            }, 
-            "solution": "EGGCUSTARD", 
-            "id": "13-down"
-        }, 
+            },
+            "solution": "EGGCUSTARD"
+        },
         {
-            "direction": "down", 
+            "id": "14-down",
+            "number": 14,
+            "humanNumber": "14",
+            "clue": "Clumsy clot, second to fall behind (10)",
+            "direction": "down",
+            "length": 10,
             "group": [
                 "14-down"
-            ], 
-            "number": 14, 
-            "clue": "Clumsy clot, second to fall behind (10)", 
-            "separatorLocations": {}, 
-            "length": 10, 
-            "humanNumber": "14", 
+            ],
             "position": {
-                "y": 5, 
-                "x": 2
-            }, 
-            "solution": "STUMBLEBUM", 
-            "id": "14-down"
-        }, 
+                "x": 2,
+                "y": 5
+            },
+            "separatorLocations": {},
+            "solution": "STUMBLEBUM"
+        },
         {
-            "direction": "down", 
+            "id": "17-down",
+            "number": 17,
+            "humanNumber": "17",
+            "clue": "Old jewelled collar with a lot of body and no extras (8)",
+            "direction": "down",
+            "length": 8,
             "group": [
                 "17-down"
-            ], 
-            "number": 17, 
-            "clue": "Old jewelled collar with a lot of body and no extras (8)", 
-            "separatorLocations": {}, 
-            "length": 8, 
-            "humanNumber": "17", 
+            ],
             "position": {
-                "y": 7, 
-                "x": 4
-            }, 
-            "solution": "CARCANET", 
-            "id": "17-down"
-        }, 
+                "x": 4,
+                "y": 7
+            },
+            "separatorLocations": {},
+            "solution": "CARCANET"
+        },
         {
-            "direction": "down", 
+            "id": "20-down",
+            "number": 20,
+            "humanNumber": "20",
+            "clue": "No trading place for batting team? (6)",
+            "direction": "down",
+            "length": 6,
             "group": [
                 "20-down"
-            ], 
-            "number": 20, 
-            "clue": "No trading place for batting team? (6)", 
-            "separatorLocations": {}, 
-            "length": 6, 
-            "humanNumber": "20", 
+            ],
             "position": {
-                "y": 9, 
-                "x": 10
-            }, 
-            "solution": "INSIDE", 
-            "id": "20-down"
-        }, 
+                "x": 10,
+                "y": 9
+            },
+            "separatorLocations": {},
+            "solution": "INSIDE"
+        },
         {
-            "direction": "down", 
+            "id": "22-down",
+            "number": 22,
+            "humanNumber": "22",
+            "clue": "Borderline advantage? (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "22-down"
-            ], 
-            "number": 22, 
-            "clue": "Borderline advantage? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "22", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 12
-            }, 
-            "solution": "EDGE", 
-            "id": "22-down"
-        }, 
+                "x": 12,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "EDGE"
+        },
         {
-            "direction": "down", 
+            "id": "23-down",
+            "number": 23,
+            "humanNumber": "23",
+            "clue": "No 26 club? (4)",
+            "direction": "down",
+            "length": 4,
             "group": [
                 "23-down"
-            ], 
-            "number": 23, 
-            "clue": "No 26 club? (4)", 
-            "separatorLocations": {}, 
-            "length": 4, 
-            "humanNumber": "23", 
+            ],
             "position": {
-                "y": 11, 
-                "x": 14
-            }, 
-            "solution": "IRON", 
-            "id": "23-down"
+                "x": 14,
+                "y": 11
+            },
+            "separatorLocations": {},
+            "solution": "IRON"
         }
-    ], 
-    "date": 1358985600000, 
-    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20130124.pdf", 
-    "solutionAvailable": true, 
-    "id": "crosswords/cryptic/25853", 
+    ],
+    "solutionAvailable": true,
+    "dateSolutionAvailable": 1358985600000,
     "dimensions": {
-        "rows": 15, 
-        "cols": 15
-    }
+        "cols": 15,
+        "rows": 15
+    },
+    "crosswordType": "cryptic",
+    "pdf": "http://static.guim.co.uk/crosswords/pdfs/gdn.cryptic.20130124.pdf",
+    "_gridType": "M40"
 }
