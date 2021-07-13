@@ -289,7 +289,7 @@
             "id": "5-down",
             "number": 5,
             "humanNumber": "5",
-            "clue": "Warning issued by Conservatives infiltrated by far-right movement (8)",
+            "clue": "Warning issued by Conservatives infiltrated by far-right movement (3,5)",
             "direction": "down",
             "length": 8,
             "group": [
@@ -299,7 +299,11 @@
                 "x": 2,
                 "y": 1
             },
-            "separatorLocations": {},
+            "separatorLocations": {
+                ",": [
+                    3
+                ]
+            },
             "solution": "REDLIGHT"
         },
         {
@@ -468,5 +472,6 @@
     },
     "crosswordType": "cryptic",
     "pdf": "https://crosswords-static.guim.co.uk/gdn.cryptic.20210712.pdf",
+    "instructions": "12/7/21: At 5 down, the letter count has been corrected",
     "_gridType": "M33"
 }
