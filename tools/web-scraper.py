@@ -50,7 +50,7 @@ cryptic_lrid_file = cwd + "/tools/cryptic_last_read_id"
 if os.path.isfile(cryptic_lrid_file):
     with open(cryptic_lrid_file, "r") as clrfile:
         lower_id = clrfile.read().replace('\n', '')
-        last_id_fetched = int(lower_id)
+        last_id_fetched = int(lower_id) + 1
         print(("Current cryptic id is: {}".format(lower_id)))
 
         # The next crossword...
@@ -181,7 +181,8 @@ def try_one(crossword_type, num):
                     json.dump(clues_json, file, indent = 4)
 
                 try:
-                    print(("{}: {}: {}: {}".format(num, crossword_type, clues_json["creator"]["name"], clues_json["_gridType"])))
+                    print(("{}: {}: {}: {}".format(num, crossword_type, creator, clues_json["_gridType"])))
+                    os.system("./tools/import.pl {}".format(save_name.decode('utf-8')));
                 except UnicodeEncodeError as e:
                     print(("{}: OK".format(num)))
 

@@ -30,7 +30,7 @@ my $json_obj = JSON->new();
 my $j_text;
 foreach my $f (@files) {
 	my $j = do {
-		open my $fh, "<", $f or die;
+		open my $fh, "<", $f or die "$f: $!";
 		local $/ = undef;
 		<$fh>;
 	};
