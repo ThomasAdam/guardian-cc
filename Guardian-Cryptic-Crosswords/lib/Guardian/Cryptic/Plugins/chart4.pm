@@ -248,7 +248,7 @@ sub render
 			push @labels, keys %{$h->{'gdata'}};
 		}
 		@labels = sort keys %{ $setter{$k}->{'year'} };
-		@values = sort values %{ $setter{$k}->{'year'} };
+		@values = map { $setter{$k}->{'year'}->{$_} } @labels;
 		@avg = map { ceil($_ / 12) } @values;
 
 		$interdata->{$k}->{'chart'}->{'clabels'} = [[$k, @values], ["Average per month", @avg]];
