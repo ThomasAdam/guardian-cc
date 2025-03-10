@@ -103,6 +103,7 @@ func main() {
 	log.Println("Importing JSON files...")
 
 	const importStr string = `
+	SET preserve_insertion_order = false;
 	CREATE OR REPLACE TABLE cc AS
 	(SELECT * FROM read_json_auto('**/*.JSON', ignore_errors=true))`
 
