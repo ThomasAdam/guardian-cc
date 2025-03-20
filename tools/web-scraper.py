@@ -1,11 +1,10 @@
 #!/usr/bin/env python3.9
 
-
 import requests
 from bs4 import BeautifulSoup
 import sys, traceback, pprint
 import json, re, os.path, string, glob, numpy
-import os.path
+import os.path, html
 
 """
 This file is licenced under the GPLv3
@@ -131,20 +130,22 @@ def try_one(crossword_type, num):
                     return -1
 
             clues = ""
-            clues1 = ""
 
             c = result.content
             soup = BeautifulSoup(c, "html5lib")
             # The web site seemingly has two different classes for storing the
             # crossword information -- try both, if they fail, we're doomed
             # anyway.
-            clues1 = soup.find("div", {"class":"js-crossword"})
-            if clues1 != None:
-                clues = clues1["data-crossword-data"]
-            else:
-                clues1 = soup.find("div", {"class":"js-crossword has-grouped-clues"})
-                if clues1 != None:
-                    clues = clues1["data-crossword-data"]
+            gu_island_tag = soup.find("gu-island", {"name": "CrosswordComponent"})
+
+            if gu_island_tag and gu_island_tag.has_attr("props"):
+                props_content = gu_island_tag["props"]
+
+                try:
+                    clues = html.unescape(props_content)
+                except TypeError:
+                    print("Unable to convert HTML json to json")
+                    return -1
 
             # Serialise the JSON
             try:
@@ -153,13 +154,13 @@ def try_one(crossword_type, num):
                 print(("Invalid JSON... ({})".format(clues)))
                 return -1
 
-            if not "creator" in clues_json:
+            if not "creator" in clues_json["data"]:
                 print(("Skipping {} as no creator key".format(num)))
                 with open("/tmp/{}.json".format(num), "w") as file:
                     json.dump(clues_json, file, indent = 4)
                 return -1
 
-            creator = clues_json["creator"]["name"].rstrip()
+            creator = clues_json["data"]["creator"]["name"].rstrip()
 
             # Create the directory if necessary!
             if not os.path.exists(cwd + "/crosswords/" + crossword_type \
@@ -172,19 +173,19 @@ def try_one(crossword_type, num):
             save_name = save_name.encode('utf-8')
 
             # Grid detection.
-            (works, content) = accessible_url(crossword_type, num)
-            if works:
-                my_grid = lookup_grid(num, content)
-                update_json(my_grid, clues_json)
+            #(works, content) = accessible_url(crossword_type, num)
+            #if works:
+            #    my_grid = lookup_grid(num, content)
+            #    update_json(my_grid, clues_json)
 
-                with open(save_name, "w") as file:
-                    json.dump(clues_json, file, indent = 4)
+            with open(save_name, "w") as file:
+                json.dump(clues_json["data"], file, indent = 4)
 
-                try:
-                    print(("{}: {}: {}: {}".format(num, crossword_type, creator, clues_json["_gridType"])))
-                    os.system("./tools/import.pl {}".format(save_name.decode('utf-8')));
-                except UnicodeEncodeError as e:
-                    print(("{}: OK".format(num)))
+            try:
+                print(("{}: {}: {}".format(num, crossword_type, creator)))
+                os.system("./tools/import.pl {}".format(save_name.decode('utf-8')));
+            except UnicodeEncodeError as e:
+                print(("{}: OK".format(num)))
 
             return num
         
@@ -194,7 +195,7 @@ lrid_file = cryptic_lrid_file
 tries = 10
 
 # Set up some preamble for grid comparisons
-grid_preamble()
+# grid_preamble()
 
 for num in range(int(last_id_fetched), cryptic_upper_id):
         sys.stdout.flush()
