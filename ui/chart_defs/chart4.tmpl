@@ -1,27 +1,26 @@
-[% USE JSON ( pretty => 1 ) %]
-<h2>[% content.order %].  [% content.title %]</h2>
-<p>[% content.preamble %]</p>
+<h2>{{.Order}}.  {{.Title}}</h2>
+<p>{{.Preamble}}</p>
 <div class="container">
-	[% FOREACH c IN content.charts %] 
+	{{range .Charts}}
 	<div class="item">
 	<div class="span-title">
-	<span class="span-title">[% c.info.person %]</span>
+	<span class="span-title">{{.Person}}</span>
 	</div>
-	<div id="[% c.info.div_id %]"></div>
+	<div id="{{.DivID}}"></div>
 	<ul>
-		<li>Total crosswords: [% c.info.range.total.all %] (cryptic: [% c.info.range.total.cryptic %], prize: [% c.info.range.total.prize %])</li>
-		<li>First crossword: [% c.info.range.first %]</li>
-		<li>Last  crossword: [% c.info.range.last %]</li>
-		<li>Active for:      [% c.info.range.duration %]</li>
-		<li>Number of clues self-referenced (with [% c.info.person %] in the clue): [% c.info.self_ref %]</li>
+		<li>Total crosswords: {{.TotalAll}} (cryptic: {{.TotalCryptic}}, prize: {{.TotalPrize}})</li>
+		<li>First crossword: {{.FirstDate}}</li>
+		<li>Last  crossword: {{.LastDate}}</li>
+		<li>Active for:      {{.Duration}}</li>
+		<li>Number of clues self-referenced (with {{.Person}} in the clue): {{.SelfRef}}</li>
 	</ul> 
 	</div>
-	[% END %]
+	{{end}}
 </div>
 <br />
 <hr />
 <script>
-[% FOREACH c IN content.charts %] 
-		var [% c.info.js_var %] = c3.generate([% c.chart.json %]);
-[% END %]
+{{range .Charts}}
+		var {{.JSVar}} = c3.generate({{.ChartDef}});
+{{end}}
 </script>

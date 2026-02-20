@@ -1,19 +1,21 @@
-<h2>[% content.order %].  [% content.title %]</h2>
-<p>[% content.preamble %]</p>
+<h2>{{.Order}}.  {{.Title}}</h2>
+<p>{{.Preamble}}</p>
 <script>
 $(document).ready(function() {
     var table = $('#tablesetter2').DataTable({
+		processing: true,
+		serverSide: true,
 		ordering: true,
 		deferRender: true,
 		paging: true,
-		ajax: 'ds_ajax2.txt',
+		ajax: '/api/dt?table=chart6',
 		fixedColumns: false,
 		columnDefs: [
 			{ targets: [-3], width: "40%" },
 			{ targets: [-2], width: "20%" },
 			{ targets: [-1], width: "20%" },
 		],
-		columns: [% content.js.columns.json %]
+		columns: {{.Columns}}
     });
 
 	// Setup - add a text input to each footer cell

@@ -1,12 +1,14 @@
-<h2>[% content.order %].  [% content.title %]</h2>
-<p>[% content.preamble %]</p>
+<h2>{{.Order}}.  {{.Title}}</h2>
+<p>{{.Preamble}}</p>
 <script>
 $(document).ready(function() {
     var table = $('#tablesetter5a').DataTable({
+		processing: true,
+		serverSide: true,
 		ordering: false,
 		deferRender: true,
 		paging: true,
-		ajax: 'ds_ajax5a.txt',
+		ajax: '/api/dt?table=chart5a',
 		fixedColumns: false,
 		columnDefs: [
 			{ targets: [-4], width: "20%" },
@@ -14,7 +16,7 @@ $(document).ready(function() {
 			{ targets: [-2], width: "10%" },
 			{ targets: [-1], width: "10%" },
 		],
-		columns: [% content.js.columns.json %]
+		columns: {{.Columns}}
     });
 
 	// Setup - add a text input to each footer cell

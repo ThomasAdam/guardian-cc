@@ -183,7 +183,7 @@ def try_one(crossword_type, num):
 
             try:
                 print(("{}: {}: {}".format(num, crossword_type, creator)))
-                os.system("./tools/import.pl {}".format(save_name.decode('utf-8')));
+                os.system("./guardian-cc import {}".format(save_name.decode('utf-8')));
             except UnicodeEncodeError as e:
                 print(("{}: OK".format(num)))
 

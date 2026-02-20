@@ -15,29 +15,42 @@ You can see [some graphs of this data here](https://xteddy.org/gcc-analysis.html
 
 These charts are updated daily.
 
-Since the crosswords are JSON documents, the backend to storing them is in
-[mongodb](https://www.mongodb.com/).  Then, using the the mongodb Perl API,
-and Template::Toolkit, the static page is generated, and then the charts are
-rendered client-side via [c3js](https://c3js.org).
+Since the crosswords are JSON documents, they are imported into
+[DuckDB](https://duckdb.org/) via a normalised relational schema.  The import
+and chart rendering tool is written in Go, using
+[go-duckdb](https://github.com/marcboeker/go-duckdb) for database access and
+Go's `html/template` / `text/template` packages for HTML generation.  Charts
+are rendered client-side via [c3js](https://c3js.org).
 
-The following perl modules are used:
-
-```
-DateTime
-DateTime::Format::Duration
-List::Util
-Module::Pluggable
-MongoDB
-Sort::Key::DateTime
-```
-
-The chart-rendering namespace is:
+## Building
 
 ```
-Guardian::Cryptic::Crosswords
+go build -o guardian-cc ./cmd/guardian-cc/main.go
 ```
 
-There's also a `Plugins` directory, containing the template for each graph.
+## Usage
+
+```
+# Import all crossword JSON files
+./guardian-cc import
+
+# Import a single file
+./guardian-cc import crosswords/cryptic/setter/Rufus/21625.JSON
+
+# Render charts to gcc-analysis.html
+./guardian-cc render
+
+# Serve the page with server-side pagination (default :8080)
+./guardian-cc serve
+
+# Serve on a custom address
+./guardian-cc serve :3000
+```
+
+The `serve` command starts an HTTP server that serves `gcc-analysis.html` and
+provides a `/api/dt` endpoint for DataTables server-side processing.  Charts
+5, 5a, and 6 use this to paginate, sort, and search their large datasets
+directly against DuckDB instead of loading everything into the browser at once.
 
 Patches and ideas for graphs welcome!
 

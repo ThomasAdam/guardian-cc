@@ -35,13 +35,9 @@ cryptic, or not.  Where there is no distinction, then the data is aggregated
 over both prize and cryptic.</p>
 
 <p>The git repository containing this data <a href="https://github.com/ThomasAdam/guardian-cc">is here.</a></p>
-<p><b>Last Updated: </b>
-[% PERL %]
-    print scalar localtime
-[% END %]
-</p>
-[% FOREACH sc IN content.keys.sort %]
-[% content.$sc %]
-[% END %]
+<p><b>Last Updated: </b>{{.Timestamp}}</p>
+{{range .Sections}}
+{{.}}
+{{end}}
 </body>
 </html>
