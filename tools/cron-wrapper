@@ -6,6 +6,17 @@ set -e
 GUARDIAN_REPO="$HOME/guardian-cc"
 XTEDDY_REPO="$HOME/website.deploy"
 
+{
+  cd "$GUARDIAN_REPO" && {
+    git pull --quiet && {
+	go build -o ~/bin/guardian-cc cmd/guardian-cc/main.go
+    } || {
+	echo "Couldn't rebuild go program" >&2
+        exit 1
+    }
+  }
+}
+
 (
   cd "$GUARDIAN_REPO" && {
     git pull --quiet &&
