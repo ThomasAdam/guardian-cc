@@ -1,45 +1,54 @@
 <h2>{{.Order}}.  {{.Title}}</h2>
 <p>{{.Preamble}}</p>
-<script>
-$(document).ready(function() {
-    var table = $('#tablesetter').DataTable({
-		processing: true,
-		serverSide: false,
-		ordering: false,
-		deferRender: true,
-		paging: true,
-		ajax: 'ds_ajax.txt',
-		fixedColumns: false,
-		columnDefs: [
-			{ targets: [-5], width: "20%" },
-			{ targets: [-4], width: "10%" },
-			{ targets: [-3], width: "40%" },
-			{ targets: [-2], width: "30%" },
-			{ targets: [-1], width: "10%" }
-		],
-		columns: {{.Columns}}
-    });
-
-	// Setup - add a text input to each footer cell
-	var $originalHeader = $('#tablesetter thead tr');
-	var $originalHeaderClone = $originalHeader.clone();
-	$originalHeader.find('th').each( function () {
-			var title = $(this).text();
-			$(this).html( '<input type="text" placeholder="'+title+'"/>' );
-	} );
-
-	$originalHeader.before($originalHeaderClone);
-
-    // Apply the search
-    table.columns().every( function () {
-        var that = this;
- 
-        $( 'input', this.header() ).on( 'keyup change', function () {
-            if ( that.search() !== this.value ) {
-                that.search( this.value ).draw();
-            }
-        } );
-    } );
-} );
-</script>
 <table id="tablesetter" class="display"></table>
+<script>
+(function() {
+	var initialised = false;
+	var observer = new IntersectionObserver(function(entries) {
+		if (initialised || !entries[0].isIntersecting) return;
+		initialised = true;
+		observer.disconnect();
+
+		var table = $('#tablesetter').DataTable({
+			processing: true,
+			serverSide: false,
+			ordering: false,
+			deferRender: true,
+			paging: true,
+			ajax: 'ds_ajax.txt',
+			fixedColumns: false,
+			columnDefs: [
+				{ targets: [-5], width: "20%" },
+				{ targets: [-4], width: "10%" },
+				{ targets: [-3], width: "40%" },
+				{ targets: [-2], width: "30%" },
+				{ targets: [-1], width: "10%" }
+			],
+			columns: {{.Columns}}
+		});
+
+		// Setup - add a text input to each header cell
+		var $originalHeader = $('#tablesetter thead tr');
+		var $originalHeaderClone = $originalHeader.clone();
+		$originalHeader.find('th').each( function () {
+				var title = $(this).text();
+				$(this).html( '<input type="text" placeholder="'+title+'"/>' );
+		} );
+
+		$originalHeader.before($originalHeaderClone);
+
+		// Apply the search
+		table.columns().every( function () {
+			var that = this;
+
+			$( 'input', this.header() ).on( 'keyup change', function () {
+				if ( that.search() !== this.value ) {
+					that.search( this.value ).draw();
+				}
+			} );
+		} );
+	}, { rootMargin: '200px' });
+
+	observer.observe(document.getElementById('tablesetter'));
+})();
+</script>

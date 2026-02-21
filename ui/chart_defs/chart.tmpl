@@ -17,19 +17,26 @@
 <button id="btn_charttype_{{.JSVar}}" value="{{.DefaultChart}}">Reset</button>
 </div>
 <script>
-$(document).ready(function() {
-	var {{.JSVar}} = c3.generate({{.ChartJSON}});
-	$("#charttype_{{.JSVar}}").val("{{.DefaultChart}}");
+(function() {
+	var observer = new IntersectionObserver(function(entries) {
+		if (!entries[0].isIntersecting) return;
+		observer.disconnect();
 
-	$("#btn_charttype_{{.JSVar}}").click(function() {
+		var {{.JSVar}} = c3.generate({{.ChartJSON}});
 		$("#charttype_{{.JSVar}}").val("{{.DefaultChart}}");
-		{{.JSVar}}.transform($("#charttype_{{.JSVar}} option:selected").val());
-	});
 
-	$("#charttype_{{.JSVar}}").change(function() {
-		{{.JSVar}}.transform($("#charttype_{{.JSVar}} option:selected").val());
-	});
-});
+		$("#btn_charttype_{{.JSVar}}").click(function() {
+			$("#charttype_{{.JSVar}}").val("{{.DefaultChart}}");
+			{{.JSVar}}.transform($("#charttype_{{.JSVar}} option:selected").val());
+		});
+
+		$("#charttype_{{.JSVar}}").change(function() {
+			{{.JSVar}}.transform($("#charttype_{{.JSVar}} option:selected").val());
+		});
+	}, { rootMargin: '200px' });
+
+	observer.observe(document.getElementById('{{.DivID}}'));
+})();
 </script>
 {{end}}
 <br />
