@@ -176,7 +176,7 @@ func (c *Chart4) Render(db *sql.DB, tmplDir string) (string, error) {
 		}
 
 		chartDef := map[string]any{
-			"bindto": fmt.Sprintf("#myChart4%d", i),
+			"bindto": fmt.Sprintf("#mychart4%d", i),
 			"size":   map[string]any{"height": 200, "width": 600},
 			"data": map[string]any{
 				"columns": []any{valuesRow, avgRow},

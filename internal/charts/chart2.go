@@ -61,7 +61,7 @@ func (c *Chart2) Render(db *sql.DB, tmplDir string) (string, error) {
 	}
 
 	chartDef := map[string]any{
-		"bindto": "#myChart2",
+		"bindto": "#mychart2",
 		"size":   map[string]any{"height": 800},
 		"data": map[string]any{
 			"columns": columns,
