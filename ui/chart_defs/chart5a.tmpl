@@ -4,11 +4,11 @@
 $(document).ready(function() {
     var table = $('#tablesetter5a').DataTable({
 		processing: true,
-		serverSide: true,
+		serverSide: false,
 		ordering: false,
 		deferRender: true,
 		paging: true,
-		ajax: '/api/dt?table=chart5a',
+		ajax: 'ds_ajax5a.txt',
 		fixedColumns: false,
 		columnDefs: [
 			{ targets: [-4], width: "20%" },
