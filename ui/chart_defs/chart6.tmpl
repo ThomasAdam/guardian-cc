@@ -2,12 +2,13 @@
 <p>{{.Preamble}}</p>
 <table id="tablesetter2" class="display"></table>
 <script>
-(function() {
-	var initialised = false;
-	var observer = new IntersectionObserver(function(entries) {
-		if (initialised || !entries[0].isIntersecting) return;
-		initialised = true;
-		observer.disconnect();
+document.addEventListener('DOMContentLoaded', function() {
+	(function() {
+		var initialised = false;
+		var observer = new IntersectionObserver(function(entries) {
+			if (initialised || !entries[0].isIntersecting) return;
+			initialised = true;
+			observer.disconnect();
 
 		var table = $('#tablesetter2').DataTable({
 			processing: true,
@@ -47,6 +48,7 @@
 		} );
 	}, { rootMargin: '200px' });
 
-	observer.observe(document.getElementById('tablesetter2'));
-})();
+		observer.observe(document.getElementById('tablesetter2'));
+	})();
+}); // DOMContentLoaded
 </script>

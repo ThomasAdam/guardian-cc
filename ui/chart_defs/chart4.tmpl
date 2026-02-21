@@ -20,27 +20,29 @@
 <br />
 <hr />
 <script>
-var _chart4Defs = {};
-{{range .Charts}}
-_chart4Defs["{{.DivID}}"] = {{.ChartDef}};
-{{end}}
+document.addEventListener('DOMContentLoaded', function() {
+	var _chart4Defs = {};
+	{{range .Charts}}
+	_chart4Defs["{{.DivID}}"] = {{.ChartDef}};
+	{{end}}
 
-(function() {
-	var observer = new IntersectionObserver(function(entries) {
-		entries.forEach(function(entry) {
-			if (!entry.isIntersecting) return;
-			var el = entry.target;
-			var def = _chart4Defs[el.id];
-			if (def) {
-				def.bindto = '#' + el.id;
-				c3.generate(def);
-			}
-			observer.unobserve(el);
+	(function() {
+		var observer = new IntersectionObserver(function(entries) {
+			entries.forEach(function(entry) {
+				if (!entry.isIntersecting) return;
+				var el = entry.target;
+				var def = _chart4Defs[el.id];
+				if (def) {
+					def.bindto = '#' + el.id;
+					c3.generate(def);
+				}
+				observer.unobserve(el);
+			});
+		}, { rootMargin: '200px' });
+
+		document.querySelectorAll('.lazy-chart').forEach(function(el) {
+			observer.observe(el);
 		});
-	}, { rootMargin: '200px' });
-
-	document.querySelectorAll('.lazy-chart').forEach(function(el) {
-		observer.observe(el);
-	});
-})();
+	})();
+}); // DOMContentLoaded
 </script>

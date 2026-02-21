@@ -17,26 +17,28 @@
 <button id="btn_charttype_{{.JSVar}}" value="{{.DefaultChart}}">Reset</button>
 </div>
 <script>
-(function() {
-	var observer = new IntersectionObserver(function(entries) {
-		if (!entries[0].isIntersecting) return;
-		observer.disconnect();
+document.addEventListener('DOMContentLoaded', function() {
+	(function() {
+		var observer = new IntersectionObserver(function(entries) {
+			if (!entries[0].isIntersecting) return;
+			observer.disconnect();
 
-		var {{.JSVar}} = c3.generate({{.ChartJSON}});
-		$("#charttype_{{.JSVar}}").val("{{.DefaultChart}}");
-
-		$("#btn_charttype_{{.JSVar}}").click(function() {
+			var {{.JSVar}} = c3.generate({{.ChartJSON}});
 			$("#charttype_{{.JSVar}}").val("{{.DefaultChart}}");
-			{{.JSVar}}.transform($("#charttype_{{.JSVar}} option:selected").val());
-		});
 
-		$("#charttype_{{.JSVar}}").change(function() {
-			{{.JSVar}}.transform($("#charttype_{{.JSVar}} option:selected").val());
-		});
-	}, { rootMargin: '200px' });
+			$("#btn_charttype_{{.JSVar}}").click(function() {
+				$("#charttype_{{.JSVar}}").val("{{.DefaultChart}}");
+				{{.JSVar}}.transform($("#charttype_{{.JSVar}} option:selected").val());
+			});
 
-	observer.observe(document.getElementById('{{.DivID}}'));
-})();
+			$("#charttype_{{.JSVar}}").change(function() {
+				{{.JSVar}}.transform($("#charttype_{{.JSVar}} option:selected").val());
+			});
+		}, { rootMargin: '200px' });
+
+		observer.observe(document.getElementById('{{.DivID}}'));
+	})();
+}); // DOMContentLoaded
 </script>
 {{end}}
 <br />
