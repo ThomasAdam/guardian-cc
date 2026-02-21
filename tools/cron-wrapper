@@ -1,11 +1,5 @@
 #!/bin/sh
 # Cron wrapper for updating the Guardian CC data.
-#
-# After running this, start the server with:
-#   ./guardian-cc serve :8080
-#
-# The serve command provides server-side pagination for the DataTables
-# (charts 5, 5a, 6) and serves gcc-analysis.html and static assets.
 
 set -e
 
@@ -13,24 +7,27 @@ GUARDIAN_REPO="$HOME/guardian-cc"
 XTEDDY_REPO="$HOME/website.deploy"
 
 (
-	cd "$GUARDIAN_REPO" && {
-		git pull --quiet && \
-		./tools/web-scraper.py && \
-		guardian-cc render
-	}
+  cd "$GUARDIAN_REPO" && {
+    git pull --quiet &&
+      ./tools/web-scraper.py &&
+      guardian-cc render
+  }
 )
 (
-	cd "$XTEDDY_REPO" && {
-		git pull --quiet && \
-		cp "$GUARDIAN_REPO/gcc-analysis.html" . && \
-		cp "$GUARDIAN_REPO/ui/gcc.css" . && \
-		git add gcc-analysis.html gcc.css && \
-		git commit -m "Guardian CC update" && \
-		git push
-	}
+  cd "$XTEDDY_REPO" && {
+    git pull --quiet &&
+      cp "$GUARDIAN_REPO/gcc-analysis.html" . &&
+      cp "$GUARDIAN_REPO/ui/gcc.css" . &&
+      cp "$GUARDIAN_REPO/ds_ajax.txt" . &&
+      cp "$GUARDIAN_REPO/ds_ajax5a.txt" . &&
+      cp "$GUARDIAN_REPO/ds_ajax2.txt" . &&
+      git add gcc-analysis.html gcc.css ds_ajax.txt ds_ajax5a.txt ds_ajax2.txt &&
+      git commit -m "Guardian CC update" &&
+      git push
+  }
 
-	cd "$GUARDIAN_REPO" && {
-		git add .
-		git commit -am "Sync" && git push
-	}
+  cd "$GUARDIAN_REPO" && {
+    git add .
+    git commit -am "Sync" && git push
+  }
 )
