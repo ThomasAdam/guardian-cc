@@ -28,13 +28,13 @@ func (c *Chart5) Render(db *sql.DB, tmplDir string) (string, error) {
 		SELECT creator_name AS name,
 		       solution,
 		       COUNT(*) AS count,
-		       LIST(clue) AS clues,
-		       LIST(crossword_type) AS types,
-		       LIST('<a href="https://www.theguardian.com/' || cw_path || '">' || cw_number || '</a>') AS urls
+		       LIST(clue ORDER BY cw_number) AS clues,
+		       LIST(crossword_type ORDER BY cw_number) AS types,
+		       LIST('<a href="https://www.theguardian.com/' || cw_path || '">' || cw_number || '</a>' ORDER BY cw_number) AS urls
 		FROM deduped
 		GROUP BY creator_name, solution
 		HAVING COUNT(DISTINCT crossword_id) > 1
-		ORDER BY creator_name
+		ORDER BY creator_name, solution
 	`)
 	if err != nil {
 		return "", err

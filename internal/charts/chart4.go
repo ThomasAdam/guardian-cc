@@ -240,5 +240,10 @@ func formatDuration(from, to time.Time) string {
 		months += 12
 	}
 
+	// Add 1 so the duration is inclusive of both the first and last day.
+	// A setter whose first and last crossword share the same date was active
+	// for 1 day, not 0.
+	days++
+
 	return fmt.Sprintf("%d years, %d months, %d days", years, months, days)
 }
