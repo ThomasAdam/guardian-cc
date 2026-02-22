@@ -30,6 +30,14 @@ th input {
 </head>
 <body>
 <h1>Guardian Cryptic/Prize Crossword Analysis</h1>
+
+<div style="width: 70%; border: 2px solid darkred; background-color: #fdd; padding: 0.5em 1em;">
+<strong>NOTE: because the data on the Guardian website only started being published in the
+1990s, there are some setters for whom data will exist long before then.  Since that data
+is not represented on the Guardian website, some of the statistics for some setters could be
+incomplete.</strong>
+</div>
+
 <p>This page renders some charts from data gathered via the Guardian newspaper's
 cryptic and prize crosswords.  The data shown here was scraped via the web.</p>
 
@@ -39,6 +47,7 @@ over both prize and cryptic.</p>
 
 <p>The git repository containing this data <a href="https://github.com/ThomasAdam/guardian-cc">is here.</a></p>
 <p><b>Last Updated: </b>{{.Timestamp}}</p>
+<hr />
 {{range .Sections}}
 {{.}}
 {{end}}
