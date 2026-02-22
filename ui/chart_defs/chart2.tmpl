@@ -23,8 +23,24 @@ document.addEventListener('DOMContentLoaded', function() {
 			if (!entries[0].isIntersecting) return;
 			observer.disconnect();
 
-			var {{.JSVar}} = c3.generate({{.ChartJSON}});
-			{{if .BarColorJS}}{{.BarColorJS}}{{end}}
+			// Declare the chart variable first so the legend callbacks can
+			// close over it; var is hoisted and will hold the chart object
+			// by the time any hover event fires.
+			var {{.JSVar}};
+			var chartDef = {{.ChartJSON}};
+			chartDef.legend = {
+				item: {
+					onmouseover: function(id) {
+						{{.JSVar}}.hide();
+						{{.JSVar}}.show(id);
+					},
+					onmouseout: function() {
+						{{.JSVar}}.show();
+					}
+				}
+			};
+
+			{{.JSVar}} = c3.generate(chartDef);
 			$("#charttype_{{.JSVar}}").val("{{.DefaultChart}}");
 
 			$("#btn_charttype_{{.JSVar}}").click(function() {

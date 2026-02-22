@@ -8,6 +8,8 @@ import (
 	htmltemplate "html/template"
 	"os"
 	"sort"
+	"strconv"
+	"strings"
 	texttemplate "text/template"
 	"time"
 )
@@ -30,6 +32,12 @@ func AllPlugins() []ChartPlugin {
 		&Chart5{},
 		&Chart5a{},
 		&Chart6{},
+		&Chart7{},
+		&Chart8{},
+		&Chart9{},
+		&Chart10{},
+		&Chart11{},
+		&Chart12{},
 	}
 }
 
@@ -47,12 +55,31 @@ func RenderAll(db *sql.DB, tmplDir, outputFile string) error {
 		sections[p.Order()] = htmltemplate.HTML(html)
 	}
 
-	// Sort section keys for deterministic output
+	// Sort section keys numerically so "2" < "5a" < "10" < "11".
+	// strconv.Atoi("5a") returns 0, so we must parse only the leading digit run.
+	leadingInt := func(s string) int {
+		end := strings.IndexFunc(s, func(r rune) bool { return r < '0' || r > '9' })
+		if end < 0 {
+			end = len(s)
+		}
+		if end == 0 {
+			return 0
+		}
+		n, _ := strconv.Atoi(s[:end])
+		return n
+	}
 	keys := make([]string, 0, len(sections))
 	for k := range sections {
 		keys = append(keys, k)
 	}
-	sort.Strings(keys)
+	sort.Slice(keys, func(i, j int) bool {
+		ni := leadingInt(keys[i])
+		nj := leadingInt(keys[j])
+		if ni != nj {
+			return ni < nj
+		}
+		return keys[i] < keys[j]
+	})
 
 	mainData := struct {
 		Sections  []htmltemplate.HTML
@@ -81,6 +108,22 @@ func RenderAll(db *sql.DB, tmplDir, outputFile string) error {
 }
 
 // --- Helpers ---
+
+// barColorPalette is a 12-colour palette for single-series bar charts.
+// Because c3's color.pattern applies per *series* (not per bar), we use
+// data.color — a JS callback — to cycle colours across individual bars.
+const barColorPalette = `["#4e79a7","#f28e2b","#e15759","#76b7b2","#59a14f","#edc948","#b07aa1","#ff9da7","#9c755f","#bab0ac","#d37295","#499894"]`
+
+// barColorJS returns a JS snippet that patches a c3 chart instance (named
+// jsVar) so each bar cycles through the palette by x-index.
+// It must be injected after c3.generate() is called.
+func barColorJS(jsVar string) string {
+	return fmt.Sprintf(`(function(){
+				var _pal = %s;
+				%s.internal.color = function(d) { return _pal[d.index %% _pal.length]; };
+				%s.flush();
+			})();`, barColorPalette, jsVar, jsVar)
+}
 
 // toJSON converts a value to pretty-printed JSON for embedding in templates.
 func toJSON(v any) string {

@@ -19,11 +19,38 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
 	(function() {
+		// Index of debut entries: [{year, setters:[...]}, ...]
+		// The array index matches the c3 x-axis category index.
+		var _debutIndex = {{.DebutIndex}};
+
+		var chartDef = {{.ChartJSON}};
+		chartDef.tooltip = {
+			contents: function(d) {
+				var idx = d[0].x;
+				var entry = _debutIndex[idx];
+				if (!entry) return '';
+				var year = entry.year;
+				var setters = entry.setters;
+				var rows = '';
+				if (setters && setters.length > 0) {
+					rows = setters.map(function(s) {
+						return '<tr><td style="padding:2px 6px;">' + s + '</td></tr>';
+					}).join('');
+				} else {
+					rows = '<tr><td style="padding:2px 6px;font-style:italic;">None</td></tr>';
+				}
+				return '<table style="background:#fff;border:1px solid #ccc;border-radius:4px;font-size:13px;padding:4px;">'
+				     + '<thead><tr><th style="padding:2px 6px;text-align:left;">' + year + ' debuts (' + d[0].value + ')</th></tr></thead>'
+				     + '<tbody>' + rows + '</tbody>'
+				     + '</table>';
+			}
+		};
+
 		var observer = new IntersectionObserver(function(entries) {
 			if (!entries[0].isIntersecting) return;
 			observer.disconnect();
 
-			var {{.JSVar}} = c3.generate({{.ChartJSON}});
+			var {{.JSVar}} = c3.generate(chartDef);
 			{{if .BarColorJS}}{{.BarColorJS}}{{end}}
 			$("#charttype_{{.JSVar}}").val("{{.DefaultChart}}");
 

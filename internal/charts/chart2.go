@@ -83,12 +83,12 @@ func (c *Chart2) Render(db *sql.DB, tmplDir string) (string, error) {
 
 	tmplData := map[string]any{
 		"Title":        "Crosswords per year, per setter",
-		"Preamble":     "This chart shows an area span for the number of crosswords set per setter, per year.  Interesting to see when a setter started and stopped.",
+		"Preamble":     "This chart shows an area span for the number of crosswords set per setter, per year.  Interesting to see when a setter started and stopped.  Hover over a legend entry to isolate that setter.",
 		"Order":        2,
 		"DivID":        "mychart2",
 		"JSVar":        "chart2",
 		"DefaultChart": "area",
 		"ChartJSON":    toJSON(chartDef),
 	}
-	return executeTemplate(tmplDir, "chart.tmpl", tmplData)
+	return executeTemplate(tmplDir, "chart2.tmpl", tmplData)
 }
