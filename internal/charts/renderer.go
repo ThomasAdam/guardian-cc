@@ -38,6 +38,8 @@ func AllPlugins() []ChartPlugin {
 		&Chart10{},
 		&Chart11{},
 		&Chart12{},
+		&Chart13{},
+		&Chart14{},
 	}
 }
 

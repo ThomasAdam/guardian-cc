@@ -1,0 +1,69 @@
+<h2>{{.Order}}.  {{.Title}}</h2>
+<p>{{.Preamble}}</p>
+{{if .ChartJSON}}
+<div id="{{.DivID}}"></div>
+<br />
+<div style="text-align: center; border:1px dashed black;">
+<span>Change chart type: </span>
+<select id="charttype_{{.JSVar}}">
+	<option value="area">Area</option>
+	<option value="bar">Bar</option>
+	<option value="line">Line</option>
+	<option value="pie">Pie</option>
+	<option value="scatter">Scatter</option>
+	<option value="spline">Spline</option>
+	<option value="area-step">Step</option>
+</select>
+<button id="btn_charttype_{{.JSVar}}" value="{{.DefaultChart}}">Reset</button>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+	(function() {
+		// Array of {setter, months, start, end, puzzles} ordered by x-axis position.
+		var _streakIndex = {{.StreakIndex}};
+
+		var chartDef = {{.ChartJSON}};
+		chartDef.tooltip = {
+			contents: function(d) {
+				var idx = d[0].x;
+				var e = _streakIndex[idx];
+				if (!e) return '';
+				var label = e.months === 1 ? '1 month' : e.months + ' months';
+				return '<table style="background:#fff;border:1px solid #ccc;border-radius:4px;font-size:13px;padding:4px;">'
+				     + '<thead><tr><th colspan="2" style="padding:2px 6px;text-align:left;">'
+				     +   e.setter + ': ' + label
+				     + '</th></tr></thead>'
+				     + '<tbody>'
+				     + '<tr><td style="padding:2px 6px;">From</td><td style="padding:2px 6px;">' + e.start + '</td></tr>'
+				     + '<tr><td style="padding:2px 6px;">To</td><td style="padding:2px 6px;">' + e.end + '</td></tr>'
+				     + '<tr><td style="padding:2px 6px;">Puzzles</td><td style="padding:2px 6px;">' + e.puzzles + '</td></tr>'
+				     + '</tbody>'
+				     + '</table>';
+			}
+		};
+
+		var observer = new IntersectionObserver(function(entries) {
+			if (!entries[0].isIntersecting) return;
+			observer.disconnect();
+
+			var {{.JSVar}} = c3.generate(chartDef);
+			{{if .BarColorJS}}{{.BarColorJS}}{{end}}
+			$("#charttype_{{.JSVar}}").val("{{.DefaultChart}}");
+
+			$("#btn_charttype_{{.JSVar}}").click(function() {
+				$("#charttype_{{.JSVar}}").val("{{.DefaultChart}}");
+				{{.JSVar}}.transform($("#charttype_{{.JSVar}} option:selected").val());
+			});
+
+			$("#charttype_{{.JSVar}}").change(function() {
+				{{.JSVar}}.transform($("#charttype_{{.JSVar}} option:selected").val());
+			});
+		}, { rootMargin: '200px' });
+
+		observer.observe(document.getElementById('{{.DivID}}'));
+	})();
+}); // DOMContentLoaded
+</script>
+{{end}}
+<br />
+<hr />
