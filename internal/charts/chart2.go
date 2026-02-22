@@ -3,6 +3,7 @@ package charts
 import (
 	"database/sql"
 	"sort"
+	"strconv"
 	"time"
 )
 
@@ -51,32 +52,53 @@ func (c *Chart2) Render(db *sql.DB, tmplDir string) (string, error) {
 		yearRange = append(yearRange, y)
 	}
 
-	columns := make([]any, 0, len(setters))
+	// Build string labels for Chart.js
+	yearLabels := make([]string, len(yearRange))
+	for i, y := range yearRange {
+		yearLabels[i] = strconv.Itoa(y)
+	}
+
+	datasets := make([]any, 0, len(setters))
 	for _, name := range setters {
-		row := []any{name}
-		for _, y := range yearRange {
-			row = append(row, data[name][y]) // 0 if missing
+		values := make([]int, len(yearRange))
+		for i, y := range yearRange {
+			values[i] = data[name][y]
 		}
-		columns = append(columns, row)
+		datasets = append(datasets, map[string]any{
+			"label":       name,
+			"data":        values,
+			"fill":        true,
+			"pointRadius": 0,
+		})
 	}
 
 	chartDef := map[string]any{
-		"bindto": "#mychart2",
-		"size":   map[string]any{"height": 800},
+		"type": "line",
 		"data": map[string]any{
-			"columns": columns,
-			"type":    "area",
+			"labels":   yearLabels,
+			"datasets": datasets,
 		},
-		"tooltip": map[string]any{"show": false},
-		"axis": map[string]any{
-			"x": map[string]any{
-				"type":       "category",
-				"tick":       map[string]any{"rotate": "75", "multiline": false},
-				"height":     0,
-				"categories": yearRange,
+		"options": map[string]any{
+			"responsive":          true,
+			"maintainAspectRatio": false,
+			"animation":           false,
+			"plugins": map[string]any{
+				"tooltip": map[string]any{"enabled": false},
+				"legend":  map[string]any{"display": true, "position": "bottom"},
 			},
-			"y": map[string]any{
-				"label": "Crosswords per year",
+			"scales": map[string]any{
+				"x": map[string]any{
+					"ticks": map[string]any{
+						"maxRotation": 0,
+						"minRotation": 0,
+					},
+				},
+				"y": map[string]any{
+					"title": map[string]any{
+						"display": true,
+						"text":    "Crosswords per year",
+					},
+				},
 			},
 		},
 	}
@@ -88,6 +110,8 @@ func (c *Chart2) Render(db *sql.DB, tmplDir string) (string, error) {
 		"DivID":        "mychart2",
 		"JSVar":        "chart2",
 		"DefaultChart": "area",
+		"Height":       800,
+		"LegendHover":  true,
 		"ChartJSON":    toJSON(chartDef),
 	}
 	return executeTemplate(tmplDir, "chart.tmpl", tmplData)

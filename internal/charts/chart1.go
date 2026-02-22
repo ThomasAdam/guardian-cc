@@ -77,36 +77,54 @@ func (c *Chart1) Render(db *sql.DB, tmplDir string) (string, error) {
 		return sorted[i].data.cryptic.pos < sorted[j].data.cryptic.pos
 	})
 
-	labels := []any{"x"}
-	cryptic := []any{"Cryptic"}
-	prize := []any{"Prize"}
+	labels := make([]string, 0, len(sorted))
+	crypticData := make([]int, 0, len(sorted))
+	prizeData := make([]int, 0, len(sorted))
 	for _, s := range sorted {
 		labels = append(labels, s.name)
-		cryptic = append(cryptic, s.data.cryptic.count)
-		prize = append(prize, s.data.prize.count)
+		crypticData = append(crypticData, s.data.cryptic.count)
+		prizeData = append(prizeData, s.data.prize.count)
 	}
-	columns := []any{labels, cryptic, prize}
 
 	chartDef := map[string]any{
-		"bindto": "#mychart1",
-		"size":   map[string]any{"height": 800},
+		"type": "bar",
 		"data": map[string]any{
-			"x":       "x",
-			"columns": columns,
-			"type":    "bar",
-			"empty":   map[string]any{"label": map[string]any{"text": "Unknown"}},
-			"groups":  [][]string{{"Prize", "Cryptic"}},
-		},
-		"axis": map[string]any{
-			"x": map[string]any{
-				"type":   "category",
-				"tick":   map[string]any{"rotate": "75", "multiline": false},
-				"height": 0,
+			"labels": labels,
+			"datasets": []any{
+				map[string]any{
+					"label": "Cryptic",
+					"data":  crypticData,
+					"stack": "total",
+				},
+				map[string]any{
+					"label": "Prize",
+					"data":  prizeData,
+					"stack": "total",
+				},
 			},
-			"y": map[string]any{
-				"label": "No. of crosswords set",
-				"max":   800,
-				"tick":  map[string]any{"steps": 20},
+		},
+		"options": map[string]any{
+			"responsive":          true,
+			"maintainAspectRatio": false,
+			"plugins": map[string]any{
+				"legend": map[string]any{"display": true},
+			},
+			"scales": map[string]any{
+				"x": map[string]any{
+					"stacked": true,
+					"ticks": map[string]any{
+						"maxRotation": 75,
+						"minRotation": 75,
+					},
+				},
+				"y": map[string]any{
+					"stacked": true,
+					"title": map[string]any{
+						"display": true,
+						"text":    "No. of crosswords set",
+					},
+					"max": 800,
+				},
 			},
 		},
 	}
@@ -118,6 +136,7 @@ func (c *Chart1) Render(db *sql.DB, tmplDir string) (string, error) {
 		"DivID":        "mychart1",
 		"JSVar":        "chart1",
 		"DefaultChart": "bar",
+		"Height":       1100,
 		"ChartJSON":    toJSON(chartDef),
 	}
 	return executeTemplate(tmplDir, "chart.tmpl", data)

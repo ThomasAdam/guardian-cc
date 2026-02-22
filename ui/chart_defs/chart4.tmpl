@@ -6,7 +6,9 @@
 	<div class="span-title">
 	<span class="span-title">{{.Person}}</span>
 	</div>
-	<div id="{{.DivID}}" class="lazy-chart"></div>
+	<div id="{{.DivID}}-wrap" class="lazy-chart" style="position:relative; width:600px; height:280px;">
+	<canvas id="{{.DivID}}"></canvas>
+	</div>
 	<ul>
 		<li>Total crosswords: {{.TotalAll}} (cryptic: {{.TotalCryptic}}, prize: {{.TotalPrize}})</li>
 		<li>First crossword: {{.FirstDate}}</li>
@@ -30,13 +32,14 @@ document.addEventListener('DOMContentLoaded', function() {
 		var observer = new IntersectionObserver(function(entries) {
 			entries.forEach(function(entry) {
 				if (!entry.isIntersecting) return;
-				var el = entry.target;
-				var def = _chart4Defs[el.id];
+				var wrap = entry.target;
+				var divID = wrap.id.replace('-wrap', '');
+				var def = _chart4Defs[divID];
 				if (def) {
-					def.bindto = '#' + el.id;
-					c3.generate(def);
+					var ctx = document.getElementById(divID).getContext('2d');
+					new Chart(ctx, def);
 				}
-				observer.unobserve(el);
+				observer.unobserve(wrap);
 			});
 		}, { rootMargin: '200px' });
 

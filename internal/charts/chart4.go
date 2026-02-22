@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"math"
 	"sort"
+	"strconv"
 	"strings"
 	"time"
 )
@@ -165,37 +166,59 @@ func (c *Chart4) Render(db *sql.DB, tmplDir string) (string, error) {
 		}
 		sort.Ints(years)
 
-		yearLabels := make([]any, len(years))
-		valuesRow := []any{name}
-		avgRow := []any{"Average per month"}
+		yearLabels := make([]string, len(years))
+		countValues := make([]int, len(years))
+		avgValues := make([]int, len(years))
 		for j, y := range years {
-			yearLabels[j] = y
+			yearLabels[j] = strconv.Itoa(y)
 			cnt := s.YearCounts[y]
-			valuesRow = append(valuesRow, cnt)
-			avgRow = append(avgRow, int(math.Ceil(float64(cnt)/12)))
+			countValues[j] = cnt
+			avgValues[j] = int(math.Ceil(float64(cnt) / 12))
 		}
 
 		chartDef := map[string]any{
-			"bindto": fmt.Sprintf("#mychart4%d", i),
-			"size":   map[string]any{"height": 200, "width": 600},
+			"type": "line",
 			"data": map[string]any{
-				"columns": []any{valuesRow, avgRow},
-				"type":    "area",
-			},
-			"axis": map[string]any{
-				"x": map[string]any{
-					"type":       "category",
-					"tick":       map[string]any{"rotate": "75", "multiline": false},
-					"height":     0,
-					"categories": yearLabels,
+				"labels": yearLabels,
+				"datasets": []any{
+					map[string]any{
+						"label":       name,
+						"data":        countValues,
+						"fill":        true,
+						"pointRadius": 2,
+					},
+					map[string]any{
+						"label":       "Average per month",
+						"data":        avgValues,
+						"fill":        false,
+						"pointRadius": 0,
+						"borderDash":  []int{4, 4},
+					},
 				},
-				"y": map[string]any{
-					"label": "Number of crosswords",
-					"tick":  map[string]any{"steps": 1},
-					"min":   1,
+			},
+			"options": map[string]any{
+				"responsive":          true,
+				"maintainAspectRatio": false,
+				"animation":           false,
+				"plugins": map[string]any{
+					"legend": map[string]any{"display": false},
+				},
+				"scales": map[string]any{
+					"x": map[string]any{
+						"ticks": map[string]any{
+							"maxRotation": 0,
+							"minRotation": 0,
+						},
+					},
+					"y": map[string]any{
+						"title": map[string]any{
+							"display": true,
+							"text":    "No. crosswords",
+						},
+						"min": 0,
+					},
 				},
 			},
-			"legend": map[string]any{"show": false},
 		}
 
 		chartsData = append(chartsData, setterChart{

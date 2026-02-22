@@ -49,29 +49,42 @@ func (c *Chart3) Render(db *sql.DB, tmplDir string) (string, error) {
 	})
 
 	labels := make([]string, len(results))
-	values := []any{"Setters"}
+	values := make([]int, len(results))
 	for i, r := range results {
 		labels[i] = r.name
-		values = append(values, r.count)
+		values[i] = r.count
 	}
 
 	chartDef := map[string]any{
-		"bindto": "#mychart3",
-		"size":   map[string]any{"height": 800},
+		"type": "bar",
 		"data": map[string]any{
-			"columns": []any{values},
-			"type":    "bar",
-		},
-		"axis": map[string]any{
-			"x": map[string]any{
-				"type":       "category",
-				"tick":       map[string]any{"rotate": "75", "multiline": false},
-				"height":     0,
-				"categories": labels,
+			"labels": labels,
+			"datasets": []any{
+				map[string]any{
+					"label": "Setters",
+					"data":  values,
+				},
 			},
-			"y": map[string]any{
-				"label": "Frequency of duplicated answers",
-				"tick":  map[string]any{"steps": 20},
+		},
+		"options": map[string]any{
+			"responsive":          true,
+			"maintainAspectRatio": false,
+			"plugins": map[string]any{
+				"legend": map[string]any{"display": false},
+			},
+			"scales": map[string]any{
+				"x": map[string]any{
+					"ticks": map[string]any{
+						"maxRotation": 75,
+						"minRotation": 75,
+					},
+				},
+				"y": map[string]any{
+					"title": map[string]any{
+						"display": true,
+						"text":    "Frequency of duplicated answers",
+					},
+				},
 			},
 		},
 	}
@@ -83,6 +96,7 @@ func (c *Chart3) Render(db *sql.DB, tmplDir string) (string, error) {
 		"DivID":        "mychart3",
 		"JSVar":        "chart3",
 		"DefaultChart": "bar",
+		"Height":       1100,
 		"ChartJSON":    toJSON(chartDef),
 	}
 	return executeTemplate(tmplDir, "chart.tmpl", data)

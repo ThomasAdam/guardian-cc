@@ -1,42 +1,101 @@
 <h2>{{.Order}}.  {{.Title}}</h2>
 <p>{{.Preamble}}</p>
 {{if .ChartJSON}}
-<div id="{{.DivID}}"></div>
+<div id="{{.DivID}}-wrap" style="position:relative; height:{{.Height}}px;">
+<canvas id="{{.DivID}}"></canvas>
+</div>
 <br />
 <div style="text-align: center; border:1px dashed black;">
 <span>Change chart type: </span>
 <select id="charttype_{{.JSVar}}">
-	<option value="area">Area</option>
 	<option value="bar">Bar</option>
 	<option value="line">Line</option>
+	<option value="area">Area</option>
 	<option value="pie">Pie</option>
 	<option value="scatter">Scatter</option>
-	<option value="spline">Spline</option>
-	<option value="area-step">Step</option>
 </select>
 <button id="btn_charttype_{{.JSVar}}" value="{{.DefaultChart}}">Reset</button>
 </div>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
 	(function() {
+		var _def = {{.ChartJSON}};
+		var _instance = null;
+
+		function buildConfig(chartjsType) {
+			var fill = (chartjsType === 'area');
+			var resolvedType = (chartjsType === 'area') ? 'line' : chartjsType;
+			var cfg = JSON.parse(JSON.stringify(_def));
+			cfg.type = resolvedType;
+			(cfg.data.datasets || []).forEach(function(ds) {
+				ds.fill = fill;
+			});
+			return cfg;
+		}
+
+		function initChart(type) {
+			var ctx = document.getElementById('{{.DivID}}').getContext('2d');
+			if (_instance) { _instance.destroy(); }
+			var cfg = buildConfig(type);
+			_instance = new Chart(ctx, cfg);
+			{{if .LegendHover}}
+			// Capture the auto-assigned colors after first render, then wire hover.
+			(function() {
+				var origBorder = _instance.data.datasets.map(function(ds) { return ds.borderColor; });
+				var origBg     = _instance.data.datasets.map(function(ds) { return ds.backgroundColor; });
+
+				function setAlpha(cssColor, alpha) {
+					// cssColor may be 'rgb(r,g,b)' or 'rgba(r,g,b,a)' or '#rrggbb'
+					var m = cssColor.match(/[\d.]+/g);
+					if (!m || m.length < 3) return cssColor;
+					return 'rgba(' + m[0] + ',' + m[1] + ',' + m[2] + ',' + alpha + ')';
+				}
+
+				_instance.options.plugins.legend.onHover = function(evt, legendItem) {
+					var idx = legendItem.datasetIndex;
+					_instance.data.datasets.forEach(function(ds, i) {
+						if (i === idx) {
+							ds.borderColor     = origBorder[i];
+							ds.backgroundColor = setAlpha(origBorder[i], 0.6);
+							ds.borderWidth     = 2;
+							ds.order           = 0;
+						} else {
+							ds.borderColor     = setAlpha(origBorder[i], 0.08);
+							ds.backgroundColor = setAlpha(origBorder[i], 0.03);
+							ds.borderWidth     = 0.5;
+							ds.order           = 1;
+						}
+					});
+					_instance.update('none');
+				};
+				_instance.options.plugins.legend.onLeave = function() {
+					_instance.data.datasets.forEach(function(ds, i) {
+						ds.borderColor     = origBorder[i];
+						ds.backgroundColor = origBg[i];
+						ds.borderWidth     = 1;
+						ds.order           = 0;
+					});
+					_instance.update('none');
+				};
+			})();
+			{{end}}
+			document.getElementById('charttype_{{.JSVar}}').value = type;
+		}
+
 		var observer = new IntersectionObserver(function(entries) {
 			if (!entries[0].isIntersecting) return;
 			observer.disconnect();
+			initChart('{{.DefaultChart}}');
 
-			var {{.JSVar}} = c3.generate({{.ChartJSON}});
-			$("#charttype_{{.JSVar}}").val("{{.DefaultChart}}");
-
-			$("#btn_charttype_{{.JSVar}}").click(function() {
-				$("#charttype_{{.JSVar}}").val("{{.DefaultChart}}");
-				{{.JSVar}}.transform($("#charttype_{{.JSVar}} option:selected").val());
+			document.getElementById('btn_charttype_{{.JSVar}}').addEventListener('click', function() {
+				initChart('{{.DefaultChart}}');
 			});
-
-			$("#charttype_{{.JSVar}}").change(function() {
-				{{.JSVar}}.transform($("#charttype_{{.JSVar}} option:selected").val());
+			document.getElementById('charttype_{{.JSVar}}').addEventListener('change', function() {
+				initChart(this.value);
 			});
 		}, { rootMargin: '200px' });
 
-		observer.observe(document.getElementById('{{.DivID}}'));
+		observer.observe(document.getElementById('{{.DivID}}-wrap'));
 	})();
 }); // DOMContentLoaded
 </script>
