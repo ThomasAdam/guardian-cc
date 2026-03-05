@@ -22,6 +22,10 @@ This uses a crude sequence of numbers to derive the URL for the cryptic.
 cryptic_lower_id = 21620
 cryptic_upper_id = 50000
 
+# Quick-cryptic started at #1 in April 2024.  10000 is very future-proof.
+quick_cryptic_lower_id = 1
+quick_cryptic_upper_id = 10000
+
 last_id_fetched = cryptic_lower_id
 attempts = 0
 
@@ -54,6 +58,16 @@ if os.path.isfile(cryptic_lrid_file):
 
         # The next crossword...
         clrfile.close()
+
+# Quick-cryptic last-read tracking (independent sequence from cryptic).
+quick_cryptic_last_id_fetched = quick_cryptic_lower_id
+quick_cryptic_lrid_file = cwd + "/tools/quick_cryptic_last_read_id"
+if os.path.isfile(quick_cryptic_lrid_file):
+    with open(quick_cryptic_lrid_file, "r") as qclrfile:
+        qc_lower_id = qclrfile.read().replace('\n', '')
+        quick_cryptic_last_id_fetched = int(qc_lower_id) + 1
+        print(("Current quick-cryptic id is: {}".format(qc_lower_id)))
+        qclrfile.close()
 
 def url_fetch(cctype, ccid):
     url = "https://www.theguardian.com/crosswords/" + cctype + "/" + str(ccid)
@@ -210,6 +224,20 @@ for num in range(int(last_id_fetched), cryptic_upper_id):
         if ret != -1:
             with open(lrid_file, "w") as lrfile:
                 lrfile.write(str(last_id_fetched))
+                lrfile.close()
+        sys.stdout.flush()
+        if attempts >= tries:
+            break
+
+# Quick-cryptic uses an independent numbering sequence starting from 1.
+attempts = 0
+for num in range(int(quick_cryptic_last_id_fetched), quick_cryptic_upper_id):
+        sys.stdout.flush()
+        ret = try_one("quick-cryptic", num)
+        quick_cryptic_last_id_fetched = ret
+        if ret != -1:
+            with open(quick_cryptic_lrid_file, "w") as lrfile:
+                lrfile.write(str(quick_cryptic_last_id_fetched))
                 lrfile.close()
         sys.stdout.flush()
         if attempts >= tries:

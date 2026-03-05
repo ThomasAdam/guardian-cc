@@ -54,6 +54,7 @@ func Import(db *sql.DB, files []string) error {
 		dirs := []string{
 			"./crosswords/cryptic/setter",
 			"./crosswords/prize/setter",
+			"./crosswords/quick-cryptic/setter",
 		}
 		for _, dir := range dirs {
 			err := filepath.WalkDir(dir, func(path string, d fs.DirEntry, err error) error {

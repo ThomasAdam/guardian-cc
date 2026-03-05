@@ -15,13 +15,14 @@ type Chart4 struct{}
 func (c *Chart4) Order() string { return "4" }
 
 type setterInfo struct {
-	FirstDate    string
-	LastDate     string
-	Duration     string
-	TotalAll     int
-	TotalCryptic int
-	TotalPrize   int
-	SelfRefCount int
+	FirstDate         string
+	LastDate          string
+	Duration          string
+	TotalAll          int
+	TotalCryptic      int
+	TotalPrize        int
+	TotalQuickCryptic int
+	SelfRefCount      int
 	// year -> count (aggregated across types)
 	YearCounts map[int]int
 	// For per-year graph data: slice of {year, count, type, pmonth}
@@ -126,26 +127,30 @@ func (c *Chart4) Render(db *sql.DB, tmplDir string) (string, error) {
 		s.GraphData = append(s.GraphData, graphEntry{Year: year, Count: count, Type: ctype, PMonth: pmonth})
 		s.YearCounts[year] += count
 		s.TotalAll += count
-		if ctype == "cryptic" {
+		switch ctype {
+		case "cryptic":
 			s.TotalCryptic += count
-		} else if ctype == "prize" {
+		case "prize":
 			s.TotalPrize += count
+		case "quick-cryptic":
+			s.TotalQuickCryptic += count
 		}
 	}
 
 	// Build per-setter chart definitions
 	type setterChart struct {
-		DivID        string
-		JSVar        string
-		Person       string
-		FirstDate    string
-		LastDate     string
-		Duration     string
-		TotalAll     int
-		TotalCryptic int
-		TotalPrize   int
-		SelfRef      int
-		ChartDef     string
+		DivID             string
+		JSVar             string
+		Person            string
+		FirstDate         string
+		LastDate          string
+		Duration          string
+		TotalAll          int
+		TotalCryptic      int
+		TotalPrize        int
+		TotalQuickCryptic int
+		SelfRef           int
+		ChartDef          string
 	}
 
 	names := make([]string, 0, len(setters))
@@ -199,17 +204,18 @@ func (c *Chart4) Render(db *sql.DB, tmplDir string) (string, error) {
 		}
 
 		chartsData = append(chartsData, setterChart{
-			DivID:        fmt.Sprintf("mychart4%d", i),
-			JSVar:        fmt.Sprintf("chart4%d", i),
-			Person:       name,
-			FirstDate:    s.FirstDate,
-			LastDate:     s.LastDate,
-			Duration:     s.Duration,
-			TotalAll:     s.TotalAll,
-			TotalCryptic: s.TotalCryptic,
-			TotalPrize:   s.TotalPrize,
-			SelfRef:      s.SelfRefCount,
-			ChartDef:     toJSON(chartDef),
+			DivID:             fmt.Sprintf("mychart4%d", i),
+			JSVar:             fmt.Sprintf("chart4%d", i),
+			Person:            name,
+			FirstDate:         s.FirstDate,
+			LastDate:          s.LastDate,
+			Duration:          s.Duration,
+			TotalAll:          s.TotalAll,
+			TotalCryptic:      s.TotalCryptic,
+			TotalPrize:        s.TotalPrize,
+			TotalQuickCryptic: s.TotalQuickCryptic,
+			SelfRef:           s.SelfRefCount,
+			ChartDef:          toJSON(chartDef),
 		})
 	}
 

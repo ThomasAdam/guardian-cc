@@ -30,8 +30,9 @@ func (c *Chart1) Render(db *sql.DB, tmplDir string) (string, error) {
 	defer rows.Close()
 
 	type nameMap struct {
-		cryptic setterTypeCount
-		prize   setterTypeCount
+		cryptic      setterTypeCount
+		prize        setterTypeCount
+		quickCryptic setterTypeCount
 	}
 	nm := make(map[string]*nameMap)
 
@@ -51,20 +52,32 @@ func (c *Chart1) Render(db *sql.DB, tmplDir string) (string, error) {
 			nm[name].cryptic = setterTypeCount{pos: position, count: count}
 		case "prize":
 			nm[name].prize = setterTypeCount{pos: position, count: count}
+		case "quick-cryptic":
+			nm[name].quickCryptic = setterTypeCount{pos: position, count: count}
 		}
 	}
 
-	// Fill in missing types
+	// Fill in missing types — use whichever position is non-zero as a proxy
 	for _, v := range nm {
-		if v.cryptic.pos == 0 && v.prize.pos != 0 {
-			v.cryptic.pos = v.prize.pos
+		representative := v.cryptic.pos
+		if representative == 0 {
+			representative = v.prize.pos
 		}
-		if v.prize.pos == 0 && v.cryptic.pos != 0 {
-			v.prize.pos = v.cryptic.pos
+		if representative == 0 {
+			representative = v.quickCryptic.pos
+		}
+		if v.cryptic.pos == 0 {
+			v.cryptic.pos = representative
+		}
+		if v.prize.pos == 0 {
+			v.prize.pos = representative
+		}
+		if v.quickCryptic.pos == 0 {
+			v.quickCryptic.pos = representative
 		}
 	}
 
-	// Sort by cryptic position
+	// Sort by cryptic position (falls back to prize/quick-cryptic proxy above)
 	type kv struct {
 		name string
 		data *nameMap
@@ -80,12 +93,14 @@ func (c *Chart1) Render(db *sql.DB, tmplDir string) (string, error) {
 	labels := []any{"x"}
 	cryptic := []any{"Cryptic"}
 	prize := []any{"Prize"}
+	quickCryptic := []any{"Quick Cryptic"}
 	for _, s := range sorted {
 		labels = append(labels, s.name)
 		cryptic = append(cryptic, s.data.cryptic.count)
 		prize = append(prize, s.data.prize.count)
+		quickCryptic = append(quickCryptic, s.data.quickCryptic.count)
 	}
-	columns := []any{labels, cryptic, prize}
+	columns := []any{labels, cryptic, prize, quickCryptic}
 
 	chartDef := map[string]any{
 		"bindto": "#mychart1",
@@ -95,7 +110,7 @@ func (c *Chart1) Render(db *sql.DB, tmplDir string) (string, error) {
 			"columns": columns,
 			"type":    "bar",
 			"empty":   map[string]any{"label": map[string]any{"text": "Unknown"}},
-			"groups":  [][]string{{"Prize", "Cryptic"}},
+			"groups":  [][]string{{"Prize", "Cryptic", "Quick Cryptic"}},
 		},
 		"axis": map[string]any{
 			"x": map[string]any{

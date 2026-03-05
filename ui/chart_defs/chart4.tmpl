@@ -8,7 +8,7 @@
 	</div>
 	<div id="{{.DivID}}" class="lazy-chart"></div>
 	<ul>
-		<li>Total crosswords: {{.TotalAll}} (cryptic: {{.TotalCryptic}}, prize: {{.TotalPrize}})</li>
+		<li>Total crosswords: {{.TotalAll}} (cryptic: {{.TotalCryptic}}, prize: {{.TotalPrize}}{{if .TotalQuickCryptic}}, quick cryptic: {{.TotalQuickCryptic}}{{end}})</li>
 		<li>First crossword: {{.FirstDate}}</li>
 		<li>Last  crossword: {{.LastDate}}</li>
 		<li>Active for:      {{.Duration}}</li>
